@@ -1,0 +1,217 @@
+/* 
+    
+SITE STANDARDS
+    navigation bar = #fff
+    background = #555
+    sub-boxes = #777
+    boxes = #D9D9D9
+
+HELP
+    - Article > section > div > span
+    - Use ID for elements that are one time use
+    - USE CLASSES for things that repeat
+
+*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box;
+}
+
+body {
+    color: #555;
+    background: linear-gradient(to right, #555, #333 25%, #333 75%, #555);
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 100;
+}
+
+    /* smartphones, iPhone, portrait 480x320 phones */
+    @media (min-width:320px)  {
+
+        /* HTML elements */
+        /* %%%%%%%%%%%%%%%%%%%%%% */
+        
+            article {
+                margin: 0 0 1rem 0;
+                padding: 0 1% 0 1%;
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                font-size: .9rem;
+            }
+
+            section {
+                padding: .5rem;     
+                background: linear-gradient(to bottom right,#777, #666 );
+                border-radius: 5px;
+            }
+
+            div {
+                background: linear-gradient(to right bottom, #B9B9B9, #D9D9D9);
+                padding: 1rem;
+            }
+
+            h1, h2, h3, h4, h5, h6 {
+                color: white;
+            }
+            
+            h1 {
+                font-size: 1.5rem;
+                margin-bottom: 0.5rem;
+                text-align: left;
+            }
+
+            p {
+                margin-bottom: 0.5rem;
+            }
+
+            ul {
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+            }
+
+            li {
+                margin-left: 1.2rem;
+                margin-bottom: 0.2rem;
+            }
+
+        
+        /* Classes */
+        /* %%%%%%%%%%%%%%%%%%%%%% */
+
+            /* General */
+            /* ---------------------------------- */
+        
+                .banner img {
+                    height: 100%;
+                    width: 100%;
+                    vertical-align: bottom;
+                    margin-bottom: 1rem;
+                }
+
+            /* Benefits */
+            /* ---------------------------------- */
+            
+                .benefits section {
+                    padding: 1rem;
+                }
+                
+                .benefits span {
+                    display:block;
+                    columns: 2;
+                }
+                
+                .benefits div {
+                    margin-bottom: 1rem;
+                    padding: 1rem;
+                    word-break: break-word;
+                    break-inside:avoid;
+                    background-color: #d4d4d4;
+                    color: #555;
+                }
+
+            /* Overview */
+            /* ---------------------------------- */
+        
+
+        /* Elements By ID */
+        /* %%%%%%%%%%%%%%%%%%%%%% */
+
+            /* Header & Menu */
+            /* ---------------------------------- */
+
+                #logo {
+                    width: calc(100% - 50px);
+                    height: 50px; 
+                    text-align: center;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: 1;
+                    background: white;
+                    padding: 0;
+                }
+
+                #hamburger {
+                    height: 50px;
+                    width: 50px;
+                    cursor: pointer;
+                    z-index: 2;
+                }
+
+                details, details[open], details summary, details[open] summary {
+                    background-color: white;
+                }
+
+                summary {
+                    display:flex;
+                    justify-content: flex-end;
+                }
+
+                summary #hamburger {
+                    background-image: url('/assets/images/other/hamburger_icon_small.webp');
+                    background-repeat: no-repeat;
+                }
+
+                details[open] summary #hamburger {
+                    background-image: url('/assets/images/other/hamburger_icon_small_active.webp');
+                    background-repeat: no-repeat;
+                }
+
+                details[open]::details-content {
+                    width: 100%;
+                }
+
+                #links {
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                }
+
+                #services {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
+
+                #services span {
+                    background-color: white;
+                    margin: 0px 5px 5px 0px;
+                    padding: 5px;
+                }
+
+            /* About */
+            /* ---------------------------------- */
+
+                #about {
+                    padding: 0 5% 0 5%;
+                    background-image: url('/assets/images/other/about_us_background.webp');
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    color: #d4d4d4; 
+                }
+
+                #about section {
+                    width: 100%;
+                    background: rgba(50, 50, 50, 0.9);
+                    padding: 2rem;
+                    border-radius: 0;
+                }
+
+    }
+
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+    @media (min-width:481px)  {}
+
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+    @media (min-width:641px)  {}
+
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+    @media (min-width:961px)  {}
+
+    /* big landscape tablets, laptops, and desktops */
+    @media (min-width:1025px) {}
+
+    /* hi-res laptops and desktops */ 
+    @media (min-width:1281px) {}
