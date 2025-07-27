@@ -11,7 +11,7 @@
 
 ?>       
         
-    <h1>SERVICE: PROOF OF CONCEPT</h1>
+    <h1>PROOF OF CONCEPT</h1>
 
     <section>
 

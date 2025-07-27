@@ -11,7 +11,7 @@
 
 ?>
     
-    <h1>SERVICE: BUSINESS ANALYSIS</h1>
+    <h1>BUSINESS ANALYSIS</h1>
 
     <section>
 

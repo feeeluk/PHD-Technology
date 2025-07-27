@@ -77,19 +77,19 @@ body {
                 text-decoration: none;
             }
 
+            img {
+                height: 100%;
+                width: 100%;
+                vertical-align: bottom;
+                margin-bottom: 1rem;
+            }
+
         
         /* Classes */
         /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 
             /* General */
             /* ================================== */
-        
-                .banner img {
-                    height: 100%;
-                    width: 100%;
-                    vertical-align: bottom;
-                    margin-bottom: 1rem;
-                }
 
                 .more_information {
                     background-color: green;
