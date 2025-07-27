@@ -157,6 +157,10 @@ body {
                     z-index: 1;
                 }
 
+                #logo img {
+                    object-fit: contain;
+                }
+
                 #hamburger {
                     height: 50px;
                     width: 50px;
