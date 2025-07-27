@@ -11,7 +11,7 @@
         $path = "../../";        
         
         // set the page title
-        $subTitle = "Data Management";
+        $subTitle = "Business Analysis";
 
     // IMPORT SITE WIDE VARIABLES & CONSTANTS
     // ****************************************************************************************************************************************

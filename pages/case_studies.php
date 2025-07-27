@@ -24,7 +24,7 @@
     // MAIN PAGE
     // _________________________________________________________________________________________________________________________________________
         
-        // PROOF OF CONCEPTS
+        // PROOF OF CONCEPT
         include($path."assets/includes/pages/services/proof_of_concept/proof_of_concept_case_studies.php");
 
     // FOOTER

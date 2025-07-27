@@ -62,7 +62,7 @@
                         <span><a href="/pages/services/project_management.php">Project Management</a></span>
                         <span><a href="/pages/services/software_development.php">Software Development</a></span>
                         <span><a href="/pages/services/data_management.php">Data Management</a></span>
-                        <span><a href="/pages/services/skillls_development_and_training.php">Skills Development & Training</a></span>
+                        <span><a href="/pages/services/skills_development_and_training.php">Skills Development & Training</a></span>
                         <span><a href="/pages/services/artificial_intelligence.php">Artificial Intelligence</a></span>
                         <span><a href="/pages/services/digital_media_and_marketing.php">Digital Media & Marketing</a></span>
 
