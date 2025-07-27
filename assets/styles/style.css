@@ -173,9 +173,16 @@ body {
                     width: 100%;
                 }
 
+                nav {
+                    background-color: green;
+                    border-top: 2px solid #777;
+                    border-bottom: 2px solid #777;
+                }
+
                 #links {
                     padding-top: 5px;
                     padding-bottom: 5px;
+                    background: transparent;
                     text-align: center;
                 }
 
@@ -183,12 +190,14 @@ body {
                     display: flex;
                     flex-wrap: wrap;
                     justify-content: center;
+                    background: transparent;
                 }
 
                 #services span {
                     background-color: white;
                     margin: 0px 5px 5px 0px;
                     padding: 5px;
+                    font-size: 0.75rem;
                 }
 
             /* About */
