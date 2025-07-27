@@ -131,20 +131,21 @@ body {
             /* ================================== */
 
                 #logo {
+                    height: 70px; 
                     width: calc(100% - 50px);
-                    height: 50px; 
-                    text-align: center;
+                    background: white;
+                    padding: 10px 0;
                     position: absolute;
                     top: 0;
                     left: 0;
+                    text-align: center;
                     z-index: 1;
-                    background: white;
-                    padding: 0;
                 }
 
                 #hamburger {
                     height: 50px;
                     width: 50px;
+                    margin: 10px 0;
                     cursor: pointer;
                     z-index: 2;
                 }
