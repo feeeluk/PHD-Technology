@@ -33,6 +33,7 @@
                 
             </div>
 
+            <!-- Disclosure -->
             <details>
 
                 <summary>
@@ -46,11 +47,11 @@
                     
                     <div id="links">
 
-                        <a href="/">Home</a>
-                        <a href="/pages/case_studies.php">Case Studies</a>
-                        <a href="/pages/portfolio.php">Portfolio</a>
-                        <a href="/">Blog</a>
-                        <a href="/pages/contact.php">Contact</a>
+                        <span><a href="/">Home</a></span>
+                        <span><a href="/pages/case_studies.php">Case Studies</a></span>
+                        <span><a href="/pages/portfolio.php">Portfolio</a></span>
+                        <span><a href="/">Blog</a></span>
+                        <span><a href="/pages/contact.php">Contact</a></span>
 
                     </div>
 

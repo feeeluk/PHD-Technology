@@ -73,6 +73,10 @@ body {
                 margin-bottom: 0.2rem;
             }
 
+            a {
+                text-decoration: none;
+            }
+
         
         /* Classes */
         /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
@@ -85,6 +89,17 @@ body {
                     width: 100%;
                     vertical-align: bottom;
                     margin-bottom: 1rem;
+                }
+
+                .more_information {
+                    background-color: green;
+                    display: block;
+                    padding: 0.6rem;
+                    margin: 0;
+                    border: 1px solid black;
+                    color: white;
+                    width: 12.5rem;
+                    text-align: center;
                 }
 
             /* Benefits */
@@ -184,6 +199,13 @@ body {
                     padding-bottom: 5px;
                     background: transparent;
                     text-align: center;
+                }
+
+                #links span {
+                    background-color: white;
+                    margin: 0px 5px 5px 0px;
+                    padding: 5px;
+                    font-size: 0.75rem;
                 }
 
                 #services {
