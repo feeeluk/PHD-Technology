@@ -11,7 +11,7 @@
 
 ?>
         
-    <h1>DIGITAL MEDIA & MARKETING</h1>
+    <h1 id="digital_media_and_marketing">DIGITAL MEDIA & MARKETING</h1>
     <h3>(COMING SOON)</h3>
 
     <section>

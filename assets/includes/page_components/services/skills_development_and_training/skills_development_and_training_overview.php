@@ -11,7 +11,7 @@
 
 ?>
     
-    <h1>SKILLS DEVELOPMENT & TRAINING</h1>
+    <h1 id="skills_development_and_training">SKILLS DEVELOPMENT & TRAINING</h1>
 
     <section>
 

@@ -11,7 +11,7 @@
 
 ?>
         
-    <h1>ARTIFICIAL INTELLIGENCE</h1>
+    <h1 id="artificial_intelligence">ARTIFICIAL INTELLIGENCE</h1>
     <h3>(COMING SOON)</h3>
 
     <section>

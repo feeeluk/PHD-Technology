@@ -59,8 +59,8 @@ body {
                 text-align: left;
             }
 
-            h4 {
-                font-size: 0.9rem;
+            h3 {
+                font-size: 1rem;
                 text-align: center;
                 letter-spacing: 0.05rem;
                 margin-bottom: 0.5rem;
@@ -68,6 +68,7 @@ body {
 
             p {
                 margin-bottom: 0.5rem;
+                line-height: 1.25rem;
             }
 
             ul {
@@ -246,17 +247,50 @@ body {
 
                 #about section {
                     width: 100%;
-                    background: rgba(50, 50, 50, 0.9);
+                    background: rgba(50, 50, 50, 0.925);
                     padding: 1rem 2rem;
                     border-radius: 0;
                 }
 
-                #about h4 {
+                #about h3 {
                     letter-spacing: 0.05rem;
                     margin-bottom: 1rem;
+                    font-weight: 600;
                 }
 
+            /* Services */
+            /* ================================== */
             
+                #services div {
+                    display: flex;
+                    flex-wrap: wrap;
+                    padding: 0.5rem;
+                }
+            
+                #services span {
+                    flex: 45%;
+                    max-width: 50%;
+                    background-color: #555;
+                    margin-bottom: 0.5rem;
+                    padding:0.5rem ;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                #services span:nth-child(odd) {
+                    margin-right: .5rem;
+                }
+
+                #services span:nth-last-child(-n+2) {
+                    margin-bottom: 0;
+                }
+
+                #services h4 {
+                    text-align: center;
+                    margin: 0;
+                }
+
             /* Contact */
             /* ================================== */
             
