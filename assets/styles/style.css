@@ -198,28 +198,28 @@ body {
                     border-bottom: 2px solid #777;
                 }
 
-                #links {
+                #naviagation_links {
                     padding-top: 5px;
                     padding-bottom: 5px;
                     background: transparent;
                     text-align: center;
                 }
 
-                #links span {
+                #naviagation_links span {
                     background-color: white;
                     margin: 0px 5px 5px 0px;
                     padding: 5px;
                     font-size: 0.75rem;
                 }
 
-                #services {
+                #naviagation_services {
                     display: flex;
                     flex-wrap: wrap;
                     justify-content: center;
                     background: transparent;
                 }
 
-                #services span {
+                #naviagation_services span {
                     background-color: white;
                     margin: 0px 5px 5px 0px;
                     padding: 5px;

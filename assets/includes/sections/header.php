@@ -28,7 +28,7 @@
             <div id="logo">
 
                 <a href="/">
-                    <img src="/assets/images/other/logo.webp" alt="logo">
+                    <img src="/assets/images/other/phd_technology_solutions_logo.webp" alt="logo">
                 </a>
                 
             </div>
@@ -45,7 +45,7 @@
 
                 <nav>
                     
-                    <div id="links">
+                    <div id="naviagation_links">
 
                         <span><a href="/">Home</a></span>
                         <span><a href="/pages/case_studies.php">Case Studies</a></span>
@@ -55,7 +55,7 @@
 
                     </div>
 
-                    <div id="services">
+                    <div id="naviagation_services">
 
                         <span><a href="/pages/services/proof_of_concept.php">Proof of Concept</a></span>
                         <span><a href="/pages/services/business_analysis.php">Business Analysis</a></span>

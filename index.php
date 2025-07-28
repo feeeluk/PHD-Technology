@@ -11,7 +11,7 @@
         $path = "./";        
         
         // set the page title
-        $subTitle = "Home (V2)";
+        $subTitle = "Home";
 
     // IMPORT SITE WIDE VARIABLES & CONSTANTS
     // ****************************************************************************************************************************************
@@ -25,10 +25,13 @@
     // _________________________________________________________________________________________________________________________________________
         
         // ABOUT
-        include($path."assets/includes/pages/about/about.php");
+        include($path."assets/includes/pages/home/about.php");
+        
+        // SERVICES
+        include($path."assets/includes/pages/home/services.php");
 
         // BENEFITS
-        include($path."assets/includes/pages/about/benefits.php");
+        include($path."assets/includes/pages/home/benefits.php");
 
         // PROOF OF CONCEPT - OVERVIEW
         include($path."assets/includes/pages/services/proof_of_concept/proof_of_concept_overview.php");
