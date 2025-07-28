@@ -13,10 +13,6 @@
         // set the page title
         $subTitle = "Portfolio";
 
-    // IMPORT SITE WIDE VARIABLES & CONSTANTS
-    // ****************************************************************************************************************************************
-        include($path."assets/includes/sections/site_details.php"); 
-
     // HEADER
     // **************************************************************************************************************************************** 
         include($path."assets/includes/sections/header.php");

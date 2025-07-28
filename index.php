@@ -13,10 +13,6 @@
         // set the page title
         $subTitle = "Home";
 
-    // IMPORT SITE WIDE VARIABLES & CONSTANTS
-    // ****************************************************************************************************************************************
-        include($path."assets/includes/sections/site_details.php"); 
-
     // HEADER
     // ****************************************************************************************************************************************
         include($path."assets/includes/sections/header.php");
@@ -25,40 +21,40 @@
     // _________________________________________________________________________________________________________________________________________
         
         // ABOUT
-        include($path."assets/includes/pages/home/about.php");
+        include($path."assets/includes/page_components/home/about.php");
         
         // SERVICES
-        include($path."assets/includes/pages/home/services.php");
+        include($path."assets/includes/page_components/home/services.php");
 
         // BENEFITS
-        include($path."assets/includes/pages/home/benefits.php");
+        include($path."assets/includes/page_components/home/benefits.php");
 
         // PROOF OF CONCEPT - OVERVIEW
-        include($path."assets/includes/pages/services/proof_of_concept/proof_of_concept_overview.php");
+        include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_overview.php");
 
         // BUSINESS ANALYSIS - OVERVIEW
-        include($path."assets/includes/pages/services/business_analysis/business_analysis_overview.php");
+        include($path."assets/includes/page_components/services/business_analysis/business_analysis_overview.php");
 
         // PROJECT MANAGEMENT - OVERVIEW
-        include($path."assets/includes/pages/services/project_management/project_management_overview.php");
+        include($path."assets/includes/page_components/services/project_management/project_management_overview.php");
 
         // SOFTWARE DEVELOPMENT - OVERVIEW
-        include($path."assets/includes/pages/services/software_development/software_development_overview.php");
+        include($path."assets/includes/page_components/services/software_development/software_development_overview.php");
 
         // DATA MANAGEMENT - OVERVIEW
-        include($path."assets/includes/pages/services/data_management/data_management_overview.php");
+        include($path."assets/includes/page_components/services/data_management/data_management_overview.php");
 
         // SKILLS DEVELOPMENT & TRAINING - OVERVIEW
-        include($path."assets/includes/pages/services/skills_development_and_training/skills_development_and_training_overview.php");
+        include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_overview.php");
 
         // ARTIFICIAL INTELLIGENCE - OVERVIEW
-        include($path."assets/includes/pages/services/artificial_intelligence/artificial_intelligence_overview.php");
+        include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_overview.php");
 
         // DIGITAL MEDIA & MARKETING - OVERVIEW
-        include($path."assets/includes/pages/services/digital_media_and_marketing/digital_media_and_marketing_overview.php");
+        include($path."assets/includes/page_components/services/digital_media_and_marketing/digital_media_and_marketing_overview.php");
 
         // PRICES
-        include($path."assets/includes/pages/prices/prices.php");
+        include($path."assets/includes/page_components/prices/prices.php");
 
     // FOOTER
     // ****************************************************************************************************************************************

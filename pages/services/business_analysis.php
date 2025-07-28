@@ -13,10 +13,6 @@
         // set the page title
         $subTitle = "Business Analysis";
 
-    // IMPORT SITE WIDE VARIABLES & CONSTANTS
-    // ****************************************************************************************************************************************
-        include($path."assets/includes/sections/site_details.php"); 
-
     // HEADER
     // ****************************************************************************************************************************************
         include($path."assets/includes/sections/header.php");
@@ -25,22 +21,22 @@
     // _________________________________________________________________________________________________________________________________________
         
         // Overview
-        include($path."assets/includes/pages/services/business_analysis/business_analysis_overview.php");
+        include($path."assets/includes/page_components/services/business_analysis/business_analysis_overview.php");
 
         // Benefits
-        include($path."assets/includes/pages/services/business_analysis/business_analysis_benefits.php");
+        include($path."assets/includes/page_components/services/business_analysis/business_analysis_benefits.php");
 
         // Case Studies
-        include($path."assets/includes/pages/services/business_analysis/business_analysis_case_studies.php");
+        include($path."assets/includes/page_components/services/business_analysis/business_analysis_case_studies.php");
 
         // Prices
-        include($path."assets/includes/pages/services/business_analysis/business_analysis_prices.php");
+        include($path."assets/includes/page_components/services/business_analysis/business_analysis_prices.php");
 
         // Next Steps & How it Works
-        include($path."assets/includes/pages/services/business_analysis/business_analysis_next_steps.php");
+        include($path."assets/includes/page_components/services/business_analysis/business_analysis_next_steps.php");
 
         // Portfolio
-        include($path."assets/includes/pages/services/business_analysis/business_analysis_portfolio.php");    
+        include($path."assets/includes/page_components/services/business_analysis/business_analysis_portfolio.php");    
 
     // FOOTER
     // ****************************************************************************************************************************************

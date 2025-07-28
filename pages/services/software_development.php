@@ -13,10 +13,6 @@
         // set the page title
         $subTitle = "Software Development";
 
-    // IMPORT SITE WIDE VARIABLES & CONSTANTS
-    // ****************************************************************************************************************************************
-        include($path."assets/includes/sections/site_details.php"); 
-
     // HEADER
     // ****************************************************************************************************************************************
         include($path."assets/includes/sections/header.php");
@@ -25,22 +21,22 @@
     // _________________________________________________________________________________________________________________________________________
         
         // Overview
-        include($path."assets/includes/pages/services/software_development/software_development_overview.php");
+        include($path."assets/includes/page_components/services/software_development/software_development_overview.php");
 
         // Benefits
-        include($path."assets/includes/pages/services/software_development/software_development_benefits.php");
+        include($path."assets/includes/page_components/services/software_development/software_development_benefits.php");
 
         // Case Studies
-        include($path."assets/includes/pages/services/software_development/software_development_case_studies.php");
+        include($path."assets/includes/page_components/services/software_development/software_development_case_studies.php");
 
         // Prices
-        include($path."assets/includes/pages/services/software_development/software_development_prices.php");
+        include($path."assets/includes/page_components/services/software_development/software_development_prices.php");
 
         // Next Steps & How it Works
-        include($path."assets/includes/pages/services/software_development/software_development_next_steps.php");
+        include($path."assets/includes/page_components/services/software_development/software_development_next_steps.php");
 
         // Portfolio
-        include($path."assets/includes/pages/services/software_development/software_development_portfolio.php");         
+        include($path."assets/includes/page_components/services/software_development/software_development_portfolio.php");         
 
     // FOOTER
     // ****************************************************************************************************************************************

@@ -1,3 +1,11 @@
+<?php
+
+    // IMPORT SITE WIDE VARIABLES & CONSTANTS
+    // ****************************************************************************************************************************************
+        include($path."assets/includes/other/site_details.php"); 
+        
+?>
+
 <!DOCTYPE html>
 
 <html lang="en">
