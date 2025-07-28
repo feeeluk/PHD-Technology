@@ -2,7 +2,7 @@
 
     <section>
 
-        <h4>Helping clients make better use of their data, tools, and ideas.</h4>
+        <h4>Helping you make better use of your data, tools, ideas and technology.</h4>
          
         <p>Not every business has the time, headcount, or know-how to take on digital projects in-house.</p>
 
