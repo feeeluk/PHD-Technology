@@ -23,7 +23,24 @@
 
     // MAIN PAGE
     // _________________________________________________________________________________________________________________________________________
-        
+            
+        // Overview
+        include($path."assets/includes/pages/services/skills_development_and_training/skills_development_and_training_overview.php");
+
+        // Benefits
+        include($path."assets/includes/pages/services/skills_development_and_training/skills_development_and_training_benefits.php");
+
+        // Case Studies
+        include($path."assets/includes/pages/services/skills_development_and_training/skills_development_and_training_case_studies.php");
+
+        // Prices
+        include($path."assets/includes/pages/services/skills_development_and_training/skills_development_and_training_prices.php");
+
+        // Next Steps & How it Works
+        include($path."assets/includes/pages/services/skills_development_and_training/skills_development_and_training_next_steps.php");
+
+        // Portfolio
+        include($path."assets/includes/pages/services/skills_development_and_training/skills_development_and_training_portfolio.php");     
 
     // FOOTER
     // ****************************************************************************************************************************************

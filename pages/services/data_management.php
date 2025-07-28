@@ -23,8 +23,25 @@
 
     // MAIN PAGE
     // _________________________________________________________________________________________________________________________________________
-        
+           
+        // Overview
+        include($path."assets/includes/pages/services/data_management/data_management_overview.php");
 
+        // Benefits
+        include($path."assets/includes/pages/services/data_management/data_management_benefits.php");
+
+        // Case Studies
+        include($path."assets/includes/pages/services/data_management/data_management_case_studies.php");
+
+        // Prices
+        include($path."assets/includes/pages/services/data_management/data_management_prices.php");
+
+        // Next Steps & How it Works
+        include($path."assets/includes/pages/services/data_management/data_management_next_steps.php");
+
+        // Portfolio
+        include($path."assets/includes/pages/services/data_management/data_management_portfolio.php");
+        
     // FOOTER
     // ****************************************************************************************************************************************
         include($path."assets/includes/sections/footer.php");

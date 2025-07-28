@@ -24,6 +24,23 @@
     // MAIN PAGE
     // _________________________________________________________________________________________________________________________________________
         
+        // Overview
+        include($path."assets/includes/pages/services/business_analysis/business_analysis_overview.php");
+
+        // Benefits
+        include($path."assets/includes/pages/services/business_analysis/business_analysis_benefits.php");
+
+        // Case Studies
+        include($path."assets/includes/pages/services/business_analysis/business_analysis_case_studies.php");
+
+        // Prices
+        include($path."assets/includes/pages/services/business_analysis/business_analysis_prices.php");
+
+        // Next Steps & How it Works
+        include($path."assets/includes/pages/services/business_analysis/business_analysis_next_steps.php");
+
+        // Portfolio
+        include($path."assets/includes/pages/services/business_analysis/business_analysis_portfolio.php");    
 
     // FOOTER
     // ****************************************************************************************************************************************

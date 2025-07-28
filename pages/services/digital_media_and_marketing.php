@@ -23,7 +23,24 @@
 
     // MAIN PAGE
     // _________________________________________________________________________________________________________________________________________
-        
+          
+        // Overview
+        include($path."assets/includes/pages/services/digital_media_and_marketing/digital_media_and_marketing_overview.php");
+
+        // Benefits
+        include($path."assets/includes/pages/services/digital_media_and_marketing/digital_media_and_marketing_benefits.php");
+
+        // Case Studies
+        include($path."assets/includes/pages/services/digital_media_and_marketing/digital_media_and_marketing_case_studies.php");
+
+        // Prices
+        include($path."assets/includes/pages/services/digital_media_and_marketing/digital_media_and_marketing_prices.php");
+
+        // Next Steps & How it Works
+        include($path."assets/includes/pages/services/digital_media_and_marketing/digital_media_and_marketing_next_steps.php");
+
+        // Portfolio
+        include($path."assets/includes/pages/services/digital_media_and_marketing/digital_media_and_marketing_portfolio.php");       
 
     // FOOTER
     // ****************************************************************************************************************************************
