@@ -29,6 +29,10 @@ body {
         /* HTML elements */
         /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
         
+            header {
+                background-color: white;
+            }    
+
             article {
                 margin: 0 0 1rem 0;
                 padding: 0 1% 0 1%;
@@ -56,7 +60,7 @@ body {
             
             h1 {
                 font-size: 1.5rem;
-                text-align: left;
+                text-align: center;
             }
 
             h3 {
@@ -81,8 +85,9 @@ body {
                 margin-bottom: 0.2rem;
             }
 
-            a {
+            a, a:visited, a:active {
                 text-decoration: none;
+                color: #555;
             }
 
             img {
@@ -177,36 +182,97 @@ body {
                     z-index: 2;
                 }
 
-                details, details[open], details summary, details[open] summary {
-                    background-color: white;
-                }
-
-                summary {
+                #disclosure_primary summary {
                     display:flex;
                     justify-content: flex-end;
                 }
 
-                summary #hamburger {
+                #disclosure_primary #hamburger {
                     background-image: url('/assets/images/other/hamburger_icon_small.webp');
                     background-repeat: no-repeat;
                 }
 
-                details[open] summary #hamburger {
+                #disclosure_primary[open] #hamburger {
                     background-image: url('/assets/images/other/hamburger_icon_small_active.webp');
                     background-repeat: no-repeat;
                 }
 
-                details[open]::details-content {
+                #disclosure_primary[open]::details-content {
                     width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                }
+                
+                #disclosure_secondary summary {
+                    background-color: white;
+                    padding-left: 1rem;
+                    border-bottom: 1px solid #555;
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                }
+
+                #disclosure_secondary summary:hover {
+                    color: #555;
+                    background-color: #777;
+                }
+
+                #disclosure_secondary[open] summary:hover {
+                    color: #555;
+                    background-color: #777;
+                }
+
+                #disclosure_secondary[open] summary {
+                    background-color: #d4d4d4;
+                }
+
+                #disclosure_secondary[open]::details-content {
+                    display:flex;
+                    flex-direction: column;
                 }
 
                 nav {
                     background-color: green;
                     border-top: 2px solid #777;
                     border-bottom: 2px solid #777;
+                    display: flex;
+                    flex-direction: column;
                 }
 
-                #naviagation_links {
+                nav span.link {
+                    display: block;
+                    width: 100%;
+                    background-color: white;
+                    border-bottom: 1px solid #555;
+                    padding-left: 1rem;
+                }
+
+                nav span.service {
+                    padding-left: 2rem;
+                }
+
+                nav span.link:hover {
+                    color: #d4d4d4;
+                    background-color: #777;
+                }
+
+
+                
+                #disclosure_secondary summary span.arrow {                   
+                    border-top: 8px solid transparent;
+                    border-bottom: 8px solid transparent;
+                    border-left: 8px solid #555;
+                    margin-left: 10px;
+                }
+
+                #disclosure_secondary[open] summary span.arrow {                  
+                    transform: rotate(90deg);
+                    margin-left: 10px;
+
+                }
+
+/*                #naviagation_links {
                     padding-top: 5px;
                     padding-bottom: 5px;
                     background: transparent;
@@ -232,7 +298,7 @@ body {
                     margin: 0px 5px 5px 0px;
                     padding: 5px;
                     font-size: 0.75rem;
-                }
+                } */
 
             /* About */
             /* ================================== */
@@ -253,7 +319,6 @@ body {
                 }
 
                 #about h3 {
-                    letter-spacing: 0.05rem;
                     margin-bottom: 1rem;
                     font-weight: 600;
                 }

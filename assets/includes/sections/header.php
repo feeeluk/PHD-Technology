@@ -42,42 +42,38 @@
             </div>
 
             <!-- Disclosure -->
-            <details>
+            <details id="disclosure_primary">
 
                 <summary>
 
-                    <span id="hamburger">
-                    </span>
+                    <span id="hamburger"></span>
 
-                </summary>
-
+                </summary>     
+                
                 <nav>
+                    <a href="/"><span class="link">Home</span></a>
+                    <a href="/pages/case_studies.php"><span class="link">Case Studies</span></a>
+                    <a href="/pages/portfolio.php"><span class="link">Portfolio</span></a>
+                    <a href="/"><span class="link">Blog</span></a>
+                    <a href="/pages/contact.php"><span class="link">Contact</span></a>
                     
-                    <div id="naviagation_links">
-
-                        <span><a href="/">Home</a></span>
-                        <span><a href="/pages/case_studies.php">Case Studies</a></span>
-                        <span><a href="/pages/portfolio.php">Portfolio</a></span>
-                        <span><a href="/">Blog</a></span>
-                        <span><a href="/pages/contact.php">Contact</a></span>
-
-                    </div>
-
-                    <div id="naviagation_services">
-
-                        <span><a href="/pages/services/proof_of_concept.php">Proof of Concept</a></span>
-                        <span><a href="/pages/services/business_analysis.php">Business Analysis</a></span>
-                        <span><a href="/pages/services/project_management.php">Project Management</a></span>
-                        <span><a href="/pages/services/software_development.php">Software Development</a></span>
-                        <span><a href="/pages/services/data_management.php">Data Management</a></span>
-                        <span><a href="/pages/services/skills_development_and_training.php">Skills Development & Training</a></span>
-                        <span><a href="/pages/services/artificial_intelligence.php">Artificial Intelligence</a></span>
-                        <span><a href="/pages/services/digital_media_and_marketing.php">Digital Media & Marketing</a></span>
-
-                    </div>
-
+                    <details id="disclosure_secondary">
+                        
+                        <summary>Services<span class="arrow"></span></summary>
+                        
+                        <a href="/pages/services/proof_of_concept.php"><span class="link service">Proof of Concept</span></a>
+                        <a href="/pages/services/business_analysis.php"><span class="link service">Business Analysis</span></a>
+                        <a href="/pages/services/project_management.php"><span class="link service">Project Management</span></a>
+                        <a href="/pages/services/software_development.php"><span class="link service">Software Development</span></a>
+                        <a href="/pages/services/data_management.php"><span class="link service">Data Management</span></a>
+                        <a href="/pages/services/skills_development_and_training.php"><span class="link service">Skills Development & Training</span></a>
+                        <a href="/pages/services/artificial_intelligence.php"><span class="link service">Artificial Intelligence</span></a>
+                        <a href="/pages/services/digital_media_and_marketing.php"><span class="link service">Digital Media & Marketing</span></a>
+                        
+                    </details>
+                
                 </nav>
 
-            </details>
-
+            </details>    
+                    
         </header>
