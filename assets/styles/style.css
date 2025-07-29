@@ -214,7 +214,7 @@ body {
                 }
 
                 #disclosure_services summary:hover {
-                    color: #d4d4d4;
+                    color: white;
                     background-color: #777;
 
                     & span.arrow {
@@ -223,7 +223,7 @@ body {
                 }
 
                 #disclosure_services[open] summary:hover {
-                    color: #d4d4d4;
+                    color: white;
                     background-color: #777;
                     
                     & span.arrow {

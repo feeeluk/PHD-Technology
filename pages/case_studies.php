@@ -20,8 +20,29 @@
     // MAIN PAGE
     // _________________________________________________________________________________________________________________________________________
         
-        // PROOF OF CONCEPT
-        include($path."assets/includes/pages/services/proof_of_concept/proof_of_concept_case_studies.php");
+        // PROOF OF CONCEPTS
+        include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_case_studies.php");
+
+        // BUSINESS ANALYSIS
+        include($path."assets/includes/page_components/services/business_analysis/business_analysis_case_studies.php");
+        
+        // PROJECT MANAGEMENT
+        include($path."assets/includes/page_components/services/project_management/project_management_case_studies.php");
+        
+        // SOFTWARE DEVELOPMENT
+        include($path."assets/includes/page_components/services/software_development/software_development_case_studies.php");
+        
+        // DATA MANAGEMENT
+        include($path."assets/includes/page_components/services/data_management/data_management_case_studies.php");
+        
+        // SKILLS DEVELOPMENT & TRAINING
+        include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_case_studies.php");
+        
+        // ARTIFICIAL INTELLIGENCE
+        include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_case_studies.php");
+        
+        // DIGITAL MEDIA & MARKETING
+        include($path."assets/includes/page_components/services/digital_media_and_marketing/digital_media_and_marketing_case_studies.php");
 
     // FOOTER
     // ****************************************************************************************************************************************
