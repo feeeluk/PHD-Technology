@@ -20,8 +20,52 @@
     // MAIN PAGE
     // _________________________________________________________________________________________________________________________________________
         
-        // PROOF OF CONCEPT
-        include($path."assets/includes/pages/services/proof_of_concept/proof_of_concept_portfolio.php");
+?>
+
+        <article class="portfolio">
+                
+            <h1>PORTFOLIO</h1>
+                
+            <section class="summary">
+
+                <h2>
+
+                    Here are some examples that showcase what we can do for our clients:
+
+                </h2>
+
+            </section>
+
+        </article>
+
+<?php
+
+        // SERVICE LINKS
+        include($path."assets/includes/page_components/home/services_links.php");
+    
+        // PROOF OF CONCEPTS
+        include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_portfolio.php");
+
+        // BUSINESS ANALYSIS
+        include($path."assets/includes/page_components/services/business_analysis/business_analysis_portfolio.php");
+        
+        // PROJECT MANAGEMENT
+        include($path."assets/includes/page_components/services/project_management/project_management_portfolio.php");
+        
+        // SOFTWARE DEVELOPMENT
+        include($path."assets/includes/page_components/services/software_development/software_development_portfolio.php");
+        
+        // DATA MANAGEMENT
+        include($path."assets/includes/page_components/services/data_management/data_management_portfolio.php");
+        
+        // SKILLS DEVELOPMENT & TRAINING
+        include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_portfolio.php");
+        
+        // ARTIFICIAL INTELLIGENCE
+        include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_portfolio.php");
+        
+        // DIGITAL MEDIA & MARKETING
+        include($path."assets/includes/page_components/services/digital_media_and_marketing/digital_media_and_marketing_portfolio.php");
 
     // FOOTER
     // ****************************************************************************************************************************************

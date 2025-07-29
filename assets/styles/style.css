@@ -278,34 +278,6 @@ body {
 
                 }
 
-/*                #naviagation_links {
-                    padding-top: 5px;
-                    padding-bottom: 5px;
-                    background: transparent;
-                    text-align: center;
-                }
-
-                #naviagation_links span {
-                    background-color: white;
-                    margin: 0px 5px 5px 0px;
-                    padding: 5px;
-                    font-size: 0.75rem;
-                }
-
-                #naviagation_services {
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                    background: transparent;
-                }
-
-                #naviagation_services span {
-                    background-color: white;
-                    margin: 0px 5px 5px 0px;
-                    padding: 5px;
-                    font-size: 0.75rem;
-                } */
-
             /* About */
             /* ================================== */
 
@@ -332,34 +304,39 @@ body {
             /* Services */
             /* ================================== */
             
-                #services div {
+                #services section {
                     display: flex;
                     flex-wrap: wrap;
                     padding: 0.5rem;
                 }
-            
-                #services span {
+                
+                #services a {
+                    display: block;
                     flex: 45%;
                     max-width: 50%;
-                    background-color: #555;
                     margin-bottom: 0.5rem;
-                    padding:0.5rem ;
+                    background-color: #555;
+                    color: #d4d4d4;
+                    
+                    & :hover {
+                        background-color: #d4d4d4;
+                        color: #555;
+                    }
+                }
+
+                #services span {
+                    padding:0.3rem ;
                     display: flex;
                     justify-content: center;
                     align-items: center;
                 }
 
-                #services span:nth-child(odd) {
-                    margin-right: .5rem;
+                #services a:nth-child(odd) {
+                    margin-right: .3rem;
                 }
 
-                #services span:nth-last-child(-n+2) {
+                #services a:nth-last-child(-n+2) {
                     margin-bottom: 0;
-                }
-
-                #services h4 {
-                    text-align: center;
-                    margin: 0;
                 }
 
             /* Contact */

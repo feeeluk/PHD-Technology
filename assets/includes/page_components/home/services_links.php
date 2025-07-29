@@ -2,9 +2,9 @@
 
     <?php
 
-    if (str_contains($_SERVER['REQUEST_URI'],'case_studies') != true)
+    if (str_contains($_SERVER['REQUEST_URI'],'case_studies') != true && str_contains($_SERVER['REQUEST_URI'],'portfolio') != true)
         {
-            echo "<h1>AVAILABLE SERVICES:</h1>";
+            echo "<h1>AVAILABLE SERVICES</h1>";
                 
         }
 
@@ -12,73 +12,53 @@
 
     <section>
 
-        <div>
+            <a href="#proof_of_concept">            
+                <span>
+                    Proof of Concept
+                </span>
+            </a>
 
-            <span>
+            <a href="#business_analysis">
+                <span>
+                   Business Analysis 
+                </span>
+            </a>
 
-                <a href="#proof_of_concept">
-                    <h4>Proof of Concept</h4>
-                </a>
+            <a href="#software_development">
+                <span>
+                    Software Development
+                </span>
+            </a>
 
-            </span>
+            <a href="#project_management">
+                <span>
+                    Project Management
+                </span>
+            </a>
 
-            <span>
+            <a href="#data_management">
+                <span>
+                    Data Management
+                </span>
+            </a>
 
-                <a href="#business_analysis">
-                   <h4>Business Analysis</h4> 
-                </a>
+            <a href="#skills_development_and_training">
+                <span>
+                    Skills Development & Training
+                </span>
+            </a>
 
-            </span>
+            <a href="#artificial_intelligence">
+                <span>
+                    Artificial Intelligence
+                </span>
+            </a>
 
-            <span>
-
-                <a href="#software_development">
-                    <h4>Software Development</h4>
-                </a>
-
-            </span>
-
-            <span>
-
-                <a href="#project_management">
-                    <h4>Project Management</h4>
-                </a>
-
-            </span>
-
-            <span>
-
-                <a href="#data_management">
-                    <h4>Data Management</h4>
-                </a>
-
-            </span>
-
-            <span>
-
-                <a href="#skills_development_and_training">
-                    <h4>Skills Development & Training</h4>
-                </a>
-
-            </span>
-
-            <span>
-
-                <a href="#artificial_intelligence">
-                    <h4>Artificial Intelligence</h4>
-                </a>
-
-            </span>
-
-            <span>
-
-                <a href="#digital_media_and_marketing">
-                    <h4>Digital Media & Marketing</h4>
-                </a>
-
-            </span>
-
-        </div>
+            <a href="#digital_media_and_marketing">
+                <span>
+                    Digital Media & Marketing
+                </span>
+            </a>
 
     </section>
 
