@@ -11,22 +11,12 @@
                     echo "<h2>Here are some examples that showcase what we can do for our clients:</h2>";
         }
 
-    elseif (str_contains($_SERVER['REQUEST_URI'],'case_studies') == true)
+        elseif (str_contains($_SERVER['REQUEST_URI'],'case_studies') == true)
         {
-            echo "<article class='case_studies first_plus'>";
-            
-                echo "<section class='summary'>";
-            
-                    echo "<h2>Here are some examples that showcase what we can do for our clients:</h2>";
-            
-                echo "</section>";
-            
-            echo "</article>";
-            
-            echo "<article class='case_studies'>";
-            
+            echo "<article id='proof_of_concept' class='case_studies'>";
+                
                 echo "<section>";
-            
+                
                     echo "<h2>PROOF OF CONCEPT</h2>";
         }
 

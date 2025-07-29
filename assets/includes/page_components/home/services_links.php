@@ -1,6 +1,14 @@
 <article id="services">
 
-    <h1>AVAILABLE SERVICES:</h1>
+    <?php
+
+    if (str_contains($_SERVER['REQUEST_URI'],'case_studies') != true)
+        {
+            echo "<h1>AVAILABLE SERVICES:</h1>";
+                
+        }
+
+    ?> 
 
     <section>
 

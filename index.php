@@ -24,7 +24,7 @@
         include($path."assets/includes/page_components/home/about.php");
         
         // SERVICES
-        include($path."assets/includes/page_components/home/services.php");
+        include($path."assets/includes/page_components/home/services_links.php");
 
         // BENEFITS
         include($path."assets/includes/page_components/home/benefits.php");

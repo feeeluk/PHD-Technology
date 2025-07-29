@@ -160,7 +160,7 @@ body {
 
                 #logo {
                     height: 70px; 
-                    width: calc(100% - 50px);
+                    width: 100%;
                     background: white;
                     padding: 10px 0;
                     position: absolute;

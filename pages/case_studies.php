@@ -20,6 +20,29 @@
     // MAIN PAGE
     // _________________________________________________________________________________________________________________________________________
         
+?>
+
+        <article class="case_studies">
+                
+            <h1>CASE STUDIES</h1>
+                
+            <section class="summary">
+
+                <h2>
+
+                    Here are some examples that showcase what we can do for our clients:
+
+                </h2>
+
+            </section>
+
+        </article>
+
+<?php
+
+        // SERVICE LINKS
+        include($path."assets/includes/page_components/home/services_links.php");
+    
         // PROOF OF CONCEPTS
         include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_case_studies.php");
 

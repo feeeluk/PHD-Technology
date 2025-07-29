@@ -13,7 +13,7 @@
 
     elseif (str_contains($_SERVER['REQUEST_URI'],'case_studies') == true)
         {
-            echo "<article class='case_studies'>";
+            echo "<article id='software_development' class='case_studies'>";
                 
                 echo "<section>";
                 
