@@ -182,28 +182,28 @@ body {
                     z-index: 2;
                 }
 
-                #disclosure_primary summary {
+                #disclosure_links summary {
                     display:flex;
                     justify-content: flex-end;
                 }
 
-                #disclosure_primary #hamburger {
+                #disclosure_links #hamburger {
                     background-image: url('/assets/images/other/hamburger_icon_small.webp');
                     background-repeat: no-repeat;
                 }
 
-                #disclosure_primary[open] #hamburger {
+                #disclosure_links[open] #hamburger {
                     background-image: url('/assets/images/other/hamburger_icon_small_active.webp');
                     background-repeat: no-repeat;
                 }
 
-                #disclosure_primary[open]::details-content {
+                #disclosure_links[open]::details-content {
                     width: 100%;
                     display: flex;
                     flex-direction: column;
                 }
                 
-                #disclosure_secondary summary {
+                #disclosure_services summary {
                     background-color: white;
                     padding-left: 1rem;
                     border-bottom: 1px solid #555;
@@ -213,21 +213,29 @@ body {
                     align-items: center;
                 }
 
-                #disclosure_secondary summary:hover {
-                    color: #555;
+                #disclosure_services summary:hover {
+                    color: #d4d4d4;
                     background-color: #777;
+
+                    & span.arrow {
+                        border-left: 8px solid white;
+                    }
                 }
 
-                #disclosure_secondary[open] summary:hover {
-                    color: #555;
+                #disclosure_services[open] summary:hover {
+                    color: #d4d4d4;
                     background-color: #777;
+                    
+                    & span.arrow {
+                        border-left: 8px solid white;
+                    }
                 }
 
-                #disclosure_secondary[open] summary {
+                #disclosure_services[open] summary {
                     background-color: #d4d4d4;
                 }
 
-                #disclosure_secondary[open]::details-content {
+                #disclosure_services[open]::details-content {
                     display:flex;
                     flex-direction: column;
                 }
@@ -256,17 +264,15 @@ body {
                     color: #d4d4d4;
                     background-color: #777;
                 }
-
-
                 
-                #disclosure_secondary summary span.arrow {                   
+                #disclosure_services summary span.arrow {                   
                     border-top: 8px solid transparent;
                     border-bottom: 8px solid transparent;
                     border-left: 8px solid #555;
                     margin-left: 10px;
                 }
 
-                #disclosure_secondary[open] summary span.arrow {                  
+                #disclosure_services[open] summary span.arrow {                  
                     transform: rotate(90deg);
                     margin-left: 10px;
 

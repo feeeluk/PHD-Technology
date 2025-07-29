@@ -42,7 +42,7 @@
             </div>
 
             <!-- Disclosure -->
-            <details id="disclosure_primary">
+            <details id="disclosure_links">
 
                 <summary>
 
@@ -57,7 +57,7 @@
                     <a href="/"><span class="link">Blog</span></a>
                     <a href="/pages/contact.php"><span class="link">Contact</span></a>
                     
-                    <details id="disclosure_secondary">
+                    <details id="disclosure_services">
                         
                         <summary>Services<span class="arrow"></span></summary>
                         
