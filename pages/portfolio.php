@@ -22,17 +22,19 @@
         
 ?>
 
-        <article class="portfolio">
+        <article class="portfolio margin_top">
                 
             <h1>PORTFOLIO</h1>
                 
-            <section class="summary">
+            <section class="description">
 
-                <h2>
-
-                    Here are some examples that showcase what we can do for our clients:
-
-                </h2>
+                <div>
+                    
+                    <p>
+                        Here are some examples of my work, organised by service type:
+                    </p>
+                    
+                </div>
 
             </section>
 
@@ -41,7 +43,7 @@
 <?php
 
         // SERVICE LINKS
-        include($path."assets/includes/page_components/services/services_links.php");
+        // include($path."assets/includes/page_components/services/services_links.php");
     
         // PROOF OF CONCEPTS
         include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_portfolio.php");

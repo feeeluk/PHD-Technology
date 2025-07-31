@@ -1,50 +1,41 @@
-<?php
+<article class="portfolio">
 
-    if (str_contains($_SERVER['REQUEST_URI'],'proof_of_concept') == true)
-        {
-            echo "<article class='portfolio'>";
-            
+    <?php
+
+        if (str_contains($_SERVER['REQUEST_URI'],'proof_of_concept') == true)
+            {
                 echo "<h1>PORTFOLIO</h1>";
-                
-                echo "<section class='summary'>";
-            
-                    echo "<h2>Here are some examples that showcase what we can do for our clients:</h2>";
-        }
-
-    elseif (str_contains($_SERVER['REQUEST_URI'],'portfolio') == true)
-        {
-            echo "<article id='proof_of_concept' class='portfolio'>";
-                
+                    
                 echo "<section>";
-                
-                    echo "<h2>PROOF OF CONCEPT</h2>";
-        }
-
-?> 
-        
-        <!-- ####################### -->
-        <h4>TEST</h4>   
             
-        <div>
+                    echo "<div class='description margin_bottom'>";
 
-            <span class="left">
+                        echo "<p>Examples of work that I have done:</p>";
+
+                    echo "</div>";
+            }
+
+        elseif (str_contains($_SERVER['REQUEST_URI'],'portfolio') == true)
+            {             
+                echo "<section>";
+
+                    echo "<h2 id='proof_of_concept'>PROOF OF CONCEPT</h2>";     
+            }
+
+    ?>
                 
-                <img src="/assets/images/other/portfolio.jpg" alt="Portfolio">
-            
-            </span>
+        <span>
+            <img src="/assets/images/services/proof_of_concept/portfolio_treedata_v1.webp" alt="Tree Data">
+        </span>
 
-            <span class="right">
+        <span>
+            <img src="/assets/images/services/proof_of_concept/portfolio_portal.webp" alt="Telesales Portal">
+        </span>
 
-                <p>
-
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-                </p>
-
-            </span>
-
-        </div>
-
+        <span>
+            <img src="/assets/images/services/proof_of_concept/portfolio_points_academy.webp" alt="Points Academy Portal">
+        </span>
+    
     </section>
-
+        
 </article>

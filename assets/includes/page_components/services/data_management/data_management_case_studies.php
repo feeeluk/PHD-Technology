@@ -1,35 +1,44 @@
-<?php
+<article class="case_studies">
+    
+    <?php
 
-    if (str_contains($_SERVER['REQUEST_URI'],'data_management') == true)
-        {
-            echo "<article class='case_studies'>";
-            
+        if (str_contains($_SERVER['REQUEST_URI'],'data_management') == true)
+            {                
                 echo "<h1>CASE STUDIES</h1>";
                 
-                echo "<section class='summary'>";
+                echo "<section>";
             
-                    echo "<h2>Here are some examples that showcase what we can do for our clients:</h2>";
-        }
+                    echo "<div class='description margin_bottom'>";
+                    
+                        echo "<p>Here are some examples that showcase what we can do for our clients:</p>";
 
-    elseif (str_contains($_SERVER['REQUEST_URI'],'case_studies') == true)
-        {
-            echo "<article id='data_management' class='case_studies'>";
-                
+                    echo "</div>";
+            }
+
+        elseif (str_contains($_SERVER['REQUEST_URI'],'case_studies') == true)
+            {
                 echo "<section>";
                 
-                    echo "<h2>DATA MANAGEMENT</h2>";
-        }
+                    echo "<h2 id='data_management'>DATA MANAGEMENT</h2>";
+            }
 
-?> 
-        
-        <!-- ####################### -->
-        <h4>TEST</h4>   
-            
+    ?> 
+
         <div>
 
+            <span class="banner">
+                <p>
+                    Test
+                </p>
+            </span>
+            
             <span class="left">
                 
-                <img src="/assets/images/other/portfolio.jpg" alt="phil henning">
+                <img src="/assets/images/other/case_study.webp" alt="Case Study">
+
+                <p>
+                    A web tool to improve my client's services AND provide additional customer revenue / engagement
+                </p>
             
             </span>
 

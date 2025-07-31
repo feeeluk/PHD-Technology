@@ -1,43 +1,29 @@
+<article class="overview">
+
 <?php
 
     if (str_contains($_SERVER['REQUEST_URI'],'business_analysis') == true)
         {
-            echo "<article class='overview'>";
+            echo "<h1 id='business_analysis' class='margin_top'>BUSINESS ANALYSIS</h1>";
         }
 
         else {
-            echo "<article class='overview'>";
+            echo "<h1 id='business_analysis'>BUSINESS ANALYSIS</h1>";
         }
 
 ?>
-    
-    <h1 id="business_analysis">BUSINESS ANALYSIS</h1>
 
     <section>
 
         <div>
         
             <span class="banner">
-
                 <img src="/assets/images/services/business_analysis/overview_business_analysis.webp" alt="business analysis">
-        
             </span>
             
-            <span class="question">
-
-                <h5>Q: What is business analysis?</h5> 
-
-            </span>
-                            
-            <span class="answer">
-
-                <p>
-
-                    A: Business analysis is the process of identifying business needs and finding solutions to business problems. It involves understanding how organizations function, gathering and analyzing data, and recommending changes that will deliver value to stakeholders.
-                
-                </p>
-
-            </span>
+            <p>
+                Business analysis is the process of identifying business needs and finding solutions to business problems. It involves understanding how organizations function, gathering and analyzing data, and recommending changes that will deliver value to stakeholders.
+            </p>
 
             <?php
 

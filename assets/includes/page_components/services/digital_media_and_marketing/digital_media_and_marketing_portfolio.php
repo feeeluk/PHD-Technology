@@ -1,50 +1,43 @@
+<article class="portfolio">
+
 <?php
 
     if (str_contains($_SERVER['REQUEST_URI'],'digital_media_and_marketing') == true)
         {
-            echo "<article class='portfolio'>";
-            
                 echo "<h1>PORTFOLIO</h1>";
-                
-                echo "<section class='summary'>";
+                    
+                echo "<section class='description'>";
             
-                    echo "<h2>Here are some examples that showcase what we can do for our clients:</h2>";
+                    echo "<h2>Examples of work that we have done for our clients:</h2>";
+
+                    echo "<div>";
         }
 
     elseif (str_contains($_SERVER['REQUEST_URI'],'portfolio') == true)
-        {
-            echo "<article id='digital_media_and_marketing' class='portfolio'>";
-                
+        {             
                 echo "<section>";
+
+                    echo "<h2 id='digital_media_and_marketing'>DIGITAL MEDIA & MARKETING</h2>";
                 
-                    echo "<h2>DIGITAL MEDIA & MARKETING</h2>";
+                    echo "<div>";
         }
 
 ?> 
-        
-        <!-- ####################### -->
-        <h4>TEST</h4>   
-            
-        <div>
-
-            <span class="left">
                 
-                <img src="/assets/images/other/portfolio.jpg" alt="Portfolio">
-            
+            <span>
+                <img src="/assets/images/other/portfolio.jpg" alt="Default Portfolio">
             </span>
 
-            <span class="right">
+            <span>
+                <img src="/assets/images/other/portfolio.jpg" alt="Default Portfolio">
+            </span>
 
-                <p>
-
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-                </p>
-
+            <span>
+                <img src="/assets/images/other/portfolio.jpg" alt="Default Portfolio">
             </span>
 
         </div>
-
+    
     </section>
-
+        
 </article>

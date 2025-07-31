@@ -1,21 +1,21 @@
+<article class="overview">
+
 <?php
 
     if (str_contains($_SERVER['REQUEST_URI'],'software_development') == true)
         {
-            echo "<article class='overview'>";
+            echo "<h1 id='software_development' class='margin_top'>SOFTWARE DEVELOPMENT</h1>";
         }
 
         else {
-            echo "<article class='overview'>";
+            echo "<h1 id='software_development'>SOFTWARE DEVELOPMENT</h1>";
         }
 
 ?>
-    
-    <h1 id="software_development">SOFTWARE DEVELOPMENT</h1>
 
     <section>
 
-        <div>
+        <div class="margin_bottom">
 
             <span class="banner_column">
 
