@@ -36,7 +36,7 @@
             <div id="logo">
 
                 <a href="/">
-                    <img src="/assets/images/other/phd_technology_solutions_logo.webp" alt="logo">
+                    <img src="/assets/images/other/logo.webp" alt="logo">
                 </a>
                 
             </div>
