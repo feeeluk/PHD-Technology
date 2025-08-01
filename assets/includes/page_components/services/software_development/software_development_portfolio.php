@@ -1,54 +1,52 @@
 <article class="portfolio">
 
-<?php
+    <?php
 
-    if (str_contains($_SERVER['REQUEST_URI'],'software_development') == true)
-        {
+        if (str_contains($_SERVER['REQUEST_URI'],'software_development') == true)
+            {
                 echo "<h1>PORTFOLIO</h1>";
                     
-                echo "<section class='description'>";
+                echo "<section>";
             
-                    echo "<h2>Examples of work that we have done for our clients:</h2>";
+                    echo "<div class='description margin_bottom'>";
 
-                    echo "<div>";
-        }
+                        echo "<p>Examples of work that I have done:</p>";
 
-    elseif (str_contains($_SERVER['REQUEST_URI'],'portfolio') == true)
-        {             
+                    echo "</div>";
+            }
+
+        elseif (str_contains($_SERVER['REQUEST_URI'],'portfolio') == true)
+            {             
                 echo "<section>";
 
-                    echo "<h2 id='software_development'>SOFTWARE DEVELOPMENT</h2>";
+                    echo "<h2 id='software_development'>SOFTWARE DEVELOPMENT</h2>";     
+            }
+
+    ?>
                 
-                    echo "<div>";
-        }
+        <span>
+            <img src="/assets/images/services/software_development/portfolio_points_academy.webp" alt="Ponts Academy">
+        </span>
 
-?> 
-                
-            <span>
-                <img src="/assets/images/services/software_development/portfolio_points_academy.webp" alt="Ponts Academy">
-            </span>
+        <span>
+            <img src="/assets/images/services/software_development/portfolio_portal.webp" alt="Telesales Portal">
+        </span>
 
-            <span>
-                <img src="/assets/images/services/software_development/portfolio_portal.webp" alt="Telesales Portal">
-            </span>
-
-            <span>
-                <img src="/assets/images/services/software_development/portfolio_quiz.webp" alt="Quiz">
-            </span>
-            
-            <span>
-                <img src="/assets/images/services/software_development/portfolio_snowcompare_shop.webp" alt="Snowcompare Shop">
-            </span>
-            
-            <span>
-                <img src="/assets/images/services/software_development/portfolio_snowcompare.webp" alt="Snowcompare">
-            </span>
-            
-            <span>
-                <img src="/assets/images/services/software_development/portfolio_treedata_v1.webp" alt="Tree Data">
-            </span>
-
-        </div>
+        <span>
+            <img src="/assets/images/services/software_development/portfolio_quiz.webp" alt="Quiz">
+        </span>
+        
+        <span>
+            <img src="/assets/images/services/software_development/portfolio_snowcompare_shop.webp" alt="Snowcompare Shop">
+        </span>
+        
+        <span>
+            <img src="/assets/images/services/software_development/portfolio_snowcompare.webp" alt="Snowcompare">
+        </span>
+        
+        <span>
+            <img src="/assets/images/services/software_development/portfolio_treedata_v1.webp" alt="Tree Data">
+        </span>
     
     </section>
         
