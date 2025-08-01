@@ -501,6 +501,22 @@ body {
             /* Legal */
             /* ================================== */
 
+            /* Footer */
+            /* ================================== */
+
+            footer section {
+                background: #D4D4D4;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            footer p {
+                font-size: 0.75rem;
+                margin: 0;
+                padding: 0;
+            }
+
     }
 
     /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
