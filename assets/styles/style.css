@@ -326,7 +326,7 @@ body {
                 padding-bottom: 5px;
             }
 
-            .prices td:nth-child(1) {
+            .prices td {
                 padding-left: 10px;
                 padding-top: 10px;
             }
