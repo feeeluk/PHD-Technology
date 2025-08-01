@@ -295,8 +295,6 @@ body {
 
             /* Prices */
             /* ================================== */
-        
-            
             
             .prices table {
                 margin: 0 auto 0 auto;
@@ -545,67 +543,53 @@ body {
 
             /* Contact */
             /* ================================== */
-            
-            .contact {
+            #contact div {
+                width: 100%; 
+                display: flex;
+                flex-wrap: wrap;
                 flex-direction: row;
+                justify-content: center;
+                align-content: flex-start;
+            }
+            
+            #contact p {
+                display: block;
+                width: 100%;
+                text-align: left;
             }
 
-            .contact_left {
-                width: 35vw;
-                min-height: calc(100vh - 80px);
-                margin: 0px;
-                padding: 0px 60px 100px 60px;
+            #contact_form {
+                width: 100%;
+                max-width: 60rem;
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
-                background-color: #555555;
-                opacity: .9;
+                align-items: flex-start;
+                justify-content: flex-start;
             }
 
-            .contact_left h1 {
-                text-align: center;
-                padding-left: 0px;
-            }    
-        
-            .contact_left p {
-                    text-align: center;
-                    color: white;
-                    margin-bottom: 0px;
-                }
-
-            .contact_right {
-                width: 65vw;
-                margin: 0px;
-                padding: 0px 50px 0px 50px;
-                display: flex;
-                flex-direction:column;
-                flex-wrap:wrap;
-                justify-content: center;
-                align-content:flex-start;
-                background-color: #555;
-            }
-
-            .contact_right div {
-                position: relative;
-            }
-
-            .contact_right input, .contact_right textarea {
-                display: block;
+            #contact input, #contact textarea {
                 padding: 5px;
                 margin-bottom: 5px;
             }
 
-            .contact_right input {
-                width: 400px;
+            #contact_form input {
+                width: 100%;
             }
 
-            .contact_right textarea {
-                width: 600px;
-                min-height: 300px;
+            #contact_form textarea {
+                width: 100%;
+                min-height: 20rem;
             }
 
-            .contact_right button {
-                padding: 5px;
+            #contact_form span {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+            }
+
+            #contact_form button {
+                flex-basis: 0%;
+                padding: 0.25rem;
             }
 
             /* Legal */
