@@ -33,44 +33,44 @@
                         
                         <tr>
                             <td class="item">1 Hour</td>
-                            <td>X<!--£59--></td>
+                            <td>£<!--£59--></td>
                             <td>X</td>
                         </tr>
                         
                         <tr>
                             <td class="item">1/2 Day</td>
-                            <td>X<!--199--></td>
+                            <td>£<!--199--></td>
                             <td>X</td>
                         </tr>
                         
                         <tr>
                             <td class="item">1 Day</td>
-                            <td>X<!--£319--></td>
+                            <td>£<!--£319--></td>
                             <td>X</td>
                         </tr>
                         
                         <tr>
                             <td class="item">5 Days</td>
                             <td>X</td>
-                            <td>X<!--£1,499--></td>
+                            <td>£<!--£1,499--></td>
                         </tr>
                         
                         <tr>
                             <td class="item">10 Days</td>
                             <td>X</td>
-                            <td>X<!--£2,899--></td>
-                        </tr>
-                        
-                        <tr>
-                            <td class="item">15-20 Days</td>
-                            <td>X</td>
-                            <td>X<!--£4,199--></td>
+                            <td>£<!--£2,899--></td>
                         </tr>
 
                         <tr>
-                            <td class="item">20+ Days (reduced day rate)</td>
-                            <td>X<!--£260--></td>
+                            <td class="item">15 Days</td>
                             <td>X</td>
+                            <td>£<!--£4,199--></td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="item">20 Days</td>
+                            <td>X</td>
+                            <td>£<!--£4,199--></td>
                         </tr>
 
                     </tb>

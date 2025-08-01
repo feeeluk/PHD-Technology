@@ -296,6 +296,55 @@ body {
             /* Prices */
             /* ================================== */
         
+            
+            
+            .prices table {
+                margin: 0 auto 0 auto;
+                margin-bottom: 20px;
+                width: 90%;
+                color: #D9D9D9;
+                background-color: #999;
+                border-collapse: collapse;
+                border: 1px solid #666;
+            }
+
+            .prices .table_left {
+                width: 48%;
+            }
+
+            .prices .table_right {
+                width: 26%;
+            }
+
+            .prices .title th {
+                background-color: #555;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+                
+            .prices .sub-title td {
+                background-color: #666;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+
+            .prices td:nth-child(1) {
+                padding-left: 10px;
+                padding-top: 10px;
+            }
+        
+            .prices td:nth-child(2), .prices td:nth-child(3) {
+                text-align: center;
+                border-left: 1px solid #666;
+            }
+            
+            .prices tr:last-child td {
+                padding-bottom: 10px;
+            }
+
+            .prices span {
+                justify-content: center;
+            }
 
         /* Elements By ID */
         /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
@@ -497,6 +546,67 @@ body {
             /* Contact */
             /* ================================== */
             
+            .contact {
+                flex-direction: row;
+            }
+
+            .contact_left {
+                width: 35vw;
+                min-height: calc(100vh - 80px);
+                margin: 0px;
+                padding: 0px 60px 100px 60px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                background-color: #555555;
+                opacity: .9;
+            }
+
+            .contact_left h1 {
+                text-align: center;
+                padding-left: 0px;
+            }    
+        
+            .contact_left p {
+                    text-align: center;
+                    color: white;
+                    margin-bottom: 0px;
+                }
+
+            .contact_right {
+                width: 65vw;
+                margin: 0px;
+                padding: 0px 50px 0px 50px;
+                display: flex;
+                flex-direction:column;
+                flex-wrap:wrap;
+                justify-content: center;
+                align-content:flex-start;
+                background-color: #555;
+            }
+
+            .contact_right div {
+                position: relative;
+            }
+
+            .contact_right input, .contact_right textarea {
+                display: block;
+                padding: 5px;
+                margin-bottom: 5px;
+            }
+
+            .contact_right input {
+                width: 400px;
+            }
+
+            .contact_right textarea {
+                width: 600px;
+                min-height: 300px;
+            }
+
+            .contact_right button {
+                padding: 5px;
+            }
 
             /* Legal */
             /* ================================== */
