@@ -31,15 +31,7 @@
 
                 if (str_contains($_SERVER['REQUEST_URI'],'data_management') == false)
                     {
-                        echo "<a href='/pages/services/data_management.php'>";
-
-                            echo "<span class='more_information'>";
-
-                                echo "More Information";
-
-                            echo "</span>";
-
-                        echo "</a>";
+                        include($path."assets/includes/page_components/other/button_more_information.php");
 
                     }
 

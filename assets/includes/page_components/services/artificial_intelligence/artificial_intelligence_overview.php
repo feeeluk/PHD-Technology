@@ -32,15 +32,7 @@
 
                 if (str_contains($_SERVER['REQUEST_URI'],'artificial_intelligence') == false)
                     {
-                        echo "<a href='/pages/services/artificial_intelligence.php'>";
-
-                            echo "<span class='more_information'>";
-
-                                echo "More Information";
-
-                            echo "</span>";
-
-                        echo "</a>";
+                        include($path."assets/includes/page_components/other/button_more_information.php");
 
                     }
 

@@ -35,15 +35,7 @@
 
                 if (str_contains($_SERVER['REQUEST_URI'],'software_development') == false)
                     {
-                        echo "<a href='/pages/services/software_development.php'>";
-
-                            echo "<span class='more_information'>";
-
-                                echo "More Information";
-
-                            echo "</span>";
-
-                        echo "</a>";
+                        include($path."assets/includes/page_components/other/button_more_information.php");
 
                     }
 

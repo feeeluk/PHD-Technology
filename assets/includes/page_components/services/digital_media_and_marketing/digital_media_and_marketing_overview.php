@@ -32,15 +32,7 @@
 
                 if (str_contains($_SERVER['REQUEST_URI'],'digital_media_and_marketing') == false)
                     {
-                        echo "<a href='/pages/services/digital_media_and_marketing.php'>";
-
-                            echo "<span class='more_information'>";
-
-                                echo "More Information";
-
-                            echo "</span>";
-
-                        echo "</a>";
+                        include($path."assets/includes/page_components/other/button_more_information.php");
 
                     }
 

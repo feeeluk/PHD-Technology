@@ -30,15 +30,7 @@
 
                 if (str_contains($_SERVER['REQUEST_URI'],'skills_development_and_training') == false)
                     {
-                        echo "<a href='/pages/services/skills_development_and_training.php'>";
-
-                            echo "<span class='more_information'>";
-
-                                echo "More Information";
-
-                            echo "</span>";
-
-                        echo "</a>";
+                        include($path."assets/includes/page_components/other/button_more_information.php");
 
                     }
 
