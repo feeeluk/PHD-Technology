@@ -505,10 +505,11 @@ body {
             /* ================================== */
 
             footer section {
-                background: #D4D4D4;
+                background: white;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                border-radius: 0;
             }
 
             footer p {
