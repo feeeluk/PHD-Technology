@@ -24,13 +24,16 @@
         include($path."assets/includes/page_components/home/about.php");
         
         // SERVICES
-        include($path."assets/includes/page_components/services/services_links.php");
+        include($path."assets/includes/page_components/home/services_links.php");
 
         // BENEFITS
         include($path."assets/includes/page_components/home/benefits.php");
         
         // PRICES
-        include($path."assets/includes/page_components/prices/prices.php");
+        include($path."assets/includes/page_components/home/prices.php");
+
+        // NEXT STEPS
+        include($path."assets/includes/page_components/home/next_steps.php");
 
         // PROOF OF CONCEPT - OVERVIEW
         include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_overview.php");

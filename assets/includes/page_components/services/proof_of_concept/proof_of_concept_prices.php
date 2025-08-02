@@ -1,5 +1,5 @@
 <?php
 
-    include($path."assets/includes/page_components/prices/prices.php");
+    include($path."assets/includes/page_components/home/prices.php");
 
 ?>
