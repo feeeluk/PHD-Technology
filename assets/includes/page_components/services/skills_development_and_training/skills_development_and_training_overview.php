@@ -30,7 +30,7 @@
 
                 if (str_contains($_SERVER['REQUEST_URI'],'skills_development_and_training') == false)
                     {
-                        include($path."assets/includes/page_components/other/button_more_information.php");
+                        include($path."assets/includes/page_components/other/button_click_for_details.php");
 
                     }
 

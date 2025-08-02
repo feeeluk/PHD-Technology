@@ -31,7 +31,7 @@
         <div>
         
             <p>
-                PHD Technical Solutions is a trading name used by Philip Henning (Philip Henning trading as PHD Technology Solutions).
+                PHD Technology is a trading name used by Philip Henning (Philip Henning trading as PHD Technology).
                 <br>
                 Philip Henning is a sole trader.
             </p>

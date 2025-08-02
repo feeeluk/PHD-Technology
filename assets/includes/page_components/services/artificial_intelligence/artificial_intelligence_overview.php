@@ -30,9 +30,9 @@
 
             <?php
 
-                if (str_contains($_SERVER['REQUEST_URI'],'artificial_intelligence') == false)
+                if (str_contains($_SERVER['REQUEST_URI'],'software_development') == false)
                     {
-                        include($path."assets/includes/page_components/other/button_more_information.php");
+                        include($path."assets/includes/page_components/other/button_click_for_details.php");
 
                     }
 

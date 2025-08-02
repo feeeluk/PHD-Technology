@@ -30,9 +30,9 @@
 
             <?php
 
-                if (str_contains($_SERVER['REQUEST_URI'],'digital_media_and_marketing') == false)
+                if (str_contains($_SERVER['REQUEST_URI'],'software_development') == false)
                     {
-                        include($path."assets/includes/page_components/other/button_more_information.php");
+                        include($path."assets/includes/page_components/other/button_click_for_details.php");
 
                     }
 

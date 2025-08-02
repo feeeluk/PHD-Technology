@@ -128,15 +128,39 @@ body {
                 margin-bottom: 0.5rem;
             }
         
-            .more_information {
-                background-color: green;
-                display: block;
-                padding: 0.6rem;
+
+
+            /* Overview */
+            /* ================================== */
+            
+            .overview section {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .banner {
+                float: right;
+                width: 100%;
+                max-width: 40rem;
+                min-height: fit-content;
+            }    
+
+            .banner img {
+                object-fit: contain;
                 margin: 0;
+                padding: 0 0 0.5rem 0;
+            }
+
+            .button_click_for_details {
+                display: block;
+                clear: both;
+                background-color: green;
+                margin: 0;
+                padding: 0.6rem 1rem;
                 border: 1px solid black;
                 color: white;
-                width: 12.5rem;
                 text-align: center;
+                width: fit-content;
             }
 
             /* Benefits */
@@ -159,72 +183,6 @@ body {
 
             .benefits h4, h5 {
                 color: #333;
-            }
-
-            /* Overview */
-            /* ================================== */
-            
-            .overview section {
-                display: flex;
-                flex-direction: column;
-            }
-
-            .banner, .banner_column {
-                width: 60%;
-                max-height: fit-content;
-                float: right;
-                padding: 0 0 0.5rem 0.5rem;
-            }    
-
-            .banner img, .banner img {
-                object-fit: contain;
-                margin: 0;
-                padding: 0;
-            }
-
-            /* Portfolio */
-            /* ================================== */
-            
-            .portfolio section {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                padding-bottom: 0;
-            }
-        
-            .portfolio section.description {
-                display: block;
-                margin: 0;
-                padding: 0.5rem;
-            }
-        
-            .portfolio h2 {
-                width: 100%;
-            }
-
-            .portfolio span {
-                display: block;
-                flex: 49%;
-                max-width: 50%;
-                border-bottom: rgba(0, 0, 0, 0) 0.5rem solid;
-            }
-
-            .portfolio span:nth-child(even) {
-                border-right: rgba(0, 0, 0, 0) 0.25rem solid;
-            }
-
-            .portfolio span:nth-child(odd) {
-                border-left: rgba(0, 0, 0, 0) 0.25rem solid;
-            }
-
-            .portfolio p {
-                margin: 0;
-            }
-
-            .portfolio img {
-                height: auto;
-                width: 100%;
-                margin: 0;
             }
 
             /* Case Studies */
@@ -290,13 +248,12 @@ body {
                 padding: 0;
             }
 
-            /* Next Steps */
-            /* ================================== */
-
             /* Prices */
             /* ================================== */
             
             .prices table {
+                width: 100%;
+                max-width: 30rem;
                 margin: 0 auto 0 auto;
                 margin-bottom: 20px;
                 width: 90%;
@@ -342,6 +299,54 @@ body {
 
             .prices span {
                 justify-content: center;
+            }
+  
+            /* Next Steps */
+            /* ================================== */
+
+            /* Portfolio */
+            /* ================================== */
+            
+            .portfolio section {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                padding-bottom: 0;
+            }
+        
+            .portfolio section.description {
+                display: block;
+                margin: 0;
+                padding: 0.5rem;
+            }
+        
+            .portfolio h2 {
+                width: 100%;
+            }
+
+            .portfolio span {
+                display: block;
+                flex: 49%;
+                max-width: 50%;
+                border-bottom: rgba(0, 0, 0, 0) 0.5rem solid;
+            }
+
+            .portfolio span:nth-child(even) {
+                border-right: rgba(0, 0, 0, 0) 0.25rem solid;
+            }
+
+            .portfolio span:nth-child(odd) {
+                border-left: rgba(0, 0, 0, 0) 0.25rem solid;
+            }
+
+            .portfolio p {
+                margin: 0;
+            }
+
+            .portfolio img {
+                height: auto;
+                width: 100%;
+                margin: 0;
             }
 
         /* Elements By ID */

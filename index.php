@@ -28,6 +28,9 @@
 
         // BENEFITS
         include($path."assets/includes/page_components/home/benefits.php");
+        
+        // PRICES
+        include($path."assets/includes/page_components/prices/prices.php");
 
         // PROOF OF CONCEPT - OVERVIEW
         include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_overview.php");
@@ -52,9 +55,6 @@
 
         // DIGITAL MEDIA & MARKETING - OVERVIEW
         include($path."assets/includes/page_components/services/digital_media_and_marketing/digital_media_and_marketing_overview.php");
-
-        // PRICES
-        include($path."assets/includes/page_components/prices/prices.php");
 
     // FOOTER
     // ****************************************************************************************************************************************

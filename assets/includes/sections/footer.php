@@ -3,7 +3,7 @@
             <section>
                 
                 <p>
-                    Philip Henning trading as PHD Technology Solutions
+                    Philip Henning trading as PHD Technology
 
                     [
                     <a href="/pages/contact.php">contact</a>
