@@ -138,8 +138,12 @@ body {
                 flex-direction: column;
             }
 
+            .overview div {
+                padding-right: 0;
+            }
+
             .banner {
-                float: right;
+                float: left;
                 width: 100%;
                 max-width: 40rem;
                 min-height: fit-content;
@@ -148,19 +152,23 @@ body {
             .banner img {
                 object-fit: contain;
                 margin: 0;
-                padding: 0 0 0.5rem 0;
+                padding: 0 1rem 0.5rem 0;
+            }
+
+            .overview p {
+                padding-right: 1rem;
             }
 
             .button_click_for_details {
                 display: block;
-                clear: both;
-                background-color: green;
+                float: left;
                 margin: 0;
                 padding: 0.6rem 1rem;
+                width: fit-content;
+                background-color: green;
                 border: 1px solid black;
                 color: white;
                 text-align: center;
-                width: fit-content;
             }
 
             /* Benefits */
