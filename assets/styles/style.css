@@ -3,11 +3,16 @@
         background = #555
         sub-boxes = #777
         boxes = #D9D9D9
+        LOGO
+            TEAL (RGB) 50, 140, 130
+            RED (RGB) 215, 35, 35
 
-    HELP
         - Article > section > div > span
         - Use ID for elements that are one time use
-        - USE CLASSES for things that repeat    */
+        ##################################################################
+        DO NOT REPEAT YOURSELF - use classes for things that repeat
+        ##################################################################
+*/
 
 * {
     padding: 0px;
@@ -27,7 +32,8 @@ body {
     @media (min-width:320px)  {
 
         /* HTML elements */
-        /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+        /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+        /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
         
             header {
                 background-color: white;
@@ -97,12 +103,292 @@ body {
                 margin-bottom: 1rem;
             }
 
+        /* Elements By ID */
+        /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+        /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+        
+            /* Header & Menu */
+            /* ############################################# */
+
+            #logo {
+                height: 70px; 
+                width: 100%;
+                background: white;
+                padding: 10px 0;
+                position: absolute;
+                top: 0;
+                left: 0;
+                text-align: center;
+                z-index: 1;
+            }
+
+            #logo img {
+                object-fit: contain;
+            }
+
+            #hamburger {
+                height: 50px;
+                width: 50px;
+                margin: 10px 0;
+                cursor: pointer;
+                z-index: 2;
+            }
+
+            #disclosure_links summary {
+                display:flex;
+                justify-content: flex-end;
+            }
+
+            #disclosure_links #hamburger {
+                background-image: url('/assets/images/other/hamburger_icon_small.webp');
+                background-repeat: no-repeat;
+            }
+
+            #disclosure_links[open] #hamburger {
+                background-image: url('/assets/images/other/hamburger_icon_small_active.webp');
+                background-repeat: no-repeat;
+            }
+
+            #disclosure_links[open]::details-content {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+            
+            #disclosure_services summary {
+                background-color: white;
+                padding: 0.25rem;
+                padding-left: 1rem;
+                border-bottom: 1px solid #555;
+                cursor: pointer;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+
+            #disclosure_services summary:hover {
+                color: white;
+                background-color: rgb(50, 140, 130);
+
+                & span.arrow {
+                    border-left: 8px solid white;
+                }
+            }
+
+            #disclosure_services[open] summary:hover {
+                color: white;
+                background-color: rgb(50, 140, 130);
+                
+                & span.arrow {
+                    border-left: 8px solid white;
+                }
+            }
+
+            #disclosure_services[open] summary {
+                color: white;
+                background-color: rgb(50, 140, 130);
+
+                & span.arrow {
+                    border-left-color: white;
+                }
+            }
+
+            #disclosure_services[open]::details-content {
+                display:flex;
+                flex-direction: column;
+            }
+
+            nav {
+                background-color: green;
+                border-top: 2px solid #777;
+                border-bottom: 2px solid #777;
+                display: flex;
+                flex-direction: column;
+            }
+
+            nav span.link {
+                display: block;
+                width: 100%;
+                background-color: white;
+                border-bottom: 1px solid #555;
+                padding: 0.25rem;
+                padding-left: 1rem;
+            }
+
+            nav span.service {
+                padding-left: 2rem;
+            }
+
+            nav span.link:hover {
+                color: #d4d4d4;
+                background-color: rgb(215, 35, 35);
+            }
+            
+            #disclosure_services summary span.arrow {                   
+                border-top: 8px solid transparent;
+                border-bottom: 8px solid transparent;
+                border-left: 8px solid #555;
+                margin-left: 10px;
+            }
+
+            #disclosure_services[open] summary span.arrow {                  
+                transform: rotate(90deg);
+                margin-left: 10px;
+            }
+
+            /* About */
+            /* ############################################# */
+
+            #about {
+                padding: 0 5% 0 5%;
+                background-image: url('/assets/images/other/about_us_background.webp');
+                background-size: cover;
+                background-repeat: no-repeat;
+                color: #555; 
+            }
+
+            #about section {
+                width: 100%;
+                background: rgba(240, 240, 240, 0.8);
+                padding: 1rem 2rem;
+                border-radius: 0;
+            }
+
+            #about h3 {
+                margin-bottom: 1rem;
+                font-weight: 600;
+                color: #555;
+            }
+
+            /* Services */
+            /* ############################################# */
+            
+            #services {
+                margin: 0 0 1rem 0;
+                padding: 0 1% 0 1%;
+                align-content: center;
+                font-size: .9rem;
+            }
+        
+            #services section {
+                display: flex;
+                flex-wrap: wrap;
+                padding: 0.5rem;
+            }
+
+            #services a {
+                display: block;
+                flex: 45%;
+                max-width: 50%;
+                margin-bottom: 0.5rem;
+                background-color: rgb(50, 140, 130);
+                color: #d4d4d4;
+                
+                & :hover {
+                    background-color: rgb(215, 35, 35);
+                    color: #d4d4d4;
+                }
+            }
+
+            #services span {
+                padding:0.3rem ;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            #services a:nth-child(odd) {
+                margin-right: .3rem;
+            }
+
+            #services a:nth-last-child(-n+2) {
+                margin-bottom: 0;
+            }
+
+            /* Contact */
+            /* ############################################# */
+
+            #contact div {
+                width: 100%; 
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                justify-content: center;
+                align-content: flex-start;
+            }
+            
+            #contact p {
+                display: block;
+                width: 100%;
+                text-align: left;
+            }
+
+            #contact_form {
+                width: 100%;
+                max-width: 60rem;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+            }
+
+            #contact input, #contact textarea {
+                padding: 5px;
+                margin-bottom: 5px;
+            }
+
+            #contact_form input {
+                width: 100%;
+            }
+
+            #contact_form textarea {
+                width: 100%;
+                min-height: 20rem;
+            }
+
+            #contact_form span {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+            }
+
+            #contact_form button {
+                flex-basis: 0%;
+                padding: 0.25rem;
+            }
+
+            /* Legal */
+            /* ############################################# */
+
+            #legal h3 {
+                color: #555;
+                text-align: left;
+                margin: 0;
+            }
+
+            /* Footer */
+            /* ############################################# */
+
+            footer section {
+                background: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 0;
+            }
+
+            footer p {
+                font-size: 0.75rem;
+                margin: 0;
+                padding: 0;
+            }
         
         /* Classes */
-        /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+        /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+        /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
             /* General */
-            /* ================================== */
+            /* ............................................... */
             
             .call_us {
                 display: block;
@@ -127,11 +413,9 @@ body {
             .margin_bottom {
                 margin-bottom: 0.5rem;
             }
-        
-
 
             /* Overview */
-            /* ================================== */
+            /* ............................................... */
             
             .overview section {
                 display: flex;
@@ -172,7 +456,7 @@ body {
             }
 
             /* Benefits */
-            /* ================================== */
+            /* ............................................... */
             
             .benefits section {
                 padding: 1rem 0.5rem;
@@ -194,7 +478,7 @@ body {
             }
 
             /* Case Studies */
-            /* ================================== */
+            /* ............................................... */
         
             .case_studies section {
                 display: flex;
@@ -257,7 +541,7 @@ body {
             }
 
             /* Prices */
-            /* ================================== */
+            /* ............................................... */
             
             .prices table {
                 width: 100%;
@@ -310,10 +594,10 @@ body {
             }
   
             /* Next Steps */
-            /* ================================== */
+            /* ............................................... */
 
             /* Portfolio */
-            /* ================================== */
+            /* ............................................... */
             
             .portfolio section {
                 display: flex;
@@ -355,280 +639,6 @@ body {
                 height: auto;
                 width: 100%;
                 margin: 0;
-            }
-
-        /* Elements By ID */
-        /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
-
-            /* Header & Menu */
-            /* ================================== */
-
-            #logo {
-                height: 70px; 
-                width: 100%;
-                background: white;
-                padding: 10px 0;
-                position: absolute;
-                top: 0;
-                left: 0;
-                text-align: center;
-                z-index: 1;
-            }
-
-            #logo img {
-                object-fit: contain;
-            }
-
-            #hamburger {
-                height: 50px;
-                width: 50px;
-                margin: 10px 0;
-                cursor: pointer;
-                z-index: 2;
-            }
-
-            #disclosure_links summary {
-                display:flex;
-                justify-content: flex-end;
-            }
-
-            #disclosure_links #hamburger {
-                background-image: url('/assets/images/other/hamburger_icon_small.webp');
-                background-repeat: no-repeat;
-            }
-
-            #disclosure_links[open] #hamburger {
-                background-image: url('/assets/images/other/hamburger_icon_small_active.webp');
-                background-repeat: no-repeat;
-            }
-
-            #disclosure_links[open]::details-content {
-                width: 100%;
-                display: flex;
-                flex-direction: column;
-            }
-            
-            #disclosure_services summary {
-                background-color: white;
-                padding: 0.5rem;
-                padding-left: 1rem;
-                border-bottom: 1px solid #555;
-                cursor: pointer;
-                display: flex;
-                justify-content: flex-start;
-                align-items: center;
-            }
-
-            #disclosure_services summary:hover {
-                color: white;
-                background-color: #777;
-
-                & span.arrow {
-                    border-left: 8px solid white;
-                }
-            }
-
-            #disclosure_services[open] summary:hover {
-                color: white;
-                background-color: #777;
-                
-                & span.arrow {
-                    border-left: 8px solid white;
-                }
-            }
-
-            #disclosure_services[open] summary {
-                background-color: #d4d4d4;
-            }
-
-            #disclosure_services[open]::details-content {
-                display:flex;
-                flex-direction: column;
-            }
-
-            nav {
-                background-color: green;
-                border-top: 2px solid #777;
-                border-bottom: 2px solid #777;
-                display: flex;
-                flex-direction: column;
-            }
-
-            nav span.link {
-                display: block;
-                width: 100%;
-                background-color: white;
-                border-bottom: 1px solid #555;
-                padding: 0.25rem;
-                padding-left: 1rem;
-            }
-
-            nav span.service {
-                padding-left: 2rem;
-            }
-
-            nav span.link:hover {
-                color: #d4d4d4;
-                background-color: #777;
-            }
-            
-            #disclosure_services summary span.arrow {                   
-                border-top: 8px solid transparent;
-                border-bottom: 8px solid transparent;
-                border-left: 8px solid #555;
-                margin-left: 10px;
-            }
-
-            #disclosure_services[open] summary span.arrow {                  
-                transform: rotate(90deg);
-                margin-left: 10px;
-
-            }
-
-            /* About */
-            /* ================================== */
-
-            #about {
-                padding: 0 5% 0 5%;
-                background-image: url('/assets/images/other/about_us_background.webp');
-                background-size: cover;
-                background-repeat: no-repeat;
-                color: #555; 
-            }
-
-            #about section {
-                width: 100%;
-                background: rgba(240, 240, 240, 0.8);
-                padding: 1rem 2rem;
-                border-radius: 0;
-            }
-
-            #about h3 {
-                margin-bottom: 1rem;
-                font-weight: 600;
-                color: #555;
-            }
-
-            /* Services */
-            /* ================================== */
-            
-            #services {
-                margin: 0 0 1rem 0;
-                padding: 0 1% 0 1%;
-                align-content: center;
-                font-size: .9rem;
-            }
-        
-            #services section {
-                display: flex;
-                flex-wrap: wrap;
-                padding: 0.5rem;
-            }
-
-            #services a {
-                display: block;
-                flex: 45%;
-                max-width: 50%;
-                margin-bottom: 0.5rem;
-                background-color: #555;
-                color: #d4d4d4;
-                
-                & :hover {
-                    background-color: blue;
-                    color: #d4d4d4;
-                }
-            }
-
-            #services span {
-                padding:0.3rem ;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-
-            #services a:nth-child(odd) {
-                margin-right: .3rem;
-            }
-
-            #services a:nth-last-child(-n+2) {
-                margin-bottom: 0;
-            }
-
-            /* Contact */
-            /* ================================== */
-            #contact div {
-                width: 100%; 
-                display: flex;
-                flex-wrap: wrap;
-                flex-direction: row;
-                justify-content: center;
-                align-content: flex-start;
-            }
-            
-            #contact p {
-                display: block;
-                width: 100%;
-                text-align: left;
-            }
-
-            #contact_form {
-                width: 100%;
-                max-width: 60rem;
-                display: flex;
-                flex-direction: column;
-                align-items: flex-start;
-                justify-content: flex-start;
-            }
-
-            #contact input, #contact textarea {
-                padding: 5px;
-                margin-bottom: 5px;
-            }
-
-            #contact_form input {
-                width: 100%;
-            }
-
-            #contact_form textarea {
-                width: 100%;
-                min-height: 20rem;
-            }
-
-            #contact_form span {
-                display: flex;
-                flex-direction: row;
-                justify-content: flex-start;
-            }
-
-            #contact_form button {
-                flex-basis: 0%;
-                padding: 0.25rem;
-            }
-
-            /* Legal */
-            /* ================================== */
-
-            #legal h3 {
-                color: #555;
-                text-align: left;
-                margin: 0;
-            }
-
-            /* Footer */
-            /* ================================== */
-
-            footer section {
-                background: white;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                border-radius: 0;
-            }
-
-            footer p {
-                font-size: 0.75rem;
-                margin: 0;
-                padding: 0;
             }
 
     }
