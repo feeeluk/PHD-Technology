@@ -120,6 +120,8 @@ body {
                 left: 0;
                 text-align: center;
                 z-index: 1;
+                position: fixed;
+                top: 0;
             }
 
             #logo img {
@@ -132,6 +134,8 @@ body {
                 margin: 10px 0;
                 cursor: pointer;
                 z-index: 2;
+                position: fixed;
+                top: 0;
             }
 
             #disclosure_links summary {
