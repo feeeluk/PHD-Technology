@@ -22,7 +22,7 @@
 
 body {
     color: #555;
-    background: linear-gradient(to right, #555, #333 25%, #333 75%, #555);
+    background: linear-gradient(to right, #777, #555 25%, #999);
     font-family: 'Inter';
     font-size: 16px;
     font-weight: 100;
@@ -254,6 +254,17 @@ body {
                 border-radius: 0;
             }
 
+            #about section.elevator_pitch {
+                background: rgba(50, 140, 130, 0.95);
+                margin-top: 0.25rem;
+                padding: 1rem;
+                padding-bottom: 0;
+
+                & h3 {
+                    color: #D4D4D4;
+                }
+            }
+
             #about h3 {
                 margin-bottom: 1rem;
                 font-weight: 600;
@@ -285,7 +296,7 @@ body {
                 color: #d4d4d4;
                 
                 & :hover {
-                    background-color: rgb(215, 35, 35);
+                    background-color: #999;
                     color: #d4d4d4;
                 }
             }
@@ -446,13 +457,13 @@ body {
             .button_click_for_details {
                 display: block;
                 float: left;
+                width: fit-content;
                 margin: 0;
                 padding: 0.6rem 1rem;
-                width: fit-content;
-                background-color: green;
+                text-align: center;
                 border: 1px solid black;
                 color: white;
-                text-align: center;
+                background-color: rgb(50, 140, 130);
             }
 
             /* Benefits */
@@ -595,6 +606,13 @@ body {
   
             /* Next Steps */
             /* ............................................... */
+
+            .next_steps span {
+                display: block;
+                margin: 0 auto;
+                max-width: 40rem;
+                min-height: fit-content;
+            }
 
             /* Portfolio */
             /* ............................................... */

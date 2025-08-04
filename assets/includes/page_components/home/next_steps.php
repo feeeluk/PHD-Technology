@@ -1,4 +1,4 @@
-<article>
+<article class="next_steps">
     
     <h1>NEXT STEPS & HOW IT WORKS</h1>
 
@@ -7,16 +7,30 @@
         <div>
             
             <p>
-                        
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                
+                If you have read this far then you should probably give me a call!
+            </P>
+            
+            <P>
+                As every situation is unique, the best way to find out if / how I can help you, is to learn more about your situation and what it is that you are looking to achieve. 
             </p>
 
-            <a  class="call_us" href="/pages/contact.php">
+            <p>
+                You can either use a general contact form, or you can call me directly. Either way, click below to get started.
+            </p>
+            
+            <p>* If you do prefer to use the contact form, please be as descriptive as possible.
+            </p>  
 
-                <img src="/assets/images/other/call_us.png" alt="Call Us">
+            <span>
 
-            </a>
+                <a  class="call_us" href="/pages/contact.php">
+
+                    <img src="/assets/images/other/get_in_touch.webp" alt="Contact Us">
+
+                </a>
+                
+            </span>
+            
 
         </div>
     

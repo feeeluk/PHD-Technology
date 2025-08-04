@@ -1,8 +1,12 @@
 <article id="about">
 
-    <section>
+    <section class="elevator_pitch">
 
-        <h3>Helping you make better use of your data, tools, ideas, and technology.</h3>
+        <h3>Helping you to use data, tools, ideas, and technology more effectively.</h3>
+
+    </section>
+
+    <section>
          
         <p>I work with organizations of all sizes to help them with things like:</p>
 
