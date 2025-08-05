@@ -33,15 +33,29 @@
                 As each PoC is highly unique, please get in touch with us to discuss your needs.
             </p>
             
+
             <?php
 
                 if (str_contains($_SERVER['REQUEST_URI'],'proof_of_concept') == false)
                     {
+                        $link = "pages/services/proof_of_concept.php";
+                        
                         include($path."assets/includes/page_components/other/button_click_for_details.php");
 
                     }
 
-            ?>     
+                if (str_contains($_SERVER['REQUEST_URI'],'proof_of_concept') == true)
+                    {
+
+            ?>
+
+            <p>
+                TEST. This paragraph should only be visible in the specific service page, not on the homepage.
+            </p>
+
+            <?php
+                    }
+            ?>    
 
         </div>
 
