@@ -44,6 +44,7 @@ body {
             }    
 
             article {
+                position: static;
                 margin: 0 0 1rem 0;
                 padding: 0 1% 0 1%;
                 display: flex;
@@ -115,16 +116,15 @@ body {
             /* ############################################# */
 
             #logo {
+                position: fixed;
                 height: 70px; 
                 width: 100%;
                 background: white;
                 padding: 10px 0;
-                position: absolute;
                 top: 0;
                 left: 0;
                 text-align: center;
                 z-index: 1;
-                position: fixed;
                 top: 0;
             }
 
@@ -133,12 +133,12 @@ body {
             }
 
             #hamburger {
+                position: fixed;
                 height: 50px;
                 width: 50px;
                 margin: 10px 0;
                 cursor: pointer;
                 z-index: 2;
-                position: fixed;
                 top: 0;
             }
 
@@ -158,10 +158,10 @@ body {
             }
 
             #disclosure_links[open]::details-content {
+                position: fixed;
                 width: 100%;
                 display: flex;
                 flex-direction: column;
-                position: fixed;
                 top: 70px;
             }
             
@@ -426,11 +426,9 @@ body {
                 color: #555;
                 width: 100%;
             }
-
-            .first
         
             .margin_top { 
-                margin-top: 1rem
+                margin-top: 1rem;
             }
 
             .margin_bottom {
@@ -452,7 +450,7 @@ body {
             .banner {
                 float: left;
                 width: 100%;
-                max-width: 40rem;
+                max-width: 30rem;
                 min-height: fit-content;
             }    
 
@@ -622,7 +620,7 @@ body {
             .next_steps span {
                 display: block;
                 margin: 0 auto;
-                max-width: 40rem;
+                max-width: 30rem;
                 min-height: fit-content;
             }
 
