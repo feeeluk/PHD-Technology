@@ -38,7 +38,7 @@
                 <a href="/">
                     <img src="/assets/images/other/logo.webp" alt="logo">
                 </a>
-                
+            
             </div>
 
             <!-- Disclosure -->
@@ -50,7 +50,8 @@
 
                 </summary>     
                 
-                <nav>
+                <nav id="navbar_for_mobile">
+
                     <a href="/"><span class="link">Home</span></a>
                     <a href="/pages/case_studies.php"><span class="link">Case Studies</span></a>
                     <a href="/pages/portfolio.php"><span class="link">Portfolio</span></a>
@@ -74,6 +75,69 @@
                 
                 </nav>
 
-            </details>    
+            </details>
+            
+            <nav id="navbar_dropdown">
+
+                <button>
                     
+                    <a href="/">
+                        Home
+                    </a>
+
+                </button>
+
+                <button class="dropButton">
+                    
+                    <a href="#">
+                        Services
+                    </a>
+
+                    <div class="dropContent">
+                        <a href="/pages/services/proof_of_concept.php">Proof of Concept</a>
+                        <a href="/pages/services/business_analysis.php">Business Analysis</a>
+                        <a href="/pages/services/project_management.php">Project Management</a>
+                        <a href="/pages/services/software_development.php">Software Development</a>
+                        <a href="/pages/services/data_management.php">Data Management</a>
+                        <a href="/pages/services/skills_development_and_training.php">Skills Development & Training</a>
+                        <a href="/pages/services/artificial_intelligence.php">Artificial Intelligence</a>
+                        <a href="/pages/services/digital_media_and_marketing.php">Digital Media & Marketing</a>
+                    </div>
+
+                </button>
+
+                <button>
+
+                    <a href="/pages/case_studies.php">
+                        Case Studies
+                    </a>
+
+                </button>
+                
+                <button>
+
+                    <a href="/pages/portfolio.php">
+                        Portfolio
+                    </a>
+
+                </button>
+
+                <button>
+
+                    <a href="">
+                        Blog
+                    </a>
+
+                </button>
+
+                <button>
+
+                    <a href="/pages/contact.php">
+                        Contact
+                    </a>
+
+                </button>
+
+            </nav>
+                
         </header>

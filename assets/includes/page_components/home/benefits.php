@@ -1,6 +1,6 @@
 <article class="benefits">
 
-    <h1>WHAT ARE THE BENEFITS?</h1>
+    <h1>BENEFITS OF USING US</h1>
     
     <section>
 
