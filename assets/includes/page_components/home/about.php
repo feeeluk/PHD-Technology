@@ -8,23 +8,97 @@
 
     <section>
          
-        <p>I work with organizations of all sizes to help them with things like:</p>
-
-        <ul>
-            <li>unlocking insights from existing data</li>
-            <li>analysing existing 'as-is' business
-            <li>managing complex or messy projects</li>
-            <li>turning ideas into working proof-of-concepts</li>
-            <li>training teams on how to use their tools more effectively</li>
-        </ul> 
+        <div id="main">
             
-        <p>With a mix of technical skills and business experience, I provide a variety of services that many businesses do not have 'in-house'.</p>
+            <p>
+                I work with organizations of all sizes to help them with things like:
+            </p>
 
-        <p>Whether you just need an extra brain on a project, or you have an idea that you're desparate to try but don't know where to start, I'm here to help you get where you want to go.</p>
-        
-        <p>No jargon, no fluff, just focused support to help move things forward.</p>
+            <ul>
+                <li>unlocking insights from existing data</li>
+                <li>analysing existing 'as-is' business
+                <li>managing complex or messy projects</li>
+                <li>turning ideas into working proof-of-concepts</li>
+                <li>training teams on how to use their tools more effectively</li>
+            </ul> 
+                
+            <p>
+                With a mix of technical skills and business experience, I provide a variety of services that many businesses do not have 'in-house'.
+            </p>
 
-        <p>Check out the 'Case Studies' section to see some examples of how I have been able to help my clients.</p>
+            <p>
+                Whether you just need an extra brain on a project, or you have an idea that you're desparate to try but don't know where to start, I'm here to help you get where you want to go.
+            </p>
+            
+            <p>
+                No jargon, no fluff, just focused support to help move things forward.
+            </p>
+
+            <p>
+                Check out the 'Case Studies' section to see some examples of how I have been able to help my clients.
+            </p>
+
+        </div>
+
+        <div id="right">
+
+            <span>
+                <a href="/pages/services/proof_of_concept.php">
+                    <img src="/assets/images/services/proof_of_concept/link_proof_of_concept.webp" alt="Proof of concept">
+                    <h3>Proof of Concept</h3>
+                </a>
+            </span>
+
+            <span>
+                <a href="/pages/services/business_analysis.php">
+                    <img src="/assets/images/services/business_analysis/link_business_analysis.webp" alt="Business analysis">
+                    <h3>Business Analysis</h3>
+                </a>
+            </span>
+
+            <span>
+                <a href="/pages/services/project_management.php">
+                    <img src="/assets/images/services/project_management/link_project_management.webp" alt="Project managment">
+                    <h3>Project Management</h3>
+                </a>
+            </span>
+
+            <span>
+                <a href="/pages/services/software_development.php">            
+                    <img src="/assets/images/services/software_development/link_software_development.webp" alt="Software development">                     
+                    <h3>Software Development</h3>
+                </a>
+            </span>
+
+            <span>
+                <a href="/pages/services/data_management.php">
+                    <img src="/assets/images/services/data_management/link_data_management.webp" alt="Data management">
+                    <h3>Data Management</h3>
+                </a>
+            </span>
+
+            <span>
+                <a href="/pages/services/skills_development_and_training.php">
+                    <img src="/assets/images/services/skills_development_and_training/link_skills_development_and_training.webp" alt="Skills development & training">
+                    <h3>Skills Development & Training</h3>
+                </a>
+            </span>
+
+            <span>
+                <a href="/pages/services/artificial_intelligence.php">
+                    <img src="/assets/images/services/artificial_intelligence/link_artificial_intelligence.webp" alt="Artificial intelligence">
+                    <h3>Artificial Intelligence</h3>
+                </a>
+            </span>
+
+            <span>
+                <a href="/pages/services/digital_media_and_marketing.php">
+                    <img src="/assets/images/services/digital_media_and_marketing/link_digital_media_and_marketing.webp" alt="Digital media and marketing" alt="Data management">
+                    <h3>Digital Media & Marketing</h3>
+                </a>
+            </span>
+
+        </div>
 
     </section>
 
