@@ -45,7 +45,7 @@
         padding: 0 1% 0 1%;
         display: flex;
         flex-direction: column;
-        align-content: center;
+        align-items: center;
         font-size: .9rem;
     }
 
@@ -53,6 +53,7 @@
         padding: .5rem;     
         background: linear-gradient(to bottom right,#777, #666 );
         border-radius: 5px;
+        width: 100%;
     }
 
     div {
@@ -162,6 +163,8 @@
             justify-content: center;
             align-items: center;
             border-radius: 0;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         footer p {
@@ -274,7 +277,7 @@
 
             .case_studies section.description {
                 display: block;
-                margin: 0;
+                margin: 0 auto;
                 padding: 0.5rem;
             }
 
@@ -384,11 +387,12 @@
 
             .next_steps span {
                 display: block;
-                margin: 0 auto;
-                max-width: 30rem;
-                min-height: fit-content;
+                background-color: green;
             }
 
+            .next_steps img {
+                max-width: 10rem;
+            }
         /* Portfolio */
         /* ............................................... */
 
@@ -402,7 +406,7 @@
 
             .portfolio section.description {
                 display: block;
-                margin: 0;
+                margin: 0 auto;
                 padding: 0.5rem;
             }
 
@@ -703,6 +707,12 @@
 
             /* Elements By ID  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
+                /* HTML \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+                    section {
+                        max-width: 80rem;
+                    }
+            
                 /* Header & Menu */
                 /* ############################################# */
 

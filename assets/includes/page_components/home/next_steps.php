@@ -18,7 +18,8 @@
                 You can either use a general contact form, or you can call me directly. Either way, click below to get started.
             </p>
             
-            <p>* If you do prefer to use the contact form, please be as descriptive as possible.
+            <p>
+                * If you do prefer to use the contact form, please be as descriptive as possible.
             </p>  
 
             <span>
@@ -30,7 +31,6 @@
                 </a>
                 
             </span>
-            
 
         </div>
     

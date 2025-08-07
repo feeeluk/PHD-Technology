@@ -22,7 +22,7 @@
         
 ?>
 
-        <article>
+        <article class="case_studies">
                 
             <h1 class="margin_top">CASE STUDIES</h1>
                 

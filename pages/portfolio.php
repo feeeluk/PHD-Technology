@@ -22,7 +22,7 @@
         
 ?>
 
-        <article>
+        <article class="portfolio">
                 
             <h1 class="margin_top">PORTFOLIO</h1>
                 
@@ -41,9 +41,6 @@
         </article>
 
 <?php
-
-        // SERVICE LINKS
-        // include($path."assets/includes/page_components/services/services_links.php");
     
         // PROOF OF CONCEPTS
         include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_portfolio.php");
