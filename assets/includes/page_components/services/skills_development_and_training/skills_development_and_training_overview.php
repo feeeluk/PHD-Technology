@@ -33,7 +33,7 @@
                     {
                         $link = "pages/services/skills_development_and_training.php";
                         
-                        include($path."assets/includes/page_components/other/button_click_for_details.php");
+                        include($path."assets/includes/components/button_click_for_details.php");
 
                     }
 

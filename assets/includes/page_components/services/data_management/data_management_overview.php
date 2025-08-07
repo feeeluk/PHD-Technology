@@ -34,7 +34,7 @@
                     {
                         $link = "pages/services/data_management.php";
                         
-                        include($path."assets/includes/page_components/other/button_click_for_details.php");
+                        include($path."assets/includes/components/button_click_for_details.php");
 
                     }
 

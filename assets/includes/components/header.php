@@ -2,7 +2,7 @@
 
     // IMPORT SITE WIDE VARIABLES & CONSTANTS
     // ****************************************************************************************************************************************
-        include($path."assets/includes/other/site_details.php"); 
+        include($path."assets/includes/components/site_details.php"); 
         
 ?>
 

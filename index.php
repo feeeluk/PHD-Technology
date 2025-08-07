@@ -15,13 +15,13 @@
 
     // HEADER
     // ****************************************************************************************************************************************
-        include($path."assets/includes/sections/header.php");
+        include($path."assets/includes/components/header.php");
 
     // MAIN PAGE
     // _________________________________________________________________________________________________________________________________________
         
-        // ABOUT
-        include($path."assets/includes/page_components/home/about.php");
+        // INTRO
+        include($path."assets/includes/page_components/home/intro.php");
         
         // SERVICES
         include($path."assets/includes/page_components/home/services_links.php");
@@ -61,6 +61,6 @@
 
     // FOOTER
     // ****************************************************************************************************************************************
-        include($path."assets/includes/sections/footer.php");
+        include($path."assets/includes/components/footer.php");
 
 ?>

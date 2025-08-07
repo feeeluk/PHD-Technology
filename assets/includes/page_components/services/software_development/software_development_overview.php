@@ -35,7 +35,7 @@
                     {
                         $link = "pages/services/software_development.php";
                         
-                        include($path."assets/includes/page_components/other/button_click_for_details.php");
+                        include($path."assets/includes/components/button_click_for_details.php");
 
                     }
 
@@ -70,7 +70,7 @@
 
                 if (str_contains($_SERVER['REQUEST_URI'],'software_development') == false)
                     {
-                        include($path."assets/includes/page_components/other/button_click_for_details.php");
+                        include($path."assets/includes/components/button_click_for_details.php");
 
                     }
 
