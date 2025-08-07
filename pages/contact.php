@@ -21,9 +21,9 @@
     // _________________________________________________________________________________________________________________________________________
 
 ?>
-    <article id="contact" class="margin_top">
+    <article id="contact">
 
-        <h1>Contact</h1>
+        <h1 class="margin_top">CONTACT</h1>
 
         <section>
 

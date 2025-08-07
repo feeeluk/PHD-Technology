@@ -11,7 +11,7 @@
         $path = "../";        
         
         // set the page title
-        $subTitle = "Portfolio";
+        $subTitle = "Legal";
 
     // HEADER
     // **************************************************************************************************************************************** 
@@ -22,9 +22,9 @@
         
 ?>
 
-<article id="legal" class="margin_top">
+<article id="legal">
 
-    <h1>Legal</h1>
+    <h1 class="margin_top">Legal</h1>
 
     <section>
      

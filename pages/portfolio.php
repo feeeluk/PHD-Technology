@@ -22,9 +22,9 @@
         
 ?>
 
-        <article class="portfolio margin_top">
+        <article>
                 
-            <h1>PORTFOLIO</h1>
+            <h1 class="margin_top">PORTFOLIO</h1>
                 
             <section class="description">
 
