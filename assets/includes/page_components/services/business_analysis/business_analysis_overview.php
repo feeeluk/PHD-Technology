@@ -1,14 +1,16 @@
 <article class="overview">
 
+    <a id="business_analysis" class="anchor"></a>
+
 <?php
 
     if (str_contains($_SERVER['REQUEST_URI'],'business_analysis') == true)
         {
-            echo "<h1 id='business_analysis' class='margin_top'>BUSINESS ANALYSIS</h1>";
+            echo "<h1 class='margin_top'>BUSINESS ANALYSIS</h1>";
         }
 
         else {
-            echo "<h1 id='business_analysis'>BUSINESS ANALYSIS</h1>";
+            echo "<h1>BUSINESS ANALYSIS</h1>";
         }
 
 ?>
@@ -16,7 +18,7 @@
     <section>
 
         <div>
-        
+
             <span class="banner">
                 <img src="/assets/images/services/business_analysis/overview_business_analysis.webp" alt="business analysis">
             </span>

@@ -1,14 +1,16 @@
 <article class="overview">
 
+    <a id="data_management" class="anchor"></a>
+
 <?php
 
     if (str_contains($_SERVER['REQUEST_URI'],'data_management') == true)
         {
-            echo "<h1 id='data_management' class='margin_top'>DATA MANAGEMENT</h1>";
+            echo "<h1 class='margin_top'>DATA MANAGEMENT</h1>";
         }
 
         else {
-            echo "<h1 id='data_management'>DATA MANAGEMENT</h1>";
+            echo "<h1>DATA MANAGEMENT</h1>";
         }
 
 ?>

@@ -1,14 +1,16 @@
 <article class="overview">
 
+    <a id="proof_of_concept" class="anchor"></a>
+
     <?php
 
         if (str_contains($_SERVER['REQUEST_URI'],'proof_of_concept') == true)
             {
-                echo "<h1 id='proof_of_concept' class='margin_top'>PROOF OF CONCEPT</h1>";
+                echo "<h1 class='margin_top'>PROOF OF CONCEPT</h1>";
             }
 
         else {
-                echo "<h1 id='proof_of_concept'>PROOF OF CONCEPT</h1>";
+                echo "<h1>PROOF OF CONCEPT</h1>";
             }
 
     ?>       

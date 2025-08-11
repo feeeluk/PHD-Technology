@@ -1,15 +1,17 @@
 <article class="overview">
 
+    <a id="artificial_intelligence" class="anchor"></a>
+
 <?php
 
     if (str_contains($_SERVER['REQUEST_URI'],'artificial_intelligence') == true)
         {
-            echo "<h1 id='artificial_intelligence' class='margin_top'>ARTIFICIAL INTELLIGENCE</h1>";
+            echo "<h1 class='margin_top'>ARTIFICIAL INTELLIGENCE</h1>";
             echo "<h3>(COMING SOON)</h3>";
         }
 
         else {
-            echo "<h1 id='artificial_intelligence'>ARTIFICIAL INTELLIGENCE</h1>";
+            echo "<h1>ARTIFICIAL INTELLIGENCE</h1>";
             echo "<h3>(COMING SOON)</h3>";
         }
 

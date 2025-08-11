@@ -1,14 +1,16 @@
 <article class="overview">
 
+    <a id="project_management" class="anchor"></a>
+
 <?php
 
     if (str_contains($_SERVER['REQUEST_URI'],'project_management') == true)
         {
-            echo "<h1 id='project_management' class='margin_top'>PROJECT MANAGEMENT</h1>";
+            echo "<h1 class='margin_top'>PROJECT MANAGEMENT</h1>";
         }
 
         else {
-            echo "<h1 id='project_management'>PROJECT MANAGEMENT</h1>";
+            echo "<h1>PROJECT MANAGEMENT</h1>";
         }
 
 ?>
