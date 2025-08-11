@@ -1,4 +1,4 @@
-<article id="about">
+<article id="introduction">
 
     <section class="elevator_pitch">
 

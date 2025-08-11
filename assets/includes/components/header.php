@@ -53,7 +53,7 @@
                 <nav id="navbar_for_mobile">
 
                     <a href="/"><span class="link">Home</span></a>
-                    <a href="/"><span class="link">About</span></a>
+                    <a href="/pages/about.php"><span class="link">About</span></a>
 
                     <!-- <a href="/"><span class="link">Blog</span></a> -->
 
@@ -94,7 +94,7 @@
 
                 <button>
 
-                    <a href="">
+                    <a href="/pages/about.php">
                         About
                     </a>
 

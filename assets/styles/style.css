@@ -107,10 +107,10 @@
 
 /* Elements By ID  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
-    /* About */
+    /* Introduction */
     /* ############################################# */
 
-        #about {
+        #introduction {
             padding: 0 5% 0 5%;
             background-image: url('/assets/images/other/about_us_background.webp');
             background-size: cover;
@@ -118,7 +118,7 @@
             color: #555; 
         }
 
-        #about section {
+        #introduction section {
             width: 100%;
             background: rgba(240, 240, 240, 0.8);
             padding: 1rem 2rem;
@@ -126,13 +126,13 @@
             display: flex;
         }
 
-        #about div {
+        #introduction div {
             margin: 0;
             padding: 0;
             background: transparent;
         }
 
-        #about section.elevator_pitch {
+        #introduction section.elevator_pitch {
             background: rgba(50, 140, 130, 0.95);
             margin-top: 0.25rem;
             padding: 1rem;
@@ -586,10 +586,10 @@
                             margin-left: 10px;
                         }
 
-                    /* About */
+                    /* Introduction */
                     /* ############################################# */
 
-                        #about #right {
+                        #introduction #right {
                             display: none;
                         }
 
@@ -779,20 +779,20 @@
                         display: block;
                     }
 
-                /* About */
+                /* Introduction */
                 /* ############################################# */
 
-                    #about section {
+                    #introduction section {
                         margin-bottom: 0;
                         padding-bottom: 0;
                     }
                 
-                    #about #main {
+                    #introduction #main {
                         width: 35%;
                         padding-right: 1rem;
                     }
                 
-                    #about #right {
+                    #introduction #right {
                         display: block;
                         width: 65%;
                         display: flex;
@@ -800,7 +800,7 @@
                         justify-content: flex-start;
                     }
 
-                    #about span {
+                    #introduction span {
                         display: block;
                         position: relative;
                         max-width: 50%;
@@ -809,22 +809,22 @@
                         margin-bottom: 0.25rem;
                     }
 
-                    #about span:last-child {
+                    #introduction span:last-child {
                         margin-bottom: 1rem;
                     }
 
-                    #about a {
+                    #introduction a {
                         margin: 0;
                         padding: 0;
                     }
 
-                    #about span img {
+                    #introduction span img {
                         margin: 0;
                         padding: 0;
                         vertical-align: bottom;
                     }
 
-                    #about span h3 {
+                    #introduction span h3 {
                         position:absolute;
                         bottom: 0;
                         width: 100%;
