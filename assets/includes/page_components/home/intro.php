@@ -43,13 +43,6 @@
         <div id="right">
 
             <span>
-                <a href="/pages/services/proof_of_concept.php">
-                    <img src="/assets/images/services/proof_of_concept/link_proof_of_concept.webp" alt="Proof of concept">
-                    <h3>Proof of Concept</h3>
-                </a>
-            </span>
-
-            <span>
                 <a href="/pages/services/business_analysis.php">
                     <img src="/assets/images/services/business_analysis/link_business_analysis.webp" alt="Business analysis">
                     <h3>Business Analysis</h3>
@@ -81,6 +74,13 @@
                 <a href="/pages/services/skills_development_and_training.php">
                     <img src="/assets/images/services/skills_development_and_training/link_skills_development_and_training.webp" alt="Skills development & training">
                     <h3>Skills Development & Training</h3>
+                </a>
+            </span>
+            
+            <span>
+                <a href="/pages/services/proof_of_concept.php">
+                    <img src="/assets/images/services/proof_of_concept/link_proof_of_concept.webp" alt="Proof of concept">
+                    <h3>Proof of Concept</h3>
                 </a>
             </span>
 
