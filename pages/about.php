@@ -24,17 +24,18 @@
 
 <article id="about">
 
-    <h1 class="margin_top">About</h1>
+    <h1 class="margin_top">ABOUT</h1>
 
     <section>
      
         <div>
         
+            <h3>Who am I?</h3>
             <p>
                 test
             </p>
 
-            <h3></h3>
+            <h3>What I can help you with</h3>
 
                 <p>
 
@@ -55,7 +56,16 @@
 
 <?php
 
-// FOOTER
+        // BENEFITS
+        include($path."assets/includes/page_components/about/benefits.php");
+        
+        // PRICES
+        include($path."assets/includes/page_components/about/prices.php");
+
+        // NEXT STEPS
+        include($path."assets/includes/page_components/about/next_steps.php");
+
+    // FOOTER
     // ****************************************************************************************************************************************
         include($path."assets/includes/components/footer.php");
 

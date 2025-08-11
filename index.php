@@ -26,15 +26,6 @@
         // SERVICES
         include($path."assets/includes/page_components/home/services_links.php");
 
-        // BENEFITS
-        include($path."assets/includes/page_components/home/benefits.php");
-        
-        // PRICES
-        include($path."assets/includes/page_components/home/prices.php");
-
-        // NEXT STEPS
-        include($path."assets/includes/page_components/home/next_steps.php");
-
         // BUSINESS ANALYSIS - OVERVIEW
         include($path."assets/includes/page_components/services/business_analysis/business_analysis_overview.php");
         
