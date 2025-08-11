@@ -2,7 +2,7 @@
 
     <section class="elevator_pitch">
 
-        <h3>Helping you to use data, tools, ideas, and technology, more effectively.</h3>
+        <h3>Helping you with data, tools, ideas, and technology.</h3>
 
     </section>
 

@@ -53,11 +53,10 @@
                 <nav id="navbar_for_mobile">
 
                     <a href="/"><span class="link">Home</span></a>
-                    <a href="/pages/case_studies.php"><span class="link">Case Studies</span></a>
-                    <a href="/pages/portfolio.php"><span class="link">Portfolio</span></a>
-                    <a href="/"><span class="link">Blog</span></a>
-                    <a href="/pages/contact.php"><span class="link">Contact</span></a>
-                    
+                    <a href="/"><span class="link">About</span></a>
+
+                    <!-- <a href="/"><span class="link">Blog</span></a> -->
+
                     <details id="disclosure_services">
                         
                         <summary>Services<span class="arrow"></span></summary>
@@ -72,6 +71,12 @@
                         <a href="/pages/services/digital_media_and_marketing.php"><span class="link service">Digital Media & Marketing</span></a>
                         
                     </details>
+
+                    <a href="/pages/case_studies.php"><span class="link">Case Studies</span></a>
+                    <a href="/pages/portfolio.php"><span class="link">Portfolio</span></a>
+                    <a href="/pages/contact.php"><span class="link">Contact</span></a>
+                    
+                    
                 
                 </nav>
 
@@ -83,6 +88,14 @@
                     
                     <a href="/">
                         Home
+                    </a>
+
+                </button>
+
+                <button>
+
+                    <a href="">
+                        About
                     </a>
 
                 </button>
@@ -122,13 +135,13 @@
 
                 </button>
 
-                <button>
+                <!-- <button>
 
                     <a href="">
                         Blog
                     </a>
 
-                </button>
+                </button> -->
 
                 <button>
 
