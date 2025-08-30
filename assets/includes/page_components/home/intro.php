@@ -11,7 +11,7 @@
         <div id="main">
             
             <p>
-                I work with organizations of all sizes to help them with things like:
+                I help organizations of all sizes with things like:
             </p>
 
             <ul>

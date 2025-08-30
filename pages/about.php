@@ -20,41 +20,9 @@
     // MAIN PAGE
     // _________________________________________________________________________________________________________________________________________
         
-?>
 
-<article id="about">
-
-    <h1 class="margin_top">ABOUT</h1>
-
-    <section>
-     
-        <div>
-        
-            <h3>Who am I?</h3>
-            <p>
-                test
-            </p>
-
-            <h3>What I can help you with</h3>
-
-                <p>
-
-                </p>
-
-            <h3></h3>
-
-                <p>
-
-                </p>
-        
-        </div>
-
-    </section>
-
-</article>
-
-
-<?php
+        // ABOUT SUMMARY
+        include($path."assets/includes/page_components/about/about_summary.php");
 
         // BENEFITS
         include($path."assets/includes/page_components/about/benefits.php");
