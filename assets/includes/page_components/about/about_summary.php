@@ -1,6 +1,6 @@
 <article id="about">
     
-    <h1 class="margin_top">ABOUT</h1>
+    <h1 class="margin_top title">ABOUT</h1>
 
     <section>
 

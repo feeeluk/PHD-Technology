@@ -6,11 +6,11 @@
 
     if (str_contains($_SERVER['REQUEST_URI'],'business_analysis') == true)
         {
-            echo "<h1 class='margin_top'>BUSINESS ANALYSIS</h1>";
+            echo "<h1 class='margin_top title'>BUSINESS ANALYSIS</h1>";
         }
 
         else {
-            echo "<h1>BUSINESS ANALYSIS</h1>";
+            echo "<h1 class='title'>BUSINESS ANALYSIS</h1>";
         }
 
 ?>

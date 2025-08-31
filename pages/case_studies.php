@@ -24,7 +24,7 @@
 
         <article class="case_studies">
                 
-            <h1 class="margin_top">CASE STUDIES</h1>
+            <h1 class="margin_top title">CASE STUDIES</h1>
                 
             <section class="description">
 

@@ -6,11 +6,11 @@
 
     if (str_contains($_SERVER['REQUEST_URI'],'software_development') == true)
         {
-            echo "<h1 class='margin_top'>SOFTWARE DEVELOPMENT</h1>";
+            echo "<h1 class='margin_top title'>SOFTWARE DEVELOPMENT</h1>";
         }
 
         else {
-            echo "<h1>SOFTWARE DEVELOPMENT</h1>";
+            echo "<h1 class='title'>SOFTWARE DEVELOPMENT</h1>";
         }
 
 ?>

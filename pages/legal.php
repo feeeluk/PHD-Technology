@@ -24,7 +24,7 @@
 
 <article id="legal">
 
-    <h1 class="margin_top">Legal</h1>
+    <h1 class="margin_top title">Legal</h1>
 
     <section>
      

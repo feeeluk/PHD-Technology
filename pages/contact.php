@@ -23,7 +23,7 @@
 ?>
     <article id="contact">
 
-        <h1 class="margin_top">CONTACT</h1>
+        <h1 class="margin_top title">CONTACT</h1>
 
         <section>
 

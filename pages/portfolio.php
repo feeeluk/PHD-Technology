@@ -24,7 +24,7 @@
 
         <article class="portfolio">
                 
-            <h1 class="margin_top">PORTFOLIO</h1>
+            <h1 class="margin_top title">PORTFOLIO</h1>
                 
             <section class="description">
 
