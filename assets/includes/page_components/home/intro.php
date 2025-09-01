@@ -60,9 +60,9 @@
             </span>
 
             <span>
-                <a href="#data_management">
-                    <img src="/assets/images/services/data_management/link_data_management.webp" alt="Data management">
-                    <h3>Data Management</h3>
+                <a href="#data_manipulation">
+                    <img src="/assets/images/services/data_manipulation/link_data_manipulation.webp" alt="data manipulation">
+                    <h3>Data manipulation</h3>
                 </a>
             </span>
 
@@ -89,7 +89,7 @@
 
             <span>
                 <a href="#digital_media_and_marketing">
-                    <img src="/assets/images/services/digital_media_and_marketing/link_digital_media_and_marketing.webp" alt="Digital media and marketing" alt="Data management">
+                    <img src="/assets/images/services/digital_media_and_marketing/link_digital_media_and_marketing.webp" alt="Digital media and marketing" alt="data manipulation">
                     <h3>Digital Media & Marketing</h3>
                 </a>
             </span>

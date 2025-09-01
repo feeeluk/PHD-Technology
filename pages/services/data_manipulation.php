@@ -11,7 +11,7 @@
         $path = "../../";        
         
         // set the page title
-        $subTitle = "Data Management";
+        $subTitle = "Data Manipulation";
 
     // HEADER
     // ****************************************************************************************************************************************
@@ -21,22 +21,22 @@
     // _________________________________________________________________________________________________________________________________________
            
         // Overview
-        include($path."assets/includes/page_components/services/data_management/data_management_overview.php");
+        include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_overview.php");
 
         // Benefits
-        include($path."assets/includes/page_components/services/data_management/data_management_benefits.php");
+        include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_benefits.php");
 
         // Case Studies
-        include($path."assets/includes/page_components/services/data_management/data_management_case_studies.php");
+        include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_case_studies.php");
 
         // Prices
-        include($path."assets/includes/page_components/services/data_management/data_management_prices.php");
+        include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_prices.php");
 
         // Next Steps & How it Works
-        include($path."assets/includes/page_components/services/data_management/data_management_next_steps.php");
+        include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_next_steps.php");
 
         // Portfolio
-        include($path."assets/includes/page_components/services/data_management/data_management_portfolio.php");
+        include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_portfolio.php");
         
     // FOOTER
     // ****************************************************************************************************************************************

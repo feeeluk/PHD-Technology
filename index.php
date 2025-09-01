@@ -35,8 +35,8 @@
         // SOFTWARE DEVELOPMENT - OVERVIEW
         include($path."assets/includes/page_components/services/software_development/software_development_overview.php");
         
-        // DATA MANAGEMENT - OVERVIEW
-        include($path."assets/includes/page_components/services/data_management/data_management_overview.php");
+        // DATA MANIPULATION - OVERVIEW
+        include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_overview.php");
         
         // SKILLS DEVELOPMENT & TRAINING - OVERVIEW
         include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_overview.php");
