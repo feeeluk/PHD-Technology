@@ -167,8 +167,7 @@ They are superceeded by general IDs or Classes, or by specific 'media queries' (
         }
 
         #introduction section.elevator_pitch {
-            background: rgba(50, 140, 130, 0.95);
-            margin-top: 0.1rem;
+            background: rgba(50, 140, 130, 0.8);
             padding: 1rem;
             justify-content: center;
 
