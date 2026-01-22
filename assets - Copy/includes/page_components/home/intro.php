@@ -11,32 +11,31 @@
         <div id="main">
             
             <p>
-                We help businesses make better use of their data, tools, technology, and ideas.
+                We help businesses make better use of their data, tools, and ideas.
             </p>
 
             <p>
-                Not every business has the time, headcount, or know-how to take on digital projects 'in-house'.
+                Not every business has the time, headcount, or know-how to take on digital projects in-house.
             </p>
 
             <p>
-                That’s where we come in. We can help your business with all sorts:
+                That’s where we come in.
             </p>
 
             <ul>
-                <li>From managing complex or messy projects,</li>
-                <li>to analysing 'as-is' or 'to-be' processes.
-                <li>From turning ideas into fully working 'proof-of-concepts',</li>
-                <li>to training staff on how to use their tools more effectively.</li>
-                <li>From creating bespoke software / websites,</li>
-                <li>to offering advice and guidance.</li>
+                <li>unlocking insights from existing data</li>
+                <li>analysing existing 'as-is' business
+                <li>managing complex or messy projects</li>
+                <li>turning ideas into working proof-of-concepts</li>
+                <li>training teams on how to use their tools more effectively</li>
             </ul> 
                 
             <p>
-                We provide a variety of services that will help your business navigate the digital world. All of which are underpinned by a abroad mix of technical skills and business experience. 
+                With a mix of technical skills and business experience, I provide a variety of services that many businesses do not have 'in-house'.
             </p>
 
             <p>
-                Whether you just need an extra brain on a project, or you have an idea that you're desparate to try but don't know where to start, we are  here to help you get where you want to go.
+                Whether you just need an extra brain on a project, or you have an idea that you're desparate to try but don't know where to start, I'm here to help you get where you want to go.
             </p>
             
             <p>
