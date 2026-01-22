@@ -25,8 +25,6 @@
 
             </span>
 
-            <h3>.Net</h3>
-
             <p>
                 .NET development is the process of building software applications using Microsoft’s .NET framework. It’s a popular platform for creating a wide range of apps—from web and mobile to desktop, cloud, gaming, and IoT solutions.
             </p>
@@ -65,8 +63,6 @@
                 <img src="/assets/images/services/software_development/overview_web_development.webp" alt="Web development">
 
             </span>
-
-            <h3>Web</h3>
             
             <p>
                 Web development is the process of creating and maintaining websites or web applications that run on the internet (or an intranet). It involves everything from designing how a site looks to making sure it functions smoothly behind the scenes.

@@ -20,7 +20,7 @@
         <div>
 
             <span class="banner">
-                <img src="/assets/images/services/proof_of_concept/overview_proof_of_concept_small.webp" alt="Proof of Concept">
+                <img src="/assets/images/services/proof_of_concept/overview_proof_of_concept.webp" alt="Proof of Concept">
             </span>
 
             <p>

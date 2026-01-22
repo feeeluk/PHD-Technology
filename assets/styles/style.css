@@ -773,6 +773,10 @@
                 /* Header & Menu */
                 /* ############################################# */
 
+                    header a {
+                        font-family: 'Franklin Gothic Heavy';
+                    }
+                
                     #disclosure_links {
                         display: none;
                     }
@@ -888,10 +892,12 @@
                         bottom: 0;
                         width: 100%;
                         margin: 0;
-                        padding: 0 0.25rem;
-                        font-weight: 500;
-                        color: #D4D4D4;
-                        background-color: rgba(75, 75, 75, .85);
+                        padding: 0.5rem 0.25rem;
+                        font-family: 'Franklin Gothic Heavy';
+                        font-size: 1.2rem;
+                        letter-spacing: -0.015rem;
+                        color: white;
+                        background: linear-gradient(to right, rgba(75, 75, 75, 1), rgba(75, 75, 75, 0.7) 50%, rgba(75, 75, 75, 1));
                         text-align: left;
                     }
 
