@@ -806,10 +806,6 @@ They are superceeded by general IDs or Classes, or by specific 'media queries' (
                     
                 /* Header & Menu */
                 /* ############################################# */
-
-                    header a {
-                        font-family: '';
-                    }
                 
                     #disclosure_links {
                         display: none;
