@@ -882,7 +882,7 @@ They are superceeded by general IDs or Classes, or by specific 'media queries' (
                         margin-bottom: 0;
                         padding-bottom: 0;
                         max-width: 90rem;
-                        background: rgba(240, 240, 240, 0.9);
+                        background: rgba(240, 240, 240, 0.85);
                     }
                 
                     #introduction #left {
