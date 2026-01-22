@@ -807,6 +807,10 @@ They are superceeded by general IDs or Classes, or by specific 'media queries' (
                 /* Header & Menu */
                 /* ############################################# */
                 
+                    header a, a:visited, a:active {
+                        color: rgb(50, 140, 130);
+                    }
+                
                     #disclosure_links {
                         display: none;
                     }
