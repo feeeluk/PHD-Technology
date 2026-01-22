@@ -8,7 +8,7 @@
 
     <section>
          
-        <div id="main">
+        <div id="left">
 
             <p>
                 Not every business has the time, headcount, or know-how to take on digital projects themselves.
@@ -16,16 +16,14 @@
 
             <p>
                 That’s where we come in.
-                We can help your business with all sorts:
             </p>
 
             <ul>
-                <li>From managing complex or messy projects,</li>
-                <li>to analysing 'as-is' or 'to-be' processes.
-                <li>From turning ideas into fully working 'proof-of-concepts',</li>
-                <li>to training staff on how to use their tools more effectively.</li>
-                <li>From creating bespoke software / websites,</li>
-                <li>to offering advice and guidance.</li>
+                <li>From managing complex or messy projects, to analysing 'as-is' or 'to-be' processes.</li>
+            
+                <li>From turning ideas into fully working 'proof-of-concepts', to training staff on how to use their tools more effectively.</li>
+
+                <li>From creating bespoke software and websites, to offering advice and guidance.</li>
             </ul> 
                 
             <p>

@@ -1,18 +1,50 @@
 /*  SITE STANDARDS
-    #########################
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
         
-    LOGO
+---------------------------------------
+    Logo
+---------------------------------------
     TEAL (RGB) 50, 140, 130
     RED (RGB) 215, 35, 35
 
-    - Article > section > div > span
 
-    - Use ID for elements that are one time use
-    - Use classes for things that repeat - remember DRY (Do not Repeat Yourself)
+---------------------------------------
+    Use of box elements:
+---------------------------------------
+    Article => 
+        Section =>
+            Div =>
+                Span
+
+
+---------------------------------------    
+    Identifiers and classes
+---------------------------------------
+    Use IDs (#xyz)for elements that are one time use
+    Use classes (.xyz) for things that repeat - remember DRY (Do not Repeat Yourself)
+
+
+---------------------------------------
+    Document layout
+---------------------------------------
+    > General - HTML
+    >         - IDs
+    >         - Classes        
+    > Mobile  - HTML
+    >         - IDs
+    >         - Classes
+    > Desktop - HTML
+    >         - IDs
+    >         - Classes
     
 */
 
-/* HTML \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* HTML \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+These are the default settings for HTML tags site wide.
+They are superceeded by general IDs or Classes, or by specific 'media queries' (that may have tags, IDs or Classes)
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
     * {
         padding: 0px;
@@ -137,7 +169,7 @@
 
         #introduction section.elevator_pitch {
             background: rgba(50, 140, 130, 0.95);
-            margin-top: 0.25rem;
+            margin-top: 0.1rem;
             padding: 1rem;
             justify-content: center;
 
@@ -774,7 +806,7 @@
                 /* ############################################# */
 
                     header a {
-                        font-family: 'Franklin Gothic Heavy';
+                        font-family: '';
                     }
                 
                     #disclosure_links {
@@ -850,11 +882,28 @@
                         max-width: 90rem;
                     }
                 
-                    #introduction #main {
+                    #introduction #left {
                         width: 35%;
+                        padding-top: 2rem;
                         padding-right: 1rem;
-                        color: red;
+                        padding-bottom: 3rem;
+                        padding-left: 1rem;
+                    
+                    & p, ul {
+                                font-size: 1rem;
+                            }
+
+                    & ul {
+                            margin-top: 1rem;
+                            margin-bottom: 1rem;
+                        }
+
+                    & li {
+                            margin-top: 0.5rem;
+                            margin-bottom: 0.5rem;
+                        }          
                     }
+
                 
                     #introduction #right {
                         display: block;
@@ -864,7 +913,7 @@
                         justify-content: flex-start;
                     }
 
-                    #introduction span {
+                    #introduction #right span {
                         display: block;
                         position: relative;
                         max-width: 50%;
@@ -873,22 +922,22 @@
                         margin-bottom: 0.25rem;
                     }
 
-                    #introduction span:last-child {
+                    #introduction #right span:last-child {
                         margin-bottom: 1rem;
                     }
 
-                    #introduction a {
+                    #introduction #right a {
                         margin: 0;
                         padding: 0;
                     }
 
-                    #introduction span img {
+                    #introduction #right span img {
                         margin: 0;
                         padding: 0;
                         vertical-align: bottom;
                     }
 
-                    #introduction span h3 {
+                    #introduction #right span h3 {
                         position:absolute;
                         bottom: 0;
                         width: 100%;

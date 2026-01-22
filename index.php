@@ -20,8 +20,8 @@
     // MAIN PAGE
     // _________________________________________________________________________________________________________________________________________
         
-        // INTRO
-        include($path."assets/includes/page_components/home/intro.php");
+        // INTRODUCTION
+        include($path."assets/includes/page_components/home/introduction.php");
         
         // SERVICES
         include($path."assets/includes/page_components/home/services_links.php");
