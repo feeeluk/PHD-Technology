@@ -11,7 +11,15 @@
         <div id="main">
             
             <p>
-                I help organizations of all sizes with things like:
+                We help businesses make better use of their data, tools, and ideas.
+            </p>
+
+            <p>
+                Not every business has the time, headcount, or know-how to take on digital projects in-house.
+            </p>
+
+            <p>
+                That’s where we come in.
             </p>
 
             <ul>
