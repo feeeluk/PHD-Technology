@@ -150,7 +150,6 @@ They are superceeded by general IDs or Classes, or by specific 'media queries' (
             background-image: url('/assets/images/other/about_us_background.webp');
             background-size: cover;
             background-repeat: no-repeat;
-            color: #555; 
         }
 
         #introduction section {
@@ -794,6 +793,10 @@ They are superceeded by general IDs or Classes, or by specific 'media queries' (
                     section {
                         max-width: 70rem;
                     }
+
+                    body {
+                        color: #333;
+                    }
                         
                 /* Prices */
                 /* ............................................... */
@@ -880,6 +883,7 @@ They are superceeded by general IDs or Classes, or by specific 'media queries' (
                         margin-bottom: 0;
                         padding-bottom: 0;
                         max-width: 90rem;
+                        background: rgba(240, 240, 240, 0.9);
                     }
                 
                     #introduction #left {
