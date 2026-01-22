@@ -2,17 +2,13 @@
 
     <section class="elevator_pitch">
 
-        <h3>Helping you with data, tools, ideas, and technology.</h3>
+        <h3>Helping businesses to make better use of their data, tools, ideas, and technology</h3>
 
     </section>
 
     <section>
          
         <div id="main">
-            
-            <p>
-                We help businesses make better use of their data, tools, technology, and ideas.
-            </p>
 
             <p>
                 Not every business has the time, headcount, or know-how to take on digital projects 'in-house'.
