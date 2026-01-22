@@ -42,10 +42,6 @@
                 No jargon, no fluff, just focused support to help move things forward.
             </p>
 
-            <p>
-                
-            </p>
-
         </div>
 
         <div id="right">
