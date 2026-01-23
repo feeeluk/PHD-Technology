@@ -867,7 +867,8 @@ They are superceeded by general IDs or Classes, or by specific 'media queries' (
 
                     /* Change color of dropdown links on hover */
                     .dropContent a:hover {
-                        background-color:#ddd;
+                        background-color: rgb(50, 140, 130);
+                        color: #eee;
                     }
 
                     /* Show the dropdown menu on hover */
