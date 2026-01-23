@@ -39,12 +39,12 @@
     
 */
 
-/* HTML \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+/* GNENERAL HTML \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 These are the default settings for HTML tags site wide.
 They are superceeded by general IDs or Classes, or by specific 'media queries' (that may have tags, IDs or Classes)
 
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+ */
 
     * {
         padding: 0px;
@@ -140,11 +140,11 @@ They are superceeded by general IDs or Classes, or by specific 'media queries' (
         margin-bottom: 1rem;
     }
 
-/* Elements By ID  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+/* GENERAL Elements By ID  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 General elements for any device
 
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+ */
 
     /* Introduction */
     /* ############################################# */
@@ -248,11 +248,11 @@ General elements for any device
             padding: 0;
         }
 
-    /* Classes \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ 
+    /* GENERAL Classes \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ 
     
     General classes for any device
     
-    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+    */
 
         /* General */
         /* ............................................... */
@@ -530,255 +530,262 @@ General elements for any device
             }
            
 
-            /* smartphones, iPhone, portrait 480x320 phones */
-            @media (min-width:320px)  {
+        /* smartphones, iPhone, portrait 480x320 phones */
+        @media (min-width:320px)  {
 
-                /* Elements By ID  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* MOBILE HTML \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
-                    /* Header & Menu */
-                    /* ############################################# */
 
-                        #navbar_dropdown {
-                            display: none;
-                        }
+/* MOBILE Elements By ID  
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+            /* Header & Menu */
+            /* ############################################# */
+
+                #navbar_dropdown {
+                    display: none;
+                }
+            
+                #logo {
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    padding: 10px 0;
+                    background: white;
+                    text-align: center;
+                    z-index: 1;
+                }
+
+                #logo img {
+                    width: auto;
+                    height:100%;
+                    margin: 0;
+                    padding: 0;
+                }
+
+                #hamburger {
+                    position: fixed;
+                    top: 0;
+                    right: 0;
+                    width: 50px;
+                    height: 50px;
+                    margin: 10px;
+                    background-color: transparent;
+                    cursor: pointer;
+                    z-index: 2;
+                }
+
+                #disclosure_links summary {
+                    display:flex;
+                    justify-content: flex-end;
+                }
+
+                #disclosure_links #hamburger {
+                    background-image: url('/assets/images/other/hamburger_icon_small.webp');
+                    background-repeat: no-repeat;
+                }
+
+                #disclosure_links[open] #hamburger {
+                    background-image: url('/assets/images/other/hamburger_icon_small_active.webp');
+                    background-repeat: no-repeat;
+                }
+
+                #disclosure_links[open]::details-content {
+                    position: fixed;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    top: 70px;
+                }
+
+                #disclosure_services summary {
+                    background-color: white;
+                    padding: 0.25rem;
+                    padding-left: 1rem;
+                    border-bottom: 1px solid #555;
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                }
+
+                #disclosure_services summary:hover {
+                    color: white;
+                    background-color: rgb(50, 140, 130);
+
+                    & span.arrow {
+                        border-left: 8px solid white;
+                    }
+                }
+
+                #disclosure_services[open] summary:hover {
+                    color: white;
+                    background-color: rgb(50, 140, 130);
                     
-                        #logo {
-                            position: fixed;
-                            top: 0;
-                            left: 0;
-                            width: 100%;
-                            padding: 10px 0;
-                            background: white;
-                            text-align: center;
-                            z-index: 1;
-                        }
+                    & span.arrow {
+                        border-left: 8px solid white;
+                    }
+                }
 
-                        #logo img {
-                            width: auto;
-                            height:100%;
-                            margin: 0;
-                            padding: 0;
-                        }
+                #disclosure_services[open] summary {
+                    color: white;
+                    background-color: rgb(50, 140, 130);
 
-                        #hamburger {
-                            position: fixed;
-                            top: 0;
-                            right: 0;
-                            width: 50px;
-                            height: 50px;
-                            margin: 10px;
-                            background-color: transparent;
-                            cursor: pointer;
-                            z-index: 2;
-                        }
+                    & span.arrow {
+                        border-left-color: white;
+                    }
+                }
 
-                        #disclosure_links summary {
-                            display:flex;
-                            justify-content: flex-end;
-                        }
+                #disclosure_services[open]::details-content {
+                    display:flex;
+                    flex-direction: column;
+                }
 
-                        #disclosure_links #hamburger {
-                            background-image: url('/assets/images/other/hamburger_icon_small.webp');
-                            background-repeat: no-repeat;
-                        }
+                #navbar_for_mobile {
+                    display: flex;
+                    flex-direction: column;
+                    background-color: transparent;
+                    border-top: 2px solid #777;
+                    border-bottom: 2px solid #777;
+                }
 
-                        #disclosure_links[open] #hamburger {
-                            background-image: url('/assets/images/other/hamburger_icon_small_active.webp');
-                            background-repeat: no-repeat;
-                        }
+                #navbar_for_mobile span.link {
+                    display: block;
+                    width: 100%;
+                    background-color: rgba(260, 260, 260, .9);
+                    border-bottom: 1px solid #555;
+                    padding: 0.25rem;
+                    padding-left: 1rem;
+                }
 
-                        #disclosure_links[open]::details-content {
-                            position: fixed;
-                            width: 100%;
-                            display: flex;
-                            flex-direction: column;
-                            top: 70px;
-                        }
+                #navbar_for_mobile span.service {
+                    padding-left: 2rem;
+                }
 
-                        #disclosure_services summary {
-                            background-color: white;
-                            padding: 0.25rem;
-                            padding-left: 1rem;
-                            border-bottom: 1px solid #555;
-                            cursor: pointer;
-                            display: flex;
-                            justify-content: flex-start;
-                            align-items: center;
-                        }
+                #navbar_for_mobile span.link:hover {
+                    color: #d4d4d4;
+                    background-color: rgb(50, 140, 130);
+                }
 
-                        #disclosure_services summary:hover {
-                            color: white;
-                            background-color: rgb(50, 140, 130);
+                #disclosure_services summary span.arrow {                   
+                    border-top: 8px solid transparent;
+                    border-bottom: 8px solid transparent;
+                    border-left: 8px solid #555;
+                    margin-left: 10px;
+                }
 
-                            & span.arrow {
-                                border-left: 8px solid white;
-                            }
-                        }
+                #disclosure_services[open] summary span.arrow {                  
+                    transform: rotate(90deg);
+                    margin-left: 10px;
+                }
 
-                        #disclosure_services[open] summary:hover {
-                            color: white;
-                            background-color: rgb(50, 140, 130);
-                            
-                            & span.arrow {
-                                border-left: 8px solid white;
-                            }
-                        }
+            /* Introduction */
+            /* ############################################# */
 
-                        #disclosure_services[open] summary {
-                            color: white;
-                            background-color: rgb(50, 140, 130);
+                #introduction #right {
+                    display: none;
+                }
 
-                            & span.arrow {
-                                border-left-color: white;
-                            }
-                        }
+            /* Services */
+            /* ############################################# */
 
-                        #disclosure_services[open]::details-content {
-                            display:flex;
-                            flex-direction: column;
-                        }
+                #services {
+                    margin: 0 0 1rem 0;
+                    padding: 0 1% 0 1%;
+                    align-content: center;
+                    font-size: .9rem;
+                }
 
-                        #navbar_for_mobile {
-                            display: flex;
-                            flex-direction: column;
-                            background-color: transparent;
-                            border-top: 2px solid #777;
-                            border-bottom: 2px solid #777;
-                        }
+                #services section {
+                    display: flex;
+                    flex-wrap: wrap;
+                    padding: 0.5rem;
+                }
 
-                        #navbar_for_mobile span.link {
-                            display: block;
-                            width: 100%;
-                            background-color: rgba(260, 260, 260, .9);
-                            border-bottom: 1px solid #555;
-                            padding: 0.25rem;
-                            padding-left: 1rem;
-                        }
+                #services a {
+                    display: block;
+                    flex: 45%;
+                    max-width: 50%;
+                    margin-bottom: 0.5rem;
+                    background-color: rgb(50, 140, 130);
+                    color: #d4d4d4;
+                    
+                    & :hover {
+                        background-color: #999;
+                        color: #d4d4d4;
+                    }
+                }
 
-                        #navbar_for_mobile span.service {
-                            padding-left: 2rem;
-                        }
+                #services span {
+                    padding:0.3rem ;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
 
-                        #navbar_for_mobile span.link:hover {
-                            color: #d4d4d4;
-                            background-color: rgb(50, 140, 130);
-                        }
+                #services a:nth-child(odd) {
+                    margin-right: .3rem;
+                }
 
-                        #disclosure_services summary span.arrow {                   
-                            border-top: 8px solid transparent;
-                            border-bottom: 8px solid transparent;
-                            border-left: 8px solid #555;
-                            margin-left: 10px;
-                        }
+                #services a:nth-last-child(-n+2) {
+                    margin-bottom: 0;
+                }
 
-                        #disclosure_services[open] summary span.arrow {                  
-                            transform: rotate(90deg);
-                            margin-left: 10px;
-                        }
+            /* Contact */
+            /* ############################################# */
 
-                    /* Introduction */
-                    /* ############################################# */
+                #contact div {
+                    width: 100%; 
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-content: flex-start;
+                }
 
-                        #introduction #right {
-                            display: none;
-                        }
+                #contact p {
+                    display: block;
+                    width: 100%;
+                    text-align: left;
+                }
 
-                    /* Services */
-                    /* ############################################# */
+                #contact_form {
+                    width: 100%;
+                    max-width: 60rem;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                }
 
-                        #services {
-                            margin: 0 0 1rem 0;
-                            padding: 0 1% 0 1%;
-                            align-content: center;
-                            font-size: .9rem;
-                        }
+                #contact input, #contact textarea {
+                    padding: 5px;
+                    margin-bottom: 5px;
+                }
 
-                        #services section {
-                            display: flex;
-                            flex-wrap: wrap;
-                            padding: 0.5rem;
-                        }
+                #contact_form input {
+                    width: 100%;
+                }
 
-                        #services a {
-                            display: block;
-                            flex: 45%;
-                            max-width: 50%;
-                            margin-bottom: 0.5rem;
-                            background-color: rgb(50, 140, 130);
-                            color: #d4d4d4;
-                            
-                            & :hover {
-                                background-color: #999;
-                                color: #d4d4d4;
-                            }
-                        }
+                #contact_form textarea {
+                    width: 100%;
+                    min-height: 20rem;
+                }
 
-                        #services span {
-                            padding:0.3rem ;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                        }
+                #contact_form span {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+                }
 
-                        #services a:nth-child(odd) {
-                            margin-right: .3rem;
-                        }
+                #contact_form button {
+                    flex-basis: 0%;
+                    padding: 0.25rem;
+                }
+                
+/* MOBILE Classes \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
-                        #services a:nth-last-child(-n+2) {
-                            margin-bottom: 0;
-                        }
-
-                    /* Contact */
-                    /* ############################################# */
-
-                        #contact div {
-                            width: 100%; 
-                            display: flex;
-                            flex-wrap: wrap;
-                            flex-direction: row;
-                            justify-content: center;
-                            align-content: flex-start;
-                        }
-
-                        #contact p {
-                            display: block;
-                            width: 100%;
-                            text-align: left;
-                        }
-
-                        #contact_form {
-                            width: 100%;
-                            max-width: 60rem;
-                            display: flex;
-                            flex-direction: column;
-                            align-items: flex-start;
-                            justify-content: flex-start;
-                        }
-
-                        #contact input, #contact textarea {
-                            padding: 5px;
-                            margin-bottom: 5px;
-                        }
-
-                        #contact_form input {
-                            width: 100%;
-                        }
-
-                        #contact_form textarea {
-                            width: 100%;
-                            min-height: 20rem;
-                        }
-
-                        #contact_form span {
-                            display: flex;
-                            flex-direction: row;
-                            justify-content: flex-start;
-                        }
-
-                        #contact_form button {
-                            flex-basis: 0%;
-                            padding: 0.25rem;
-                        }                  
         }
 
         /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
@@ -793,190 +800,189 @@ General elements for any device
         /* big landscape tablets, laptops, and desktops */
         @media (min-width:1100px) {
 
-            
+/* DESKTOP HTML \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
-                /* HTML \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
-
-                    section {
-                        max-width: 70rem;
-                    }
-
-                    body {
-                        color: #333;
-                    }
-                        
-                
-                /* Elements By ID  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
-                
-                
-                    /* Prices */
-                /* ............................................... */
-
-                    .prices table {
-                        max-width: 50rem;
-                    }
-                    
-                /* Header & Menu */
-                /* ############################################# */
-                
-                    header a, a:visited, a:active {
-                        color: rgb(50, 140, 130);
-                    }
-                
-                    #disclosure_links {
-                        display: none;
-                    }
-
-                    #logo {
-                        width: fit-content;
-                        padding: 10px;
-                        background: transparent;
-                        text-align: left;
-                    }
-                    
-                    #navbar_dropdown {
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: center;
-                        align-items: center;
-                        width: 100%;
-                        height: 70px;
-                        min-width: calc(100% - 280px);
-                        background: transparent;
-                    }
-                                    
-                    #navbar_dropdown a {
-                        margin-right: 1rem;
-                        font-size: 1rem;
-                    }
-
-                    #navbar_dropdown button {
-                        display: inline;
-                        background-color: transparent;
-                        padding: 0.3rem;
-                        border: 0;
-                    }
-                                    
-                    /* Dropdown Content (Hidden by Default) */
-                    .dropContent {
-                        display: none;
-                        position: absolute;
-                        background: #f1f1f1;
-                        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
-                        text-align: left;
-                        margin-top: 5px;
-                        padding: 0px;
-                        min-width: 250px;
-                    }
-
-                    /* Links inside the dropdown */
-                    .dropContent a {
-                        font-size: 14px;
-                        padding: 12px 16px;
-                        display: block;
-                        width: 100%;
-                    }
-
-                    /* Change color of dropdown links on hover */
-                    .dropContent a:hover {
-                        background-color: rgb(50, 140, 130);
-                        color: #eee;
-                    }
-
-                    /* Show the dropdown menu on hover */
-                    .dropButton:hover .dropContent {
-                        display: block;
-                    }
-
-                /* Introduction */
-                /* ############################################# */
-
-                    #introduction section {
-                        margin-bottom: 0;
-                        padding-bottom: 0;
-                        max-width: 90rem;
-                        background: rgba(240, 240, 240, 0.85);
-                    }
-                
-                    #introduction #left {
-                        width: 35%;
-                        padding-top: 1.5rem;
-                        padding-right: 1rem;
-                        padding-bottom: 3rem;
-                        padding-left: 1rem;
-                    
-                        & p, ul {
-                                    font-size: 1rem;
-                        }
-
-                        & ul {
-                                margin-top: 1rem;
-                                margin-bottom: 1rem;
-                        }
-
-                        & li {
-                                margin-top: 0.5rem;
-                                margin-bottom: 0.5rem;
-                        }          
-                    }
-
-                
-                    #introduction #right {
-                        display: block;
-                        width: 65%;
-                        display: flex;
-                        flex-wrap: wrap;
-                        justify-content: flex-start;
-                        padding-top: 1.5rem;
-                        padding-bottom: 3rem;
-                    }
-
-                    #introduction #right span {
-                        display: block;
-                        position: relative;
-                        max-width: 50%;
-                        height: fit-content;
-                        margin-right: 0.25rem;
-                        margin-bottom: 0.25rem;
-                    }
-
-                    #introduction #right span:last-child {
-                        margin-bottom: 1rem;
-                    }
-
-                    #introduction #right a {
-                        margin: 0;
-                        padding: 0;
-                    }
-
-                    #introduction #right span img {
-                        margin: 0;
-                        padding: 0;
-                        vertical-align: bottom;
-                    }
-
-                    #introduction #right span h3 {
-                        position:absolute;
-                        bottom: 0;
-                        width: 100%;
-                        margin: 0;
-                        padding: 0.5rem 0.25rem;
-                        font-family: 'Franklin Gothic Heavy';
-                        font-size: 1.2rem;
-                        letter-spacing: -0.015rem;
-                        color: white;
-                        background: linear-gradient(to right, rgba(75, 75, 75, 1), rgba(75, 75, 75, 0.7) 50%, rgba(75, 75, 75, 1));
-                        text-align: left;
-                    }
-
-                /* Services */
-                /* ############################################# */
-
-                    #services {
-                        display: none;
-                    }
-
+            section {
+                max-width: 70rem;
             }
+
+            body {
+                color: #333;
+            }
+                
+        
+/* DESKTOP Elements By ID  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+            
+            /* Header & Menu */
+            /* ############################################# */
+            
+                header a, a:visited, a:active {
+                    color: rgb(50, 140, 130);
+                }
+            
+                #disclosure_links {
+                    display: none;
+                }
+
+                #logo {
+                    width: fit-content;
+                    padding: 10px;
+                    background: transparent;
+                    text-align: left;
+                }
+                
+                #navbar_dropdown {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    height: 70px;
+                    min-width: calc(100% - 280px);
+                    background: transparent;
+                }
+                                
+                #navbar_dropdown a {
+                    margin-right: 1rem;
+                    font-size: 1rem;
+                }
+
+                #navbar_dropdown button {
+                    display: inline;
+                    background-color: transparent;
+                    padding: 0.3rem;
+                    border: 0;
+                }
+                                
+                /* Dropdown Content (Hidden by Default) */
+                .dropContent {
+                    display: none;
+                    position: absolute;
+                    background: #f1f1f1;
+                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+                    text-align: left;
+                    margin-top: 5px;
+                    padding: 0px;
+                    min-width: 250px;
+                }
+
+                /* Links inside the dropdown */
+                .dropContent a {
+                    font-size: 14px;
+                    padding: 12px 16px;
+                    display: block;
+                    width: 100%;
+                }
+
+                /* Change color of dropdown links on hover */
+                .dropContent a:hover {
+                    background-color: rgb(50, 140, 130);
+                    color: #eee;
+                }
+
+                /* Show the dropdown menu on hover */
+                .dropButton:hover .dropContent {
+                    display: block;
+                }
+
+            /* Introduction */
+            /* ############################################# */
+
+                #introduction section {
+                    margin-bottom: 0;
+                    padding-bottom: 0;
+                    max-width: 90rem;
+                    background: rgba(240, 240, 240, 0.85);
+                }
+            
+                #introduction #left {
+                    width: 35%;
+                    padding-top: 1.5rem;
+                    padding-right: 1rem;
+                    padding-bottom: 3rem;
+                    padding-left: 1rem;
+                
+                    & p, ul {
+                                font-size: 1rem;
+                    }
+
+                    & ul {
+                            margin-top: 1rem;
+                            margin-bottom: 1rem;
+                    }
+
+                    & li {
+                            margin-top: 0.5rem;
+                            margin-bottom: 0.5rem;
+                    }          
+                }
+
+            
+                #introduction #right {
+                    display: block;
+                    width: 65%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: flex-start;
+                    padding-top: 1.5rem;
+                    padding-bottom: 3rem;
+                }
+
+                #introduction #right span {
+                    display: block;
+                    position: relative;
+                    max-width: 50%;
+                    height: fit-content;
+                    margin-right: 0.25rem;
+                    margin-bottom: 0.25rem;
+                }
+
+                #introduction #right span:last-child {
+                    margin-bottom: 1rem;
+                }
+
+                #introduction #right a {
+                    margin: 0;
+                    padding: 0;
+                }
+
+                #introduction #right span img {
+                    margin: 0;
+                    padding: 0;
+                    vertical-align: bottom;
+                }
+
+                #introduction #right span h3 {
+                    position:absolute;
+                    bottom: 0;
+                    width: 100%;
+                    margin: 0;
+                    padding: 0.5rem 0.25rem;
+                    font-family: 'Franklin Gothic Heavy';
+                    font-size: 1.2rem;
+                    letter-spacing: -0.015rem;
+                    color: white;
+                    background: linear-gradient(to right, rgba(75, 75, 75, 1), rgba(75, 75, 75, 0.7) 50%, rgba(75, 75, 75, 1));
+                    text-align: left;
+                }
+
+            /* Services */
+            /* ############################################# */
+
+                #services {
+                    display: none;
+                }
+
+/* DESKTOP Classes  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+        
+            /* Prices */
+            /* ............................................... */
+
+                .prices table {
+                    max-width: 50rem;
+                }
+
+        }
 
         /* hi-res laptops and desktops */ 
         @media (min-width:1281px) {}
