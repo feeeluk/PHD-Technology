@@ -897,9 +897,9 @@ General elements for any device
             
                 #introduction #left {
                     width: 35%;
-                    padding-top: 1.5rem;
+                    padding-top: 1.25rem;
                     padding-right: 1rem;
-                    padding-bottom: 3rem;
+                    padding-bottom: 2rem; /* set to the same size as the righthand section because the text in this section should not be bigger than the tiles on the righthand */
                     padding-left: 1rem;
                 
                     & p, ul {
@@ -916,7 +916,6 @@ General elements for any device
                             margin-bottom: 0.5rem;
                     }          
                 }
-
             
                 #introduction #right {
                     display: block;
@@ -924,8 +923,8 @@ General elements for any device
                     display: flex;
                     flex-wrap: wrap;
                     justify-content: flex-start;
-                    padding-top: 1.5rem;
-                    padding-bottom: 3rem;
+                    padding-top: 1.25rem;
+                    padding-bottom: 2rem;
                 }
 
                 #introduction #right span {
@@ -933,8 +932,10 @@ General elements for any device
                     position: relative;
                     max-width: 50%;
                     height: fit-content;
-                    margin-right: 0.25rem;
-                    margin-bottom: 0.25rem;
+                    margin-right: 0.35rem;
+                    margin-bottom: 0.35rem;
+                    border: solid #bbb .3rem;
+                    border-radius: 0rem .3rem 0rem .3rem;
                 }
 
                 #introduction #right span:last-child {
