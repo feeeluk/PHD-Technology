@@ -958,8 +958,9 @@ General elements for any device
                     width: 100%;
                     margin: 0;
                     padding: 0.5rem 0.25rem;
-                    font-family: 'Franklin Gothic Heavy';
-                    font-size: 1.2rem;
+                    font-family: 'Libre Franklin';
+                    font-weight: 700;
+                    font-size: 1rem;
                     letter-spacing: -0.015rem;
                     color: white;
                     background: linear-gradient(to right, rgba(75, 75, 75, 1), rgba(75, 75, 75, 0.7) 50%, rgba(75, 75, 75, 1));
