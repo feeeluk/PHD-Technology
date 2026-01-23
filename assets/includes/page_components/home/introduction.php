@@ -27,11 +27,11 @@
             </ul> 
                 
             <p>
-                We provide a variety of services that will help your business thrive in the digital world. All of which are underpinned by a abroad mix of technical skills, and business experience. 
+                With a wealth of expierience and a broad range of skills, we provide a variety of services that will help your business thrive in the digital world.
             </p>
 
             <p>
-                Whether you just need an extra brain on a project, or you have an idea that you're desparate to try but don't know where to start, we are here to help you get where you want to go.
+                Whether you simply need an extra brain on a project, or have an idea to try but you just do not know where to start, we are here to help.
             </p>
             
             <p>

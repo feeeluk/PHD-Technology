@@ -44,7 +44,7 @@
 These are the default settings for HTML tags site wide.
 They are superceeded by general IDs or Classes, or by specific 'media queries' (that may have tags, IDs or Classes)
 
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
     * {
         padding: 0px;
@@ -140,7 +140,11 @@ They are superceeded by general IDs or Classes, or by specific 'media queries' (
         margin-bottom: 1rem;
     }
 
-/* Elements By ID  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* Elements By ID  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+General elements for any device
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
     /* Introduction */
     /* ############################################# */
@@ -244,7 +248,11 @@ They are superceeded by general IDs or Classes, or by specific 'media queries' (
             padding: 0;
         }
 
-    /* Classes \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+    /* Classes \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ 
+    
+    General classes for any device
+    
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
         /* General */
         /* ............................................... */
@@ -785,7 +793,7 @@ They are superceeded by general IDs or Classes, or by specific 'media queries' (
         /* big landscape tablets, laptops, and desktops */
         @media (min-width:1100px) {
 
-            /* Elements By ID  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+            
 
                 /* HTML \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
@@ -797,7 +805,11 @@ They are superceeded by general IDs or Classes, or by specific 'media queries' (
                         color: #333;
                     }
                         
-                /* Prices */
+                
+                /* Elements By ID  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+                
+                
+                    /* Prices */
                 /* ............................................... */
 
                     .prices table {
@@ -888,23 +900,23 @@ They are superceeded by general IDs or Classes, or by specific 'media queries' (
                 
                     #introduction #left {
                         width: 35%;
-                        padding-top: 2rem;
+                        padding-top: 1.5rem;
                         padding-right: 1rem;
                         padding-bottom: 3rem;
                         padding-left: 1rem;
                     
-                    & p, ul {
-                                font-size: 1rem;
-                            }
-
-                    & ul {
-                            margin-top: 1rem;
-                            margin-bottom: 1rem;
+                        & p, ul {
+                                    font-size: 1rem;
                         }
 
-                    & li {
-                            margin-top: 0.5rem;
-                            margin-bottom: 0.5rem;
+                        & ul {
+                                margin-top: 1rem;
+                                margin-bottom: 1rem;
+                        }
+
+                        & li {
+                                margin-top: 0.5rem;
+                                margin-bottom: 0.5rem;
                         }          
                     }
 
@@ -915,6 +927,8 @@ They are superceeded by general IDs or Classes, or by specific 'media queries' (
                         display: flex;
                         flex-wrap: wrap;
                         justify-content: flex-start;
+                        padding-top: 1.5rem;
+                        padding-bottom: 3rem;
                     }
 
                     #introduction #right span {
