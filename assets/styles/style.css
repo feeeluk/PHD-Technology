@@ -58,7 +58,7 @@ They are superceeded by general IDs or Classes, or by specific 'media queries' (
         background: linear-gradient(to right, #777, #555 25%, #999);
         font-family: 'Inter';
         font-size: 16px;
-        font-weight: 100;
+        font-weight: 400;
     }
 
     header {
@@ -845,6 +845,8 @@ General elements for any device
                 #navbar_dropdown a {
                     margin-right: 1rem;
                     font-size: 1rem;
+                    font-family: 'Inter';
+                    font-weight: 600;
                 }
 
                 #navbar_dropdown button {

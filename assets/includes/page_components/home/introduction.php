@@ -66,7 +66,7 @@
             <span>
                 <a href="#data_manipulation">
                     <img src="/assets/images/services/data_manipulation/link_data_manipulation.webp" alt="data manipulation">
-                    <h3>Data manipulation</h3>
+                    <h3>Data Manipulation</h3>
                 </a>
             </span>
 
