@@ -56,8 +56,6 @@
                     <a href="/"><span class="link">Home</span></a>
                     <a href="/pages/about.php"><span class="link">About</span></a>
 
-                    <!-- <a href="/"><span class="link">Blog</span></a> -->
-
                     <details id="disclosure_services">
                         
                         <summary>Services<span class="arrow"></span></summary>

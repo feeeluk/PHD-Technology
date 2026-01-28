@@ -826,9 +826,10 @@ General elements for any device
 
                 #logo {
                     width: fit-content;
-                    padding: 10px;
-                    background: transparent;
-                    text-align: left;
+                    padding-left: 10px;
+                    height: 70px;
+                    display: flex;
+                    align-items: center;
                 }
                 
                 #navbar_dropdown {
