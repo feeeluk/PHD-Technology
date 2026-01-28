@@ -60,6 +60,12 @@
             </span>
         </a>
 
+        <a href="#ui_ux">
+            <span>
+                UI/UX
+            </span>
+        </a>
+
     </section>
 
 </article>

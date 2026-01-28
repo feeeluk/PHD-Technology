@@ -114,6 +114,7 @@
                         <a href="/pages/services/proof_of_concept.php">Proof of Concept</a>
                         <a href="/pages/services/artificial_intelligence.php">Artificial Intelligence</a>
                         <a href="/pages/services/digital_media_and_marketing.php">Digital Media & Marketing</a>
+                        <a href="/pages/services/ui_ux.php">UI/UX</a>
                     </div>
 
                 </button>

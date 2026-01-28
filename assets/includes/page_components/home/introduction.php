@@ -93,8 +93,15 @@
 
             <span>
                 <a href="#digital_media_and_marketing">
-                    <img src="/assets/images/services/digital_media_and_marketing/link_digital_media_and_marketing.webp" alt="Digital media and marketing" alt="data manipulation">
+                    <img src="/assets/images/services/digital_media_and_marketing/link_digital_media_and_marketing.webp" alt="Digital media and marketing"">
                     <h3>Digital Media & Marketing</h3>
+                </a>
+            </span>
+            
+            <span>
+                <a href="#ui_ux">
+                    <img src="/assets/images/services/ui_ux/link_ui_ux.webp" alt="UI/UX">
+                    <h3>UI / UX</h3>
                 </a>
             </span>
 
