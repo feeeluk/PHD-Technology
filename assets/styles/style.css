@@ -826,7 +826,7 @@ General elements for any device
 
                 #logo {
                     width: fit-content;
-                    padding-left: 10px;
+                    padding-left: 30px;
                     height: 70px;
                     display: flex;
                     align-items: center;
@@ -891,6 +891,10 @@ General elements for any device
             /* Introduction */
             /* ############################################# */
 
+                #introduction {
+                    min-height: calc(100vh - 70px);
+                }
+
                 #introduction section {
                     margin-bottom: 0;
                     padding-bottom: 0;
@@ -899,7 +903,7 @@ General elements for any device
                 }
             
                 #introduction #left {
-                    width: 35%;
+                    width: 35%;                  
                     padding-top: 1.25rem;
                     padding-right: 1rem;
                     padding-bottom: 2rem; /* set to the same size as the righthand section because the text in this section should not be bigger than the tiles on the righthand */
@@ -921,13 +925,12 @@ General elements for any device
                 }
             
                 #introduction #right {
-                    display: block;
                     width: 65%;
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: flex-start;
                     padding-top: 1.25rem;
                     padding-bottom: 2rem;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-content: flex-start;
                 }
 
                 #introduction #right span {
