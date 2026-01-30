@@ -54,7 +54,7 @@ They are superceeded by general IDs or Classes, or by specific 'media queries' (
 
     body {
         margin-top: 70px;
-        color: #555;
+        color: #333;
         background: linear-gradient(to right, #777, #555 25%, #999);
         font-family: 'Inter';
         font-size: 16px;
@@ -808,10 +808,23 @@ General elements for any device
                 max-width: 70rem;
             }
 
-            body {
-                color: #333;
+            p {
+                font-size: 1rem;
+                line-height: 1.3rem;
             }
-                
+
+            ul {
+                font-size: 1rem;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                line-height: 1.3rem;
+            }
+
+            li {
+                margin-top: 0.5rem;
+                margin-bottom: 0.5rem;
+            }
+
         
 /* DESKTOP Elements By ID  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
             
@@ -909,21 +922,7 @@ General elements for any device
                     padding-top: 1.25rem;
                     padding-right: 1rem;
                     padding-bottom: 2rem; /* set to the same size as the righthand section because the text in this section should not be bigger than the tiles on the righthand */
-                    padding-left: 1rem;
-                
-                    & p, ul {
-                                font-size: 1rem;
-                    }
-
-                    & ul {
-                            margin-top: 1rem;
-                            margin-bottom: 1rem;
-                    }
-
-                    & li {
-                            margin-top: 0.5rem;
-                            margin-bottom: 0.5rem;
-                    }          
+                    padding-left: 1rem;       
                 }
             
                 #introduction #right {

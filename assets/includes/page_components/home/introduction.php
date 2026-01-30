@@ -2,7 +2,7 @@
 
     <section class="elevator_pitch">
 
-        <h3>Helping businesses to make better use of their data, tools, ideas, and technology.</h3>
+        <h3>Helping businesses to make better use of their data, tools, ideas, and technology</h3>
 
     </section>
 
@@ -11,7 +11,7 @@
         <div id="left">
 
             <p>
-                Not every business has the time, headcount, or know-how to take on digital projects themselves.
+                Not every business has the time, headcount, or know-how to take on digital projects themselves
             </p>
 
             <p>
