@@ -30,7 +30,7 @@
             </p>
             
             <p>    
-                Essentially, it helps organisations understand what they should change, why they should change it, and how to implement that change effectively.
+                Essentially, it hels organisations understand what they should change, why they should change it, and how to implement that change effectively.
             </p>
 
             <?php
