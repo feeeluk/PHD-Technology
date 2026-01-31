@@ -1,13 +1,17 @@
 <?php
 
-    echo "<a href='".$link."'>";
+    echo "<span class='button_container'>";
 
-        echo "<span class='button_click_for_details'>";
+        echo "<a href='".$link."'>";
 
-            echo "Click for details";
+            echo "<span class='button_click_for_details'>";
 
-        echo "</span>";
+                echo "More Details";
 
-    echo "</a>";
+            echo "</span>";
+
+        echo "</a>";
+
+    echo "</span>";
 
 ?>

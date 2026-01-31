@@ -296,14 +296,14 @@ General elements for any device
             }
 
             .overview div {
-                padding-right: 0;
+                padding-right: 1rem;
             }
 
             .banner {
                 float: left;
                 width: 100%;
                 max-width: 30rem;
-                min-height: fit-content;
+                min-width: 28rem;
             }
             
             .overview .anchor {
@@ -321,6 +321,22 @@ General elements for any device
 
             .overview p {
                 padding-right: 1rem;
+            }
+
+            .overview p:first-of-type {
+                padding-top: .5rem;
+            }
+
+            .overview p:last-of-type {
+                padding-bottom: 1rem;
+            }
+
+            .button_container {
+                margin-bottom: .5rem;
+                border-top: 1px #999 dotted;
+                padding-top: 1rem;
+                display: flex;
+                justify-content:center;
             }
 
             .button_click_for_details {
@@ -817,7 +833,6 @@ General elements for any device
                 font-size: 1rem;
                 margin-top: 1rem;
                 margin-bottom: 1rem;
-                line-height: 1.3rem;
             }
 
             li {

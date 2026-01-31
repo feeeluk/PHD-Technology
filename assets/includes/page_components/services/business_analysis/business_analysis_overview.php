@@ -26,7 +26,11 @@
             </span>
             
             <p>
-                Business analysis is the process of identifying business needs and finding solutions to problems. It involves understanding how organizations function, gathering and analyzing data, and recommending changes that will deliver value to stakeholders.
+                Business analysis is the discipline of identifying needs and determining the best solutions to meet those needs.
+            </p>
+            
+            <p>    
+                Essentially, it helps organisations understand what they should change, why they should change it, and how to implement that change effectively.
             </p>
 
             <?php
