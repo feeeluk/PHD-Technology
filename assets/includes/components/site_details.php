@@ -4,6 +4,6 @@
     $site = "";
 
     // set page title
-    $siteTitle = "PHD Technology Solutions";
+    $siteTitle = "PDH Technology";
 
 ?>
