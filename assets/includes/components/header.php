@@ -71,7 +71,7 @@
                         
                     </details>
 
-                    <a href="/pages/case_studies.php"><span class="link">Case Studies</span></a>
+                    <!-- <a href="/pages/case_studies.php"><span class="link">Case Studies</span></a> -->
                     <a href="/pages/portfolio.php"><span class="link">Portfolio</span></a>
                     <a href="/pages/contact.php"><span class="link">Contact</span></a>
                 
@@ -117,13 +117,13 @@
 
                 </button>
 
-                <button>
+                <!-- <button>
 
                     <a href="/pages/case_studies.php">
                         Case Studies
                     </a>
 
-                </button>
+                </button> -->
                 
                 <button>
 
