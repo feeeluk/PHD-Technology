@@ -50,6 +50,9 @@
         // DIGITAL MEDIA & MARKETING - OVERVIEW
         include($path."assets/includes/page_components/services/digital_media_and_marketing/digital_media_and_marketing_overview.php");
 
+        // UI/UX - OVERVIEW
+        include($path."assets/includes/page_components/services/ui_ux/ui_ux_overview.php");
+
     // FOOTER
     // ****************************************************************************************************************************************
         include($path."assets/includes/components/footer.php");

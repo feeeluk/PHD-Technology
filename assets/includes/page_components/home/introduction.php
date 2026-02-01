@@ -101,7 +101,7 @@
             <span>
                 <a href="#ui_ux">
                     <img src="/assets/images/services/ui_ux/link_ui_ux.webp" alt="UI/UX">
-                    <h3>UI / UX</h3>
+                    <h3>UI/UX</h3>
                 </a>
             </span>
 

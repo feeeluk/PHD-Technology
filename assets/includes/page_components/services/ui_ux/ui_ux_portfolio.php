@@ -2,7 +2,7 @@
 
     <?php
 
-        if (str_contains($_SERVER['REQUEST_URI'],'data_manipulation') == true)
+        if (str_contains($_SERVER['REQUEST_URI'],'ui_ux') == true)
             {
                 echo "<h1>PORTFOLIO</h1>";
                     
@@ -19,7 +19,7 @@
             {             
                 echo "<section>";
 
-                    echo "<h2 id='data_manipulation'>DATA MANIPULATION</h2>";     
+                    echo "<h2 id='ui_ux'>UI/UX</h2>";     
             }
 
     ?>

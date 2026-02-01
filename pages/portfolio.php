@@ -54,8 +54,8 @@
         // SOFTWARE DEVELOPMENT
         include($path."assets/includes/page_components/services/software_development/software_development_portfolio.php");
         
-        // DATA MANAGEMENT
-        include($path."assets/includes/page_components/services/data_management/data_management_portfolio.php");
+        // DATA MANIPULATION
+        include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_portfolio.php");
         
         // SKILLS DEVELOPMENT & TRAINING
         include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_portfolio.php");
@@ -65,6 +65,9 @@
         
         // DIGITAL MEDIA & MARKETING
         include($path."assets/includes/page_components/services/digital_media_and_marketing/digital_media_and_marketing_portfolio.php");
+
+        // UI/UX
+        include($path."assets/includes/page_components/services/ui_ux/ui_ux_portfolio.php");
 
     // FOOTER
     // ****************************************************************************************************************************************
