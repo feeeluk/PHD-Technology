@@ -31,21 +31,21 @@
         <div>
         
             <p>
-                PHD Technology is a trading name used by Philip Henning (Philip Henning trading as PHD Technology).
+                PDH Technology is a trading name used by Philip Henning as a sole trader, trading as PDH Technology.
                 <br>
-                Philip Henning is a sole trader.
+                Philip Henning trading as PDH Technology.
             </p>
 
             <h3>VAT</h3>
 
                 <p>
-                    No VAT is payable?
+                    No VAT is payable.
                 </p>
 
             <h3>Insurance</h3>
 
                 <p>
-                    We do not have any insurance yet.
+                    We do not have any insurance as yet.
                 </p>
 
             <h3>Payment Terms</h3>

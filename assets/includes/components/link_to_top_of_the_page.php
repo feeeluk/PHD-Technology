@@ -1,13 +1,9 @@
-<a href="#top" id="link_to_top">
+<div id="link_to_top_div">
     
-    <div id="link_to_top_div">
-        
-        <span id="link_to_top_span">
+    <a href="#top">
 
             ↑
             
-        </span>
+    </a>
 
-    </div>
-
-</a>
+</div>
