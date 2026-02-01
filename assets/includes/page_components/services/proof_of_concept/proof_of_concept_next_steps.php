@@ -14,7 +14,7 @@
 
             <a  class="call_us" href="/pages/contact.php">
 
-                <img src="/assets/images/other/call_us.png" alt="Call Us">
+                <img src="/assets/images/other/get_in_touch.webp" alt="Call Us">
 
             </a>
 
