@@ -6,7 +6,7 @@
 
         if (str_contains($_SERVER['REQUEST_URI'],'digital_media_and_marketing') == true)
             {
-                echo "<h1 class='margin_top title'>DIGITAL MEDIA & MARKETING</h1>";
+                echo "<h1 class='title margin_top '>DIGITAL MEDIA & MARKETING</h1>";
                 echo "<h3>(COMING SOON)</h3>";
             }
 
