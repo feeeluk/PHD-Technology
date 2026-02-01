@@ -1,5 +1,9 @@
 <?php
 
-    include($path."assets/includes/page_components/home/prices.php");
+    echo "<p>";
+
+        echo "Prices section here..";
+
+    echo "</p>";
 
 ?>
