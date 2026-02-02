@@ -9,7 +9,7 @@
             <h4>Clarity in decision-making</h4>
 
             <P>
-                Business Analysts help you make sense of complexity. They collect and analyze data, gather input from team members or customers, and present insights that lead to informed, strategic decisions.
+                Business Analysts help you make sense of complexity. They collect and analyze data, gather input from team members or customers, and present insights that lead to informed decisions.
             </P>
             
             <h5>Example: Should you invest in a new marketing tool or expand your team? A Business Analyst can weigh the pros and cons using real data.</h5>
@@ -33,10 +33,10 @@
             <h4>Reducing risk</h4>
 
             <P>
-                Business Analysts help identify potential problems before they happen, or at least before they become costly.
+                Business Analysts help identify potential problems before they happen, or become costly.
             </P>
 
-            <h5>Example: Launching a new product without understanding your target audience could flop. A Business Analyst researches customer needs to reduce that risk.</h5>
+            <h5>Example: Launching a new product without understanding the target audience could easily fail. A Business Analyst researches the customer needs to reduce that risk.</h5>
 
         </span>
 
@@ -60,7 +60,7 @@
                 Business analysis isn't just about fixing problems — it's also about spotting opportunities.
             </P>
 
-            <h5>Example: If you're thinking of expanding into a new market, business analysis helps determine if it’s viable and how to do it effectively.</h5>
+            <h5>Example: If you're thinking of expanding into a new market, business analysis helps determine if it is viable, and how to do it effectively.</h5>
 
         </span>
         

@@ -10,7 +10,7 @@
         }
 
         else {
-            echo "<h1 class='title'>PROJECT MANAGEMENT</h1>";
+            echo "<h1 class='title margin_top'>PROJECT MANAGEMENT</h1>";
         }
 
 ?>

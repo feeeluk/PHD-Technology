@@ -6,11 +6,11 @@
 
         if (str_contains($_SERVER['REQUEST_URI'],'data_manipulation') == true)
             {
-                echo "<h1 class='title margin_top '>DATA MANIPULATION</h1>";
+                echo "<h1 class='title margin_top'>DATA MANIPULATION</h1>";
             }
 
             else {
-                echo "<h1 class='title'>DATA MANIPULATION</h1>";
+                echo "<h1 class='title margin_top'>DATA MANIPULATION</h1>";
             }
 
     ?>

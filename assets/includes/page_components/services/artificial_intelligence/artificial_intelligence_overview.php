@@ -6,12 +6,12 @@
 
     if (str_contains($_SERVER['REQUEST_URI'],'artificial_intelligence') == true)
         {
-            echo "<h1 class='margin_top title'>ARTIFICIAL INTELLIGENCE</h1>";
+            echo "<h1 class='title margin_top'>ARTIFICIAL INTELLIGENCE</h1>";
             echo "<h3>(COMING SOON)</h3>";
         }
 
         else {
-            echo "<h1 class='title'>ARTIFICIAL INTELLIGENCE</h1>";
+            echo "<h1 class='title margin_top'>ARTIFICIAL INTELLIGENCE</h1>";
             echo "<h3>(COMING SOON)</h3>";
         }
 

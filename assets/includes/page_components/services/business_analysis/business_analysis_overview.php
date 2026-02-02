@@ -26,11 +26,15 @@
             </span>
             
             <p>
-                Business analysis is the discipline of identifying needs and determining the best solutions to meet those needs.
+                Business analysis is one of the most effective ways an organisation can improve how it operates, makes decisions, and delivers value.
             </p>
             
             <p>    
-                Essentially, it hels organisations understand what they should change, why they should change it, and how to implement that change effectively.
+                It is the discipline of identifying needs and determining the best solutions to meet those needs. It helps organisations understand what they should change, why they should change it, and how to implement those changes effectively.
+            </p>
+
+            <p>
+                It is not an administrative task, it is a strategic capability. It enables smarter decisions, more efficient operations, reduced costs, and better outcomes. Investing in business analysis is ultimately an investment in clarity, confidence, and long‑term success.
             </p>
 
             <?php
@@ -48,21 +52,26 @@
 
             ?>
 
-                <h4 class="margin_top">Business Analysis with PHD Technology</h4>
+                <h4 class="margin_top">Business Analysis: A Strategic Investment in Better Decisions and Better Outcomes</h4>
                 
                 <p>
-                    Whether you simply need advice, or if you would like us to undertake Business Analysis for you, we are here to help.
+                    At its core, business analysis provides a structured approach to understanding how a business works today, identifying where inefficiencies or risks exist, and defining practical, evidence‑based improvements that lead to measurable gains.
+                </p>
+                
+                <p>
+                    Rather than relying on assumptions or intuition, business analysis grounds decisions in data, stakeholder insight, and clear business needs. This ensures that every change—whether large or small—directly supports organisational goals and delivers tangible benefits.Whether you simply need help and advice, or if you would like to hire us as as Business Analysts, we are here to help.
                 </p>
 
                 <p>
-                    With many years of commercial Business Analysis experience, we are well placed to help:
+                    With many years of commercial Business Analysis experience, across a variety of sectors, we are able to:
 
                     <ul>
-                        <li>workshop facilitation</li>
-                        <li>product roadmap management</li>
-                        <li>user story creation</li>
-                        <li>backlog management</li>
-                        <li>SCRUM</li>
+                        <li>Facilitate workshops</li>
+                        <li>Produce and/or manage your Product Roadmap</li>
+                        <li>Elicit stakeholder and end-user requirements</li>
+                        <li>Produce User Stories</li>
+                        <li>Manage a Product Backlog</li>
+                        <li>Follow agile principles - we have lots of experience with SCRUM</li>
                     </ul>
                     
                 </p>

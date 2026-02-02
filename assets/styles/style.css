@@ -73,7 +73,7 @@ They are superceeded by general IDs or Classes, or by specific 'media queries' (
 
     article {
         position: static;
-        margin: 0 0 1rem 0;
+        margin: 0 0 0 0;
         padding: 0 1% 0 1%;
         display: flex;
         flex-direction: column;
@@ -301,7 +301,7 @@ General elements for any device
             .overview .anchor {
                 display: block;
                 position: relative;
-                top: -75px;
+                top: -70px;
                 visibility: hidden;
             }
 

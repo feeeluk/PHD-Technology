@@ -5,13 +5,15 @@
     <section>
 
         <div>
-            
+
             <p>
-                        
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                
+                The best way to get the ball rolling is to get in touch with us over the phone or send us a message (all details available on our <a href="/pages/contact.php">Contact</a> page). 
             </p>
 
+            <p>
+                From there we can take things in a direction and pace that suits you.
+            </p>
+            
             <a  class="call_us" href="/pages/contact.php">
 
                 <img src="/assets/images/other/get_in_touch.webp" alt="Call Us">
