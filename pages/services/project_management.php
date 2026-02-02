@@ -26,17 +26,17 @@
         // Benefits
         include($path."assets/includes/page_components/services/project_management/project_management_benefits.php");
 
-        // Case Studies
-        // include($path."assets/includes/page_components/services/project_management/project_management_case_studies.php");
-
         // Prices
         include($path."assets/includes/page_components/services/project_management/project_management_prices.php");
 
+        // Portfolio
+        include($path."assets/includes/page_components/services/project_management/project_management_portfolio.php");
+        
         // Next Steps & How it Works
         include($path."assets/includes/page_components/services/project_management/project_management_next_steps.php");
-
-        // Portfolio
-        include($path."assets/includes/page_components/services/project_management/project_management_portfolio.php");         
+        
+        // Case Studies
+        // include($path."assets/includes/page_components/services/project_management/project_management_case_studies.php");
 
     // FOOTER
     // ****************************************************************************************************************************************

@@ -26,17 +26,17 @@
         // Benefits
         include($path."assets/includes/page_components/services/ui_ux/ui_ux_benefits.php");
 
-        // Case Studies
-        // include($path."assets/includes/page_components/services/ui_ux/ui_ux_case_studies.php");
-
         // Prices
         include($path."assets/includes/page_components/services/ui_ux/ui_ux_prices.php");
 
+        // Portfolio
+        include($path."assets/includes/page_components/services/ui_ux/ui_ux_portfolio.php");
+        
         // Next Steps & How it Works
         include($path."assets/includes/page_components/services/ui_ux/ui_ux_next_steps.php");
-
-        // Portfolio
-        include($path."assets/includes/page_components/services/ui_ux/ui_ux_portfolio.php");    
+        
+        // Case Studies
+        // include($path."assets/includes/page_components/services/ui_ux/ui_ux_case_studies.php");    
 
     // FOOTER
     // ****************************************************************************************************************************************

@@ -25,19 +25,19 @@
 
         // Benefits
         include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_benefits.php");
-
-        // Case Studies
-        include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_case_studies.php");
-
+        
         // Prices
         include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_prices.php");
+        
+        // Portfolio
+        include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_portfolio.php");
 
         // Next Steps & How it Works
         include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_next_steps.php");
 
-        // Portfolio
-        include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_portfolio.php");
-
+        // Case Studies
+        // include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_case_studies.php");
+        
     // FOOTER
     // ****************************************************************************************************************************************
         include($path."assets/includes/components/footer.php");

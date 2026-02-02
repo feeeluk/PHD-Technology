@@ -26,17 +26,17 @@
         // Benefits
         include($path."assets/includes/page_components/services/digital_media_and_marketing/digital_media_and_marketing_benefits.php");
 
-        // Case Studies
-        // include($path."assets/includes/page_components/services/digital_media_and_marketing/digital_media_and_marketing_case_studies.php");
-
         // Prices
         include($path."assets/includes/page_components/services/digital_media_and_marketing/digital_media_and_marketing_prices.php");
 
+        // Portfolio
+        include($path."assets/includes/page_components/services/digital_media_and_marketing/digital_media_and_marketing_portfolio.php");
+        
         // Next Steps & How it Works
         include($path."assets/includes/page_components/services/digital_media_and_marketing/digital_media_and_marketing_next_steps.php");
-
-        // Portfolio
-        include($path."assets/includes/page_components/services/digital_media_and_marketing/digital_media_and_marketing_portfolio.php");       
+        
+        // Case Studies
+        // include($path."assets/includes/page_components/services/digital_media_and_marketing/digital_media_and_marketing_case_studies.php");
 
     // FOOTER
     // ****************************************************************************************************************************************
