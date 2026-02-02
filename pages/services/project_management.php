@@ -27,7 +27,7 @@
         include($path."assets/includes/page_components/services/project_management/project_management_benefits.php");
 
         // Case Studies
-        include($path."assets/includes/page_components/services/project_management/project_management_case_studies.php");
+        // include($path."assets/includes/page_components/services/project_management/project_management_case_studies.php");
 
         // Prices
         include($path."assets/includes/page_components/services/project_management/project_management_prices.php");

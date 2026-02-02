@@ -27,7 +27,7 @@
         include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_benefits.php");
 
         // Case Studies
-        include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_case_studies.php");
+        // include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_case_studies.php");
 
         // Prices
         include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_prices.php");

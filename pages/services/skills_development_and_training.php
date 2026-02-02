@@ -27,7 +27,7 @@
         include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_benefits.php");
 
         // Case Studies
-        include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_case_studies.php");
+        // include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_case_studies.php");
 
         // Prices
         include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_prices.php");

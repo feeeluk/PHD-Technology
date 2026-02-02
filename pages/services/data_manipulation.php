@@ -27,7 +27,7 @@
         include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_benefits.php");
 
         // Case Studies
-        include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_case_studies.php");
+        // include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_case_studies.php");
 
         // Prices
         include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_prices.php");
