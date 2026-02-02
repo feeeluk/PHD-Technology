@@ -28,48 +28,48 @@
                         <tr>
                             <td class="item">Initial Consultation</td>
                             <td>FREE</td>
-                            <td>X</td>
+                            <td>-</td>
                         </tr>
                         
                         <tr>
                             <td class="item">1 Hour</td>
                             <td>£<!--£59--></td>
-                            <td>X</td>
+                            <td>-</td>
                         </tr>
                         
                         <tr>
                             <td class="item">1/2 Day</td>
                             <td>£<!--199--></td>
-                            <td>X</td>
+                            <td>-</td>
                         </tr>
                         
                         <tr>
                             <td class="item">1 Day</td>
                             <td>£<!--£319--></td>
-                            <td>X</td>
+                            <td>-</td>
                         </tr>
                         
                         <tr>
                             <td class="item">5 Days</td>
-                            <td>X</td>
+                            <td>-</td>
                             <td>£<!--£1,499--></td>
                         </tr>
                         
                         <tr>
                             <td class="item">10 Days</td>
-                            <td>X</td>
+                            <td>-</td>
                             <td>£<!--£2,899--></td>
                         </tr>
 
                         <tr>
                             <td class="item">15 Days</td>
-                            <td>X</td>
+                            <td>-</td>
                             <td>£<!--£4,199--></td>
                         </tr>
                         
                         <tr>
                             <td class="item">20 Days</td>
-                            <td>X</td>
+                            <td>-</td>
                             <td>£<!--£4,199--></td>
                         </tr>
 

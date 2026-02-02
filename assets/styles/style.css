@@ -257,7 +257,8 @@ General elements for any device
             
             .title {
                 font-weight: 900;
-                margin-top: 1rem;
+                margin-top: 15px;
+                margin-bottom: 15px;
             }
             
             .call_us img {
@@ -271,7 +272,7 @@ General elements for any device
             }
 
             .margin_top { 
-                margin-top:3rem;
+                margin-top: 40px;
             }
 
             .margin_bottom {
