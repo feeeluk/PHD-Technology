@@ -1,3 +1,5 @@
+/* REMEMBER - MOBILE FIRST DESIGN! */
+
 /*  SITE STANDARDS
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
         
@@ -561,16 +563,18 @@ General elements for any device
                     position: fixed;
                     top: 0;
                     left: 0;
-                    width: 100%;
-                    padding: 10px 0;
+                    padding: 0;
                     background: white;
-                    text-align: center;
+                    width: 100%;
+                    height: 70px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
                     z-index: 1;
                 }
 
                 #logo img {
-                    width: auto;
-                    height:100%;
+                    width: 225px;
                     margin: 0;
                     padding: 0;
                 }
@@ -806,7 +810,22 @@ General elements for any device
         @media (min-width:641px)  {}
 
         /* tablet, landscape iPad, lo-res laptops ands desktops */
-        @media (min-width:961px)  {}
+        @media (min-width:961px)  {
+
+
+/* TABLET Elements By ID  
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+            /* Header & Menu */
+            /* ############################################# */
+            
+                #logo img{
+                    width: 275px;
+                    margin: 0;
+                    padding: 0;
+                }
+
+        }
 
         /* big landscape tablets, laptops, and desktops */
         @media (min-width:1100px) {

@@ -68,6 +68,7 @@
                         <a href="/pages/services/proof_of_concept.php"><span class="link service">Proof of Concept</span></a>
                         <a href="/pages/services/artificial_intelligence.php"><span class="link service">Artificial Intelligence</span></a>
                         <a href="/pages/services/digital_media_and_marketing.php"><span class="link service">Digital Media & Marketing</span></a>
+                        <a href="/pages/services/ui_ux.php"><span class="link service">UI/UX</span></a>
                         
                     </details>
 
