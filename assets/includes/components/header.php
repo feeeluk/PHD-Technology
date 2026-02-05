@@ -17,11 +17,11 @@
 
 		<link rel="icon" type="image/x-icon" href="/assets/images/favicon/favicon.ico">
         
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/layout.css">
-        <link rel="stylesheet" href="css/components.css">
-        <link rel="stylesheet" href="css/utilities.css">
+        <link rel="stylesheet" href="css/reset.css">  <!-- resets CSS -->
+        <link rel="stylesheet" href="css/variables.css"> <!-- design system -->
+        <link rel="stylesheet" href="css/layout.css"> <!-- defines containers, grids, page structure, and mobile-first layout rules -->
+        <link rel="stylesheet" href="css/components.css"> <!-- buttons, cards, navbars, forms — all powered by Variables -->
+        <link rel="stylesheet" href="css/utilities.css"> <!-- helper classes -->
         <link rel="stylesheet" href="/assets/styles/style.css?v=2">
 
 		<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
