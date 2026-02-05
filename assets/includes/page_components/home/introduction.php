@@ -11,11 +11,11 @@
         <div id="left">
 
             <p>
-                Not every business has the time, headcount, or know-how to take on digital projects themselves
+                Not every business has the time, headcount, or know-how to take on digital projects themselves.
             </p>
 
             <p>
-                That’s where we come in.
+                That is where we come in.
             </p>
 
             <ul>

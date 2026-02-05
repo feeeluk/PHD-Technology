@@ -712,6 +712,10 @@ General elements for any device
                     font-size: .9rem;
                 }
 
+                #services h1 {
+                    font-weight: 500;
+                }
+
                 #services section {
                     display: flex;
                     flex-wrap: wrap;
