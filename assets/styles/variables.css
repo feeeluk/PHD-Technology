@@ -2,12 +2,12 @@
 
 :root {
   /* Colors */
-  --color-bg: #ffffff;
-  --color-text: #222222;
-  --color-primary: #0066ff;
-  --color-primary-dark: #0044aa;
-  --color-secondary: #ff9900;
-  --color-accent: #e63946;
+  --color-bg: linear-gradient(to right, #777, #555 25%, #999);
+  --color-text: #333333;
+  --color-primary: rgb(50, 140, 130);
+  --color-primary-dark: #;
+  --color-secondary: #ffffff;
+  --color-accent: #;
   --color-muted: #777777;
 
   /* Typography */
