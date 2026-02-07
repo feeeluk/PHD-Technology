@@ -1,12 +1,12 @@
 <article id="introduction">
 
-    <section class="elevator_pitch">
+    <section id="elevator_pitch">
 
         <h3>Helping businesses to make better use of their data, tools, ideas, and technology</h3>
 
     </section>
 
-    <section>
+    <section id="overview">
          
         <div id="left">
 

@@ -1,0 +1,106 @@
+/* === LAYOUT_HOMEPAGE.CSS === */
+
+/* Introduction */
+/* ############################################# */
+
+
+        #introduction {
+            /* min-height: calc(100vh - 70px); */
+            padding: 0 5% 0 5%;
+            background-image: url('/assets/images/other/about_us_background.webp');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        #introduction section {
+            width: 100%;
+            background: rgba(240, 240, 240, 0.8);
+            padding: 1rem 2rem;
+            border-radius: 0;
+            display: flex;
+        }
+
+        #introduction section {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            max-width: 90rem;
+            background: rgba(240, 240, 240, 0.85);
+        }
+    
+
+        #introduction div {
+            margin: 0;
+            padding: 0;
+            background: transparent;
+        }
+
+        #introduction section.elevator_pitch {
+            background: rgba(50, 140, 130, 0.8);
+            padding: 1rem;
+            justify-content: center;
+
+            & h3 {
+                color: #D4D4D4;
+                margin: 0;
+                padding: 0;
+            }
+        }
+
+
+        #introduction #left {
+            width: 35%;                  
+            padding-top: 1.25rem;
+            padding-right: 1rem;
+            padding-bottom: 2rem; /* set to the same size as the righthand section because the text in this section should not be bigger than the tiles on the righthand */
+            padding-left: 1rem;       
+        }
+    
+        #introduction #right {
+            width: 65%;
+            padding-top: 1.25rem;
+            padding-bottom: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: flex-start;
+        }
+
+        #introduction #right span {
+            display: block;
+            position: relative;
+            max-width: 50%;
+            height: fit-content;
+            margin-right: 0.35rem;
+            margin-bottom: 0.35rem;
+            border: solid #bbb .3rem;
+            border-radius: 0rem .3rem 0rem .3rem;
+        }
+
+        #introduction #right span:last-child {
+            margin-bottom: 1rem;
+        }
+
+        #introduction #right a {
+            margin: 0;
+            padding: 0;
+        }
+
+        #introduction #right span img {
+            margin: 0;
+            padding: 0;
+            vertical-align: bottom;
+        }
+
+        #introduction #right span h3 {
+            position:absolute;
+            bottom: 0;
+            width: 100%;
+            margin: 0;
+            padding: 0.5rem 0.25rem;
+            font-family: 'Libre Franklin';
+            font-weight: 700;
+            font-size: 1rem;
+            letter-spacing: -0.015rem;
+            color: white;
+            background: linear-gradient(to right, rgba(75, 75, 75, 1), rgba(75, 75, 75, 0.7) 50%, rgba(75, 75, 75, 1));
+            text-align: left;
+        }

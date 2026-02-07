@@ -1,14 +1,15 @@
 /* === VARIABLES.CSS === */
 
 :root {
-  /* Colors */
-  --color-bg: linear-gradient(to right, #777, #555 25%, #999);
-  --color-text: #333333;
-  --color-primary: rgb(50, 140, 130);
-  --color-primary-dark: #;
-  --color-secondary: #ffffff;
-  --color-accent: #;
-  --color-muted: #777777;
+  /* Colours */
+  --test: red;
+  --colour-bg-primary: linear-gradient(to right, #777, #555 25%, #999);
+  --colour-bg-secondary: #ffffff;
+  --colour-text: #333333;
+  --colour-primary: rgb(50, 140, 130);
+  --colour-secondary: #ffffff;
+  --colour-accent: #;
+  --colour-muted: #777777;
 
   /* Typography */
   --font-base: 16px;
@@ -23,7 +24,7 @@
   --fs-xl: 1.5rem;
   --fs-xxl: 2rem;
 
-  /* Spacing scale (8px system) */
+  /* Spacing scale */
   --space-1: 0.25rem; /* 4px */
   --space-2: 0.5rem;  /* 8px */
   --space-3: 0.75rem; /* 12px */
@@ -32,6 +33,7 @@
   --space-6: 2rem;    /* 32px */
   --space-7: 3rem;    /* 48px */
   --space-8: 4rem;    /* 64px */
+  --space-fixed-1: 10px;
 
   /* Border radius */
   --radius-sm: 4px;
@@ -47,7 +49,7 @@
   /* Breakpoints (mobile-first) */
   --bp-xs: 320px;
   --bp-sm: 461px;
-  --bp-md: 768px;
+  --bp-md: 641px;
   --bp-lg: 961px;
   --bp-xl: 1281px;
 
@@ -56,4 +58,19 @@
   --z-mid: 100;
   --z-high: 1000;
   --z-top: 9999;
+
+  /* Heights */
+  --height-header: 70px;
+
+  /* Widths*/
+  --full-screen-width: 100vw;
+  --full-percent: 100%;
+
+  /* Disclosure */
+  --disclosure-colour-primary: #333333;
+  --disclosure-colour-secondary: #ffffff;
+  --disclosure-colour-bg-primary: #cccccc;
+  --disclosure-colour-bg-secondary: rgb(50, 140, 130);
+  --disclosure-border: 1px solid #555555;
+  
 }

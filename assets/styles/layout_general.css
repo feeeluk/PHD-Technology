@@ -1,0 +1,71 @@
+/* === LAYOUT_GENERAL .CSS === 
+
+    Use IDs ("#xyz") for elements that are one time use.
+    Use classes (".xyz") for things that repeat - remember DRY (Do not Repeat Yourself).
+
+*/
+
+/* General */
+/* ============================================== */
+
+        /* Sets the basics */
+        body { 
+            background: var(--colour-bg-primary); 
+            color: var(--colour-text); 
+            font-family: var(--font-family); 
+            font-size: var(--font-base); 
+            line-height: var(--line-height);
+        }
+
+        /* Set all links to the same style */
+        a, a:visited, a:active {
+            color: var(--colour-primary);
+            text-decoration: none;
+        }
+
+        /* article {
+
+        } */
+
+        /* section {
+            
+        } */
+
+        /* div {
+            
+        } */
+
+        /* span {
+
+        } */
+
+
+
+
+/* Containers */
+/* ============================================== */
+
+        /* not often used as I try to be specific, but it is good to have it just in */
+        .container {
+            width: 100%;
+            max-width: 100%;
+            margin: 0 auto;
+            padding-left: var(--space-4);
+            padding-right: var(--space-4);
+        }
+
+    /* Footer */
+
+/* Spacing */
+/* ============================================== */
+
+
+
+/* Flex helpers */
+/* ============================================== */
+
+
+
+/* Responsive helpers */
+/* ============================================== */
+
