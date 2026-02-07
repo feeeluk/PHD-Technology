@@ -9,7 +9,7 @@
             position: fixed;
             top: 0;
             left: 0;
-            width: var(--full-screen-width);
+            width: 100%;
             height: var(--header);
         }
 
@@ -25,7 +25,7 @@
         }
             
         /* The logo increases in size for larger devices  */
-        @media (max-width: 461px){ /* var(--bp-sm) */
+        @media (max-width: 461px){
                 .logo {
                     width: 65%;
                     justify-self: center;}
@@ -80,16 +80,16 @@
             background-color: var(--disclosure-colour-bg-primary);
             width: 100%;
             border-bottom: var(--disclosure-border);
-            padding: 0.25rem;
-            padding-left: 1rem;
+            padding: var(--space-1);
+            padding-left: var(--space-4);
         }
         
         /* format the secondary disclosure (the actual cell within the primary disclosure)  */
         #disclosure_two summary {
             color: var(--disclosure-colour-primary);
             background-color: var(--disclosure-colour-bg-primary);
-            padding: 0.25rem;
-            padding-left: 1rem;
+            padding: var(--space-1);
+            padding-left: var(--space-4);
             border-bottom: var(--disclosure-border);
             cursor: pointer;
             display: flex;
@@ -99,36 +99,46 @@
 
          /* Arrow - inactive */
         #disclosure_two summary span.arrow {                   
-            border-top: 6px solid transparent;
+            border-top-width: var(--disclosure-triangle-size);
+            border-top-style: solid;
+            border-top-color: transparent;
             border-right: none;
-            border-bottom: 6px solid transparent;
-            border-left: 6px solid #555;
-            margin-left: 10px;
+            border-bottom-width: var(--disclosure-triangle-size);
+            border-bottom-style: solid;
+            border-bottom-color: transparent;
+            border-left-width: var(--disclosure-triangle-size);
+            border-left-style: solid;
+            border-left-color: var(--disclosure-triangle-colour);
+            margin-left: var(--disclosure-triangle-margin);
         }
 
         /* Arrow - inactive (hover) */
         #disclosure_two summary:hover {
             color: var(--disclosure-colour-secondary);
-            background-color: var(--disclosure-colour-bg-secondary);
+            background-color: var(--colour-primary);
 
             & span.arrow {
-                border-left: 6px solid white;
+                border-left-width: var(--disclosure-triangle-size);
+                border-left-style: solid;
+                border-left-color: var(--disclosure-triangle-colour-hover);;
             }
         }
 
         /*  Arrow - active */
         #disclosure_two[open] summary {
             color: var(--disclosure-colour-secondary);
-            background-color: var(--disclosure-colour-bg-secondary);
+            background-color: var(--colour-primary);
 
             & span.arrow {
                 transform: rotate(90deg);
-                border-left: 6px solid #ffffff;
+                border-left-width: var(--disclosure-triangle-size);
+                border-left-style: solid;
+                border-left-color: var(--disclosure-triangle-colour-open);
             }
         }
 
         /* Arrow - active (hover)*/
-        #disclosure_two[open] summary:hover {
+        /* #disclosure_two[open] summary:hover {
             color: var(--disclosure-colour-secondary);
             background-color: var(--disclosure-colour-bg-secondary);
                  
@@ -136,10 +146,11 @@
                 border-top: 6px solid transparent;
                 border-right: none;
                 border-bottom: 6px solid transparent;
-                border-left: 6px solid #ffffff;
+                border-left: 6px solid;
+                border-left-color: var(--disclosure-triangle-colour-open-hover);
                 margin-left: 10px;
             }
-        }
+        } */
 
         /* format the content of the secondary disclosure space  */
         #disclosure_two[open]::details-content {
@@ -149,13 +160,13 @@
 
         /*  Indent the items in the secondary disclosure */
         #navbar_for_mobile span.service {
-            padding-left: 2rem;
+            padding-left: var(--space-6);
         }
 
         /* change the items in the secondary disclosure when hovered over  */
         #navbar_for_mobile span.link:hover {
             color: #d4d4d4;
-            background-color: var(--disclosure-colour-bg-secondary);
+            background-color: var(--colour-primary);
         }
 
 
@@ -192,17 +203,16 @@
                             
             /*   */
             #navbar_dropdown a {
-                margin-right: 1rem;
-                font-size: 1rem;
-                font-family: 'Inter';
-                font-weight: 600;
+                margin-right: var(--navbar-dropdown-parent-margin);
+                font-size: var(--navbar-dropdown-parent-font-size);
+                font-weight: var(--navbar-dropdown-parent-font-weight);
             }
 
             /*   */
             #navbar_dropdown button {
                 display: inline;
                 background-color: transparent;
-                padding: 0.3rem;
+                /* padding: var(--space-1); */
                 border: 0;
             }
                             
@@ -210,26 +220,26 @@
             .dropContent {
                 display: none;
                 position: absolute;
-                background: #f1f1f1;
-                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+                background: var(--navbar-dropdown-child-bg-colour);
+                box-shadow: var(--shadow-xl);
                 text-align: left;
-                margin-top: 5px;
+                /* margin-top: var(--space-1); */
                 padding: 0px;
                 min-width: 250px;
             }
 
             /* Links inside the dropdown */
             .dropContent a {
-                font-size: 14px;
-                padding: 12px 16px;
                 display: block;
+                font-size: 14px;
+                padding: var(--navbar-dropdown-child-padding);
                 width: 100%;
             }
 
             /* Change color of dropdown links on hover */
             .dropContent a:hover {
-                background-color: rgb(50, 140, 130);
-                color: #eee;
+                background-color: var(--colour-primary);
+                color: var(--navbar-dropdown-child-font-colour-hover);
             }
 
             /* Show the dropdown menu on hover */
