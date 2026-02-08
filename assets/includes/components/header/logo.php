@@ -1,16 +1,9 @@
-<?php
-?>
+<div id="logo_div">
 
-    <div id="logo_div">
+            <a href="/">
 
-                <a href="/">
+                <img src="/assets/images/other/logo.webp" alt="logo" class="logo">
 
-                    <img src="/assets/images/other/logo.webp" alt="logo" class="logo">
-
-                </a>
-            
-    </div>
-
-<?php
-?>
-
+            </a>
+        
+</div>

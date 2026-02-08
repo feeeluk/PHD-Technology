@@ -1,6 +1,6 @@
 <?php
 
-    if (str_contains($_SERVER['REQUEST_URI'],'case_studies') != true && str_contains($_SERVER['REQUEST_URI'],'portfolio') != true)
+    if (str_contains($_SERVER['REQUEST_URI'],'case_studies') != true && str_contains($_SERVER['REQUEST_URI'],'portfolio') != true && str_contains($_SERVER['REQUEST_URI'],'') != true)
         {
             echo "<h1>OUR SERVICES</h1>";
                 

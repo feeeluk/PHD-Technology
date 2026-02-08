@@ -2,7 +2,12 @@
 
     <section id="elevator_pitch">
 
-        <h3>Helping businesses to make better use of their data, tools, ideas, and technology</h3>
+        <?php
+        
+            // ELEVATOR PITCH
+                include($path."assets/includes/page_components/home/elevator_pitch.php");
+
+        ?>
 
     </section>
 
@@ -13,10 +18,10 @@
             // DESCRIPTION
                 include($path."assets/includes/page_components/home/description.php");
 
-            // SERVICES_MOBILE
+            // SERVICES (smaller devices)
                 include($path."assets/includes/page_components/home/services_smaller_devices.php");
 
-            // SERVICES
+            // SERVICES (larger devices)
                 include($path."assets/includes/page_components/home/services_larger_devices.php");   
 
         ?>
