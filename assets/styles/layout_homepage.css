@@ -3,24 +3,62 @@
 /* Introduction */
 /* ############################################# */
 
-
+        /* ARTICLE
+        - contains the 'elevator pitch', the 'description' text, and shortcuts to the differing services available (which display differently depending on the size of the device).  */
+        
         #introduction {
-            /* min-height: calc(100vh - 70px); */
-            padding: 0 5% 0 5%;
+            position: absolute;
+            top: 70px;
+            
+            min-height: 100vh;
             background-image: url('/assets/images/other/about_us_background.webp');
             background-size: cover;
             background-repeat: no-repeat;
-        }
 
-        #introduction section {
-            width: 100%;
-            background: rgba(240, 240, 240, 0.8);
-            padding: 1rem 2rem;
-            border-radius: 0;
             display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items:center;
         }
 
-        #introduction section {
+        /* SECTION
+        - states the primary purpose of the business */
+        
+        #elevator_pitch {
+            position: absolute;     
+
+            background: rgba(var(--colour-primary-transparent), 0.8);
+            padding: 1rem 2rem;
+
+            color: var(--colour-bg-secondary);
+
+            display: flex;
+            justify-content: center;
+        }
+
+        /* MOBILE & SMALLER DEVICES */
+
+            /* do not show 'services_larger_devices' section */
+            @media (max-width: 960px){
+                
+                #services_larger_devices{
+                    display: none;
+                }
+            }
+
+        /* LARGER DEVICES */
+
+            /* do not show 'services_smaller_devices' section */
+            @media (min-width: 961px){
+                
+                #services_smaller_devices{
+                    display: none;
+                }
+        }
+
+        /* Section #overview - Split into two sections, the  */
+
+        /* #introduction section {
             margin-bottom: 0;
             padding-bottom: 0;
             max-width: 90rem;
@@ -34,17 +72,7 @@
             background: transparent;
         }
 
-        #introduction section.elevator_pitch {
-            background: rgba(50, 140, 130, 0.8);
-            padding: 1rem;
-            justify-content: center;
 
-            & h3 {
-                color: #D4D4D4;
-                margin: 0;
-                padding: 0;
-            }
-        }
 
 
         #introduction #left {
@@ -103,4 +131,4 @@
             color: white;
             background: linear-gradient(to right, rgba(75, 75, 75, 1), rgba(75, 75, 75, 0.7) 50%, rgba(75, 75, 75, 1));
             text-align: left;
-        }
+        } */

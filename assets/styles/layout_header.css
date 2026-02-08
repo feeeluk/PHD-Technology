@@ -187,7 +187,7 @@
                 padding-left: var(--space-4);
             }
 
-            /* Show 'navbar' (including dropdown menu)  */
+            /* Show 'navbar'  */
             #navbar_dropdown {
                 position: absolute;
                 top: 0;
@@ -201,7 +201,7 @@
                 align-items: center;
             }
                             
-            /*   */
+            /* Navbar links */
             #navbar_dropdown a {
                 margin-right: var(--navbar-dropdown-parent-margin);
                 font-size: var(--navbar-dropdown-parent-font-size);
@@ -223,9 +223,10 @@
                 background: var(--navbar-dropdown-child-bg-colour);
                 box-shadow: var(--shadow-xl);
                 text-align: left;
-                /* margin-top: var(--space-1); */
                 padding: 0px;
                 min-width: 250px;
+                /* margin-top: var(--space-1); */
+                z-index: 100;
             }
 
             /* Links inside the dropdown */

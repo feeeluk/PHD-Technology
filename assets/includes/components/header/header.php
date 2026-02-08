@@ -17,17 +17,28 @@
 
 		<link rel="icon" type="image/x-icon" href="/assets/images/favicon/favicon.ico">
         
-        <link rel="stylesheet" href="/assets/styles/reset.css">  <!-- resets CSS -->
-        <link rel="stylesheet" href="/assets/styles/variables.css"> <!-- design system -->
-        <link rel="stylesheet" href="/assets/styles/layout_general.css"> <!-- containers, grids, page structure, and mobile-first layout rules -->
-        <link rel="stylesheet" href="/assets/styles/layout_header.css">
-        <!-- <link rel="stylesheet" href="/assets/styles/layout_homepage.css"> -->
-        <!-- <link rel="stylesheet" href="/assets/styles/layout_about.css"> -->
-        <!-- <link rel="stylesheet" href="/assets/styles/layout_.servicescss"> -->
-        <!-- <link rel="stylesheet" href="/assets/styles/layout_contact.css"> -->
-        <link rel="stylesheet" href="/assets/styles/components.css"> buttons, cards, navbars, forms
-        <link rel="stylesheet" href="/assets/styles/utilities.css"> helper classes
-        <!-- <link rel="stylesheet" href="/assets/styles/style.css?v=2"> -->
+        <!-- resets CSS -->
+            <link rel="stylesheet" href="/assets/styles/reset.css"> 
+
+        <!-- sets the look and feel -->
+            <link rel="stylesheet" href="/assets/styles/variables.css">
+
+        <!-- the core layouts and design (mobile first) -->
+            <link rel="stylesheet" href="/assets/styles/layout_general.css"> 
+            <link rel="stylesheet" href="/assets/styles/layout_header.css">
+            <link rel="stylesheet" href="/assets/styles/layout_homepage.css">
+            <link rel="stylesheet" href="/assets/styles/layout_about.css">
+            <link rel="stylesheet" href="/assets/styles/layout_services.css">
+            <link rel="stylesheet" href="/assets/styles/layout_contact.css">
+        
+        <!-- components -->
+            <link rel="stylesheet" href="/assets/styles/components.css">   
+        
+        <!-- helper classes -->
+            <link rel="stylesheet" href="/assets/styles/utilities.css">
+
+        <!-- Old style sheet -->
+            <!-- <link rel="stylesheet" href="/assets/styles/style.css?v=2"> -->
 
 		<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">

@@ -22,9 +22,6 @@
         
         // INTRODUCTION
         include($path."assets/includes/page_components/home/introduction.php");
-        
-        // SERVICES
-        // include($path."assets/includes/page_components/home/services_links.php");
 
         // BUSINESS ANALYSIS - OVERVIEW
         // include($path."assets/includes/page_components/services/business_analysis/business_analysis_overview.php");

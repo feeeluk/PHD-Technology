@@ -2,11 +2,11 @@
 
 :root {
   /* Colours */
-  --test: red;
   --colour-bg-primary: linear-gradient(to right, #777, #555 25%, #999);
   --colour-bg-secondary: #ffffff;
   --colour-text: #333333;
   --colour-primary: rgb(50, 140, 130);
+  --colour-primary-transparent: 50, 140, 130;
   --colour-secondary: #ffffff;
   --colour-accent: #;
   --colour-muted: #777777;
@@ -56,6 +56,7 @@
   --bp-xl: 1281px;
 
   /* Z-index scale */
+  --z-bottom:1;
   --z-low: 10;
   --z-mid: 100;
   --z-high: 1000;

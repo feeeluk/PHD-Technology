@@ -23,13 +23,15 @@
             text-decoration: none;
         }
 
-        /* article {
+        article {
+            z-index: -1; /* IMPORTANT - this is critical to allowing the menus to show above the main content */
+            width: 100%;
+            padding: 0 5% 0 5%;
+        }
 
-        } */
-
-        /* section {
-            
-        } */
+        section {
+            width: 100%     
+        }
 
         /* div {
             
