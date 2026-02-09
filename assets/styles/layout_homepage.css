@@ -3,7 +3,7 @@
 /* Introduction */
 /* ############################################# */
 
-        /* INTRODUCTION
+        /* INTRODUCTION (article)
         - contains the 'elevator pitch', the 'description' text, and shortcuts to the differing services available (which display differently depending on the size of the device).  */
         
         #introduction {
@@ -21,7 +21,7 @@
             align-items:center;
         }
 
-                /* ELEVATOR PITCH
+                /* ELEVATOR PITCH (section)
                 - states the primary purpose of the business */
                 
                 #elevator_pitch {
@@ -29,6 +29,8 @@
                     background: rgba(var(--colour-primary-transparent), 0.8);
                     height: var(--height-elevator-pitch);
                     color: var(--colour-bg-secondary);
+                    margin-top: var(--space-2);
+                    margin-bottom: var(--space-2);
 
                     display: flex;
                     justify-content: center;
@@ -36,37 +38,36 @@
                     text-align: center;
                 }
 
-                /* OVERVIEW
-                - Split into two sections, the DESCRIPTION and the SERVICES  */
+                /* OVERVIEW (section)
+                - Split into two divs; a more detailed description, and the services offered (the latter of which changes depending on the size of the device)  */
 
                 #overview{
                     position: relative;
-                    background: #ffffff;    
+                    background: rgba(240, 240, 240, 0.85);    
                     display: flex;
                     flex-direction: column;
+                    
                 }
 
+                        /* div */
                         #description{
                             background: red;
+                            padding: var(--space-4);
                         }
-
-                        #services_smaller_devices{
-                            background: green;
-                        }
-
-                        #services_larger_devices{
-                            background: blue;
-                        }
-
-
 
                         /* MOBILE & SMALLER DEVICES */
 
                             /* do not show 'services_larger_devices' section */
                             @media (max-width: 960px){
                                 
+                                /* do not show 'services_larger_devices' div */
                                 #services_larger_devices{
                                     display: none;
+                                }
+
+                                /* div */
+                                #services_smaller_devices{
+                                    background: green;
                                 }
                             }
 
@@ -75,22 +76,54 @@
                             /* do not show 'services_smaller_devices' section */
                             @media (min-width: 961px){
                                 
+                                /* do not show 'services_smaller_devices' div*/
                                 #services_smaller_devices{
                                     display: none;
                                 }
 
+                                /* when viewing in larger devices, the 'Overview' section changes to horizontal rather than vertical */
                                 #overview{
                                     flex-direction: row;
                                 }
 
+                                /* the first div within the 'Overview' section takes up 35% of the available width */
                                 #description{
-                                    width: 40%;
+                                    width: 35%;
                                 }
 
+                                /* the second div within the 'Overview' section takes up 65% of the available width */
                                 #services_larger_devices{
-                                    width: 60%;
+                                    width: 65%;
+                                    background: blue;
+                                    padding: 0;
+                                    display: flex;
+                                    flex-direction: row;
+                                    flex-wrap: wrap;
+                                    
+                                    justify-content: space-between;
                                 }
-                        }
+
+                                .services_tile a{
+                                    min-width: fit-content;
+                                }
+
+
+                                .services_tile img{
+                                    border: solid 3px white;
+                                    width: 100%;
+                                    max-height: 175px;
+                                    object-fit: cover;
+                                    
+                                }
+                                
+                                /*  */
+                                .services_tile{
+                                    border: solid 2px black;
+                                    flex-grow: 1;
+                                    
+                                    
+                                }
+                            }
 
         
 
@@ -98,7 +131,6 @@
             margin-bottom: 0;
             padding-bottom: 0;
             max-width: 90rem;
-            background: rgba(240, 240, 240, 0.85);
         }
     
 

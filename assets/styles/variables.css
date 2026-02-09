@@ -78,8 +78,8 @@
   --disclosure-triangle-colour-open: white;
   --disclosure-triangle-margin: 10px;
   
-/* Navbar dropdown menu (parent) */
-  --navbar-dropdown-parent-margin: 1rem;
+/* Navbar menu */
+  --navbar-dropdown-parent-margin: 0.75rem;
   --navbar-dropdown-parent-font-size: 1rem;
   --navbar-dropdown-parent-font-weight: 600;
   --navbar-dropdown-child-bg-colour: #f1f1f1;
