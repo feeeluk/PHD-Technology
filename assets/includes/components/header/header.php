@@ -88,6 +88,6 @@
             
             // LINK TO TOP OF PAGE
             // ****************************************************************************************************************************************
-                include($path."assets/includes/components/link_to_top_of_the_page.php");
+                include($path."assets/includes/components/header/link_to_top_of_the_page.php");
 
         ?>

@@ -8,13 +8,11 @@
         
         #introduction {
             position: absolute;
-            top: 70px;
-            
-            min-height: 100vh;
+            top: var(--height-header);          
+            min-height: calc(100vh - var(--height-header));
             background-image: url('/assets/images/other/about_us_background.webp');
             background-size: cover;
             background-repeat: no-repeat;
-
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
@@ -22,16 +20,14 @@
         }
 
                 /* ELEVATOR PITCH (section)
-                - states the primary purpose of the business */
-                
+                - states the primary purpose of the business */     
                 #elevator_pitch {
                     position: relative;   
+                    color: var(--colour-secondary);
                     background: rgba(var(--colour-primary-transparent), 0.8);
                     height: var(--height-elevator-pitch);
-                    color: var(--colour-bg-secondary);
                     margin-top: var(--space-2);
                     margin-bottom: var(--space-2);
-
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -40,24 +36,24 @@
 
                 /* OVERVIEW (section)
                 - Split into two divs; a more detailed description, and the services offered (the latter of which changes depending on the size of the device)  */
-
                 #overview{
                     position: relative;
-                    background: rgba(240, 240, 240, 0.85);    
+                    background: rgba(var(--colour-bg-secondary-transparent), 0.85);    
                     display: flex;
                     flex-direction: column;
-                    
+                    margin-bottom: 0;
                 }
 
                         /* div */
                         #description{
-                            background: red;
+                            background: rgba(var(--colour-bg-accent-transparent), .3);
                             padding: var(--space-4);
+                            margin-right: var(--space-3);
                         }
 
                         /* MOBILE & SMALLER DEVICES */
+                        /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-                            /* do not show 'services_larger_devices' section */
                             @media (max-width: 960px){
                                 
                                 /* do not show 'services_larger_devices' div */
@@ -65,15 +61,44 @@
                                     display: none;
                                 }
 
-                                /* div */
-                                #services_smaller_devices{
-                                    background: green;
+                                /* remove the right margin from the DESCRIPTION div so that it aligns */
+                                #description{
+                                    margin-right: 0px;
                                 }
+
+                                /* SECTION - parent */
+                                #services_smaller_devices{
+                                    display: flex;
+                                    flex-direction: row;
+                                    flex-wrap: wrap;
+                                    padding: var(--space-4) 0 0 0;                                    
+                                }
+
+                                        /* A - child */
+                                        #services_smaller_devices a{
+                                            display: flex;
+                                            flex-grow: 1;
+                                            border: solid 1px white;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            min-width: 33%;
+                                            max-width: 50%;
+                                        }
+
+                                                /* SPAN - grandchild */
+                                                #services_smaller_devices span{
+                                                    width: 100%;
+                                                    text-align: center;
+                                                    color: var(--colour-secondary);
+                                                    background: var(--colour-primary);
+                                                    padding: var(--space-2);
+                                                }
                             }
 
                         /* LARGER DEVICES */
+                        /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-                            /* do not show 'services_smaller_devices' section */
                             @media (min-width: 961px){
                                 
                                 /* do not show 'services_smaller_devices' div*/
@@ -94,109 +119,45 @@
                                 /* the second div within the 'Overview' section takes up 65% of the available width */
                                 #services_larger_devices{
                                     width: 65%;
-                                    background: blue;
-                                    padding: 0;
+                                    background: transparent;
                                     display: flex;
                                     flex-direction: row;
                                     flex-wrap: wrap;
-                                    
                                     justify-content: space-between;
                                 }
-
-                                .services_tile a{
-                                    min-width: fit-content;
-                                }
-
-
-                                .services_tile img{
-                                    border: solid 3px white;
-                                    width: 100%;
-                                    max-height: 175px;
-                                    object-fit: cover;
-                                    
-                                }
                                 
-                                /*  */
-                                .services_tile{
-                                    border: solid 2px black;
-                                    flex-grow: 1;
-                                    
-                                    
-                                }
+                                        /* SPAN - controls how he 'Services Tiles' appear */
+                                        .services_tile{
+                                            flex-grow: 1; /* allows the tiles to take up the horizontal space of parent */
+                                            min-width: 32%;
+                                            max-width: 49%;
+                                            min-height: calc(var(--services-tiles-img-height) + var(--services-tiles-h3-height));
+                                            background: transparent;
+                                            display: flex;
+                                            flex-direction: column;
+                                            margin-left: var(--space-1);
+                                            margin-bottom: var(--space-1);
+                                        }
+
+                                                /* control the format of the image within the 'Services Tiles' */
+                                                .services_tile img{
+                                                    width: 100%;
+                                                    height: var(--services-tiles-img-height);
+                                                    object-fit: cover;
+                                                }
+
+                                                /* control the format of the h3 tag within the 'Services Tiles' appear */
+                                                .services_tile h3{
+                                                    height: var(--services-tiles-h3-height);  
+                                                    width: 100%;
+                                                    padding-left: var(--space-1);
+                                                    font-family: var(--services-tiles-h3-font-family);
+                                                    font-weight: var(--services-tiles-h3-font-weight);
+                                                    font-size: var(--services-tiles-h3-font-size);
+                                                    letter-spacing: var(--services-tiles-h3-letter-spacing);
+                                                    color: var(--colour-secondary);
+                                                    background: linear-gradient(to right, rgba(75, 75, 75, 1), rgba(75, 75, 75, 0.7) 50%, rgba(75, 75, 75, 1));                                                          
+                                                    display: flex;
+                                                    align-items: center;
+                                                }
                             }
-
-        
-
-        /* #introduction section {
-            margin-bottom: 0;
-            padding-bottom: 0;
-            max-width: 90rem;
-        }
-    
-
-        #introduction div {
-            margin: 0;
-            padding: 0;
-            background: transparent;
-        }
-
-
-
-
-        #introduction #left {
-            width: 35%;                  
-            padding-top: 1.25rem;
-            padding-right: 1rem;
-            padding-bottom: 2rem;
-            padding-left: 1rem;       
-        }
-    
-        #introduction #right {
-            width: 65%;
-            padding-top: 1.25rem;
-            padding-bottom: 2rem;
-            display: flex;
-            flex-wrap: wrap;
-            align-content: flex-start;
-        }
-
-        #introduction #right span {
-            display: block;
-            position: relative;
-            max-width: 50%;
-            height: fit-content;
-            margin-right: 0.35rem;
-            margin-bottom: 0.35rem;
-            border: solid #bbb .3rem;
-            border-radius: 0rem .3rem 0rem .3rem;
-        }
-
-        #introduction #right span:last-child {
-            margin-bottom: 1rem;
-        }
-
-        #introduction #right a {
-            margin: 0;
-            padding: 0;
-        }
-
-        #introduction #right span img {
-            margin: 0;
-            padding: 0;
-            vertical-align: bottom;
-        }
-
-        #introduction #right span h3 {
-            position:absolute;
-            bottom: 0;
-            width: 100%;
-            margin: 0;
-            padding: 0.5rem 0.25rem;
-            font-family: 'Libre Franklin';
-            font-weight: 700;
-            font-size: 1rem;
-            letter-spacing: -0.015rem;
-            color: white;
-            background: linear-gradient(to right, rgba(75, 75, 75, 1), rgba(75, 75, 75, 0.7) 50%, rgba(75, 75, 75, 1));
-            text-align: left;
-        } */
