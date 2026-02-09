@@ -24,7 +24,7 @@
         include($path."assets/includes/page_components/home/introduction.php");
 
         // BUSINESS ANALYSIS - OVERVIEW
-        // include($path."assets/includes/page_components/services/business_analysis/business_analysis_overview.php");
+        include($path."assets/includes/page_components/services/business_analysis/business_analysis_overview.php");
         
         // PROJECT MANAGEMENT - OVERVIEW
         // include($path."assets/includes/page_components/services/project_management/project_management_overview.php");

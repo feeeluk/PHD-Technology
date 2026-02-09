@@ -25,6 +25,7 @@
 
         /* sets some default attributes */
         article {
+            position: static;
             z-index: -1; /* IMPORTANT - this is critical to allowing the menus to show above the main content */
             width: 100%;
             padding: 0 5% 0 5%;
@@ -46,6 +47,10 @@
 
         p {
             margin-bottom: var(--space-3);
+        }
+
+        #link_to_top_div{
+            display: none;
         }
 
 
