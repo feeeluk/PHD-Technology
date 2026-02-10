@@ -23,11 +23,17 @@
         // INTRODUCTION
         include($path."assets/includes/page_components/home/introduction.php");
 
+?>
+
+    <article class="container">
+
+<?php
+        
         // BUSINESS ANALYSIS - OVERVIEW
-        include($path."assets/includes/page_components/services/business_analysis/business_analysis_overview.php");
+        include($path."assets/includes/page_components/services/business_analysis/business_analysis_description.php");
         
         // PROJECT MANAGEMENT - OVERVIEW
-        // include($path."assets/includes/page_components/services/project_management/project_management_overview.php");
+         include($path."assets/includes/page_components/services/project_management/project_management_overview.php");
         
         // SOFTWARE DEVELOPMENT - OVERVIEW
         // include($path."assets/includes/page_components/services/software_development/software_development_overview.php");
@@ -49,7 +55,12 @@
 
         // UI/UX - OVERVIEW
         // include($path."assets/includes/page_components/services/ui_ux/ui_ux_overview.php");
+    
+?>
 
+    </article>
+
+<?php
 
     // FOOTER
     // ****************************************************************************************************************************************

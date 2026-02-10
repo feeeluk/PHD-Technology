@@ -25,47 +25,65 @@
 
         /* sets some default attributes */
         article {
-            position: static;
-            z-index: -1; /* IMPORTANT - this is critical to allowing the menus to show above the main content */
+            position: static;      
             width: 100%;
             padding: 0 5% 0 5%;
         }
 
-        /* sets some default attributes */
         section {
             width: 100%;
             padding: var(--space-4);    
         }
 
-        /* div {
-            
-        } */
+        div {
+            width: 100%;
+            text-align: left;
+            background: var(--colour-accent);
+            padding: var(--space-4) var(--space-4) 0 var(--space-4);
+        }
 
-        /* span {
+        span {
+            width: 100%;
+            padding: 1rem;
+            background: var(--colour-accent)
+        }
 
-        } */
+        h1, h2, h3, h4, h5, h6 {
+            color: var(--colour-secondary);
+            margin-bottom: 0.5rem;
+        }
 
         p {
             margin-bottom: var(--space-3);
         }
 
-        #link_to_top_div{
-            display: none;
+        p:last-child{
+            margin-bottom: 0;
         }
-
 
 
 /* Containers */
 /* ============================================== */
 
-        /* not often used as I try to be specific, but it is good to have it just in */
-        .container {
-            width: 100%;
-            max-width: 100%;
-            margin: 0 auto;
-            padding-left: var(--space-4);
-            padding-right: var(--space-4);
-        }
+    /* used by ARTICLES to group an entire page of related content */
+    .container{
+    margin-top: 70px; /* provides a gap between containers */
+    }
+
+    /* used by SECTIONS to group a section of related content */
+    .sub_container {
+        background: brown;
+        padding: 0 10% 40px 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #link_to_top_div{
+        display: none;
+    }
 
 
 /* Footer */

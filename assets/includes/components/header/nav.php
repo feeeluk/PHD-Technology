@@ -35,14 +35,6 @@
         </div>
 
     </button>
-
-    <!-- <button>
-
-        <a href="/pages/case_studies.php">
-            Case Studies
-        </a>
-
-    </button> -->
     
     <button>
 
@@ -51,14 +43,6 @@
         </a>
 
     </button>
-
-    <!-- <button>
-
-        <a href="">
-            Blog
-        </a>
-
-    </button> -->
 
     <button>
 

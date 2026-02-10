@@ -1,29 +1,115 @@
 /* === LAYOUT_SERVICES.CSS === */
 
-    /* Overview */
+    /* DESCRIPTION section */
     /* ============================================== */
 
-    .overview{
-        /* background: red; */
-    }
+        /* The first DIV of the 'Description'. This is the only part shown on the Homepage */
+        .summary{     
+            padding-bottom: 1rem;
+        }
+
+                /* Each service has an image associated with it. The image is contained within a SPAN */
+                .banner{
+                    padding: 0;
+                }
+
+                /* This is the actual image */
+                .banner img{
+                    object-fit: contain;
+                    float: left;
+                    margin-right: 1rem;
+                }
+
+        /* A button to find out more about this service shows inside a DIV. But this only appears only on the Homepage */
+        .click_for_details{        
+            display: flex;
+            flex-direction: row;
+            padding: 0;
+        }
+
+                /* The button is nested inside an A tag */
+                .click_for_details a{
+                    width: 100%;
+                }
+        
+                    /* The button itself is a SPAN */
+                    .button_click_for_details {
+                        display: block;
+                        background: rgb(50, 140, 130);
+                        padding: 0.5rem 1rem;
+                        margin: 0 1rem 1rem 1rem;
+                        border: 1px solid black;
+                        color: white;
+                        width: fit-content;
+                }
+
+        /* The second DIV of the 'Description' gives more information about the service */
+            .details{
+                padding-top: 0; /* Removes the unnecessary duplication of padding */
+            }
+
+                /* MOBILE & SMALLER DEVICES */
+                /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+                    @media (max-width: 960px){
+
+                        /* make image smaller */
+                        .banner{
+                            height: 150px;
+                        }
+
+                        /* move the position of the button */
+                        .click_for_details{
+                            justify-content: center;
+                        }
+                        
+                    }
+
+                /* LARGER DEVICES */
+                /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+                    @media (min-width: 961px){
+
+                        /* make image bigger */
+                        .banner{
+                            height: 250px;
+                        }
+
+                        /* move the position of the button */
+                        .click_for_details{
+                            justify-content: start;
+                        }
+                        
+                    }
+
+    /* BENEFITS section */
+    /* ============================================== */
+            .benefits_container{
+                display: flex;
+                flex-direction: column;
+            }
+
+            .benefits_span{
+                margin-bottom: 2rem;
+                text-align: left;
+            }
+
+            .benefits_span:last-child{
+                margin-bottom: 0;
+            }
 
 
-    /* Benefits */
+    /* PRICING section */
     /* ============================================== */
 
 
 
-    /* Pricing */
+    /* PORTFOLIO section */
     /* ============================================== */
 
 
 
-    /* Portfolio */
-    /* ============================================== */
-
-
-
-    /* Next Steps */
+    /* NEXT STEPS section */
     /* ============================================== */
 
 

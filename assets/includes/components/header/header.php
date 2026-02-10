@@ -53,10 +53,10 @@
         
 	</head>
 
-    <body>
+    <body>     
 
         <header>
-
+           
             <?php
                 
                 // Logo

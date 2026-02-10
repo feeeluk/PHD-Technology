@@ -1,9 +1,11 @@
 /* === LAYOUT_HEADER.CSS === */
 
+/* Header Placeholder */
+/* ============================================== */
+
 /* Header */
 /* ============================================== */
 
-        /*  */
         header {
             background-color: var(--colour-bg-secondary);
             position: fixed;
@@ -23,6 +25,8 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            background: var(--colour-bg-secondary);
+            padding: 0;
         }
             
         /* The logo increases in size for larger devices  */

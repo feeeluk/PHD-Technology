@@ -2,16 +2,16 @@
 
 :root {
   /* Colours */
+  --colour-primary: rgb(50, 140, 130);
+  --colour-primary-transparent: 50, 140, 130;
+  --colour-secondary: #ffffff;
+  --colour-accent: #777777;
+  --colour-text: #333333;
   --colour-bg-primary: linear-gradient(to right, #777, #555 25%, #999);
   --colour-bg-secondary: rgb(240, 240, 240);
   --colour-bg-secondary-transparent: 240, 240, 240;
   --colour-bg-accent:rgb(255, 255, 255);
   --colour-bg-accent-transparent: 255, 255, 255;
-  --colour-text: #333333;
-  --colour-primary: rgb(50, 140, 130);
-  --colour-primary-transparent: 50, 140, 130;
-  --colour-secondary: #ffffff;
-  --colour-accent: #777777;
 
   /* Typography */
   --font-base: 16px;
