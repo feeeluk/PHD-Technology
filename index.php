@@ -48,7 +48,7 @@
                 <?php
                     
                     // BUSINESS ANALYSIS
-                    //include($path."assets/includes/page_components/services/business_analysis/business_analysis_description.php");
+                    include($path."assets/includes/page_components/services/business_analysis/business_analysis_description.php");
                     
                     // PROJECT MANAGEMENT
                     //include($path."assets/includes/page_components/services/project_management/project_management_overview.php");

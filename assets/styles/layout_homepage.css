@@ -10,7 +10,7 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items:center;
-        padding: 0 var(--space-4);
+        padding: 0 var(--space-fixed-2);
     }
 
     /* states the primary purpose of the business */     
@@ -106,17 +106,17 @@
             /* when viewing in larger devices, the 'Overview' section changes to horizontal rather than vertical */
             #Overview{
                 flex-direction: row;
-                margin-bottom: 50px;
+                margin-bottom: var(--space-7);
             }
 
             /* the first div within the 'Overview' section takes up 35% of the available width */
             #Description{
-                width: 35%;
+                width: 40%;
             }
 
             /* the second div within the 'Overview' section takes up 65% of the available width */
             #ServicesLargerDevices{
-                width: 65%;
+                width: 60%;
                 padding: 0;
                 background: transparent;
                 display: flex;

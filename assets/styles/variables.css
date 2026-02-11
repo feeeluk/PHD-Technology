@@ -37,6 +37,8 @@
   --space-8: 4rem;    /* 64px */
   --space-9: 5rem;    /* 80px */
   --space-fixed-1: 10px;
+  --space-fixed-2: 100px;
+  --space-fixed-3: 200px;
 
   /* Border radius */
   --radius-sm: 4px;
