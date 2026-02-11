@@ -1,4 +1,4 @@
-<div id="logo_div">
+<div id="LogoContainer">
 
     <a href="/">
 

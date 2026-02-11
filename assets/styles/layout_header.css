@@ -4,7 +4,7 @@
     /* ============================================== */
 
         /* The container div for the logo */
-        #logo_div {
+        #LogoContainer {
             position: fixed;
             top: 0;
             left: 0;
@@ -38,8 +38,8 @@
             display:flex;
         }
 
-        /*  Hamburger icon - inactive */
-        #disclosure_one #hamburger_span {
+        /*  Hamburger icon (inactive) - controls the display of the initial hamburger icon */
+        #disclosure_one #hamburger {
             position: fixed;
             top: 0;
             right: 0;
@@ -53,8 +53,8 @@
             z-index: var(--z-top);
         }
 
-        /*  Hamburger icon - active */
-        #disclosure_one[open] #hamburger_span {
+        /*  Hamburger icon (active) - controls the display of the second hamburger icon */
+        #disclosure_one[open] #hamburger {
             background-image: url('/assets/images/other/hamburger_icon_small_active.webp');
             background-repeat: no-repeat;
         }
@@ -63,6 +63,7 @@
         #disclosure_one[open]::details-content {
             position: absolute;
             top: var(--height-header);
+            left: 0;
             width: 100%;
             display: flex;
             flex-direction: column;
@@ -135,21 +136,6 @@
             }
         }
 
-        /* Arrow - active (hover)*/
-        /* #disclosure_two[open] summary:hover {
-            color: var(--disclosure-colour-secondary);
-            background-color: var(--disclosure-colour-bg-secondary);
-                 
-            & span.arrow {
-                border-top: 6px solid transparent;
-                border-right: none;
-                border-bottom: 6px solid transparent;
-                border-left: 6px solid;
-                border-left-color: var(--disclosure-triangle-colour-open-hover);
-                margin-left: 10px;
-            }
-        } */
-
         /* format the content of the secondary disclosure space  */
         #disclosure_two[open]::details-content {
             display:flex;
@@ -180,7 +166,7 @@
             }
 
             /*  Move logo to left, reduce width of div and increase z-index */
-            #logo_div{
+            #LogoContainer{
                 justify-content: left;
                 padding-left: var(--space-4);
                 width: fit-content;

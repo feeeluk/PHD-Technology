@@ -1,4 +1,4 @@
-<div id="description">
+<div id="Description">
 
     <p>
         Not every business has the time, headcount, or know-how to take on digital projects themselves.

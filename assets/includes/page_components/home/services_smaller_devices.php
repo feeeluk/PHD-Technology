@@ -8,7 +8,7 @@
 
 ?> 
 
-<section id="services_smaller_devices">
+<div id="ServicesSmallerDevices">
 
     <a href="#business_analysis">
         <span>
@@ -64,4 +64,4 @@
         </span>
     </a>
 
-</section>
+</div>

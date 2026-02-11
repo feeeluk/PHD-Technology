@@ -1,9 +1,48 @@
 /* === LAYOUT_GENERAL .CSS === 
 
-    Use IDs ("#xyz") for elements that are one time use.
-    Use classes (".xyz") for things that repeat - remember DRY (Do not Repeat Yourself).
+        IDs and Classes
+            Use IDs ("#xyz") for elements that are one time use.
+            Use classes (".xyz") for things that repeat - remember DRY (Do not Repeat Yourself)
 
-*/
+        Naming conventions
+            files = use lowercase and join words using underscores 'this_is_an_example.php'
+            IDs = use PascalCase
+            classes = use camelCase
+
+            use the 'object-oriented css' convention, where an abject is referenced via '--'
+            e.g. 
+                .boxOne{} 
+                .boxOne--rounded{}
+                .boxOne--big{}
+                .boxOne--small{}
+
+        Layout CSS is broken down into 6 different files
+        - general
+        - header
+        - homepage
+        - services
+        - about
+        - contact
+
+        It is done this way so that each part of the site can have it's own specific styling, whilst also maintaining a sitewide consistent look and feel.
+        
+        More info on specific parts
+            - Navigation
+                The main header is made up of 3 parts, the logo, small device navigation and large device navigation. All three are in fixed positions, but the visibility changes depending on the size of the viewing device. Also, the layers change, too - but that will be changed shortly.
+            
+            - Layout
+                The navigation bars are all fixed positions of the same height.
+                Then, directly underneath is a container that is positioned absolutely (position: top;) and sits immediately underneath the navigation bar.
+                All further elements are children items within that parent container.
+
+                'container' classes
+                
+
+                'subContainer' classes
+
+                
+
+    */
 
 /* set default HTML attributes */
 /* ============================================== */
@@ -16,10 +55,17 @@
         line-height: var(--line-height);
     }
 
-    /* Set all links to the same style */
-    a, a:visited, a:active {
-        color: var(--colour-primary);
-        text-decoration: none;
+    div {
+        width: 100%;
+        text-align: left;
+        background: var(--colour-accent);
+        padding: var(--space-4) var(--space-4) 0 var(--space-4);
+    }
+
+    span {
+        width: 100%;
+        padding: 1rem;
+        background: var(--colour-accent)
     }
 
     article {
@@ -34,17 +80,9 @@
         padding: var(--space-4);    
     }
 
-    div {
-        width: 100%;
-        text-align: left;
-        background: var(--colour-accent);
-        padding: var(--space-4) var(--space-4) 0 var(--space-4);
-    }
-
-    span {
-        width: 100%;
-        padding: 1rem;
-        background: var(--colour-accent)
+    a, a:visited, a:active {
+        color: var(--colour-primary);
+        text-decoration: none;
     }
 
     h1, h2, h3, h4, h5, h6 {
@@ -64,13 +102,24 @@
 /* Containers */
 /* ============================================== */
 
-    /* used by ARTICLES to group an entire page of related content */
-    .container{
-    margin-top: 70px; /* provides a gap between containers */
+    /* only used on the homepage to allow the Introduction section to be full width */
+    #HomepageContainer{
+        position: absolute;
+        top: var(--height-header);
+        width: 100%;
+        padding: 0;
     }
 
-    /* used by SECTIONS to group a section of related content */
-    .sub_container {
+    /* only used once per page to group the entire page */
+    .pageContainer{
+        position: absolute;
+        top: var(--height-header);
+        width: 100%;
+        padding: 0 5% 0 5%;
+    }
+
+    /* group a section of related content */
+    .subContainer {
         background: brown;
         padding: 0 10% 40px 10%;
         display: flex;
@@ -80,7 +129,7 @@
         text-align: center;
     }
 
-    #link_to_top_div{
+    #link_to_top{
         display: none;
     }
 
@@ -88,6 +137,11 @@
 /* Footer */
 /* ============================================== */
 
+    #footer{
+        position: absolute;
+        bottom: 0;
+        background: var(--colour-bg-secondary);
+    }
 
 
 /* Spacing */

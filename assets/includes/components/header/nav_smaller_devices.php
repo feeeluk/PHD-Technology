@@ -1,9 +1,8 @@
-<!-- Disclosure -->
 <details id="disclosure_one">
 
     <summary>
 
-        <span id="hamburger_span"></span>
+        <span id="hamburger"></span>
 
     </summary>     
     
@@ -16,8 +15,7 @@
             
             <summary>
                 
-                Services
-                <span class="arrow"></span>
+                Services <span class="arrow"></span>
                 
             </summary>
             
@@ -36,6 +34,7 @@
         <!-- <a href="/pages/case_studies.php"><span class="link">Case Studies</span></a> -->
         <a href="/pages/portfolio.php"><span class="link">Portfolio</span></a>
         <a href="/pages/contact.php"><span class="link">Contact</span></a>
+        
     </nav>
     
 </details>

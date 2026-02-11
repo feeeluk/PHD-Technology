@@ -1,27 +1,19 @@
-        <footer>
+<footer>
+        
+    <p>
 
-            <section>
-                
-                <p>
+        |
+        <a href="/pages/contact.php">contact</a>
+        |
+        <a href="/pages/legal.php">legal</a>
+        |
 
-                    |
-                    <a href="/pages/contact.php">contact</a>
-                    |
-                    <a href="/pages/legal.php">legal</a>
-                    |
+    </p>
 
-                </p>
+    <p>
 
-                <p>
+        Philip Henning trading as PDH Technology
 
-                    Philip Henning trading as PDH Technology
+    </p>
 
-                </p>
-
-            </section>
-
-        </footer>
-    
-    </body>
-
-</html>
+</footer>
