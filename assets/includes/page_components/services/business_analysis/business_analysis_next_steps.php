@@ -1,4 +1,4 @@
-<section class="sub_container">
+<section class="sub_container next_steps">
 
     <h1>NEXT STEPS & HOW IT WORKS</h1>
 

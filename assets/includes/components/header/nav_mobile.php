@@ -2,7 +2,9 @@
 <details id="disclosure_one">
 
     <summary>
+
         <span id="hamburger_span"></span>
+
     </summary>     
     
     <nav id="navbar_for_mobile">
@@ -12,8 +14,11 @@
 
         <details id="disclosure_two">
             
-            <summary>Services
+            <summary>
+                
+                Services
                 <span class="arrow"></span>
+                
             </summary>
             
             <a href="/pages/services/business_analysis.php"><span class="link service">Business Analysis</span></a>

@@ -84,6 +84,7 @@
 
     /* BENEFITS section */
     /* ============================================== */
+
             .benefits_container{
                 display: flex;
                 flex-direction: column;
@@ -102,14 +103,37 @@
     /* PRICING section */
     /* ============================================== */
 
-
-
-    /* PORTFOLIO section */
-    /* ============================================== */
-
+        .prices div{
+            padding-bottom: 1rem;
+        }
 
 
     /* NEXT STEPS section */
     /* ============================================== */
+
+        .next_steps div{
+            padding-bottom: 1rem;
+        }
+
+        .call_us{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+                .call_us img{
+                    width: 25%;
+                }
+
+                /* LARGER DEVICES */
+                /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+                @media (min-width: 961px){
+                    .call_us img{
+                        width: 35%;
+                    }
+                }
+
+
 
 

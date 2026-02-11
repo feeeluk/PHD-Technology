@@ -45,7 +45,7 @@
                 
                 echo "<div class='click_for_details'>";
 
-                    include($path."assets/includes/components/button_click_for_details.php");
+                    include($path."assets/includes/components/other/button_click_for_details.php");
 
                 echo "</div>";
 

@@ -1,173 +1,163 @@
 /* === LAYOUT_HOMEPAGE.CSS === */
 
-/* Introduction */
-/* ############################################# */
+    /* INTRODUCTION (article)
+    - contains the 'elevator pitch', the 'description' text, and shortcuts to the differing services available (which display differently depending on the size of the device).  */
+    #introduction {
+        min-height: calc(100vh - var(--height-header));
+        background-image: url('/assets/images/other/about_us_background.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items:center;
+    }
 
-        /* INTRODUCTION (article)
-        - contains the 'elevator pitch', the 'description' text, and shortcuts to the differing services available (which display differently depending on the size of the device).  */
-        #introduction {
-            margin-top: var(--height-header);
-            min-height: calc(100vh - var(--height-header));
-            background-image: url('/assets/images/other/about_us_background.webp');
-            background-size: cover;
-            background-repeat: no-repeat;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items:center;
-        }
+            /* ELEVATOR PITCH (section)
+            - states the primary purpose of the business */     
+            #elevator_pitch {
+                background: rgba(var(--colour-primary-transparent), 0.8);
+                height: var(--height-elevator-pitch);
+                margin-top: var(--space-2);
+                margin-bottom: var(--space-2);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            
+                & h3{
+                    margin-bottom: 0;
+                }
+            }
 
-                /* ELEVATOR PITCH (section)
-                - states the primary purpose of the business */     
-                #elevator_pitch {
-                    background: rgba(var(--colour-primary-transparent), 0.8);
-                    height: var(--height-elevator-pitch);
-                    margin-top: var(--space-2);
-                    margin-bottom: var(--space-2);
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    text-align: center;
-                
-                    & h3{
-                        margin-bottom: 0;
+            /* OVERVIEW (section)
+            - Split into two divs; a more detailed description, and the services offered (the latter of which changes depending on the size of the device)  */
+            #overview{
+                background: rgba(var(--colour-bg-secondary-transparent), 0.85);    
+                display: flex;
+                flex-direction: column;
+            }
+
+                    /* div */
+                    #description{
+                        background: rgba(var(--colour-bg-accent-transparent), .3);
+                        padding: var(--space-4);
+                        margin-right: var(--space-3);
                     }
-                }
 
-                /* OVERVIEW (section)
-                - Split into two divs; a more detailed description, and the services offered (the latter of which changes depending on the size of the device)  */
-                #overview{
-                    position: relative;
-                    background: rgba(var(--colour-bg-secondary-transparent), 0.85);    
-                    display: flex;
-                    flex-direction: column;
-                }
+                    /* MOBILE & SMALLER DEVICES */
+                    /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-                        /* div */
-                        #description{
-                            background: rgba(var(--colour-bg-accent-transparent), .3);
-                            padding: var(--space-4);
-                            margin-right: var(--space-3);
+                        @media (max-width: 960px){
+                            
+                            /* do not show Services Tiles */
+                            #services_larger_devices{
+                                display: none;
+                            }
+
+                            /* remove the right margin from the DESCRIPTION div so that it aligns */
+                            #description{
+                                margin-right: 0px;
+                                background: rgba(var(--colour-bg-accent-transparent), .6);
+                            }
+
+                            /* SECTION - Links section (parent) */
+                            #services_smaller_devices{
+                                display: flex;
+                                flex-direction: row;
+                                flex-wrap: wrap;
+                                padding: var(--space-4) 0 0 0;                                    
+                            }
+
+                                    /* Links section (child) */
+                                    #services_smaller_devices a{
+                                        border: solid 1px white;
+                                        min-width: 33%;
+                                        max-width: 50%;
+                                        color: var(--colour-secondary);
+                                        display: flex;
+                                        flex-direction: column;
+                                        flex-grow: 1; /* allows items within the parent to grow horizontally */
+                                    }
+
+                                            /* Links section (grandchild) */
+                                            #services_smaller_devices span{
+                                                padding: var(--space-2);
+                                                display: flex;
+                                                flex-direction: row;
+                                                justify-content: center;
+                                                align-items: center;
+                                                flex-grow: 1; /* allows items within the parent to grow vertically */
+                                                text-align: center; /* allows text that breaks to align in the middle */
+                                                background: var(--colour-primary);
+                                            }
                         }
 
-                        /* MOBILE & SMALLER DEVICES */
-                        /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+                    /* LARGER DEVICES */
+                    /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-                            @media (max-width: 960px){
-                                
-                                /* do not show Services Tiles */
-                                #services_larger_devices{
-                                    display: none;
-                                }
-
-                                #overview{
-                                    margin-bottom: 50px;
-                                }
-
-                                /* remove the right margin from the DESCRIPTION div so that it aligns */
-                                #description{
-                                    margin-right: 0px;
-                                    background: rgba(var(--colour-bg-accent-transparent), .6);
-                                }
-
-                                /* SECTION - Links section (parent) */
-                                #services_smaller_devices{
-                                    display: flex;
-                                    flex-direction: row;
-                                    flex-wrap: wrap;
-                                    padding: var(--space-4) 0 0 0;                                    
-                                }
-
-                                        /* Links section (child) */
-                                        #services_smaller_devices a{
-                                            border: solid 1px white;
-                                            min-width: 33%;
-                                            max-width: 50%;
-                                            color: var(--colour-secondary);
-                                            background: var(--colour-primary);
-                                            display: flex;
-                                            flex-direction: column;
-                                            flex-grow: 1; /* allows items within the parent to grow horizontally */
-                                        }
-
-                                                /* Links section (grandchild) */
-                                                #services_smaller_devices span{
-                                                    padding: var(--space-2);
-                                                    display: flex;
-                                                    flex-direction: row;
-                                                    justify-content: center;
-                                                    align-items: center;
-                                                    flex-grow: 1; /* allows items within the parent to grow vertically */
-                                                    text-align: center; /* allows text that breaks to align in the middle */
-                                                }
+                        @media (min-width: 961px){
+                            
+                            /* do not show 'services_smaller_devices' div*/
+                            #services_smaller_devices{
+                                display: none;
                             }
 
-                        /* LARGER DEVICES */
-                        /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-
-                            @media (min-width: 961px){
-                                
-                                /* do not show 'services_smaller_devices' div*/
-                                #services_smaller_devices{
-                                    display: none;
-                                }
-
-                                /* when viewing in larger devices, the 'Overview' section changes to horizontal rather than vertical */
-                                #overview{
-                                    flex-direction: row;
-                                    margin-bottom: 100px;
-                                }
-
-                                /* the first div within the 'Overview' section takes up 35% of the available width */
-                                #description{
-                                    width: 35%;
-                                }
-
-                                /* the second div within the 'Overview' section takes up 65% of the available width */
-                                #services_larger_devices{
-                                    width: 65%;
-                                    padding: 0;
-                                    background: transparent;
-                                    display: flex;
-                                    flex-direction: row;
-                                    flex-wrap: wrap;
-                                    justify-content: space-between;
-                                }
-                                
-                                        /* SPAN - controls how he 'Services Tiles' appear */
-                                        .services_tile{
-                                            padding: 0;
-                                            width: fit-content;
-                                            min-width: 32%;
-                                            max-width: 49%;
-                                            min-height: calc(var(--services-tiles-img-height) + var(--services-tiles-h3-height));
-                                            background: transparent;
-                                            display: flex;
-                                            flex-grow: 1; /* allows the tiles to take up the horizontal space of parent */
-                                            flex-direction: column;
-                                            margin-left: var(--space-1);
-                                            margin-bottom: var(--space-1);
-                                        }
-
-                                                /* control the format of the image within the 'Services Tiles' */
-                                                .services_tile img{
-                                                    width: 100%;
-                                                    height: var(--services-tiles-img-height);
-                                                    object-fit: cover;
-                                                }
-
-                                                /* control the format of the h3 tag within the 'Services Tiles' appear */
-                                                .services_tile h3{
-                                                    height: var(--services-tiles-h3-height);  
-                                                    width: 100%;
-                                                    padding-left: var(--space-1);
-                                                    font-family: var(--services-tiles-h3-font-family);
-                                                    font-weight: var(--services-tiles-h3-font-weight);
-                                                    font-size: var(--services-tiles-h3-font-size);
-                                                    letter-spacing: var(--services-tiles-h3-letter-spacing);
-                                                    background: linear-gradient(to right, rgba(75, 75, 75, 1), rgba(75, 75, 75, 0.7) 50%, rgba(75, 75, 75, 1));                                                          
-                                                    display: flex;
-                                                    align-items: center;
-                                                    padding-left: var(--space-2);
-                                                }
+                            /* when viewing in larger devices, the 'Overview' section changes to horizontal rather than vertical */
+                            #overview{
+                                flex-direction: row;
                             }
+
+                            /* the first div within the 'Overview' section takes up 35% of the available width */
+                            #description{
+                                width: 35%;
+                            }
+
+                            /* the second div within the 'Overview' section takes up 65% of the available width */
+                            #services_larger_devices{
+                                width: 65%;
+                                padding: 0;
+                                background: transparent;
+                                display: flex;
+                                flex-direction: row;
+                                flex-wrap: wrap;
+                                justify-content: space-between;
+                            }
+                            
+                                    /* SPAN - controls how he 'Services Tiles' appear */
+                                    .services_tile{
+                                        padding: 0;
+                                        width: fit-content;
+                                        min-width: 32%;
+                                        max-width: 49%;
+                                        min-height: calc(var(--services-tiles-img-height) + var(--services-tiles-h3-height));
+                                        background: transparent;
+                                        display: flex;
+                                        flex-grow: 1; /* allows the tiles to take up the horizontal space of parent */
+                                        flex-direction: column;
+                                        margin-left: var(--space-1);
+                                        margin-bottom: var(--space-1);
+                                    }
+
+                                            /* control the format of the image within the 'Services Tiles' */
+                                            .services_tile img{
+                                                width: 100%;
+                                                height: var(--services-tiles-img-height);
+                                                object-fit: cover;
+                                            }
+
+                                            /* control the format of the h3 tag within the 'Services Tiles' appear */
+                                            .services_tile h3{
+                                                height: var(--services-tiles-h3-height);  
+                                                width: 100%;
+                                                padding-left: var(--space-1);
+                                                font-family: var(--services-tiles-h3-font-family);
+                                                font-weight: var(--services-tiles-h3-font-weight);
+                                                font-size: var(--services-tiles-h3-font-size);
+                                                letter-spacing: var(--services-tiles-h3-letter-spacing);
+                                                background: linear-gradient(to right, rgba(75, 75, 75, 1), rgba(75, 75, 75, 0.7) 50%, rgba(75, 75, 75, 1));                                                          
+                                                display: flex;
+                                                align-items: center;
+                                                padding-left: var(--space-2);
+                                            }
+                        }

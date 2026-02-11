@@ -1,32 +1,21 @@
 /* === LAYOUT_HEADER.CSS === */
 
-/* Header Placeholder */
-/* ============================================== */
-
-/* Header */
-/* ============================================== */
-
-        header {
-            background-color: var(--colour-bg-secondary);
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: var(--header);
-            z-index: var(--z-top);
-        }
-
-/* Logo */
-/* ============================================== */
+    /* Logo */
+    /* ============================================== */
 
         /* The container div for the logo */
         #logo_div {
+            position: fixed;
+            top: 0;
+            left: 0;
             height: var(--height-header);
+            background: var(--colour-bg-secondary);
+            padding: 0;
+            width: 100%;
             display: flex;
             align-items: center;
             justify-content: center;
-            background: var(--colour-bg-secondary);
-            padding: 0;
+            z-index: var(--z-bottom);
         }
             
         /* The logo increases in size for larger devices  */
@@ -36,8 +25,8 @@
                     justify-self: center;}
         }
 
-/* Navigation (smaller devices) */
-/* ============================================== */
+    /* Navigation (smaller devices) */
+    /* ============================================== */
 
         /* do not show the standard navigation menu as standard */
         #navbar_dropdown {
@@ -61,6 +50,7 @@
             cursor: pointer;
             background-image: url('/assets/images/other/hamburger_icon_small.webp');
             background-repeat: no-repeat;
+            z-index: var(--z-top);
         }
 
         /*  Hamburger icon - active */
@@ -71,11 +61,12 @@
 
         /* format the content of the primary disclosure space */
         #disclosure_one[open]::details-content {
-            position: fixed;
+            position: absolute;
             top: var(--height-header);
             width: 100%;
             display: flex;
             flex-direction: column;
+            z-index: var(--z-top);
         }
 
         /*  format all the items within the primary disclosure (note. this is why the 'nav' was used) */
@@ -83,7 +74,6 @@
             display: block;
             color: var(--disclosure-colour-primary);
             background-color: var(--disclosure-colour-bg-primary);
-            width: 100%;
             border-bottom: var(--disclosure-border);
             padding: var(--space-1);
             padding-left: var(--space-4);
@@ -115,6 +105,9 @@
             border-left-style: solid;
             border-left-color: var(--disclosure-triangle-colour);
             margin-left: var(--disclosure-triangle-margin);
+            background: transparent;
+            width: fit-content;
+            padding: 0;
         }
 
         /* Arrow - inactive (hover) */
@@ -186,24 +179,27 @@
                 display: none;
             }
 
-            /*  Move logo to left */
+            /*  Move logo to left, reduce width of div and increase z-index */
             #logo_div{
                 justify-content: left;
                 padding-left: var(--space-4);
+                width: fit-content;
+                z-index: var(--z-top);
             }
 
             /* Show 'navbar'  */
             #navbar_dropdown {
                 position: fixed;
                 top: 0;
-                background: transparent;
+                left: 0;
                 height: var(--height-header);
+                background: var(--colour-bg-secondary);
                 width: 100%;
-                min-width: calc(100% - 280px);
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
                 align-items: center;
+                z-index: var(--z-bottom);
             }
                             
             /* Navbar links */
@@ -229,6 +225,7 @@
                 box-shadow: var(--shadow-xl);
                 text-align: left;
                 padding: 0px;
+                width: fit-content;
                 min-width: 250px;
                 /* margin-top: var(--space-1); */
                 /* z-index: var(--z-top); */
