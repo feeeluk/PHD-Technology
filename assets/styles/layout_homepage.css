@@ -106,6 +106,7 @@
             /* when viewing in larger devices, the 'Overview' section changes to horizontal rather than vertical */
             #Overview{
                 flex-direction: row;
+                margin-bottom: 50px;
             }
 
             /* the first div within the 'Overview' section takes up 35% of the available width */
