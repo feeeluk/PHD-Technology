@@ -68,15 +68,11 @@
     }
 
     article {
-        position: absolute;
-        top: var(--height-header);
-        width: 100%;
-        padding: 0 5% 0 5%;
+
     }
 
     section {
-        width: 100%;
-        padding: var(--space-4);    
+   
     }
 
     a, a:visited, a:active {
@@ -110,6 +106,7 @@
 
     /* group a section of related content */
     .subContainer {
+        position:static;
         background: linear-gradient(to right, rgba(var(--colour-bg-secondary-transparent), 0.05), var(--colour-heading), rgba(var(--colour-bg-secondary-transparent), 0.05));
         padding: var(--space-fixed-2) 10%;
         display: flex;
@@ -119,8 +116,21 @@
         text-align: center;
     }
 
-    #link_to_top{
-        display: none;
+    #LinkToTop{
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        display: none; /* a script changes this to 'flex' once the screen is scrolled down at all */
+        margin: 0;
+        padding: 0;
+        height: 4rem;
+        width: 4rem;
+        background: var(--colour-bg-secondary);
+        border: 1px solid #CCC;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        text-align: unset;
     }
 
 

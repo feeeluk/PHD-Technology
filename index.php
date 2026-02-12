@@ -3,12 +3,12 @@
     // SET PAGE VARIABLES & CONSTANTS
     // ****************************************************************************************************************************************
         
-        //    ./ = page is located in the root directory
-        //    ../ = page is located one folder up
-        //    ../../ = page is located two folders up, etc
-
         // set the site root folder in relation to this page
-        $path = "./";        
+        $path = "./";
+
+            //    ./ = page is located in the root directory
+            //    ../ = page is located one folder up
+            //    ../../ = page is located two folders up, etc       
         
         // set the page title
         $subTitle = "Home";
@@ -27,15 +27,15 @@
             // ****************************************************************************************************************************************
             include($path."assets/includes/components/header/header.php");
 
-            // LINK TO TOP OF THE PAGE
-            // ****************************************************************************************************************************************
-            //include($path."assets/includes/components/header/link_to_top_of_the_page.php");
-
         ?>
 
         <div ID="HomepageContainer">
 
             <?php
+            
+                // LINK TO TOP OF THE PAGE
+                // ****************************************************************************************************************************************
+                include($path."assets/includes/components/header/link_to_top_of_the_page.php");
 
                 // INTRODUCTION
                 // ****************************************************************************************************************************************
@@ -78,19 +78,19 @@
 
                     ?>
 
-                </div>
+                </div><!-- end subContainer -->
 
                 <?php
 
                     // FOOTER
                     // ****************************************************************************************************************************************
-                    include($path."assets/includes/components/footer/footer.php");
+                    //include($path."assets/includes/components/footer/footer.php");
 
                 ?>
 
-            </div>
+            </div><!-- end HomepageSubContainer -->
         
-        </div>
+        </div><!-- end HomepageContainer -->
 
     </body>
 

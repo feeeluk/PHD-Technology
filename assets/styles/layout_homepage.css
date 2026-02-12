@@ -13,6 +13,7 @@
 
     /* used with the above ID to allow the homepage to have a different layout */
     #HomepageSubContainer{
+        position:static;
         padding: 0 var(--space-fixed-2);
     }
 

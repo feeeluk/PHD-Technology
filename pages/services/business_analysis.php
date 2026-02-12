@@ -30,7 +30,7 @@
                 include($path."assets/includes/page_components/services/business_analysis/business_analysis_description.php");
 
                 // Benefits
-                include($path."assets/includes/page_components/services/business_analysis/business_analysis_benefits.php");      
+                //include($path."assets/includes/page_components/services/business_analysis/business_analysis_benefits.php");      
                 
                 // Prices
                 // include($path."assets/includes/page_components/services/business_analysis/business_analysis_prices.php");
