@@ -14,12 +14,12 @@
     /* used with the above ID to allow the homepage to have a different layout */
     #HomepageSubContainer{
         margin-top: var(--space-fixed-2);
-        padding: 0 var(--space-fixed-2);
+        padding: 0 var(--space-fixed-4);
     }
 
     /* contains the 'elevator pitch', the 'description' text, and shortcuts to the differing services available */
     #Introduction {
-        padding: 0 var(--space-fixed-2) var(--space-4) var(--space-fixed-2);
+        padding: 0 var(--space-fixed-4) var(--space-4) var(--space-fixed-4);
         min-height: calc(100vh - var(--height-header));
         background-image: url('/assets/images/other/about_us_background.webp');
         background-size: cover;

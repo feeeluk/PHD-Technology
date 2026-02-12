@@ -117,7 +117,7 @@
     /* group a section of related content */
     .subContainer {
         background: brown;
-        padding: 0 10% 40px 10%;
+        padding: 0 10% var(--space-fixed-3) 10%;
         display: flex;
         flex-direction: column;
         align-items: center;
