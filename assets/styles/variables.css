@@ -7,6 +7,7 @@
   --colour-secondary: #ffffff;
   --colour-accent: #777777;
   --colour-text: #333333;
+  --colour-heading: #555555;
   --colour-bg-primary: linear-gradient(to right, #777, #555 25%, #999);
   --colour-bg-secondary: rgb(240, 240, 240);
   --colour-bg-secondary-transparent: 240, 240, 240;

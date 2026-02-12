@@ -58,7 +58,6 @@
     div {
         width: 100%;
         text-align: left;
-        background: var(--colour-accent);
         padding: var(--space-4) var(--space-4) 0 var(--space-4);
     }
 
@@ -88,11 +87,6 @@
     h1, h2, h3, h4, h5, h6 {
         color: var(--colour-secondary);
         margin-bottom: 0.5rem;
-    }
-
-    /* Make the first h1 of the subContainer have more top padding */
-    #HomepageSubContainer h1:first-of-type{
-        padding-top: 2rem;
     }    
 
     p {
@@ -116,8 +110,8 @@
 
     /* group a section of related content */
     .subContainer {
-        background: brown;
-        padding: 0 10% var(--space-fixed-3) 10%;
+        background: linear-gradient(to right, rgba(var(--colour-bg-secondary-transparent), 0.05), var(--colour-heading), rgba(var(--colour-bg-secondary-transparent), 0.05));
+        padding: var(--space-fixed-2) 10%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -137,7 +131,6 @@
         width: 100%;
         padding: var(--space-4);
         background: var(--colour-bg-secondary);
-        margin-top: var(--space-4);
     }
 
 

@@ -13,13 +13,12 @@
 
     /* used with the above ID to allow the homepage to have a different layout */
     #HomepageSubContainer{
-        margin-top: var(--space-fixed-2);
-        padding: 0 var(--space-fixed-4);
+        padding: 0 var(--space-fixed-2);
     }
 
     /* contains the 'elevator pitch', the 'description' text, and shortcuts to the differing services available */
     #Introduction {
-        padding: 0 var(--space-fixed-4) var(--space-4) var(--space-fixed-4);
+        padding: 0 var(--space-fixed-2) var(--space-4) var(--space-fixed-2);
         min-height: calc(100vh - var(--height-header));
         background-image: url('/assets/images/other/about_us_background.webp');
         background-size: cover;
@@ -57,6 +56,39 @@
         margin-right: var(--space-3);
     }
 
+    /* Links section (parent)*/
+    #ServicesSmallerDevices{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: var(--space-4) 0;
+        background: gba(var(--colour-bg-secondary-transparent), 0.85);                                  
+    }
+
+    /* Links section (child) */
+    #ServicesSmallerDevices a{
+        border: solid 1px white;
+        min-width: 33%;
+        max-width: 50%;
+        color: var(--colour-secondary);
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1; /* allows items within the parent to grow horizontally */
+    }
+
+    /* Links section (grandchild) */
+    #ServicesSmallerDevices span{
+        padding: var(--space-2);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1; /* allows items within the parent to grow vertically */
+        text-align: center; /* allows text that breaks to align in the middle */
+        background: var(--colour-primary);
+    }
+
+    
     /* MOBILE & SMALLER DEVICES */
     /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
@@ -67,56 +99,25 @@
                 display: none;
             }
 
-            /* remove the right margin from the DESCRIPTION div so that it aligns */
-            #Description{
-                margin-right: 0px;
-                background: rgba(var(--colour-bg-accent-transparent), .6);
-            }
-
-            /* Links section (parent) */
-            #ServicesSmallerDevices{
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                padding: var(--space-4) 0;
-                background: gba(var(--colour-bg-secondary-transparent), 0.85);                                  
-            }
-
-                    /* Links section (child) */
-                    #ServicesSmallerDevices a{
-                        border: solid 1px white;
-                        min-width: 33%;
-                        max-width: 50%;
-                        color: var(--colour-secondary);
-                        display: flex;
-                        flex-direction: column;
-                        flex-grow: 1; /* allows items within the parent to grow horizontally */
-                    }
-
-                            /* Links section (grandchild) */
-                            #ServicesSmallerDevices span{
-                                padding: var(--space-2);
-                                display: flex;
-                                flex-direction: row;
-                                justify-content: center;
-                                align-items: center;
-                                flex-grow: 1; /* allows items within the parent to grow vertically */
-                                text-align: center; /* allows text that breaks to align in the middle */
-                                background: var(--colour-primary);
-                            }
-        }
+        }   
 
     /* LARGER DEVICES */
     /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
         @media (min-width: 961px){
             
-            /* do not show 'ServicesSmallerDevices' div*/
+            /* do not show Links section */
             #ServicesSmallerDevices{
                 display: none;
             }
 
-            /* when viewing in larger devices, the 'Overview' section changes to horizontal rather than vertical */
+            /* add right margin to the Description section */
+            #Description{
+                margin-right: var(--space-4);
+                background: rgba(var(--colour-bg-accent-transparent), .6);
+            }
+
+            /* change the Overview section to horizontal rather than vertical */
             #Overview{
                 flex-direction: row;
             }
@@ -141,7 +142,7 @@
                     .servicesTile{
                         padding: 0;
                         width: fit-content;
-                        min-width: 32%;
+                        min-width: 30%;
                         max-width: 49%;
                         min-height: calc(var(--services-tiles-img-height) + var(--services-tiles-h3-height));
                         background: transparent;
@@ -173,4 +174,22 @@
                                 align-items: center;
                                 padding-left: var(--space-2);
                             }
+        }
+
+    /* VERY LARGE DEVICES */
+    /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+        @media (min-width: 1281px){
+            
+            /* increase the padding of the Introduction section */
+            #Introduction{
+                padding-left: var(--space-fixed-4);
+                padding-right: var(--space-fixed-4);
+            }
+            
+            /* increase the padding of the sub container */
+            #HomepageSubContainer{
+                padding: 0 var(--space-fixed-4);
+            }
+
         }

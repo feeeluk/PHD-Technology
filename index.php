@@ -76,15 +76,17 @@
                         // UI/UX
                         //include($path."assets/includes/page_components/services/ui_ux/ui_ux_overview.php");
 
-
-
-                        // FOOTER
-                        // ****************************************************************************************************************************************
-                        include($path."assets/includes/components/footer/footer.php");
-
                     ?>
 
                 </div>
+
+                <?php
+
+                    // FOOTER
+                    // ****************************************************************************************************************************************
+                    include($path."assets/includes/components/footer/footer.php");
+
+                ?>
 
             </div>
         

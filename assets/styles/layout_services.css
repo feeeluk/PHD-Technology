@@ -3,33 +3,49 @@
     /* DESCRIPTION OF SERVICE section */
     /* ============================================== */
 
-        /* The first DIV of the 'Description'. This is the only part shown on the Homepage */
-        .summaryOfService{     
-            padding-bottom: 1rem;
+        /* styling for the Service*/
+        .descriptionOfService{
+            text-align: unset;
+            padding: 0 var(--space-4) var(--space-4) var(--space-4);
+            border-width: 5px;
+            border-style: solid;
+            border-color: white;
+            background: linear-gradient(to right bottom, #B9B9B9, #D9D9D9);
         }
 
-                /* Each service has an image associated with it. The image is contained within a SPAN */
-                .banner{
-                    padding: 0;
+                /* Make heading 1s have different margins and colour */
+                .descriptionOfService > h1{
+                    color: var(--colour-heading);
+                    margin-top: var(--space-fixed-1);
+                    margin-bottom: var(--space-fixed-1);
                 }
+    
+        /* The first DIV of the 'Description'. This is the only part shown on the Homepage */
+        .summaryOfService{
+            padding: 0 0 var(--space-4);
+        }
 
-                /* This is the actual image */
-                .banner img{
-                    object-fit: contain;
-                    float: left;
-                    margin-right: 1rem;
-                }
+        /* Each service has an image associated with it. */
+        .summaryOfService img{
+            object-fit: contain;
+            float: left;
+            margin-right: 1rem;
+            margin-bottom: 1rem;
+        }
 
-        /* A button to find out more about this service shows inside a DIV. But this only appears only on the Homepage */
+        /* button to find out more about the service */
         .clickForDetails{        
-            display: flex;
-            flex-direction: row;
             padding: 0;
         }
 
                 /* The button is nested inside an A tag */
                 .clickForDetails a{
                     width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    padding: 0;
+                    justify-content: center;
+                    text-align: unset;
                 }
         
                     /* The button itself is a SPAN */
@@ -37,7 +53,6 @@
                         display: block;
                         background: rgb(50, 140, 130);
                         padding: 0.5rem 1rem;
-                        margin: 0 1rem 1rem 1rem;
                         border: 1px solid black;
                         color: white;
                         width: fit-content;
@@ -57,11 +72,6 @@
                         .banner{
                             height: 150px;
                         }
-
-                        /* move the position of the button */
-                        .click_for_details{
-                            justify-content: center;
-                        }
                         
                     }
 
@@ -76,7 +86,7 @@
                         }
 
                         /* move the position of the button */
-                        .clickForDetails{
+                        .clickForDetails a{
                             justify-content: start;
                         }
                         

@@ -22,7 +22,7 @@
 
 ?>
 
-    <article class="container">
+    <div class="container">
 
         <?php
                 
@@ -46,7 +46,7 @@
 
         ?>
 
-    </article>
+</div>
 
 <?php
 
