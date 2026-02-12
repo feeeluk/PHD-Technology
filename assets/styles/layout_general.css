@@ -90,6 +90,11 @@
         margin-bottom: 0.5rem;
     }
 
+    /* Make the first h1 of the subContainer have more top padding */
+    #HomepageSubContainer h1:first-of-type{
+        padding-top: 2rem;
+    }    
+
     p {
         margin-bottom: var(--space-3);
     }
@@ -98,17 +103,8 @@
         margin-bottom: 0;
     }
 
-
 /* Containers */
 /* ============================================== */
-
-    /* only used on the homepage to allow the Introduction section to be full width */
-    #HomepageContainer{
-        position: absolute;
-        top: var(--height-header);
-        width: 100%;
-        padding: 0;
-    }
 
     /* only used once per page to group the entire page */
     .pageContainer{
@@ -129,14 +125,6 @@
         text-align: center;
     }
 
-    #HomepageContainer > .subContainer{
-        margin-top: var(--space-6);
-    }
-
-    .subContainer:last-child{
-        padding-bottom: 0;
-    }
-
     #link_to_top{
         display: none;
     }
@@ -146,8 +134,10 @@
 /* ============================================== */
 
     footer{
-        background: var(--colour-bg-secondary);
         width: 100%;
+        padding: var(--space-4);
+        background: var(--colour-bg-secondary);
+        margin-top: var(--space-4);
     }
 
 

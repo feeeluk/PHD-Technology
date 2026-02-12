@@ -1,10 +1,10 @@
 /* === LAYOUT_SERVICES.CSS === */
 
-    /* DESCRIPTION section */
+    /* DESCRIPTION OF SERVICE section */
     /* ============================================== */
 
         /* The first DIV of the 'Description'. This is the only part shown on the Homepage */
-        .summary{     
+        .summaryOfService{     
             padding-bottom: 1rem;
         }
 
@@ -21,19 +21,19 @@
                 }
 
         /* A button to find out more about this service shows inside a DIV. But this only appears only on the Homepage */
-        .click_for_details{        
+        .clickForDetails{        
             display: flex;
             flex-direction: row;
             padding: 0;
         }
 
                 /* The button is nested inside an A tag */
-                .click_for_details a{
+                .clickForDetails a{
                     width: 100%;
                 }
         
                     /* The button itself is a SPAN */
-                    .button_click_for_details {
+                    .buttonClickForDetails {
                         display: block;
                         background: rgb(50, 140, 130);
                         padding: 0.5rem 1rem;
@@ -41,10 +41,10 @@
                         border: 1px solid black;
                         color: white;
                         width: fit-content;
-                }
+                    }
 
         /* The second DIV of the 'Description' gives more information about the service */
-            .details{
+            .detailsOfAService{
                 padding-top: 0; /* Removes the unnecessary duplication of padding */
             }
 
@@ -76,7 +76,7 @@
                         }
 
                         /* move the position of the button */
-                        .click_for_details{
+                        .clickForDetails{
                             justify-content: start;
                         }
                         
