@@ -1,6 +1,6 @@
-<a id="business_analysis" class="anchor"></a>
-
 <div class="serviceItem">
+
+    <a id="BusinessAnalysis" class="anchor"></a>
 
     <?php
 
@@ -54,7 +54,7 @@
 
     <div class="detailsOfService">
 
-        <h3 class="margin_top">Business Analysis: A Strategic Investment in Better Decisions and Better Outcomes</h3>
+        <h3>Business Analysis: A Strategic Investment in Better Decisions and Better Outcomes</h3>
         
         <p>
             At its core, business analysis provides a structured approach to understanding how a business works today, identifying where inefficiencies or risks exist, and defining practical, evidence‑based improvements that lead to measurable gains.
@@ -68,16 +68,14 @@
             With many years of commercial Business Analysis experience, across a variety of sectors, we are able to:
         </p>
 
-            <ul>
-                <li>Facilitate workshops</li>
-                <li>Produce and/or manage your Product Roadmap</li>
-                <li>Elicit stakeholder and end-user requirements</li>
-                <li>Produce User Stories</li>
-                <li>Manage a Product Backlog</li>
-                <li>Follow agile principles - we have lots of experience with SCRUM</li>
-            </ul>
-            
-        
+        <ul>
+            <li>Facilitate workshops</li>
+            <li>Produce and/or manage your Product Roadmap</li>
+            <li>Elicit stakeholder and end-user requirements</li>
+            <li>Produce User Stories</li>
+            <li>Manage a Product Backlog</li>
+            <li>Follow agile principles - we have lots of experience with SCRUM</li>
+        </ul>
 
     </div>
 

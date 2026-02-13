@@ -39,7 +39,7 @@
                     {
                         $link = "pages/services/ui_ux.php";
                         
-                        include($path."assets/includes/components/button_click_for_details.php");
+                        include($path."assets/includes/components/other/button_click_for_details.php");
 
                     }
 

@@ -25,28 +25,28 @@
             include($path."assets/includes/page_components/services/business_analysis/business_analysis_description.php");
             
             // PROJECT MANAGEMENT
-            //include($path."assets/includes/page_components/services/project_management/project_management_overview.php");
+            //include($path."assets/includes/page_components/services/project_management/project_management_description.php");
             
             // SOFTWARE DEVELOPMENT
-            //include($path."assets/includes/page_components/services/software_development/software_development_overview.php");
+            //include($path."assets/includes/page_components/services/software_development/software_development_description.php");
             
             // DATA MANIPULATION
-            //include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_overview.php");
+            include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_description.php");
             
             // SKILLS DEVELOPMENT & TRAINING
-            //include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_overview.php");
+            //include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_description.php");
             
             // PROOF OF CONCEPT
-            //include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_overview.php");
+            //include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_description.php");
 
             // ARTIFICIAL INTELLIGENCE
-            //include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_overview.php");
+            include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_description.php");
 
             // DIGITAL MEDIA & MARKETING
-            //include($path."assets/includes/page_components/services/digital_media_and_marketing/digital_media_and_marketing_overview.php");
+            //include($path."assets/includes/page_components/services/digital_media_and_marketing/digital_media_and_marketing_description.php");
 
             // UI/UX
-            //include($path."assets/includes/page_components/services/ui_ux/ui_ux_overview.php");
+            //include($path."assets/includes/page_components/services/ui_ux/ui_ux_description.php");
 
 
     // HTML 2

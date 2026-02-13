@@ -23,7 +23,7 @@
 
         // PAGE CONTENTS HERE
 
-            // Overview
+            // Description
             include($path."assets/includes/page_components/services/business_analysis/business_analysis_description.php");
 
             // Benefits
@@ -38,10 +38,12 @@
             // Next Steps & How it Works
             include($path."assets/includes/page_components/services/business_analysis/business_analysis_next_steps.php");
 
+            // Case Studies
+            //include($path."assets/includes/page_components/services/business_analysis/business_analysis_case_studies.php");
+
 
     // HTML 2
     // ****************************************************************************************************************************************
     include($path."assets/includes/components/page/html_2.php");
     
-
 ?>
