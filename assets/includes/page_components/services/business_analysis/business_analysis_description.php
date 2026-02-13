@@ -38,13 +38,9 @@
         if (str_contains($_SERVER['REQUEST_URI'],'business_analysis') == false)
             {
                 $link = "pages/services/business_analysis.php";
-                
-                echo "<div class='clickForDetails'>";
 
                     include($path."assets/includes/components/other/button_click_for_details.php");
-
-                echo "</div>";
-
+                    
             }
 
         if (str_contains($_SERVER['REQUEST_URI'],'business_analysis') == true)

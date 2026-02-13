@@ -25,7 +25,7 @@
             include($path."assets/includes/page_components/services/business_analysis/business_analysis_description.php");
             
             // PROJECT MANAGEMENT
-            //include($path."assets/includes/page_components/services/project_management/project_management_description.php");
+            include($path."assets/includes/page_components/services/project_management/project_management_description.php");
             
             // SOFTWARE DEVELOPMENT
             //include($path."assets/includes/page_components/services/software_development/software_development_description.php");
