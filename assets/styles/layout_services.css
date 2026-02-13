@@ -1,36 +1,37 @@
 /* === LAYOUT_SERVICES.CSS === */
 
-    /* DESCRIPTION OF SERVICE section */
-    /* ============================================== */
-
-        /* styling for the Service*/
-        .descriptionOfService{
+     /* styling for each section within a Service*/
+        .serviceItem{
             text-align: unset;
             padding: 0 var(--space-4) var(--space-4) var(--space-4);
-            border-width: 5px;
-            border-style: solid;
-            border-color: white;
+            border: 5px solid white;
             background: linear-gradient(to right bottom, #B9B9B9, #D9D9D9);
+            margin-bottom: 50px;
+
+            & h1{
+                margin-top: 1.5rem;
+                margin-bottom: 1rem;
+                color: var(--colour-heading);
+            }
         }
 
-                /* Make heading 1s have different margins and colour */
-                .descriptionOfService > h1{
-                    color: var(--colour-heading);
-                    margin-top: var(--space-fixed-1);
-                    margin-bottom: var(--space-fixed-1);
-                }
+    /* DESCRIPTION OF SERVICE section */
+    /* ============================================== */
     
         /* The first DIV of the 'Description'. This is the only part shown on the Homepage */
         .summaryOfService{
-            padding: 0 0 var(--space-4);
+            padding: 0;
+            margin-bottom: 1rem;
+            min-height: 150px;
         }
 
         /* Each service has an image associated with it. */
         .summaryOfService img{
-            object-fit: contain;
+            object-fit: cover;
+            height: 150px;
+            max-height: 150px;
             float: left;
-            margin-right: 1rem;
-            margin-bottom: 1rem;
+            padding: 0 1rem 0 0;
         }
 
         /* button to find out more about the service */
@@ -38,109 +39,120 @@
             padding: 0;
         }
 
-                /* The button is nested inside an A tag */
-                .clickForDetails a{
-                    width: 100%;
-                    display: flex;
-                    flex-direction: row;
-                    padding: 0;
-                    justify-content: center;
-                    text-align: unset;
-                }
+        /* The button is nested inside an A tag */
+        .clickForDetails a{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            padding: 0;
+            justify-content: center;
+            text-align: unset;
+        }
         
-                    /* The button itself is a SPAN */
-                    .buttonClickForDetails {
-                        display: block;
-                        background: rgb(50, 140, 130);
-                        padding: 0.5rem 1rem;
-                        border: 1px solid black;
-                        color: white;
-                        width: fit-content;
-                    }
+        /* The button itself is a SPAN */
+        .buttonClickForDetails {
+            display: block;
+            background: rgb(50, 140, 130);
+            padding: 0.5rem 1rem;
+            border: 1px solid black;
+            color: white;
+            width: fit-content;
+        }
 
         /* The second DIV of the 'Description' gives more information about the service */
-            .detailsOfAService{
-                padding-top: 0; /* Removes the unnecessary duplication of padding */
+        .detailsOfService{
+            padding: 0; /* Removes the unnecessary duplication of padding */
+
+            & h3{
+
+                margin-top: var(--space-2);
+
             }
-
-                /* MOBILE & SMALLER DEVICES */
-                /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-
-                    @media (max-width: 960px){
-
-                        /* make image smaller */
-                        .banner{
-                            height: 150px;
-                        }
-                        
-                    }
+        }
 
                 /* LARGER DEVICES */
                 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-                    @media (min-width: 961px){
-
-                        /* make image bigger */
-                        .banner{
-                            height: 250px;
-                        }
+                    @media (min-width: 640px){
 
                         /* move the position of the button */
                         .clickForDetails a{
                             justify-content: start;
                         }
-                        
+
+                        /* make image bigger */
+                        .summaryOfService img{
+                            height: 225px;
+                            max-height: 225px;
+                        }
+
+                        /* make summaryOfService bigger */
+                        .summaryOfService{
+                            min-height: 225px;
+                        }
+                    }
+                
+                    @media (min-width: 960px){
+
+                        /* make image bigger */
+                        .summaryOfService img{
+                            height: 300px;
+                            max-height: 300px;
+                        }
+
+                        /* make summaryOfService bigger */
+                        .summaryOfService{
+                            min-height: 300px;
+                        }
+
                     }
 
     /* BENEFITS section */
     /* ============================================== */
 
-            .benefits_container{
-                display: flex;
-                flex-direction: column;
-            }
+        .benefits{
+            display: block;
+            margin-bottom: 2rem;
+            text-align: left;
+            padding: 1rem;
+            border-radius: 10px;
+        }
 
-            .benefits_span{
-                margin-bottom: 2rem;
-                text-align: left;
-            }
-
-            .benefits_span:last-child{
-                margin-bottom: 0;
-            }
+        .benefits:last-child{
+            margin-bottom: 0;
+        }
 
 
     /* PRICING section */
     /* ============================================== */
 
-        .prices div{
-            padding-bottom: 1rem;
-        }
-
 
     /* NEXT STEPS section */
     /* ============================================== */
 
-        .next_steps div{
-            padding-bottom: 1rem;
-        }
-
-        .call_us{
+        .callUs{
             display: flex;
             flex-direction: row;
             justify-content: center;
         }
 
-                .call_us img{
-                    width: 25%;
-                }
+        .callUs img{
+            width: 100px;
+            height: 100%;
+        }
 
                 /* LARGER DEVICES */
                 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-                @media (min-width: 961px){
-                    .call_us img{
-                        width: 35%;
+                @media (min-width: 640px){
+                    .callUs img{
+                        width: 150px;
+                    }
+                }
+
+                @media (min-width: 960px){
+                    .callUs img{
+                        width: 200px;
                     }
                 }
 

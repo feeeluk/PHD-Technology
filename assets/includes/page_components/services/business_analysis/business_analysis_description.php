@@ -1,6 +1,6 @@
 <a id="business_analysis" class="anchor"></a>
 
-<div class="descriptionOfService">
+<div class="serviceItem">
 
     <?php
 
@@ -17,7 +17,7 @@
 
     <div class="summaryOfService">
 
-        <img src="/assets/images/services/business_analysis/overview_business_analysis.webp" alt="business analysis">
+        <img src="/assets/images/services/business_analysis/overview_business_analysis.webp" alt="business analysis" class="banner">
         
         <p>
             Business analysis is one of the most effective ways an organisation can improve how it operates, makes decisions, and delivers value.
@@ -66,6 +66,7 @@
 
         <p>
             With many years of commercial Business Analysis experience, across a variety of sectors, we are able to:
+        </p>
 
             <ul>
                 <li>Facilitate workshops</li>
@@ -76,7 +77,7 @@
                 <li>Follow agile principles - we have lots of experience with SCRUM</li>
             </ul>
             
-        </p>
+        
 
     </div>
 

@@ -23,9 +23,9 @@
 
         <?php
             
-            // HEADER
+            // PAGE HEADER & NAVIGATION
             // ****************************************************************************************************************************************
-            include($path."assets/includes/components/header/header.php");
+            include($path."assets/includes/components/page_header/page_header.php");
 
         ?>
 
@@ -35,33 +35,31 @@
             
                 // LINK TO TOP OF THE PAGE
                 // ****************************************************************************************************************************************
-                include($path."assets/includes/components/header/link_to_top_of_the_page.php");
+                include($path."assets/includes/components/page_header/link_to_top_of_the_page.php");
 
             ?>
 
-           <div class="subContainer">
+            <div class="subContainer">
 
-                
                 <?php
-    
 
                 ?>
 
-            </div><!-- end subContainer --> 
+            </div>
+
+            <div ID="Footer">
+
+                <?php
+
+                    // FOOTER
+                    // ****************************************************************************************************************************************
+                    include($path."assets/includes/components/footer/footer.php");
+
+                ?>
             
+            </div>
 
-        
-        </div><!-- end pageContainer -->
-
-                    <?php
-
-                // FOOTER
-                // ****************************************************************************************************************************************
-                include($path."assets/includes/components/footer/footer.php");
-
-            ?>
-
-
+        </div>
 
     </body>
 

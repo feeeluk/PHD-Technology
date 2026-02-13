@@ -105,16 +105,31 @@
     }
 
     /* group a section of related content */
-    .subContainer {
+    .subContainer{
         position:static;
         background: linear-gradient(to right, rgba(var(--colour-bg-secondary-transparent), 0.05), var(--colour-heading), rgba(var(--colour-bg-secondary-transparent), 0.05));
-        padding: var(--space-fixed-2) 10%;
+        padding: var(--space-4) 5% 0 5%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
     }
+
+            /* LARGER DEVICES */
+            /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+            @media (min-width: 640px){
+                .subContainer{
+                    padding: var(--space-4) 10% 0 10%;
+                }
+            }
+
+            @media (min-width: 960px){
+                .subContainer{
+                    padding: var(--space-4) 20% 0 20%;
+                }
+            }
 
     #LinkToTop{
         position: fixed;
