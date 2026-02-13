@@ -67,13 +67,13 @@
         background: var(--colour-accent)
     }
 
-    article {
+    /* article {
 
     }
 
     section {
    
-    }
+    } */
 
     a, a:visited, a:active {
         color: var(--colour-primary);
@@ -109,6 +109,7 @@
         position:static;
         background: linear-gradient(to right, rgba(var(--colour-bg-secondary-transparent), 0.05), var(--colour-heading), rgba(var(--colour-bg-secondary-transparent), 0.05));
         padding: var(--space-fixed-2) 10%;
+        margin-bottom: calc(var(--height-footer) + var(--space-fixed-2));
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -118,19 +119,21 @@
 
     #LinkToTop{
         position: fixed;
-        bottom: 20px;
+        bottom: 15px;
         left: 50%;
         display: none; /* a script changes this to 'flex' once the screen is scrolled down at all */
         margin: 0;
         padding: 0;
         height: 4rem;
         width: 4rem;
-        background: var(--colour-bg-secondary);
-        border: 1px solid #CCC;
+        color: var(--colour-secondary);
+        background: rgba(var(--colour-primary-transparent), .9);
+        /* border: 1px solid #CCC; */
         border-radius: 50%;
         justify-content: center;
         align-items: center;
         text-align: unset;
+        z-index: 1;
     }
 
 
@@ -138,9 +141,14 @@
 /* ============================================== */
 
     footer{
+        position: absolute;
+        bottom: 0;
+        height: var(--height-footer);
         width: 100%;
-        padding: var(--space-4);
         background: var(--colour-bg-secondary);
+        padding: var(--space-4);
+        font-size: var(--fs-xs);
+        z-index: 0;
     }
 
 

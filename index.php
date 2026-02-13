@@ -84,7 +84,7 @@
 
                     // FOOTER
                     // ****************************************************************************************************************************************
-                    //include($path."assets/includes/components/footer/footer.php");
+                    include($path."assets/includes/components/footer/footer.php");
 
                 ?>
 
