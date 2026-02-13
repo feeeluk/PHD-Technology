@@ -37,7 +37,7 @@
             //include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_description.php");
             
             // PROOF OF CONCEPT
-            //include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_description.php");
+            include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_description.php");
 
             // ARTIFICIAL INTELLIGENCE
             include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_description.php");
