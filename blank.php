@@ -11,7 +11,7 @@
             //    ../../ = page is located two folders up, etc       
         
         // set the page title
-        $subTitle = "Home";
+        $subTitle = "";
 
     // HEAD
     // ****************************************************************************************************************************************
@@ -41,24 +41,27 @@
 
            <div class="subContainer">
 
-                Test
                 
                 <?php
     
 
                 ?>
 
-            </div><!-- end subContainer -->            
+            </div><!-- end subContainer --> 
+            
+
         
         </div><!-- end pageContainer -->
 
-        <?php
+                    <?php
 
-            // FOOTER
-            // ****************************************************************************************************************************************
-            include($path."assets/includes/components/footer/footer.php");
+                // FOOTER
+                // ****************************************************************************************************************************************
+                include($path."assets/includes/components/footer/footer.php");
 
-        ?>
+            ?>
+
+
 
     </body>
 

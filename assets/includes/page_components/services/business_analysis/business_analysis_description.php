@@ -52,38 +52,36 @@
 
     ?>
 
-        <div class="detailsOfService">
+    <div class="detailsOfService">
 
-            <h3 class="margin_top">Business Analysis: A Strategic Investment in Better Decisions and Better Outcomes</h3>
+        <h3 class="margin_top">Business Analysis: A Strategic Investment in Better Decisions and Better Outcomes</h3>
+        
+        <p>
+            At its core, business analysis provides a structured approach to understanding how a business works today, identifying where inefficiencies or risks exist, and defining practical, evidence‑based improvements that lead to measurable gains.
+        </p>
+        
+        <p>
+            Rather than relying on assumptions or intuition, business analysis grounds decisions in data, stakeholder insight, and clear business needs. This ensures that every change—whether large or small—directly supports organisational goals and delivers tangible benefits.Whether you simply need help and advice, or if you would like to hire us as as Business Analysts, we are here to help.
+        </p>
+
+        <p>
+            With many years of commercial Business Analysis experience, across a variety of sectors, we are able to:
+
+            <ul>
+                <li>Facilitate workshops</li>
+                <li>Produce and/or manage your Product Roadmap</li>
+                <li>Elicit stakeholder and end-user requirements</li>
+                <li>Produce User Stories</li>
+                <li>Manage a Product Backlog</li>
+                <li>Follow agile principles - we have lots of experience with SCRUM</li>
+            </ul>
             
-            <p>
-                At its core, business analysis provides a structured approach to understanding how a business works today, identifying where inefficiencies or risks exist, and defining practical, evidence‑based improvements that lead to measurable gains.
-            </p>
-            
-            <p>
-                Rather than relying on assumptions or intuition, business analysis grounds decisions in data, stakeholder insight, and clear business needs. This ensures that every change—whether large or small—directly supports organisational goals and delivers tangible benefits.Whether you simply need help and advice, or if you would like to hire us as as Business Analysts, we are here to help.
-            </p>
+        </p>
 
-            <p>
-                With many years of commercial Business Analysis experience, across a variety of sectors, we are able to:
-
-                <ul>
-                    <li>Facilitate workshops</li>
-                    <li>Produce and/or manage your Product Roadmap</li>
-                    <li>Elicit stakeholder and end-user requirements</li>
-                    <li>Produce User Stories</li>
-                    <li>Manage a Product Backlog</li>
-                    <li>Follow agile principles - we have lots of experience with SCRUM</li>
-                </ul>
-                
-            </p>
-
-        </div>
+    </div>
 
     <?php
             }
     ?>
-
-    </div>
 
 </div>
