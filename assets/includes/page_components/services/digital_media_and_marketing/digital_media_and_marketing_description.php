@@ -1,67 +1,63 @@
-<article class="overview">
+<div class="serviceItem">
 
-    <a id="digital_media_and_marketing" class="anchor"></a>
+    <a id="DigitalMediaAndMarketing" class="anchor"></a>
 
     <?php
 
         if (str_contains($_SERVER['REQUEST_URI'],'digital_media_and_marketing') == true)
             {
-                echo "<h1 class='title margin_top'>DIGITAL MEDIA & MARKETING</h1>";
+                echo "<h1>DIGITAL MEDIA & MARKETING</h1>";
                 echo "<h3>(COMING SOON)</h3>";
             }
 
-            else {
-                echo "<h1 class='title margin_top'>DIGITAL MEDIA & MARKETING</h1>";
-                echo "<h3>(COMING SOON)</h3>";
-            }
+        else {
+            echo "<h1>DIGITAL MEDIA & MARKETING</h1>";
+            echo "<h3>(COMING SOON)</h3>";
+        }
 
     ?>
-    
-    <section>
 
-        <div>
+    <div class="summaryOfService">
 
-            <span class="banner">
+        <img src="/assets/images/services/digital_media_and_marketing/overview_digital_media_and_marketing.webp" alt="Digital media & marketing">
 
-                <img src="/assets/images/services/digital_media_and_marketing/overview_digital_media_and_marketing.webp" alt="Digital media & marketing">
+        <p>
+            Digital Media = Online content (videos, images, articles, ads, etc.).
+        </p>
 
-            </span>
+        <p>
+            Digital Marketing = Using that content to reach and engage customers through digital platforms.
+        </p>
 
-            <p>
-                Digital Media = Online content (videos, images, articles, ads, etc.).
-            </p>
+    </div>  
 
-            <p>
-                Digital Marketing = Using that content to reach and engage customers through digital platforms.
-            </p>
+    <?php
 
-            <?php
+        if (str_contains($_SERVER['REQUEST_URI'],'digital_media_and_marketing') == false)
+            {
+                $link = "pages/services/digital_media_and_marketing.php";
+                
+                include($path."assets/includes/components/other/button_click_for_details.php");
 
-                if (str_contains($_SERVER['REQUEST_URI'],'digital_media_and_marketing') == false)
-                    {
-                        $link = "pages/services/digital_media_and_marketing.php";
-                        
-                        include($path."assets/includes/components/other/button_click_for_details.php");
+            }
 
-                    }
+        if (str_contains($_SERVER['REQUEST_URI'],'digital_media_and_marketing') == true)
+            {
 
-                if (str_contains($_SERVER['REQUEST_URI'],'digital_media_and_marketing') == true)
-                    {
-            ?>
+    ?>
 
-                    <h4 class="margin_top">Digital Media and Marketing with PHD Technology</h4>
-                    
-                    <p>
-                        TEST. This paragraph should only be visible in the specific service page, not on the homepage.
-                    </p>
+    <div class="detailsOfService">
 
-            <?php
-                    }
-            ?>
-            
+        <h4 class="margin_top">Digital Media and Marketing with PHD Technology</h4>
+        
+        <p>
+            TEST. This paragraph should only be visible in the specific service page, not on the homepage.
+        </p>
 
-        </div>
+    </div>
 
-    </section>
+    <?php
+            }
+    ?>
 
-</article>
+</div>

@@ -39,8 +39,8 @@
             {
                 $link = "pages/services/business_analysis.php";
 
-                    include($path."assets/includes/components/other/button_click_for_details.php");
-                    
+                include($path."assets/includes/components/other/button_click_for_details.php");
+
             }
 
         if (str_contains($_SERVER['REQUEST_URI'],'business_analysis') == true)
