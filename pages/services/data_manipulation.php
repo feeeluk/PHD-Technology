@@ -23,7 +23,7 @@
 
         // PAGE CONTENTS HERE
 
-            // ODescription
+            // Description
             include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_description.php");
 
             // Benefits
@@ -35,8 +35,8 @@
             // Portfolio
             //include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_portfolio.php");
             
-            // Next Steps & How it Works
-            //include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_next_steps.php");
+            // Next Steps
+            include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_next_steps.php");
 
             // Case Studies
             // include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_case_studies.php");

@@ -35,8 +35,8 @@
             // Portfolio
             //nclude($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_portfolio.php");
             
-            // Next Steps & How it Works
-            //include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_next_steps.php");
+            // Next Steps
+            include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_next_steps.php");
             
             // Case Studies
             // include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_case_studies.php"); 

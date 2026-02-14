@@ -24,19 +24,19 @@
         // PAGE CONTENTS HERE
 
             // Description
-            //include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_description.php");
+            include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_description.php");
 
             // Benefits
             //include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_benefits.php");
-
-            // Prices
-            //include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_prices.php");
-
+            
             // Portfolio
             //include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_portfolio.php");
             
-            // Next Steps & How it Works
-            //include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_next_steps.php");
+            // Next Steps
+            include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_next_steps.php");
+            
+            // Prices
+            //include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_prices.php");
             
             // Case Studies
             // include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_case_studies.php");

@@ -35,8 +35,8 @@
             // Portfolio
             //include($path."assets/includes/page_components/services/project_management/project_management_portfolio.php");
             
-            // Next Steps & How it Works
-            //include($path."assets/includes/page_components/services/project_management/project_management_next_steps.php");
+            // Next Steps
+            include($path."assets/includes/page_components/services/project_management/project_management_next_steps.php");
             
             // Case Studies
             // include($path."assets/includes/page_components/services/project_management/project_management_case_studies.php");
