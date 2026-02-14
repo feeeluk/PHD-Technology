@@ -28,19 +28,13 @@
         
         More info on specific parts
             - Navigation
-                The main header is made up of 3 parts, the logo, small device navigation and large device navigation. All three are in fixed positions, but the visibility changes depending on the size of the viewing device. Also, the layers change, too - but that will be changed shortly.
+                The main header is made up of 3 parts, the logo, small device navigation and large device navigation. All three are in fixed positions, but the visibility changes depending on the size of the viewing device.
             
             - Layout
                 The navigation bars are all fixed positions of the same height.
-                Then, directly underneath is a container that is positioned absolutely (position: top;) and sits immediately underneath the navigation bar.
-                All further elements are children items within that parent container.
-
-                'container' classes
-                
-
-                'subContainer' classes
-
-                
+                Then, directly underneath is a page container that is positioned absolutely underneath the navigation bar (using position: absolute, margin-top: (height of the nav in px); top: 0;) and sits immediately underneath the navigation bar.
+                Within that there is a sub container
+                All further elements are children items within the sub container.            
 
     */
 

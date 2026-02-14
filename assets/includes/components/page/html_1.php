@@ -1,10 +1,22 @@
 <?php
 
-    // HEAD
+    // IMPORT SITE WIDE VARIABLES & CONSTANTS
     // ****************************************************************************************************************************************
-    include($path."assets/includes/components/head/head.php");
-    
+        include($path."assets/includes/components/head/site_details.php"); 
+        
 ?>
+
+<!DOCTYPE html>
+
+    <html lang="en">
+
+    <?php
+
+        // HEAD
+        // ****************************************************************************************************************************************
+        include($path."assets/includes/components/head/head.php");
+        
+    ?>
 
     <body>
 
