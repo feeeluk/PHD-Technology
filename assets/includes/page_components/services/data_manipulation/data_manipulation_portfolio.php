@@ -2,7 +2,7 @@
 
     <?php
 
-        if (str_contains($_SERVER['REQUEST_URI'],'artificial_intelligence') == true)
+        if (str_contains($_SERVER['REQUEST_URI'],'data_manipulation') == true)
             {
                 echo "<h1>PORTFOLIO</h1>";
 
