@@ -34,7 +34,7 @@
             include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_description.php");
             
             // SKILLS DEVELOPMENT & TRAINING
-            //include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_description.php");
+            include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_description.php");
             
             // PROOF OF CONCEPT
             include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_description.php");

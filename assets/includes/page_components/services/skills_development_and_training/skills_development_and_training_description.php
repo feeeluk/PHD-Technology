@@ -1,58 +1,57 @@
-<article class="overview">
+<div class="serviceItem">
 
-    <a id="skills_development_and_training" class="anchor"></a>
+    <a id="SkillsDevelopmentAndTraining" class="anchor"></a>
 
-<?php
+    <?php
 
-    if (str_contains($_SERVER['REQUEST_URI'],'skills_development_and_training') == true)
-        {
-            echo "<h1 class='title margin_top'>SKILLS DEVELOPMENT & TRAINING</h1>";
-        }
+        if (str_contains($_SERVER['REQUEST_URI'],'skills_development_and_training') == true)
+            {
+                echo "<h1>SKILLS DEVELOPMENT & TRAINING</h1>";
+            }
 
-        else {
-            echo "<h1 class='title margin_top'>SKILLS DEVELOPMENT & TRAINING</h1>";
-        }
+            else {
+                echo "<h1>SKILLS DEVELOPMENT & TRAINING</h1>";
+            }
 
-?>
-    
-    <section>
+    ?>
 
-        <div>
+    <div class="summaryOfService">
 
-            <span class="banner">
-                <img src="/assets/images/services/skills_development_and_training/overview_skills_development_and_training.webp" alt="Skills development & training">
-            </span>
+        <img src="/assets/images/services/skills_development_and_training/overview_skills_development_and_training.webp" alt="Skills development & training">
 
-            <p>
-                Skills development and training is the process of helping individuals improve their abilities, knowledge, and competencies so they can perform better in their current roles or prepare for future opportunities.
-            </p>
+        <p>
+            Skills development and training is the process of helping individuals improve their abilities, knowledge, and competencies so they can perform better in their current roles or prepare for future opportunities.
+        </p>
 
-            <?php
+    </div>
 
-                if (str_contains($_SERVER['REQUEST_URI'],'skills_development_and_training') == false)
-                    {
-                        $link = "pages/services/skills_development_and_training.php";
-                        
-                        include($path."assets/includes/components/other/button_click_for_details.php");
+    <?php
 
-                    }
+        if (str_contains($_SERVER['REQUEST_URI'],'skills_development_and_training') == false)
+            {
+                $link = "pages/services/skills_development_and_training.php";
+                
+                include($path."assets/includes/components/other/button_click_for_details.php");
 
-                if (str_contains($_SERVER['REQUEST_URI'],'skills_development_and_training') == true)
-                    {
+            }
 
-            ?>
+        if (str_contains($_SERVER['REQUEST_URI'],'skills_development_and_training') == true)
+            {
 
-            <h4 class="margin_top">Skills Development and Training with PHD Technology</h4>
-            <p>
-                TEST. This paragraph should only be visible in the specific service page, not on the homepage.
-            </p>
+    ?>
 
-            <?php
-                    }
-            ?>
-            
-        </div>
+    <div class="detailsOfService">
 
-    </section>
+        <h3>Skills Development and Training with PHD Technology</h3>
 
-</article>
+        <p>
+            TEST. This paragraph should only be visible in the specific service page, not on the homepage.
+        </p>
+
+    </div>
+
+    <?php
+            }
+    ?>
+
+</div>
