@@ -27,7 +27,7 @@
             include($path."assets/includes/page_components/services/ui_ux/ui_ux_description.php");
 
             // Benefits
-            //include($path."assets/includes/page_components/services/ui_ux/ui_ux_benefits.php");
+            include($path."assets/includes/page_components/services/ui_ux/ui_ux_benefits.php");
 
             // Prices
             //include($path."assets/includes/page_components/services/ui_ux/ui_ux_prices.php");
@@ -35,11 +35,12 @@
             // Portfolio
             //include($path."assets/includes/page_components/services/ui_ux/ui_ux_portfolio.php");
             
+            // Case Studies
+            // include($path."assets/includes/page_components/services/ui_ux/ui_ux_case_studies.php");
+            
             // Next Steps
             include($path."assets/includes/page_components/services/ui_ux/ui_ux_next_steps.php");
             
-            // Case Studies
-            // include($path."assets/includes/page_components/services/ui_ux/ui_ux_case_studies.php");
 
     // HTML 2
     // ****************************************************************************************************************************************

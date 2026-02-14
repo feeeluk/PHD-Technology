@@ -27,7 +27,7 @@
             include($path."assets/includes/page_components/services/project_management/project_management_description.php");
 
             // Benefits
-            //include($path."assets/includes/page_components/services/project_management/project_management_benefits.php");
+            include($path."assets/includes/page_components/services/project_management/project_management_benefits.php");
 
             // Prices
             //include($path."assets/includes/page_components/services/project_management/project_management_prices.php");
@@ -35,11 +35,11 @@
             // Portfolio
             //include($path."assets/includes/page_components/services/project_management/project_management_portfolio.php");
             
-            // Next Steps
-            include($path."assets/includes/page_components/services/project_management/project_management_next_steps.php");
-            
             // Case Studies
             // include($path."assets/includes/page_components/services/project_management/project_management_case_studies.php");
+
+            // Next Steps
+            include($path."assets/includes/page_components/services/project_management/project_management_next_steps.php");
 
 
     // HTML 2

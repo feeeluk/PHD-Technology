@@ -35,12 +35,12 @@
             // Portfolio
             // include($path."assets/includes/page_components/services/business_analysis/business_analysis_portfolio.php");
             
-            // Next Steps & How it Works
-            include($path."assets/includes/page_components/services/business_analysis/business_analysis_next_steps.php");
-
             // Case Studies
             //include($path."assets/includes/page_components/services/business_analysis/business_analysis_case_studies.php");
-
+            
+            // Next Steps
+            include($path."assets/includes/page_components/services/business_analysis/business_analysis_next_steps.php");
+            
 
     // HTML 2
     // ****************************************************************************************************************************************

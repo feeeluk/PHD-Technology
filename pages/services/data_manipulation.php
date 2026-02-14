@@ -27,7 +27,7 @@
             include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_description.php");
 
             // Benefits
-            //include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_benefits.php");
+            include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_benefits.php");
             
             // Prices
             //include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_prices.php");
@@ -35,11 +35,11 @@
             // Portfolio
             //include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_portfolio.php");
             
-            // Next Steps
-            include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_next_steps.php");
-
             // Case Studies
             // include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_case_studies.php");
+
+            // Next Steps
+            include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_next_steps.php");
 
 
     // HTML 2
