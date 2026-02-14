@@ -46,7 +46,7 @@
             include($path."assets/includes/page_components/services/digital_media_and_marketing/digital_media_and_marketing_description.php");
 
             // UI/UX
-            //include($path."assets/includes/page_components/services/ui_ux/ui_ux_description.php");
+            include($path."assets/includes/page_components/services/ui_ux/ui_ux_description.php");
 
 
     // HTML 2

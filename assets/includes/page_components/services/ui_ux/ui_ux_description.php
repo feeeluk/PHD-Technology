@@ -1,65 +1,61 @@
-<article class="overview">
+<div class="serviceItem">
 
-    <a id="ui_ux" class="anchor"></a>
+    <a id="UiUx" class="anchor"></a>
 
     <?php
 
         if (str_contains($_SERVER['REQUEST_URI'],'ui_ux') == true)
             {
-                echo "<h1 class='title margin_top'>UI/UX</h1>";
+                echo "<h1>UI/UX</h1>";
             }
 
             else {
-                echo "<h1 class='title margin_top'>UI/UX</h1>";
+                echo "<h1>UI/UX</h1>";
             }
 
     ?>
 
-    <section>
+    <div class="summaryOfService">
 
-        <div>
-
-            <span class="banner">
-
-                <img src="/assets/images/services/ui_ux/overview_ui_ux.webp" alt="UI/UX">
-
-            </span>
+        <img src="/assets/images/services/ui_ux/overview_ui_ux.webp" alt="UI/UX">
             
-            <p>
-                UI/UX is the discipline of identifying needs and determining the best solutions to meet those needs.
-            </p>
-            
-            <p>    
-                Essentially, it hels organisations understand what they should change, why they should change it, and how to implement that change effectively.
-            </p>
+        <p>
+            UI/UX is the discipline of identifying needs and determining the best solutions to meet those needs.
+        </p>
+        
+        <p>    
+            Essentially, it hels organisations understand what they should change, why they should change it, and how to implement that change effectively.
+        </p>
+        
+    </div>
 
-            <?php
+    <?php
 
-                if (str_contains($_SERVER['REQUEST_URI'],'ui_ux') == false)
-                    {
-                        $link = "pages/services/ui_ux.php";
-                        
-                        include($path."assets/includes/components/other/button_click_for_details.php");
-
-                    }
-
-                if (str_contains($_SERVER['REQUEST_URI'],'ui_ux') == true)
-                    {
-
-            ?>
-
-                <h4 class="margin_top">UI/UX with PHD Technology</h4>
+        if (str_contains($_SERVER['REQUEST_URI'],'ui_ux') == false)
+            {
+                $link = "pages/services/ui_ux.php";
                 
-                <p>
-                    Whether you simply need advice, or if you would like us to undertake Business Analysis for you, we are here to help.
-                </p>
+                include($path."assets/includes/components/other/button_click_for_details.php");
 
-            <?php
-                    }
-            ?>
+            }
 
-        </div>
+        if (str_contains($_SERVER['REQUEST_URI'],'ui_ux') == true)
+            {
 
-    </section>
+    ?>
+    
+    <div class="detailsOfService">
 
-</article>
+        <h3>UI/UX with PHD Technology</h3>
+        
+        <p>
+            Whether you simply need advice, or if you would like us to undertake Business Analysis for you, we are here to help.
+        </p>
+        
+    </div>
+
+    <?php
+            }
+    ?>
+
+</div>
