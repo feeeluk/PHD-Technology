@@ -33,7 +33,7 @@
             //include($path."assets/includes/page_components/services/project_management/project_management_prices.php");
 
             // Portfolio
-            //include($path."assets/includes/page_components/services/project_management/project_management_portfolio.php");
+            include($path."assets/includes/page_components/services/project_management/project_management_portfolio.php");
             
             // Case Studies
             // include($path."assets/includes/page_components/services/project_management/project_management_case_studies.php");

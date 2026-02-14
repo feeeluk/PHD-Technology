@@ -123,9 +123,32 @@
         }
 
 
-    /* PRICING section */
+    /* PRICES section */
     /* ============================================== */
 
+
+
+    /* PORTFOLIO section */
+    /* ============================================== */
+
+        .portfolio{
+            padding: 0;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content:space-around;
+        }
+
+        .portfolioPage{
+            padding: 1rem 0;
+        }
+
+
+
+    /* CASE STUDIES section */
+    /* ============================================== */
+
+    
 
     /* NEXT STEPS section */
     /* ============================================== */

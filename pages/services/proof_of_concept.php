@@ -33,7 +33,7 @@
             //include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_prices.php");
             
             // Portfolio
-            //include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_portfolio.php");
+            include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_portfolio.php");
             
             // Case Studies
             // include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_case_studies.php");

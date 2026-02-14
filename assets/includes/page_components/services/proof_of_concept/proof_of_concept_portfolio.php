@@ -1,41 +1,32 @@
-<article class="portfolio">
+
+            
+
+<div class="serviceItem">
 
     <?php
 
-        if (str_contains($_SERVER['REQUEST_URI'],'proof_of_concept') == true)
+        if (str_contains($_SERVER['REQUEST_URI'],'artificial_intelligence') == true)
             {
                 echo "<h1>PORTFOLIO</h1>";
-                    
-                echo "<section>";
-            
-                    echo "<div class='description margin_bottom'>";
 
-                        echo "<p>Examples of work that I have done:</p>";
-
-                    echo "</div>";
+                echo "<p>Examples of work that I have done:</p>";
             }
 
         elseif (str_contains($_SERVER['REQUEST_URI'],'portfolio') == true)
             {             
-                echo "<section>";
-
-                    echo "<h2 id='proof_of_concept'>PROOF OF CONCEPT</h2>";     
+                echo "<h2>PROOF OF CONCEPT</h2>";    
             }
 
     ?>
+
+    <div class="portfolio">
                 
-        <span>
-            <img src="/assets/images/services/proof_of_concept/portfolio_treedata_v1.webp" alt="Tree Data">
-        </span>
+        <img src="/assets/images/services/proof_of_concept/portfolio_treedata_v1.webp" alt="Tree Data">
 
-        <span>
-            <img src="/assets/images/services/proof_of_concept/portfolio_portal.webp" alt="Telesales Portal">
-        </span>
+        <img src="/assets/images/services/proof_of_concept/portfolio_portal.webp" alt="Telesales Portal">
 
-        <span>
-            <img src="/assets/images/services/proof_of_concept/portfolio_points_academy.webp" alt="Points Academy Portal">
-        </span>
-    
-    </section>
+        <img src="/assets/images/services/proof_of_concept/portfolio_points_academy.webp" alt="Points Academy Portal">
+
+    </div>
         
-</article>
+</div>

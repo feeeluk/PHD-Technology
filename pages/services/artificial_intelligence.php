@@ -33,7 +33,7 @@
             //include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_prices.php");
             
             // Portfolio
-            //include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_portfolio.php");
+            include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_portfolio.php");
 
             // Case Studies
             // include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_case_studies.php");

@@ -33,7 +33,7 @@
             //include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_prices.php");
 
             // Portfolio
-            //nclude($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_portfolio.php");
+            include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_portfolio.php");
             
             // Case Studies
             // include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_case_studies.php"); 

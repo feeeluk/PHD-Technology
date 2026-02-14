@@ -33,7 +33,7 @@
             //include($path."assets/includes/page_components/services/ui_ux/ui_ux_prices.php");
 
             // Portfolio
-            //include($path."assets/includes/page_components/services/ui_ux/ui_ux_portfolio.php");
+            include($path."assets/includes/page_components/services/ui_ux/ui_ux_portfolio.php");
             
             // Case Studies
             // include($path."assets/includes/page_components/services/ui_ux/ui_ux_case_studies.php");

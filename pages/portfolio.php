@@ -20,14 +20,11 @@
     
 
         // PAGE CONTENTS HERE
-
-            
-        
-        
-            echo "<div class='serviceItem'>";
+     
+            echo "<div class='serviceItem portfolioPage'>";
                     
                 echo "<p>";
-                    echo "Here are some examples of my work, organised by service type:";
+                    echo "Here are some examples organised by type of service:";
                 echo "</p>";
                 
             echo "</div>";
