@@ -30,7 +30,7 @@
             include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_benefits.php");
             
             // Prices
-            //include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_prices.php");
+            include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_prices.php");
 
             // Portfolio
             include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_portfolio.php");

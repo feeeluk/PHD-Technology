@@ -30,7 +30,7 @@
             include($path."assets/includes/page_components/services/project_management/project_management_benefits.php");
 
             // Prices
-            //include($path."assets/includes/page_components/services/project_management/project_management_prices.php");
+            include($path."assets/includes/page_components/services/project_management/project_management_prices.php");
 
             // Portfolio
             include($path."assets/includes/page_components/services/project_management/project_management_portfolio.php");

@@ -30,7 +30,7 @@
             include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_benefits.php");
 
             // Prices
-            //include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_prices.php");
+            include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_prices.php");
 
             // Portfolio
             include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_portfolio.php");

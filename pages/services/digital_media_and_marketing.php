@@ -30,7 +30,7 @@
             include($path."assets/includes/page_components/services/digital_media_and_marketing/digital_media_and_marketing_benefits.php");
 
             // Prices
-            //include($path."assets/includes/page_components/services/digital_media_and_marketing/digital_media_and_marketing_prices.php");
+            include($path."assets/includes/page_components/services/digital_media_and_marketing/digital_media_and_marketing_prices.php");
 
             // Portfolio
             include($path."assets/includes/page_components/services/digital_media_and_marketing/digital_media_and_marketing_portfolio.php");

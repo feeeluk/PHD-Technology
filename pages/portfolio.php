@@ -23,9 +23,9 @@
      
             echo "<div class='serviceItem portfolioPage'>";
                     
-                echo "<p>";
+                echo "<h2>";
                     echo "Here are some examples organised by type of service:";
-                echo "</p>";
+                echo "</h2>";
                 
             echo "</div>";
         

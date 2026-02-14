@@ -30,7 +30,7 @@
             include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_benefits.php");
             
             // Prices
-            //include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_prices.php");
+            include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_prices.php");
             
             // Portfolio
             include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_portfolio.php");

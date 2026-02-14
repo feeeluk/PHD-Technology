@@ -30,7 +30,7 @@
             include($path."assets/includes/page_components/services/ui_ux/ui_ux_benefits.php");
 
             // Prices
-            //include($path."assets/includes/page_components/services/ui_ux/ui_ux_prices.php");
+            include($path."assets/includes/page_components/services/ui_ux/ui_ux_prices.php");
 
             // Portfolio
             include($path."assets/includes/page_components/services/ui_ux/ui_ux_portfolio.php");
