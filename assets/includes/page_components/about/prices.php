@@ -1,98 +1,70 @@
-<article class="prices">
-    
+<div class="serviceItem">
+
     <h1>PRICES</h1>
 
-    <section>
+    <table>
 
-        <div>
+        <colgroup class="tableLeft"></colgroup>
+        <colgroup span="2" class="tableRight"></colgroup>
 
-            <span class="container_row">
-
-                <table>
-
-                    <colgroup class="table_left"></colgroup>
-                    <colgroup span="2" class="table_right"></colgroup>
-
-                    <tb>
-
-                        <tr class="title">
-                            <th colspan="3">RATES</th>
-                        </tr>
-                        
-                        <tr class="sub-title">
-                            <td class="hidden"></td>
-                            <td>Ad-hoc</td>
-                            <td>Block</td>
-                        </tr>
-
-                        <tr>
-                            <td class="item">Initial Consultation</td>
-                            <td>FREE</td>
-                            <td>X</td>
-                        </tr>
-                        
-                        <tr>
-                            <td class="item">1 Hour</td>
-                            <td>£<!--£59--></td>
-                            <td>X</td>
-                        </tr>
-                        
-                        <tr>
-                            <td class="item">1/2 Day</td>
-                            <td>£<!--199--></td>
-                            <td>X</td>
-                        </tr>
-                        
-                        <tr>
-                            <td class="item">1 Day</td>
-                            <td>£<!--£319--></td>
-                            <td>X</td>
-                        </tr>
-                        
-                        <tr>
-                            <td class="item">5 Days</td>
-                            <td>X</td>
-                            <td>£<!--£1,499--></td>
-                        </tr>
-                        
-                        <tr>
-                            <td class="item">10 Days</td>
-                            <td>X</td>
-                            <td>£<!--£2,899--></td>
-                        </tr>
-
-                        <tr>
-                            <td class="item">15 Days</td>
-                            <td>X</td>
-                            <td>£<!--£4,199--></td>
-                        </tr>
-                        
-                        <tr>
-                            <td class="item">20 Days</td>
-                            <td>X</td>
-                            <td>£<!--£4,199--></td>
-                        </tr>
-
-                    </tb>
-                    
-                </table>
-
-            </span>
+        <tb>
             
-            <p>
-                Some services are not as 'time-boxable' as others, and therefore not as easy to block book in advance, e.g. Project Management services, or when creating a Proof of Concept solution.
-                In these situations we are happy to bill time ad-hoc, but still within the bounds of this framework.
-                <br>
-                For more details please refer to each service's respective pricing section.
-            </p>
+            <tr>
+                <th>Period</th>
+                <th>Ad-hoc</th>
+                <th>Block</th>
+            </tr>
 
-            <p>
-                We can of course tailor prices 'off-menu' - which we can discuss in our initial consultation - however this framework still serves as a useful guide.
-            </p>
-
+            <tr>
+                <td>Initial Consultation</td>
+                <td>FREE</td>
+                <td>-</td>
+            </tr>
             
-        </div>
+            <tr>
+                <td>1 Hour</td>
+                <td>£</td>
+                <td>-</td>
+            </tr>
+            
+            <tr>
+                <td>1/2 Day</td>
+                <td>£</td>
+                <td>-</td>
+            </tr>
+            
+            <tr>
+                <td>1 Day</td>
+                <td>£</td>
+                <td>-</td>
+            </tr>
+            
+            <tr>
+                <td>5 Days</td>
+                <td>-</td>
+                <td>£</td>
+            </tr>
+            
+            <tr>
+                <td>10 Days</td>
+                <td>-</td>
+                <td>£</td>
+            </tr>
 
-    </section>
+            <tr>
+                <td>15 Days</td>
+                <td>-</td>
+                <td>£</td>
+            </tr>
+            
+            <tr>
+                <td>20 Days</td>
+                <td>-</td>
+                <td>£</td>
+            </tr>
 
-</article>
+        </tb>
+        
+    </table>
+    
+</div>

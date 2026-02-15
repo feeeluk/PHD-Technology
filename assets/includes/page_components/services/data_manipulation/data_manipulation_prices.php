@@ -1,6 +1,6 @@
 <?php
 
     // PROJECT MANAGEMENT
-    include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_prices.php");
+    include($path."assets/includes/page_components/about/prices.php");
 
 ?>

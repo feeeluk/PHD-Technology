@@ -28,10 +28,10 @@
             include($path."assets/includes/page_components/about/benefits.php");
             
             // PRICES
-            //include($path."assets/includes/page_components/about/prices.php");
+            include($path."assets/includes/page_components/about/prices.php");
 
             // NEXT STEPS
-            //include($path."assets/includes/page_components/about/next_steps.php");
+            include($path."assets/includes/page_components/about/next_steps.php");
         
     // HTML 2
     // ****************************************************************************************************************************************
