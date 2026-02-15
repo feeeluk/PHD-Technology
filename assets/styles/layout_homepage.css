@@ -8,6 +8,7 @@
         background-image: url('/assets/images/other/about_us_background.webp');
         background-size: cover;
         background-repeat: no-repeat;
+        border: none;
     }
 
             /* LARGER DEVICES */
@@ -35,6 +36,7 @@
         align-items: center;
         text-align: center;
         padding: 0;
+        border: none;
 
         & h3{
             margin-bottom: 0;
@@ -46,6 +48,7 @@
         background: rgba(var(--colour-bg-secondary-transparent), 0.85);    
         display: flex;
         flex-direction: column;
+        border: none;
     }
 
     /* the first section within the parent Overview, gives a basic description of the business */
@@ -53,6 +56,7 @@
         background: rgba(var(--colour-bg-accent-transparent), .3);
         padding: var(--space-4);
         margin-right: var(--space-3);
+        border: none;
     }
 
     /* Links section (parent)*/
@@ -61,7 +65,8 @@
         flex-direction: row;
         flex-wrap: wrap;
         padding: var(--space-4) 0;
-        background: gba(var(--colour-bg-secondary-transparent), 0.85);                                  
+        background: gba(var(--colour-bg-secondary-transparent), 0.85);  
+        border: none;                                
     }
 
     /* Links section (child) */
@@ -135,6 +140,7 @@
                 flex-direction: row;
                 flex-wrap: wrap;
                 justify-content: space-between;
+                border: none;
             }
             
                     /* controls how he 'Services Tiles' appear */

@@ -16,6 +16,7 @@
             align-items: center;
             justify-content: center;
             z-index: var(--z-bottom);
+            border: none;
         }
             
         /* The logo increases in size for larger devices  */

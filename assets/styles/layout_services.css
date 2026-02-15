@@ -4,8 +4,6 @@
         .serviceItem{
             text-align: unset;
             padding: 0 var(--space-4) var(--space-4) var(--space-4);
-            border: 5px solid white;
-            background: linear-gradient(to right bottom, #B9B9B9, #D9D9D9);
             margin-bottom: 50px;
 
             & h1{
@@ -31,8 +29,10 @@
         /* The first DIV of the 'Description'. This is the only part shown on the Homepage */
         .summaryOfService{
             padding: 0;
+            border: none;
             margin-bottom: 1rem;
             min-height: 150px;
+            border: none;
         }
 
         /* Each service has an image associated with it. */
@@ -72,6 +72,8 @@
         /* The second DIV of the 'Description' gives more information about the service */
         .detailsOfService{
             padding: 0; /* Removes the unnecessary duplication of padding */
+            border: none;
+            background: none;
 
             & h3{
 
@@ -137,19 +139,15 @@
     /* ============================================== */
 
     .serviceItem table{
-        /* background: red; */
         width: 80%;
         justify-self: center;
         border: solid 1px grey;
+        margin-bottom: var(--space-fixed-2);
     }
 
     .serviceItem table th{
-        background: #757575;
-    }
-
-    .serviceItem table th.sub-title{
-        background: #656565;
-        color: #ddd;
+        background: #666;
+        color: #ccc;
     }
 
     .serviceItem table td:nth-child(1){
@@ -180,6 +178,7 @@
             flex-direction: row;
             flex-wrap: wrap;
             justify-content:space-around;
+            border: none;
         }
 
         .portfolio img{
@@ -195,6 +194,10 @@
     /* NEXT STEPS section */
     /* ============================================== */
 
+        .nextSteps{
+            border: none;
+        }
+    
         .callUs{
             display: flex;
             flex-direction: row;

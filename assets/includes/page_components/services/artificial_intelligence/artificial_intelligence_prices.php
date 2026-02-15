@@ -8,15 +8,11 @@
         <colgroup span="2" class="tableRight"></colgroup>
 
         <tb>
-
-            <tr>
-                <th colspan="3">RATES</th>
-            </tr>
             
             <tr>
-                <th class="sub-title">Period</th>
-                <th class="sub-title">Ad-hoc</th>
-                <th class="sub-title">Block</th>
+                <th>Period</th>
+                <th>Ad-hoc</th>
+                <th>Block</th>
             </tr>
 
             <tr>
