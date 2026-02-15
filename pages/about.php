@@ -20,7 +20,13 @@
     
 
         // PAGE CONTENTS HERE
-     
+
+?>
+
+    <div id="about">
+
+        <?php
+
             // ABOUT SUMMARY
             include($path."assets/includes/page_components/about/about_summary.php");
 
@@ -32,9 +38,15 @@
 
             // NEXT STEPS
             include($path."assets/includes/page_components/about/about_next_steps.php");
-        
+
+        ?>
+    
+    </div>
+
+<?php
+
     // HTML 2
     // ****************************************************************************************************************************************
     include($path."assets/includes/components/page/html_2.php");
-    
+        
 ?>

@@ -1,98 +1,84 @@
-<article class="overview">
+<div class="box serviceItem">
 
-    <a id="software_development" class="anchor"></a>
+    <a id="SoftwareDevelopment" class="anchor"></a>
 
-<?php
+    <?php
 
-    if (str_contains($_SERVER['REQUEST_URI'],'software_development') == true)
-        {
-            echo "<h1 class='title margin_top'>SOFTWARE DEVELOPMENT</h1>";
-        }
+        if (str_contains($_SERVER['REQUEST_URI'],'software_development') == true)
+            {
+                echo "<h1>SOFTWARE DEVELOPMENT</h1>";
+            }
 
-        else {
-            echo "<h1 class='title margin_top'>SOFTWARE DEVELOPMENT</h1>";
-        }
+            else {
+                echo "<h1>SOFTWARE DEVELOPMENT</h1>";
+            }
 
-?>
+    ?>
 
-    <section>
+    <div class="summaryOfService">
 
-        <div class="margin_bottom">
+        <img src="/assets/images/services/software_development/overview_dot_net_development.webp" alt=".NET devlopment">
 
-            <span class="banner">
+        <p>
+            .NET development is the process of building software applications using Microsoft’s .NET framework. It’s a popular platform for creating a wide range of apps—from web and mobile to desktop, cloud, gaming, and IoT solutions.
+        </p>
 
-                <img src="/assets/images/services/software_development/overview_dot_net_development.webp" alt=".NET devlopment">
+    </div>
 
-            </span>
 
-            <p>
-                .NET development is the process of building software applications using Microsoft’s .NET framework. It’s a popular platform for creating a wide range of apps—from web and mobile to desktop, cloud, gaming, and IoT solutions.
-            </p>
+    <div class="detailsOfService">
 
-            <?php
+        <h3>.Net development with PHD Technology</h3>
 
-                if (str_contains($_SERVER['REQUEST_URI'],'software_development') == false)
-                    {
-                        $link = "pages/services/software_development.php";
-                        
-                        include($path."assets/includes/components/other/button_click_for_details.php");
+        <p>
+            TEST. This paragraph should only be visible in the specific service page, not on the homepage.
+        </p>
 
-                    }
+    </div>
 
-                if (str_contains($_SERVER['REQUEST_URI'],'software_development') == true)
-                    {
 
-            ?>
 
-            <h4 class="margin_top">.Net development with PHD Technology</h4>
+    <div class="summaryOfService">
 
-            <p>
-                TEST. This paragraph should only be visible in the specific service page, not on the homepage.
-            </p>
-
-            <?php
-                    }
-            ?>
-
-        </div>
-
-        <div>
-
-            <span class="banner">
-
-                <img src="/assets/images/services/software_development/overview_web_development.webp" alt="Web development">
-
-            </span>
-            
-            <p>
-                Web development is the process of creating and maintaining websites or web applications that run on the internet (or an intranet). It involves everything from designing how a site looks to making sure it functions smoothly behind the scenes.
-            </p>
+        <img src="/assets/images/services/software_development/overview_web_development.webp" alt="Web development">
         
-            <?php
+        <p>
+            Web development is the process of creating and maintaining websites or web applications that run on the internet (or an intranet). It involves everything from designing how a site looks to making sure it functions smoothly behind the scenes.
+        </p>
 
-                if (str_contains($_SERVER['REQUEST_URI'],'software_development') == false)
-                    {
-                        include($path."assets/includes/components/button_click_for_details.php");
-
-                    }
-
-                if (str_contains($_SERVER['REQUEST_URI'],'software_development') == true)
-                    {
-
-            ?>
-
-            <h4 class="margin_top">Web development with PHD Technology</h4>
-            
-            <p>
-                TEST. This paragraph should only be visible in the specific service page, not on the homepage.
-            </p>
-
-            <?php
-                    }
-            ?>
-            
-        </div>
+    </div>
     
-    </section>
+    <?php
 
-</article>
+        if (str_contains($_SERVER['REQUEST_URI'],'software_development') == false)
+            {
+                $link = "pages/services/software_development.php";
+        
+                echo "<div class='clickForDetails'>";        
+
+                    include($path."assets/includes/components/other/button_click_for_details.php");
+
+                echo "</div>";
+
+            }
+
+        if (str_contains($_SERVER['REQUEST_URI'],'software_development') == true)
+            {
+
+    ?>
+
+    <div class="detailsOfService">
+
+        <h3>Web development with PHD Technology</h3>
+        
+        <p>
+            TEST. This paragraph should only be visible in the specific service page, not on the homepage.
+        </p>
+
+    </div>
+
+    <?php
+            }
+    ?>
+    
+</div>

@@ -1,53 +1,35 @@
-<article class="portfolio">
+<div class="box serviceItem">
 
     <?php
 
         if (str_contains($_SERVER['REQUEST_URI'],'software_development') == true)
             {
                 echo "<h1>PORTFOLIO</h1>";
-                    
-                echo "<section>";
-            
-                    echo "<div class='description margin_bottom'>";
 
-                        echo "<p>Examples of work that I have done:</p>";
-
-                    echo "</div>";
+                echo "<p>Examples of work that I have done:</p>";
             }
 
         elseif (str_contains($_SERVER['REQUEST_URI'],'portfolio') == true)
             {             
-                echo "<section>";
-
-                    echo "<h2 id='software_development'>SOFTWARE DEVELOPMENT</h2>";     
+                echo "<h2>UI/UX</h2>";    
             }
 
     ?>
-                
-        <span>
-            <img src="/assets/images/services/software_development/portfolio_points_academy.webp" alt="Ponts Academy">
-        </span>
 
-        <span>
-            <img src="/assets/images/services/software_development/portfolio_portal.webp" alt="Telesales Portal">
-        </span>
-
-        <span>
-            <img src="/assets/images/services/software_development/portfolio_quiz.webp" alt="Quiz">
-        </span>
+    <div class="portfolio">
+            
+        <img src="/assets/images/services/software_development/portfolio_points_academy.webp" alt="Ponts Academy">
         
-        <span>
-            <img src="/assets/images/services/software_development/portfolio_snowcompare_shop.webp" alt="Snowcompare Shop">
-        </span>
-        
-        <span>
-            <img src="/assets/images/services/software_development/portfolio_snowcompare.webp" alt="Snowcompare">
-        </span>
-        
-        <span>
-            <img src="/assets/images/services/software_development/portfolio_treedata_v1.webp" alt="Tree Data">
-        </span>
+        <img src="/assets/images/services/software_development/portfolio_portal.webp" alt="Telesales Portal">
     
-    </section>
+        <img src="/assets/images/services/software_development/portfolio_quiz.webp" alt="Quiz">
+    
+        <img src="/assets/images/services/software_development/portfolio_snowcompare_shop.webp" alt="Snowcompare Shop">
+    
+        <img src="/assets/images/services/software_development/portfolio_snowcompare.webp" alt="Snowcompare">
+    
+        <img src="/assets/images/services/software_development/portfolio_treedata_v1.webp" alt="Tree Data">
+    
+    </div>
         
-</article>
+</div>

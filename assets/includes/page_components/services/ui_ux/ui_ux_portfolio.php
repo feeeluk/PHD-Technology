@@ -1,4 +1,4 @@
-<div class="serviceItem">
+<div class="box serviceItem">
 
     <?php
 

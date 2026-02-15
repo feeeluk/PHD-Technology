@@ -1,4 +1,4 @@
-<div class="about">
+<div class="box">
 
     <h1>ABOUT</h1>
     

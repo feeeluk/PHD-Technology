@@ -1,4 +1,4 @@
-<div class="serviceItem">
+<div class="box serviceItem">
         
     <h1>WHAT ARE THE BENEFITS?</h1>
         

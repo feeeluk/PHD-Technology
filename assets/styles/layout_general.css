@@ -109,7 +109,7 @@
         border: none;
     }
 
-    /* group a section of related content */
+    /* group all sections of content (multiple boxes) */
     .subContainer{
         position:static;
         background: linear-gradient(to right, rgba(var(--colour-bg-secondary-transparent), 0.05), var(--colour-heading), rgba(var(--colour-bg-secondary-transparent), 0.05));
@@ -121,6 +121,17 @@
         text-align: center;
         border: none;
     }
+
+    /* group related content */
+    /* .box{
+        background: red;
+        border: 5px solid blue;
+        width: 100%;
+        text-align: left;
+        padding: var(--space-4);
+        margin-bottom: var(--space-fixed-2);
+    } */
+
 
             /* LARGER DEVICES */
             /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */

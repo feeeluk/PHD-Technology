@@ -1,4 +1,4 @@
-<div class="about">
+<div class="box serviceItem">
 
     <h1>PRICES</h1>
 

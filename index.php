@@ -28,7 +28,7 @@
             include($path."assets/includes/page_components/services/project_management/project_management_description.php");
             
             // SOFTWARE DEVELOPMENT
-            //include($path."assets/includes/page_components/services/software_development/software_development_description.php");
+            include($path."assets/includes/page_components/services/software_development/software_development_description.php");
             
             // DATA MANIPULATION
             include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_description.php");
