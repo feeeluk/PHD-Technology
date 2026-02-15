@@ -1,4 +1,4 @@
-<div class="serviceItem">
+<div class="about">
 
     <h1>NEXT STEPS</h1>
 

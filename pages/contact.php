@@ -3,58 +3,47 @@
     // SET PAGE VARIABLES & CONSTANTS
     // ****************************************************************************************************************************************
         
-        //    ./ = page is located in the root directory
-        //    ../ = page is located one folder up
-        //    ../../ = page is located two folders up, etc
-
         // set the site root folder in relation to this page
-        $path = "../";        
+        $path = "../";
+
+            //    ./ = page is located in the root directory
+            //    ../ = page is located one folder up
+            //    ../../ = page is located two folders up, etc       
         
         // set the page title
         $subTitle = "Contact";
 
-    // HEADER
-    // ****************************************************************************************************************************************   
-        include($path."assets/includes/components/header.php");
+    // HTML 1
+    // ****************************************************************************************************************************************
+    include($path."assets/includes/components/page/html_1.php");
+    
 
-    // MAIN PAGE
-    // _________________________________________________________________________________________________________________________________________
+        // PAGE CONTENTS HERE
+     
+        ?>
 
-?>
-    <article id="contact">
+            <div id="Contact">
 
-        <h1 class="margin_top title">CONTACT</h1>
-
-        <section>
-
-            <div>
+                <h3>Contact us using the form below, or call us on 0012 3456 789</h3>
                 
-                <form id="contact_form" action="">
-
-                    <p>Contact us using the form below, or call us on 0012 3456 789</p>
+                <form id="ContactForm" action="">
                     
                     <input type="text" id="" name="" placeholder="Name">
                     <input type="text" id="" name="" placeholder="Email@Address">
                     <input type="text" id="" name="" placeholder="Telephone number">
                     <textarea name="" id="" placeholder="What is the nature of your enquiry?"></textarea>
-                    <span>
-                        <button name="" id="">Clear</button>  
-                        <button name="" id="">Submit</button>  
-                    </span>
+                    
+                    <button name="" id="">Clear</button>  
+                    <button name="" id="">Submit</button>  
                                         
                 </form>
                 
             </div>
+
+        <?php
         
-        </section>
-
-    </article>
-
-
-<?php
-    
-    // FOOTER
+    // HTML 2
     // ****************************************************************************************************************************************
-        include($path."assets/includes/components/footer.php");
-
+    include($path."assets/includes/components/page/html_2.php");
+    
 ?>

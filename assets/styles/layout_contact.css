@@ -1,1 +1,30 @@
 /* === LAYOUT_CONTACT.CSS === */
+
+#Contact{
+    text-align: center;
+
+    & h3{
+        color: var(--color-heading);
+    }
+}
+
+#ContactForm{
+    padding: 0 15%;
+    text-align: left;
+}
+
+#ContactForm input{
+    display: block;
+    width: 100%;
+    margin-bottom: var(--space-1);
+}
+
+#ContactForm textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: var(--space-1);
+}
+
+#ContactForm button{
+    margin-bottom: var(--space-fixed-1);
+}

@@ -14,7 +14,7 @@
         $subTitle = "About";
 
 
-    // HTML 1 (Homepage version)
+    // HTML 1
     // ****************************************************************************************************************************************
     include($path."assets/includes/components/page/html_1.php");
     
@@ -25,13 +25,13 @@
             include($path."assets/includes/page_components/about/about_summary.php");
 
             // BENEFITS
-            include($path."assets/includes/page_components/about/benefits.php");
+            include($path."assets/includes/page_components/about/about_benefits.php");
             
             // PRICES
-            include($path."assets/includes/page_components/about/prices.php");
+            include($path."assets/includes/page_components/about/about_prices.php");
 
             // NEXT STEPS
-            include($path."assets/includes/page_components/about/next_steps.php");
+            include($path."assets/includes/page_components/about/about_next_steps.php");
         
     // HTML 2
     // ****************************************************************************************************************************************

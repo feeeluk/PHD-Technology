@@ -1,4 +1,4 @@
-<div>
+<div class="about">
 
     <h1>BENEFITS OF USING US</h1>
 
