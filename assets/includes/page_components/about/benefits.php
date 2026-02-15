@@ -1,79 +1,75 @@
-<article class="benefits">
+<div>
 
     <h1>BENEFITS OF USING US</h1>
-    
-    <section>
 
-        <span>
+    <span class="benefits">
 
-            <h4>Low cost</h4>
-            
-            <p>
-                Not only are our services very reasonably priced to begin with, they are exceptionally lower than the equivalent costs of taking on one or more contractors or salaried staff.
-            </p>
-
-        </span>
+        <h4>Low cost</h4>
         
-        <span>
+        <p>
+            Not only are our services very reasonably priced to begin with, they are exceptionally lower than the equivalent costs of taking on one or more contractors or salaried staff.
+        </p>
 
-            <h4>High quality</h4>
+    </span>
+    
+    <span class="benefits">
 
-            <p>
-                With years of experience working with many major multi-national businesses, using modern technologies and the latest research, the quality of our services is second to none.
-            </p>
+        <h4>High quality</h4>
 
-        </span>
+        <p>
+            With years of experience working with many major multi-national businesses, using modern technologies and the latest research, the quality of our services is second to none.
+        </p>
 
-        <span>
+    </span>
 
-            <h4>Low risk</h4>
+    <span class="benefits">
 
-            <p>
-                Unlike hiring a contractor or salaried staff, our services do not come with any lengthy commitments or financial penalty clauses. Also, as our services do not intefere with the day-to-day operation of your business, there are no withdrawal issues. 
-            </p>
+        <h4>Low risk</h4>
 
-        </span>
+        <p>
+            Unlike hiring a contractor or salaried staff, our services do not come with any lengthy commitments or financial penalty clauses. Also, as our services do not intefere with the day-to-day operation of your business, there are no withdrawal issues. 
+        </p>
 
-        <span>
+    </span>
 
-            <h4>High reward</h4>
+    <span class="benefits">
 
-            <p>
-                Benefit from our years of experience and our high standards.
-            </p>
+        <h4>High reward</h4>
 
-        </span>
+        <p>
+            Benefit from our years of experience and our high standards.
+        </p>
 
-        <span>
+    </span>
 
-            <h4>Consultative by design</h4>
+    <span class="benefits">
 
-            <p>
-                We work WITH YOU!
-            </p>
+        <h4>Consultative by design</h4>
 
-        </span>
+        <p>
+            We work WITH YOU!
+        </p>
 
-        <span>
+    </span>
 
-            <h4>Flexible</h4>
+    <span class="benefits">
 
-            <p>
-                Use us when you need us. We can help with many different aspects of your business.
-            </p>
+        <h4>Flexible</h4>
 
-        </span>
+        <p>
+            Use us when you need us. We can help with many different aspects of your business.
+        </p>
 
-        <span>
+    </span>
 
-            <h4>Adds value to your business</h4>
+    <span class="benefits">
 
-            <p>
-                Without any of the overheads or commitments.
-            </p>
+        <h4>Adds value to your business</h4>
 
-        </span>
+        <p>
+            Without any of the overheads or commitments.
+        </p>
+
+    </span>
             
-    </section>
-
-</article>
+</div>
