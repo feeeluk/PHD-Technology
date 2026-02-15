@@ -47,6 +47,8 @@
         /* button to find out more about the service */
         .clickForDetails{        
             padding: 0;
+            border: none;
+            background: none;
         }
 
         /* The button is nested inside an A tag */

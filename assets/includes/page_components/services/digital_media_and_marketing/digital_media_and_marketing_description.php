@@ -36,8 +36,12 @@
         if (str_contains($_SERVER['REQUEST_URI'],'digital_media_and_marketing') == false)
             {
                 $link = "pages/services/digital_media_and_marketing.php";
+
+                echo "<div class='clickForDetails'>";
                 
-                include($path."assets/includes/components/other/button_click_for_details.php");
+                    include($path."assets/includes/components/other/button_click_for_details.php");
+
+                echo "</div>";
 
             }
 

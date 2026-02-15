@@ -3,38 +3,38 @@
     // SET PAGE VARIABLES & CONSTANTS
     // ****************************************************************************************************************************************
         
-        //    ./ = page is located in the root directory
-        //    ../ = page is located one folder up
-        //    ../../ = page is located two folders up, etc
-
         // set the site root folder in relation to this page
-        $path = "../";        
+        $path = "../";
+
+            //    ./ = page is located in the root directory
+            //    ../ = page is located one folder up
+            //    ../../ = page is located two folders up, etc       
         
         // set the page title
         $subTitle = "About";
 
-    // HEADER
-    // **************************************************************************************************************************************** 
-        include($path."assets/includes/components/header.php");
 
-    // MAIN PAGE
-    // _________________________________________________________________________________________________________________________________________
-        
-
-        // ABOUT SUMMARY
-        include($path."assets/includes/page_components/about/about_summary.php");
-
-        // BENEFITS
-        include($path."assets/includes/page_components/about/benefits.php");
-        
-        // PRICES
-        include($path."assets/includes/page_components/about/prices.php");
-
-        // NEXT STEPS
-        include($path."assets/includes/page_components/about/next_steps.php");
-
-    // FOOTER
+    // HTML 1 (Homepage version)
     // ****************************************************************************************************************************************
-        include($path."assets/includes/components/footer.php");
+    include($path."assets/includes/components/page/html_1.php");
+    
 
+        // PAGE CONTENTS HERE
+     
+            // ABOUT SUMMARY
+            include($path."assets/includes/page_components/about/about_summary.php");
+
+            // BENEFITS
+            include($path."assets/includes/page_components/about/benefits.php");
+            
+            // PRICES
+            //include($path."assets/includes/page_components/about/prices.php");
+
+            // NEXT STEPS
+            //include($path."assets/includes/page_components/about/next_steps.php");
+        
+    // HTML 2
+    // ****************************************************************************************************************************************
+    include($path."assets/includes/components/page/html_2.php");
+    
 ?>

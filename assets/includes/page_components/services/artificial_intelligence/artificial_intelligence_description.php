@@ -41,7 +41,7 @@
             {
                 $link = "pages/services/artificial_intelligence.php";
                 
-                 echo "<div class='clickForDetails'>";
+                echo "<div class='clickForDetails'>";
 
                     include($path."assets/includes/components/other/button_click_for_details.php");
 
