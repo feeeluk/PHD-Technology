@@ -102,7 +102,7 @@
     }
 
     /* group all sections of content (multiple boxes) */
-    .subContainer{
+    #SubContainer{
         position:static;
         background: linear-gradient(to right, rgba(var(--colour-bg-secondary-transparent), 0.05), var(--colour-heading), rgba(var(--colour-bg-secondary-transparent), 0.05));
         padding: var(--space-4) 5%;

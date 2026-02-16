@@ -28,7 +28,7 @@
 
         ?>
 
-        <div ID="PageContainer">
+        <div id="PageContainer">
 
             <?php
 
@@ -42,4 +42,4 @@
 
             ?>
 
-            <div class="subContainer">
+            <div id="SubContainer">
