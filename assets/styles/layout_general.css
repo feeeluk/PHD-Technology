@@ -31,10 +31,15 @@
                 The main header is made up of 3 parts, the logo, small device navigation and large device navigation. All three are in fixed positions, but the visibility changes depending on the size of the viewing device.
             
             - Layout
-                The navigation bars are all fixed positions of the same height.
-                Then, directly underneath is a page container that is positioned absolutely underneath the navigation bar (using position: absolute, margin-top: (height of the nav in px); top: 0;) and sits immediately underneath the navigation bar.
-                Within that there is a sub container
-                All further elements are children items within the sub container.            
+                Then, directly underneath, is a page container (using position: absolute, margin-top: (height of the nav in px); top: 0;).
+                Within that there is a sub container.
+                body
+                    - #Header
+                    - #PageContainer - has no margin or padding.
+                        > ?homepage specific content?
+                        > SubContainer
+                        > Footer
+                General content is located inside the sub container.            
 
     */
 
@@ -49,11 +54,14 @@
         line-height: var(--line-height);
     }
 
+    /*  instead of using adding styling to divs directly, use classes */
+    /* eg. .box .item .border */
+
     div {
         width: 100%;
         text-align: left;
         padding: var(--space-4) var(--space-4) 0 var(--space-4);
-        border: 5px solid white;
+        
         background: linear-gradient(to right bottom, #B9B9B9, #D9D9D9);
     }
 
@@ -62,14 +70,6 @@
         padding: 1rem;
         background: var(--colour-accent)
     }
-
-    /* article {
-
-    }
-
-    section {
-   
-    } */
 
     a, a:visited, a:active {
         color: var(--colour-primary);
@@ -87,14 +87,6 @@
 
     p:last-child{
         margin-bottom: 0;
-    }
-
-/* Anchors */
-/* ============================================== */
-
-    .anchor{
-        position: relative;
-        top: calc((var(--height-header) + var(--space-4) + 5px ) *-1);
     }
 
 /* Containers */
@@ -122,15 +114,23 @@
         border: none;
     }
 
-    /* group related content */
-    /* .box{
-        background: red;
-        border: 5px solid blue;
+    /* what is the main difference betweem box and item?
+    An item fits inside a box.
+    Some items are boxes, but not all boxes are items. 
+    Box > Item */
+
+    /* boxes are primarily structural */
+    .box{
         width: 100%;
-        text-align: left;
+        background: linear-gradient(to right bottom, #B9B9B9, #D9D9D9);
+    }
+
+    /* group related content */
+    .item{
         padding: var(--space-4);
-        margin-bottom: var(--space-fixed-2);
-    } */
+        border: 5px solid white;
+        text-align: left;
+    }
 
 
             /* LARGER DEVICES */
@@ -181,6 +181,18 @@
         background: var(--colour-bg-secondary);
         padding: var(--space-4);
         font-size: var(--fs-xs);
+    }
+
+/* General Classes */
+/* ============================================== */
+
+    .anchor{
+        position: relative;
+        top: calc((var(--height-header) + var(--space-4) + 5px ) *-1);
+    }
+
+    .border{
+        border: 5px solid white;
     }
 
 
