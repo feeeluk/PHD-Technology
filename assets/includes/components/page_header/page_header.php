@@ -1,4 +1,4 @@
-<div class="header">
+<div id="Header">
            
     <?php
         
