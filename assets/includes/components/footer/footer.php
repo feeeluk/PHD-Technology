@@ -7,6 +7,8 @@
         |
         <a href="/pages/legal.php">legal</a>
         |
+        <a href="https://trello.com/invite/b/692dce0d19aab9be3d84fa4a/ATTIa7da0c88000220adb6717ed94cb880da492D4337/pdh-technology">Trello</a>
+        |
 
     </p>
 

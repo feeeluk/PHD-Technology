@@ -40,6 +40,7 @@
             object-fit: cover;
             height: 150px;
             max-height: 150px;
+            width: 100%;
             float: left;
             padding: 0 1rem 0 0;
         }
@@ -87,6 +88,15 @@
                 /* LARGER DEVICES */
                 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
+                    @media (min-width: 400px){
+
+                        .summaryOfService img{
+                        
+                            width: fit-content;
+                        }
+
+                    }
+                
                     @media (min-width: 640px){
 
                         /* move the position of the button */
