@@ -28,7 +28,7 @@
 
         ?>
 
-        <div class="pageContainer">
+        <div ID="PageContainer">
 
             <?php
 
