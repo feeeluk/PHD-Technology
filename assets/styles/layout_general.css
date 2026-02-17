@@ -9,7 +9,7 @@
             IDs = use PascalCase
             classes = use camelCase
 
-            use the 'object-oriented css' convention, where an abject is referenced via '--'
+            use the 'object oriented css' convention, where an abject is referenced via '--'
             e.g. 
                 .boxOne{} 
                 .boxOne--rounded{}
@@ -58,10 +58,10 @@
     /* eg. .box .item .border */
 
     div {
-        width: 100%;
+        /* width: 100%;
         text-align: left;
         padding: var(--space-4) var(--space-4) 0 var(--space-4);
-        background: linear-gradient(to right bottom, #B9B9B9, #D9D9D9);
+        background: linear-gradient(to right bottom, #B9B9B9, #D9D9D9); */
     }
 
     span {
@@ -113,23 +113,28 @@
         border: none;
     }
 
-    /* what is the main difference betweem box and item?
-    An item fits inside a box.
-    Some items are boxes, but not all boxes are items. 
-    Box > Item */
-
-    /* boxes are primarily structural */
+    /* boxes are structural */
     .box{
         width: 100%;
         padding: 0;    
     }
 
-    /* items having styling */
-    .item{
+    .box--WithPadding{
+        width: 100%;
         padding: var(--space-4);
-        border: 5px solid white;
+    }
+
+    /* items are for styling */
+    .item{
         text-align: left;
         background: linear-gradient(to right bottom, #B9B9B9, #D9D9D9);
+        border: none;
+    }
+
+    .item--WithBorder{
+        text-align: left;
+        background: linear-gradient(to right bottom, #B9B9B9, #D9D9D9);
+        border: 5px solid white;
     }
 
 

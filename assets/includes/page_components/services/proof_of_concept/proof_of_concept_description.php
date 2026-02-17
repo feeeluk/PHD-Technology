@@ -1,4 +1,4 @@
-<div class="serviceItem">
+<div class="box--WithPadding item--WithBorder">
 
     <a id="ProofOfConcept" class="anchor"></a>
 

@@ -1,7 +1,7 @@
 /* === LAYOUT_HOMEPAGE.CSS === */
     
     /* contains the 'elevator pitch', the 'description' text, and shortcuts to the differing services available */
-    #Introduction{
+    #IntroductionToBusiness{
         position: static;
         padding: var(--space-fixed-1) 5%;
         min-height: calc(100vh - var(--height-header));
@@ -15,13 +15,13 @@
             /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
             @media (min-width: 640px){
-                #Introduction{
+                #IntroductionToBusiness{
                     padding: var(--space-fixed-1) 7.5%;
                 }
             }
 
             @media (min-width: 960px){
-                #Introduction{
+                #IntroductionToBusiness{
                     padding: var(--space-fixed-1) 10%;
                 }
             }
@@ -194,7 +194,7 @@
         @media (min-width: 1281px){
             
             /* increase the padding of the Introduction section */
-            #Introduction{
+            #IntroductionToBusiness{
                 padding-left: var(--space-fixed-4);
                 padding-right: var(--space-fixed-4);
             }

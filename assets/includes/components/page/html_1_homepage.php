@@ -36,9 +36,9 @@
                 // ****************************************************************************************************************************************
                 include($path."assets/includes/components/page_header/link_to_top_of_the_page.php");
 
-                // INTRODUCTION
+                // INTRODUCTION TO BUSINESS
                 // ****************************************************************************************************************************************
-                include($path."assets/includes/page_components/home/introduction.php");
+                include($path."assets/includes/page_components/home/introduction_to_business.php");
 
             ?>
 

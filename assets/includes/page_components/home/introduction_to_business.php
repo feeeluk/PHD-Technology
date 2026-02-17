@@ -1,4 +1,4 @@
-<div id="Introduction">
+<div id="IntroductionToBusiness">
 
     <?php
     

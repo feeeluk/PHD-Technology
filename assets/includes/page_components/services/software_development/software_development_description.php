@@ -1,4 +1,4 @@
-<div class="box serviceItem">
+<div class="box--WithPadding item--WithBorder">
 
     <a id="SoftwareDevelopment" class="anchor"></a>
 
