@@ -20,12 +20,12 @@
   --line-height: 1.5;
 
   /* Font sizes (mobile-first) */
-  --fs-xs: 0.75rem;
-  --fs-sm: 0.875rem;
-  --fs-md: 1rem;
-  --fs-lg: 1.25rem;
-  --fs-xl: 1.5rem;
-  --fs-xxl: 2rem;
+  --fs-xs: 0.75rem; /* h6 & regular text */
+  --fs-sm: 0.875rem; /* h5 */
+  --fs-md: 1rem; /* h4 */
+  --fs-lg: 1.25rem; /* h3 */
+  --fs-xl: 1.5rem; /* h2 */
+  --fs-xxl: 2rem; /* h1 */
 
   /* Spacing scale */
   --space-1: 0.25rem; /* 4px */
