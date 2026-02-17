@@ -58,11 +58,11 @@
     /* eg. .box .item .border */
 
     div {
-        width: 100%;
+        /* width: 100%;
         text-align: left;
         padding: var(--space-4) var(--space-4) 0 var(--space-4);
         
-        background: linear-gradient(to right bottom, #B9B9B9, #D9D9D9);
+        background: linear-gradient(to right bottom, #B9B9B9, #D9D9D9); */
     }
 
     span {
@@ -122,14 +122,15 @@
     /* boxes are primarily structural */
     .box{
         width: 100%;
-        background: linear-gradient(to right bottom, #B9B9B9, #D9D9D9);
+        padding: 0;    
     }
 
-    /* group related content */
+    /* items having styling */
     .item{
         padding: var(--space-4);
         border: 5px solid white;
         text-align: left;
+        background: linear-gradient(to right bottom, #B9B9B9, #D9D9D9);
     }
 
 
