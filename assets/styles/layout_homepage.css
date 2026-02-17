@@ -52,7 +52,7 @@
     }
 
     /* the first section within the parent Overview, gives a basic description of the business */
-    #Description{
+    #DescriptionOfBusiness{
         background: rgba(var(--colour-bg-accent-transparent), .3);
         padding: var(--space-4);
         margin-right: var(--space-3);
@@ -123,7 +123,7 @@
             }
 
             /* add right margin to the Description section */
-            #Description{
+            #DescriptionOfBusiness{
                 margin-right: var(--space-4);
                 background: rgba(var(--colour-bg-accent-transparent), .6);
             }
@@ -134,7 +134,7 @@
             }
 
             /* the first div within the 'Overview' section takes up 35% of the available width */
-            #Description{
+            #DescriptionOfBusiness{
                 width: 40%;
             }
 

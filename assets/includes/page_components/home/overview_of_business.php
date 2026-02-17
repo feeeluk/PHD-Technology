@@ -2,8 +2,8 @@
 
     <?php
     
-        // DESCRIPTION
-        include($path."assets/includes/page_components/home/description.php");
+        // DESCRIPTION OF BUSINESS
+        include($path."assets/includes/page_components/home/description_of_business.php");
 
         // SERVICES (smaller devices)
         include($path."assets/includes/page_components/home/services_smaller_devices.php");
