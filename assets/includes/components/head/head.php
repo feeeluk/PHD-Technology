@@ -17,6 +17,7 @@
         <link rel="stylesheet" href="/assets/styles/layout_homepage.css">
         <link rel="stylesheet" href="/assets/styles/layout_about.css">
         <link rel="stylesheet" href="/assets/styles/layout_services.css">
+        <link rel="stylesheet" href="/assets/styles/layout_portfolio.css">
         <link rel="stylesheet" href="/assets/styles/layout_contact.css">
     
     <!-- components -->

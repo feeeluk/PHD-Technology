@@ -19,7 +19,13 @@
     // HTML 1
     // ****************************************************************************************************************************************
     include($path."assets/includes/components/page/html_1.php");
-    
+        
+?>
+
+<div id="DataManipulation" class="box">
+
+    <?php
+
 
         // PAGE CONTENTS HERE
 
@@ -41,9 +47,15 @@
             // Next Steps
             include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_next_steps.php");
 
+    ?>
+
+</div>
+    
+<?php
+
 
     // HTML 2
     // ****************************************************************************************************************************************
     include($path."assets/includes/components/page/html_2.php");
-    
+
 ?>

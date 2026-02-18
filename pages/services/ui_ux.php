@@ -19,8 +19,13 @@
     // HTML 1
     // ****************************************************************************************************************************************
     include($path."assets/includes/components/page/html_1.php");
-    
 
+?>
+
+<div id="UiUx" class="box">
+
+    <?php
+    
         // PAGE CONTENTS HERE
 
             // Description
@@ -40,7 +45,12 @@
             
             // Next Steps
             include($path."assets/includes/page_components/services/ui_ux/ui_ux_next_steps.php");
-            
+
+    ?>
+
+</div>
+    
+<?php          
 
     // HTML 2
     // ****************************************************************************************************************************************

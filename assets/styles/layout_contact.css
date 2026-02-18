@@ -1,13 +1,5 @@
 /* === LAYOUT_CONTACT.CSS === */
 
-#Contact{
-    text-align: center;
-
-    & h3{
-        color: var(--color-heading);
-    }
-}
-
 #ContactForm{
     padding: 0 15%;
     text-align: left;

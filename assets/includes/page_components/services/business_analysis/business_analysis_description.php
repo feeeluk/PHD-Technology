@@ -1,23 +1,23 @@
-<div class="box--WithPadding item--WithBorder">
+<div id="BusinessAnalysisDescription" class="box--WithPadding item description">
 
-    <a id="BusinessAnalysis" class="anchor"></a>
+    <a id="BusinessAnalysisAnchor" class="anchor"></a>
 
     <?php
 
         if (str_contains($_SERVER['REQUEST_URI'],'business_analysis') == true)
         {
-            echo "<h1>BUSINESS ANALYSIS</h1>";
+            echo "<h1 class='item--Heading'>BUSINESS ANALYSIS</h1>";
         }
 
         else {
-            echo "<h1>BUSINESS ANALYSIS</h1>";
+            echo "<h1 class='item--Heading'>BUSINESS ANALYSIS</h1>";
         }
 
     ?>
 
-    <div class="summaryOfService">
+    <div id="BusinessAnalysisSummaryOfService" class="summaryOfService description">
 
-        <img src="/assets/images/services/business_analysis/overview_business_analysis.webp" alt="business analysis" class="banner">
+        <img src="/assets/images/services/business_analysis/overview_business_analysis.webp" alt="business analysis">
         
         <p>
             Business analysis is one of the most effective ways an organisation can improve how it operates, makes decisions, and delivers value.
@@ -52,7 +52,7 @@
 
     ?>
 
-    <div class="detailsOfService">
+    <div id="BusinessAnalysisDetailsOfService" class="detailsOfService description">
 
         <h3>Business Analysis: A Strategic Investment in Better Decisions and Better Outcomes</h3>
         

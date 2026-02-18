@@ -19,7 +19,12 @@
     // HTML 1
     // ****************************************************************************************************************************************
     include($path."assets/includes/components/page/html_1.php");
-    
+
+?>
+
+<div id="SkillsDevelopmentAndTraining" class="box">
+
+    <?php    
 
         // PAGE CONTENTS HERE
 
@@ -40,7 +45,12 @@
             
             // Next Steps
             include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_next_steps.php");
-            
+
+    ?>
+
+</div>
+    
+<?php            
             
     // HTML 2
     // ****************************************************************************************************************************************

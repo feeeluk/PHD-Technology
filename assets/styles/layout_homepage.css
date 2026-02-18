@@ -48,15 +48,13 @@
         background: rgba(var(--colour-bg-secondary-transparent), 0.85);    
         display: flex;
         flex-direction: column;
-        border: none;
     }
 
     /* the first section within the parent Overview, gives a basic description of the business */
     #DescriptionOfBusiness{
         background: rgba(var(--colour-bg-accent-transparent), .3);
         padding: var(--space-4);
-        margin-right: var(--space-3);
-        border: none;
+
     }
 
     /* Links section (parent)*/

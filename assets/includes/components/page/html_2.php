@@ -1,6 +1,6 @@
 </div>
 
-            <div ID="Footer">
+            <div id="Footer">
 
                 <?php
 

@@ -1,6 +1,6 @@
-<div class="serviceItem">
+<div id="ProjectManagementBenefits" class="box--WithPadding item benefits">
         
-    <h1>WHAT ARE THE BENEFITS?</h1>
+    <h1 class="item--Heading">WHAT ARE THE BENEFITS?</h1>
         
     <span class="benefits">
 

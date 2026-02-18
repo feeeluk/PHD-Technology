@@ -1,6 +1,6 @@
-<div class="box">
+<div id="AboutBenefits" class="box--WithPadding item benefits">
 
-    <h1>BENEFITS OF USING US</h1>
+    <h1 class="item--Heading">BENEFITS OF USING US</h1>
 
     <span class="benefits">
 

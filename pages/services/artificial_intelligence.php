@@ -19,29 +19,39 @@
     // HTML 1
     // ****************************************************************************************************************************************
     include($path."assets/includes/components/page/html_1.php");
+
+?>
+
+<div id="ArtificialIntelligence" class="box">
+
+<?php
     
 
-        // PAGE CONTENTS HERE
+    // PAGE CONTENTS HERE
 
-            // Description
-            include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_description.php");
+        // Description
+        include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_description.php");
 
-            // Benefits
-            include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_benefits.php");
-            
-            // Prices
-            include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_prices.php");
-            
-            // Portfolio
-            include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_portfolio.php");
+        // Benefits
+        include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_benefits.php");
+        
+        // Prices
+        include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_prices.php");
+        
+        // Portfolio
+        include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_portfolio.php");
 
-            // Case Studies
-            // include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_case_studies.php");
-            
-            // Next Steps
-            include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_next_steps.php");
+        // Case Studies
+        // include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_case_studies.php");
+        
+        // Next Steps
+        include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_next_steps.php");
 
+    ?>
 
+</div>
+    
+<?php
 
     // HTML 2
     // ****************************************************************************************************************************************

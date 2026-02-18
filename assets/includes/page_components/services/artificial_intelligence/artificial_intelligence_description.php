@@ -1,23 +1,23 @@
-<div class="box--WithPadding item--WithBorder">
+<div id="ArtificialIntelligenceDescription" class="box--WithPadding item description">
 
-    <a id="ArtificialIntelligence" class="anchor"></a>
+    <a id="ArtificialIntelligenceAnchor" class="anchor"></a>
 
     <?php
 
         if (str_contains($_SERVER['REQUEST_URI'],'artificial_intelligence') == true)
             {
-                echo "<h1>ARTIFICIAL INTELLIGENCE</h1>";
-                echo "<h3>(COMING SOON)</h3>";
+                echo "<h1 class='item--Heading'>ARTIFICIAL INTELLIGENCE</h1>";
+                echo "<h3 class='item--SubHeading'>(COMING SOON)</h3>";
             }
 
             else {
-                echo "<h1>ARTIFICIAL INTELLIGENCE</h1>";
-                echo "<h3>(COMING SOON)</h3>";
+                echo "<h1 class='item--Heading'>ARTIFICIAL INTELLIGENCE</h1>";
+                echo "<h3 class='item--SubHeading'>(COMING SOON)</h3>";
             }
 
     ?>
         
-    <div class="summaryOfService">
+    <div id="ArtificialIntelligenceSummaryOfService" class="summaryOfService description">
             
         <img src="/assets/images/services/artificial_intelligence/overview_artificial_intelligence.webp" alt="Artificial Intelligence">
     
@@ -54,7 +54,7 @@
 
     ?>
 
-    <div class="detailsOfService">
+    <div id="ArtificialIntelligenceDetailsOfService" class="detailsOfService description">
 
         <p>
             TEST. This paragraph should only be visible in the specific service page, not on the homepage.

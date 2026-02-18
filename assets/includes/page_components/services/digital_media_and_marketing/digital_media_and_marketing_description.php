@@ -1,23 +1,23 @@
-<div class="box--WithPadding item--WithBorder">
+<div id="DigitalMediaAndMarketingDescription" class="box--WithPadding item description">
 
-    <a id="DigitalMediaAndMarketing" class="anchor"></a>
+    <a id="DigitalMediaAndMarketingAnchor" class="anchor"></a>
 
     <?php
 
         if (str_contains($_SERVER['REQUEST_URI'],'digital_media_and_marketing') == true)
             {
-                echo "<h1>DIGITAL MEDIA & MARKETING</h1>";
-                echo "<h3>(COMING SOON)</h3>";
+                echo "<h1 class='item--Heading'>DIGITAL MEDIA & MARKETING</h1>";
+                echo "<h3 class='item--SubHeading'>(COMING SOON)</h3>";
             }
 
         else {
-            echo "<h1>DIGITAL MEDIA & MARKETING</h1>";
-            echo "<h3>(COMING SOON)</h3>";
+            echo "<h1 class='item--Heading'>DIGITAL MEDIA & MARKETING</h1>";
+            echo "<h3 class='item--SubHeading'>(COMING SOON)</h3>";
         }
 
     ?>
 
-    <div class="summaryOfService">
+    <div id="DigitalMediaAndMarketingSummaryOfService" class="summaryOfService description">
 
         <img src="/assets/images/services/digital_media_and_marketing/overview_digital_media_and_marketing.webp" alt="Digital media & marketing">
 
@@ -50,9 +50,9 @@
 
     ?>
 
-    <div class="detailsOfService">
+    <div id="DigitalMediaAndMarketingDetailsOfService" class="detailsOfService description">
 
-        <h4 class="margin_top">Digital Media and Marketing with PHD Technology</h4>
+        <h3>Digital Media and Marketing with PHD Technology</h3>
         
         <p>
             TEST. This paragraph should only be visible in the specific service page, not on the homepage.

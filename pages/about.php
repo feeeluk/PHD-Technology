@@ -23,12 +23,12 @@
 
 ?>
 
-    <div id="about">
+    <div id="About" class="box">
 
         <?php
 
-            // ABOUT SUMMARY
-            include($path."assets/includes/page_components/about/about_summary.php");
+            // ABOUT DESCRIPTION
+            include($path."assets/includes/page_components/about/about_description.php");
 
             // BENEFITS
             include($path."assets/includes/page_components/about/about_benefits.php");

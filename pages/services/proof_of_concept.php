@@ -19,8 +19,13 @@
     // HTML 1
     // ****************************************************************************************************************************************
     include($path."assets/includes/components/page/html_1.php");
-    
 
+?>
+
+<div id="ProofOfConcept" class="box">
+
+    <?php
+    
         // PAGE CONTENTS HERE
 
             // Description
@@ -40,7 +45,12 @@
             
             // Next Steps
             include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_next_steps.php");
-            
+
+    ?>
+
+</div>
+    
+<?php
 
     // HTML 2
     // ****************************************************************************************************************************************

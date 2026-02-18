@@ -54,15 +54,6 @@
         line-height: var(--line-height);
     }
 
-    /*  instead of using adding styling to divs directly, use classes */
-    /* eg. .box .item .border */
-
-    div {
-        /* width: 100%;
-        text-align: left;
-        padding: var(--space-4) var(--space-4) 0 var(--space-4);
-        background: linear-gradient(to right bottom, #B9B9B9, #D9D9D9); */
-    }
 
     span {
         width: 100%;
@@ -113,31 +104,6 @@
         border: none;
     }
 
-    /* boxes are structural */
-    .box{
-        width: 100%;
-        padding: 0;    
-    }
-
-    .box--WithPadding{
-        width: 100%;
-        padding: var(--space-4);
-    }
-
-    /* items are for styling */
-    .item{
-        text-align: left;
-        background: linear-gradient(to right bottom, #B9B9B9, #D9D9D9);
-        border: none;
-    }
-
-    .item--WithBorder{
-        text-align: left;
-        background: linear-gradient(to right bottom, #B9B9B9, #D9D9D9);
-        border: 5px solid white;
-    }
-
-
             /* LARGER DEVICES */
             /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
@@ -152,6 +118,88 @@
                     padding: var(--space-4) 20% 0 20%;
                 }
             }
+
+    /* boxes are structural */
+    .box{
+        width: 100%;
+        padding: 0;
+    }
+
+    .box--WithPadding{
+        width: 100%;
+        padding: var(--space-4);
+    }
+
+    /* items are for styling */
+    .item{
+        text-align: left;
+        background: linear-gradient(to right bottom, #B9B9B9, #D9D9D9);
+        border: none;
+        margin-bottom: var(--space-4);
+        border: 5px solid white;
+    }
+
+    .item--Heading{
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    /* remove the bottom margin from h1 headers that immediately preceed h3 */
+    .item--Heading:has(+ h3){
+        margin-bottom: calc(var(--space-2) * -1);
+        
+    }
+
+    .item--SubHeading{
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: .5rem;
+        color: red;
+    }
+
+    .item--CentreAlignedText{
+        text-align: center;
+    }
+
+    .item--Flex-SpaceAround{
+        padding: 0 0 var(--space-5) 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-around;
+    }
+
+    .item--ContactUs{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        & img{
+            width: 100px;
+            height: 100%;
+        }
+            
+    }
+
+            /* LARGER DEVICES */
+            /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+            @media (min-width: 640px){
+                .item--ContactUs img{
+                    width: 150px;
+                }
+            }
+
+            @media (min-width: 960px){
+                .item--ContactUs img{
+                    width: 200px;
+                }
+            }
+
+    .item:last-child{
+        margin-bottom: var(--space-fixed-2);
+    }    
 
     #LinkToTop{
         position: fixed;
@@ -195,11 +243,7 @@
         position: relative;
         top: calc((var(--height-header) + var(--space-4) + 5px ) *-1);
     }
-
-    .border{
-        border: 5px solid white;
-    }
-
+    
 
 /* Spacing */
 /* ============================================== */

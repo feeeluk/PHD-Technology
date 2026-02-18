@@ -1,21 +1,21 @@
-<div class="box--WithPadding item--WithBorder">
+<div id="UiUxDescription" class="box--WithPadding item description">
 
-    <a id="UiUx" class="anchor"></a>
+    <a id="UiUxAnchor" class="anchor"></a>
 
     <?php
 
         if (str_contains($_SERVER['REQUEST_URI'],'ui_ux') == true)
             {
-                echo "<h1>UI/UX</h1>";
+                echo "<h1 class='item--Heading'>UI/UX</h1>";
             }
 
             else {
-                echo "<h1>UI/UX</h1>";
+                echo "<h1 class='item--Heading'>UI/UX</h1>";
             }
 
     ?>
 
-    <div class="summaryOfService">
+    <div id="UiUxSummaryOfService" class="summaryOfService description">
 
         <img src="/assets/images/services/ui_ux/overview_ui_ux.webp" alt="UI/UX">
             
@@ -48,7 +48,7 @@
 
     ?>
     
-    <div class="detailsOfService">
+    <div id="UiUxDetailsOfService" class="detailsOfService description">
 
         <h3>UI/UX with PHD Technology</h3>
         

@@ -1,21 +1,21 @@
-<div class="box--WithPadding item--WithBorder">
+<div id="ProjectManagementDescription" class="box--WithPadding item">
 
-    <a id="ProjectManagement" class="anchor"></a>
+    <a id="ProjectManagementAnchor" class="anchor"></a>
 
     <?php
 
         if (str_contains($_SERVER['REQUEST_URI'],'project_management') == true)
             {
-                echo "<h1>PROJECT MANAGEMENT</h1>";
+                echo "<h1 class='item--Heading'>PROJECT MANAGEMENT</h1>";
             }
 
             else {
-                echo "<h1>PROJECT MANAGEMENT</h1>";
+                echo "<h1 class='item--Heading'>PROJECT MANAGEMENT</h1>";
             }
 
     ?>
 
-    <div class="summaryOfService">
+    <div id="ProjectManagementSummaryOfService" class="summaryOfService description">
 
         <img src="/assets/images/services/project_management/overview_project_management.webp" alt="Project management">
 
@@ -44,7 +44,7 @@
 
     ?>
 
-    <div class="detailsOfService">
+    <div id="ProjectManagementDetailsOfService" class="detailsOfService description">
 
         <h3>Project Management with PHD Technology</h3>
         

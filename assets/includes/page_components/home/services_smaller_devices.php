@@ -10,19 +10,19 @@
 
 <div id="ServicesSmallerDevices">
 
-    <a href="#BusinessAnalysis">
+    <a href="#BusinessAnalysisAnchor">
         <span>
             Business Analysis 
         </span>
     </a>
     
-    <a href="#SoftwareDevelopment">
+    <a href="#SoftwareDevelopmentAnchor">
         <span>
             Software Development
         </span>
     </a>
     
-    <a href="#ProjectManagement">
+    <a href="#ProjectManagementAnchor">
         <span>
             Project Management
         </span>
@@ -34,31 +34,31 @@
         </span>
     </a>
     
-    <a href="#SkillsDevelopmentAndTraining">
+    <a href="#SkillsDevelopmentAndTrainingAnchor">
         <span>
             Skills Development & Training
         </span>
     </a>
     
-    <a href="#ProofOfConcept">            
+    <a href="#ProofOfConceptAnchor">            
         <span>
             Proof of Concept
         </span>
     </a>
 
-    <a href="#ArtificialIntelligence">
+    <a href="#ArtificialIntelligenceAnchor">
         <span>
             Artificial Intelligence
         </span>
     </a>
 
-    <a href="#DigitalMediaAndMarketing">
+    <a href="#DigitalMediaAndMarketingAnchor">
         <span>
             Digital Media & Marketing
         </span>
     </a>
 
-    <a href="#UiUx">
+    <a href="#UiUxAnchor">
         <span>
             UI/UX
         </span>

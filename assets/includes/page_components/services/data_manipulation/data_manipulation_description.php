@@ -1,21 +1,21 @@
-<div class="box--WithPadding item--WithBorder">
+<div id="DataManipulationDescription" class="box--WithPadding item description">
 
-    <a id="DataManipulation" class="anchor"></a>
+    <a id="DataManipulationAnchor" class="anchor"></a>
 
     <?php
 
         if (str_contains($_SERVER['REQUEST_URI'],'data_manipulation') == true)
             {
-                echo "<h1>DATA MANIPULATION</h1>";
+                echo "<h1 class='item--Heading'>DATA MANIPULATION</h1>";
             }
 
             else {
-                echo "<h1>DATA MANIPULATION</h1>";
+                echo "<h1 class='item--Heading'>DATA MANIPULATION</h1>";
             }
 
     ?>
 
-    <div class="summaryOfService">            
+    <div id="DataManipulationSummaryOfService" class="summaryOfService description">            
 
         <img src="/assets/images/services/data_manipulation/overview_data_manipulation.webp" alt="data manipulation">         
     
@@ -48,7 +48,7 @@
 
     ?>
 
-    <div class="detailsOfService">
+    <div id="DataManipulationDetailsOfService" class="detailsOfService description">
 
         <h3>Data Manipulation with PHD Technology</h3>
         

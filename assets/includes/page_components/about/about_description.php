@@ -1,6 +1,6 @@
-<div class="box">
+<div id="AboutDescription" class="box--WithPadding item description">
 
-    <h1>ABOUT</h1>
+    <h1 class="item--Heading">ABOUT</h1>
     
     <img src="" alt="Photograph of Phil Henning" />
     

@@ -1,21 +1,21 @@
-<div class="box--WithPadding item--WithBorder">
+<div id="SkillsDevelopmentAndTrainingDescription" class="box--WithPadding item description">
 
-    <a id="SkillsDevelopmentAndTraining" class="anchor"></a>
+    <a id="SkillsDevelopmentAndTrainingAnchor" class="anchor"></a>
 
     <?php
 
         if (str_contains($_SERVER['REQUEST_URI'],'skills_development_and_training') == true)
             {
-                echo "<h1>SKILLS DEVELOPMENT & TRAINING</h1>";
+                echo "<h1 class='item--Heading'>SKILLS DEVELOPMENT & TRAINING</h1>";
             }
 
             else {
-                echo "<h1>SKILLS DEVELOPMENT & TRAINING</h1>";
+                echo "<h1 class='item--Heading'>SKILLS DEVELOPMENT & TRAINING</h1>";
             }
 
     ?>
 
-    <div class="summaryOfService">
+    <div id="SkillsDevelopmentAndTrainingSummaryOfService" class="summaryOfService description">
 
         <img src="/assets/images/services/skills_development_and_training/overview_skills_development_and_training.webp" alt="Skills development & training">
 
@@ -44,7 +44,7 @@
 
     ?>
 
-    <div class="detailsOfService">
+    <div id="SkillsDevelopmentAndTrainingDetailsOfService" class="detailsOfService description">
 
         <h3>Skills Development and Training with PHD Technology</h3>
 

@@ -1,21 +1,21 @@
-<div class="box--WithPadding item--WithBorder">
+<div id="ProofOfConceptDescription" class="box--WithPadding item description">
 
-    <a id="ProofOfConcept" class="anchor"></a>
+    <a id="ProofOfConceptAnchor" class="anchor"></a>
 
     <?php
 
         if (str_contains($_SERVER['REQUEST_URI'],'proof_of_concept') == true)
             {
-                echo "<h1>PROOF OF CONCEPT</h1>";
+                echo "<h1 class='item--Heading'>PROOF OF CONCEPT</h1>";
             }
 
         else {
-                echo "<h1>PROOF OF CONCEPT</h1>";
+                echo "<h1 class='item--Heading'>PROOF OF CONCEPT</h1>";
             }
 
     ?>       
 
-    <div class="summaryOfService">
+    <div id="ProofOfConceptSummaryOfService" class="summaryOfService description">
 
         <img src="/assets/images/services/proof_of_concept/overview_proof_of_concept.webp" alt="Proof of Concept">
 
@@ -52,7 +52,7 @@
 
     ?>
 
-    <div class="detailsOfService">
+    <div id="ProofOfConceptDetailsOfService" class="detailsOfService description">
 
         <h3>Proof of Concept with PHD Technology</h3>
         

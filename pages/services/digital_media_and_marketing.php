@@ -19,6 +19,12 @@
     // HTML 1
     // ****************************************************************************************************************************************
     include($path."assets/includes/components/page/html_1.php");
+
+?>
+
+<div id="DigitalMediaAndMarketing" class="box">
+
+    <?php
     
 
         // PAGE CONTENTS HERE
@@ -41,6 +47,11 @@
             // Next Steps
             include($path."assets/includes/page_components/services/digital_media_and_marketing/digital_media_and_marketing_next_steps.php");
 
+    ?>
+
+</div>
+    
+<?php            
 
     // HTML 2
     // ****************************************************************************************************************************************

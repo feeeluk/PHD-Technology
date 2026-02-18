@@ -1,21 +1,21 @@
-<div class="box--WithPadding item--WithBorder">
+<div id="SoftwareDevelopmentDescription" class="box--WithPadding item description">
 
-    <a id="SoftwareDevelopment" class="anchor"></a>
+    <a id="SoftwareDevelopmentAnchor" class="anchor"></a>
 
     <?php
 
         if (str_contains($_SERVER['REQUEST_URI'],'software_development') == true)
             {
-                echo "<h1>SOFTWARE DEVELOPMENT</h1>";
+                echo "<h1 class='item--Heading'>SOFTWARE DEVELOPMENT</h1>";
             }
 
             else {
-                echo "<h1>SOFTWARE DEVELOPMENT</h1>";
+                echo "<h1 class='item--Heading'>SOFTWARE DEVELOPMENT</h1>";
             }
 
     ?>
 
-    <div class="summaryOfService">
+    <div id="DotNetDevelopmentSummaryOfService" class="summaryOfService description">
 
         <img src="/assets/images/services/software_development/overview_dot_net_development.webp" alt=".NET devlopment">
 
@@ -26,7 +26,7 @@
     </div>
 
 
-    <div class="detailsOfService">
+    <div id="DotNetDevelopmentDetailsOfService" class="detailsOfService description">
 
         <h3>.Net development with PHD Technology</h3>
 
@@ -38,7 +38,7 @@
 
 
 
-    <div class="summaryOfService">
+    <div id="WebDevelopmentSummaryOfService" class="summaryOfService description">
 
         <img src="/assets/images/services/software_development/overview_web_development.webp" alt="Web development">
         
@@ -67,7 +67,7 @@
 
     ?>
 
-    <div class="detailsOfService">
+    <div id="WebDevelopmentDetailsOfService" class="detailsOfService description">
 
         <h3>Web development with PHD Technology</h3>
         

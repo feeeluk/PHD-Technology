@@ -1,22 +1,22 @@
-<div class="box serviceItem">
+<div id="SoftwareDevelopmentPortfolio" class="box--WithPadding item portflio">
 
     <?php
 
         if (str_contains($_SERVER['REQUEST_URI'],'software_development') == true)
             {
-                echo "<h1>PORTFOLIO</h1>";
+                echo "<h1 class='item--Heading'>PORTFOLIO</h1>";
 
-                echo "<p>Examples of work that I have done:</p>";
+                echo "<p class='item--CentreAlignedText'>Examples of work that I have done:</p>";
             }
 
         elseif (str_contains($_SERVER['REQUEST_URI'],'portfolio') == true)
             {             
-                echo "<h2>UI/UX</h2>";    
+                echo "<h2 class='item--Heading'>UI/UX</h2>";    
             }
 
     ?>
 
-    <div class="portfolio">
+    <div class="item--Flex-SpaceAround">
             
         <img src="/assets/images/services/software_development/portfolio_points_academy.webp" alt="Ponts Academy">
         

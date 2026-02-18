@@ -1,30 +1,9 @@
 /* === LAYOUT_SERVICES.CSS === */
 
-     /* styling for each section within a Service*/
-        .serviceItem{
-            text-align: unset;
-            padding: 0 var(--space-4) var(--space-4) var(--space-4);
-            margin-bottom: 50px;
-
-            & h1{
-                margin-top: 1.5rem;
-                margin-bottom: 1rem;
-                color: var(--colour-heading);
-            }
-        }
-
-        /* remove the bottom margin from h1 headers that immediately preceed h3 */
-        .serviceItem h1:has(+ h3){
-            margin-bottom: 0;
-        }
-
-        /* remove the top margin from h3 where it appears immediately after a h1 */
-        .serviceItem h1 + h3 {
-            margin-top: 0;
-        }
-
     /* DESCRIPTION OF SERVICE section */
     /* ============================================== */
+
+        /* .description{} */
     
         /* The first DIV of the 'Description'. This is the only part shown on the Homepage */
         .summaryOfService{
@@ -35,6 +14,28 @@
             border: none;
         }
 
+                /* LARGER DEVICES */
+                /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+                @media (min-width: 640px){
+                    
+                    /* make summaryOfService bigger */
+                    .summaryOfService{
+                        min-height: 225px;
+                    }
+
+                }
+
+                @media (min-width: 960px){
+                        
+                    /* make summaryOfService bigger */
+                    .summaryOfService{
+                         min-height: 300px;
+                    }
+
+                }
+
+                
         /* Each service has an image associated with it. */
         .summaryOfService img{
             object-fit: cover;
@@ -42,8 +43,42 @@
             max-height: 150px;
             width: 100%;
             float: left;
-            padding: 0 1rem 0 0;
+            padding: 0;
         }
+
+                /* LARGER DEVICES */
+                /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+                    @media (min-width: 400px){
+
+                        /* make image bigger */
+                        .summaryOfService img{
+                            width: fit-content;
+                            padding: 0 1rem 0 0;
+                        }
+
+                    }
+
+                    @media (min-width: 640px){
+
+                        /* make image bigger */
+                        .summaryOfService img{
+                            height: 225px;
+                            max-height: 225px;
+                        }
+
+                    }
+
+                    @media (min-width: 960px){
+
+                        /* make image bigger */
+                        .summaryOfService img{
+                            height: 300px;
+                            max-height: 300px;
+                        }
+
+                    }
+                            
 
         /* button to find out more about the service */
         .clickForDetails{        
@@ -59,8 +94,19 @@
             flex-direction: row;
             padding: 0;
             justify-content: center;
-            text-align: unset;
         }
+
+                /* LARGER DEVICES */
+                /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+                    @media (min-width: 640px){
+
+                        /* move the position of the button */
+                        .clickForDetails a{
+                            justify-content: start;
+                        }     
+                        
+                    }
         
         /* The button itself is a SPAN */
         .buttonClickForDetails {
@@ -72,11 +118,9 @@
             width: fit-content;
         }
 
-        /* The second DIV of the 'Description' gives more information about the service */
+        /* The second section of the 'Description' gives more information about the service */
         .detailsOfService{
             padding: 0; /* Removes the unnecessary duplication of padding */
-            border: none;
-            background: none;
 
             & h3{
 
@@ -85,51 +129,6 @@
             }
         }
 
-                /* LARGER DEVICES */
-                /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-
-                    @media (min-width: 400px){
-
-                        .summaryOfService img{
-                        
-                            width: fit-content;
-                        }
-
-                    }
-                
-                    @media (min-width: 640px){
-
-                        /* move the position of the button */
-                        .clickForDetails a{
-                            justify-content: start;
-                        }
-
-                        /* make image bigger */
-                        .summaryOfService img{
-                            height: 225px;
-                            max-height: 225px;
-                        }
-
-                        /* make summaryOfService bigger */
-                        .summaryOfService{
-                            min-height: 225px;
-                        }
-                    }
-                
-                    @media (min-width: 960px){
-
-                        /* make image bigger */
-                        .summaryOfService img{
-                            height: 300px;
-                            max-height: 300px;
-                        }
-
-                        /* make summaryOfService bigger */
-                        .summaryOfService{
-                            min-height: 300px;
-                        }
-
-                    }
 
     /* BENEFITS section */
     /* ============================================== */
@@ -146,96 +145,24 @@
             margin-bottom: 0;
         }
 
-
     /* PRICES section */
     /* ============================================== */
-
-    .serviceItem table{
-        width: 80%;
-        justify-self: center;
-        border: solid 1px grey;
-        margin-bottom: var(--space-fixed-2);
-    }
-
-    .serviceItem table th{
-        background: #666;
-        color: #ccc;
-    }
-
-    .serviceItem table td:nth-child(1){
-        background: #aaa;
-    }
-
-    .serviceItem table tr td:nth-child(2){
-        background: #888;
-        color: #fff;
-    }
-
-    .serviceItem table td:nth-child(3){
-        background: #777;
-        color: #fff;
-    }
-
+        
+        /* .prices{} */
 
     /* PORTFOLIO section */
     /* ============================================== */
-    
-        .portfolioPage{
-            padding: 1rem 0;
-        }
 
-        .portfolio{
-            padding: 0;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content:space-around;
-            border: none;
-        }
-
-        .portfolio img{
-            padding-bottom: var(--space-fixed-2);
-        }
-
+        /* see portfolio CSS file */
 
     /* CASE STUDIES section */
     /* ============================================== */
-
-    
+  
 
     /* NEXT STEPS section */
     /* ============================================== */
 
-        .nextSteps{
-            border: none;
-        }
-    
-        .callUs{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-        }
-
-        .callUs img{
-            width: 100px;
-            height: 100%;
-        }
-
-                /* LARGER DEVICES */
-                /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-
-                @media (min-width: 640px){
-                    .callUs img{
-                        width: 150px;
-                    }
-                }
-
-                @media (min-width: 960px){
-                    .callUs img{
-                        width: 200px;
-                    }
-                }
-
+        /* .nextSteps{} */
 
 
 

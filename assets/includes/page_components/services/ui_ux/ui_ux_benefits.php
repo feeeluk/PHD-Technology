@@ -1,6 +1,6 @@
-<div class="box serviceItem">
+<div id="UiUxBenefits" class="box--WithPadding item">
         
-    <h1>WHAT ARE THE BENEFITS?</h1>
+    <h1 class="item--Heading">WHAT ARE THE BENEFITS?</h1>
         
     <span class="benefits">
 
