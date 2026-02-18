@@ -108,13 +108,13 @@
             /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
             @media (min-width: 640px){
-                .subContainer{
+                #SubContainer{
                     padding: var(--space-4) 10% 0 10%;
                 }
             }
 
             @media (min-width: 960px){
-                .subContainer{
+                #SubContainer{
                     padding: var(--space-4) 20% 0 20%;
                 }
             }
