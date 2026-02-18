@@ -18,9 +18,9 @@
 
     <div class="item--Flex-SpaceAround">
                 
-        <img src="/assets/images/other/portfolio.jpg" alt="Default Portfolio">
+        <img src="/assets/images/other/portfolio.jpg" alt="Default Portfolio" class="item--Image-PaddingBottom">
 
-        <img src="/assets/images/other/portfolio.jpg" alt="Default Portfolio">
+        <img src="/assets/images/other/portfolio.jpg" alt="Default Portfolio" class="item--Image-PaddingBottom">
 
     </div>
         

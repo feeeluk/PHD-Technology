@@ -162,14 +162,19 @@
         text-align: center;
     }
 
+    /*  this is the layout for Portfolio - I just struggled to give it a suitable name */
     .item--Flex-SpaceAround{
-        padding: 0 0 var(--space-5) 0;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content:space-around;
     }
 
+    .item--Image-PaddingBottom{
+        padding-bottom: var(--space-5);
+    }
+
+    /*  this is the layout for Next Steps - again, I just struggled to give it a suitable name */
     .item--ContactUs{
         display: flex;
         flex-direction: row;
