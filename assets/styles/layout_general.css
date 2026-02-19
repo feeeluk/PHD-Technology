@@ -209,7 +209,7 @@
     #LinkToTop{
         position: fixed;
         bottom: 15px;
-        left: 50%;
+        left: calc(50% - 2rem);
         display: none; /* a script changes this to 'flex' once the screen is scrolled down at all */
         padding: 0;
         height: 4rem;
