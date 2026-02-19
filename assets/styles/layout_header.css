@@ -62,7 +62,7 @@
 
         /* format the content of the primary disclosure space */
         #disclosure_one[open]::details-content {
-            position: absolute;
+            position: fixed;
             top: var(--height-header);
             left: 0;
             width: 100%;
