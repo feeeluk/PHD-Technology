@@ -1,4 +1,4 @@
-<div id="DataManipulationDescription" class="box--WithPadding item description">
+<div id="DataManipulationDescription" class="box--WithPadding item">
 
     <a id="DataManipulationAnchor" class="anchor"></a>
 
@@ -15,7 +15,7 @@
 
     ?>
 
-    <div id="DataManipulationSummaryOfService" class="summaryOfService description">            
+    <div id="DataManipulationSummaryOfService" class="summaryOfService">            
 
         <img src="/assets/images/services/data_manipulation/overview_data_manipulation.webp" alt="data manipulation">         
     
@@ -48,7 +48,7 @@
 
     ?>
 
-    <div id="DataManipulationDetailsOfService" class="detailsOfService description">
+    <div id="DataManipulationDetailsOfService" class="detailsOfService">
 
         <h3>Data Manipulation with PHD Technology</h3>
         

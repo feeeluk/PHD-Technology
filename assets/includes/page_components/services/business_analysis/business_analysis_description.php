@@ -1,4 +1,4 @@
-<div id="BusinessAnalysisDescription" class="box--WithPadding item description">
+<div id="BusinessAnalysisDescription" class="box--WithPadding item">
 
     <a id="BusinessAnalysisAnchor" class="anchor"></a>
 
@@ -15,7 +15,7 @@
 
     ?>
 
-    <div id="BusinessAnalysisSummaryOfService" class="summaryOfService description">
+    <div id="BusinessAnalysisSummaryOfService" class="summaryOfService">
 
         <img src="/assets/images/services/business_analysis/overview_business_analysis.webp" alt="business analysis">
         
@@ -52,7 +52,7 @@
 
     ?>
 
-    <div id="BusinessAnalysisDetailsOfService" class="detailsOfService description">
+    <div id="BusinessAnalysisDetailsOfService" class="detailsOfService">
 
         <h3>Business Analysis: A Strategic Investment in Better Decisions and Better Outcomes</h3>
         

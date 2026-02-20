@@ -1,4 +1,4 @@
-<div id="SoftwareDevelopmentDescription" class="box--WithPadding item description">
+<div id="SoftwareDevelopmentDescription" class="box--WithPadding item">
 
     <a id="SoftwareDevelopmentAnchor" class="anchor"></a>
 
@@ -15,7 +15,7 @@
 
     ?>
 
-    <div id="DotNetDevelopmentSummaryOfService" class="summaryOfService description">
+    <div id="DotNetDevelopmentSummaryOfService" class="summaryOfService">
 
         <img src="/assets/images/services/software_development/overview_dot_net_development.webp" alt=".NET devlopment">
 
@@ -26,7 +26,7 @@
     </div>
 
 
-    <div id="DotNetDevelopmentDetailsOfService" class="detailsOfService description">
+    <div id="DotNetDevelopmentDetailsOfService" class="detailsOfService">
 
         <h3>.Net development with PHD Technology</h3>
 
@@ -38,7 +38,7 @@
 
 
 
-    <div id="WebDevelopmentSummaryOfService" class="summaryOfService description">
+    <div id="WebDevelopmentSummaryOfService" class="summaryOfService">
 
         <img src="/assets/images/services/software_development/overview_web_development.webp" alt="Web development">
         
@@ -67,7 +67,7 @@
 
     ?>
 
-    <div id="WebDevelopmentDetailsOfService" class="detailsOfService description">
+    <div id="WebDevelopmentDetailsOfService" class="detailsOfService">
 
         <h3>Web development with PHD Technology</h3>
         

@@ -1,4 +1,4 @@
-<div id="AboutBenefits" class="box--WithPadding item benefits">
+<div id="AboutBenefits" class="box--WithPadding item">
 
     <h1 class="item--Heading">BENEFITS OF USING US</h1>
 

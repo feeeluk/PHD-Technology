@@ -1,4 +1,4 @@
-<div id="ArtificialIntelligenceDescription" class="box--WithPadding item description">
+<div id="ArtificialIntelligenceDescription" class="box--WithPadding item">
 
     <a id="ArtificialIntelligenceAnchor" class="anchor"></a>
 
@@ -17,7 +17,7 @@
 
     ?>
         
-    <div id="ArtificialIntelligenceSummaryOfService" class="summaryOfService description">
+    <div id="ArtificialIntelligenceSummaryOfService" class="summaryOfService">
             
         <img src="/assets/images/services/artificial_intelligence/overview_artificial_intelligence.webp" alt="Artificial Intelligence">
     
@@ -54,7 +54,7 @@
 
     ?>
 
-    <div id="ArtificialIntelligenceDetailsOfService" class="detailsOfService description">
+    <div id="ArtificialIntelligenceDetailsOfService" class="detailsOfService">
 
         <p>
             TEST. This paragraph should only be visible in the specific service page, not on the homepage.

@@ -1,4 +1,4 @@
-<div id="DigitalMediaAndMarketingDescription" class="box--WithPadding item description">
+<div id="DigitalMediaAndMarketingDescription" class="box--WithPadding item">
 
     <a id="DigitalMediaAndMarketingAnchor" class="anchor"></a>
 
@@ -17,7 +17,7 @@
 
     ?>
 
-    <div id="DigitalMediaAndMarketingSummaryOfService" class="summaryOfService description">
+    <div id="DigitalMediaAndMarketingSummaryOfService" class="summaryOfService">
 
         <img src="/assets/images/services/digital_media_and_marketing/overview_digital_media_and_marketing.webp" alt="Digital media & marketing">
 
@@ -50,7 +50,7 @@
 
     ?>
 
-    <div id="DigitalMediaAndMarketingDetailsOfService" class="detailsOfService description">
+    <div id="DigitalMediaAndMarketingDetailsOfService" class="detailsOfService">
 
         <h3>Digital Media and Marketing with PHD Technology</h3>
         

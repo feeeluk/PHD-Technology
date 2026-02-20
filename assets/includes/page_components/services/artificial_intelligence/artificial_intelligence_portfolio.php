@@ -1,4 +1,4 @@
-<div id="ArtificialIntelligencePortfolio" class="box--WithPadding item portflio">
+<div id="ArtificialIntelligencePortfolio" class="box--WithPadding item">
 
     <?php
 

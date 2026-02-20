@@ -1,4 +1,4 @@
-<div id="UiUxPortfolio" class="box--WithPadding item portflio">
+<div id="UiUxPortfolio" class="box--WithPadding item">
 
     <?php
 

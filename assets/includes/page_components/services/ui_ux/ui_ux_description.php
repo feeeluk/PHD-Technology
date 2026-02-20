@@ -1,4 +1,4 @@
-<div id="UiUxDescription" class="box--WithPadding item description">
+<div id="UiUxDescription" class="box--WithPadding item">
 
     <a id="UiUxAnchor" class="anchor"></a>
 
@@ -15,7 +15,7 @@
 
     ?>
 
-    <div id="UiUxSummaryOfService" class="summaryOfService description">
+    <div id="UiUxSummaryOfService" class="summaryOfService">
 
         <img src="/assets/images/services/ui_ux/overview_ui_ux.webp" alt="UI/UX">
             
@@ -48,7 +48,7 @@
 
     ?>
     
-    <div id="UiUxDetailsOfService" class="detailsOfService description">
+    <div id="UiUxDetailsOfService" class="detailsOfService">
 
         <h3>UI/UX with PHD Technology</h3>
         

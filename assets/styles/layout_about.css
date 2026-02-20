@@ -1,33 +1,13 @@
 /* === LAYOUT_ABOUT.CSS === */
 
-    /* PRICES */
+    /* for DESCRIPTION class, see layout_services.css */
 
-        table.prices{
-            width: 70%;
-            min-width: 300px;
-            max-width: 800px;
-            justify-self: center;
-            border: solid 1px grey;
-            margin-bottom: var(--space-fixed-2);
-        }
+    /* for BENEFITS class, see layout_services.css */
 
-        table.prices th{
-            background: #666;
-            color: #ccc;
-        }
+    /* for PRICES class, see layout_services.css */
 
-        table.prices td:nth-child(1){
-            background: #aaa;
-        }
+    /* for PORTFOLIO class, see layout_services.css */
 
-        table.prices tr td:nth-child(2){
-            background: #888;
-            color: #fff;
-        }
+    /* for CASE STUDIES class, see layout_services.css */
 
-        table.prices td:nth-child(3){
-            background: #777;
-            color: #fff;
-        }
-
-    /* NEXT STEPS */
+    /* for NEXT STEPS class, see layout_services.css */

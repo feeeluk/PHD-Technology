@@ -1,4 +1,4 @@
-<div id="BusinessAnalysisPortfolio" class="box--WithPadding item portflio">
+<div id="BusinessAnalysisPortfolio" class="box--WithPadding item">
 
     <?php
 

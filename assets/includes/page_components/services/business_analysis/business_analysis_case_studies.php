@@ -1,4 +1,4 @@
-<article class="case_studies">
+<article>
     
     <?php
 

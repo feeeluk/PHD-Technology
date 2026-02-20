@@ -1,4 +1,4 @@
-<div id="AboutPrices" class="box--WithPadding item prices">
+<div id="AboutPrices" class="box--WithPadding item">
 
     <h1 class="item--Heading">PRICES</h1>
 

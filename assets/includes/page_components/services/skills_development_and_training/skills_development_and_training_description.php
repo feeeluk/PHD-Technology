@@ -1,4 +1,4 @@
-<div id="SkillsDevelopmentAndTrainingDescription" class="box--WithPadding item description">
+<div id="SkillsDevelopmentAndTrainingDescription" class="box--WithPadding item">
 
     <a id="SkillsDevelopmentAndTrainingAnchor" class="anchor"></a>
 
@@ -15,7 +15,7 @@
 
     ?>
 
-    <div id="SkillsDevelopmentAndTrainingSummaryOfService" class="summaryOfService description">
+    <div id="SkillsDevelopmentAndTrainingSummaryOfService" class="summaryOfService">
 
         <img src="/assets/images/services/skills_development_and_training/overview_skills_development_and_training.webp" alt="Skills development & training">
 
@@ -44,7 +44,7 @@
 
     ?>
 
-    <div id="SkillsDevelopmentAndTrainingDetailsOfService" class="detailsOfService description">
+    <div id="SkillsDevelopmentAndTrainingDetailsOfService" class="detailsOfService">
 
         <h3>Skills Development and Training with PHD Technology</h3>
 

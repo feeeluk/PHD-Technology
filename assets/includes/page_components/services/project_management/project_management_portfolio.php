@@ -1,4 +1,4 @@
-<div id="ProjectManagementPortfolio" class="box--WithPadding item portfolio">
+<div id="ProjectManagementPortfolio" class="box--WithPadding item">
 
     <?php
 

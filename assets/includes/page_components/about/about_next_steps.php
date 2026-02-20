@@ -1,4 +1,4 @@
-<div id="AboutNextSteps" class="box--WithPadding item nextSteps">
+<div id="AboutNextSteps" class="box--WithPadding item">
 
     <h1 class="item--Heading">NEXT STEPS</h1>
 

@@ -15,7 +15,7 @@
 
     ?>
 
-    <div id="ProjectManagementSummaryOfService" class="summaryOfService description">
+    <div id="ProjectManagementSummaryOfService" class="summaryOfService">
 
         <img src="/assets/images/services/project_management/overview_project_management.webp" alt="Project management">
 
@@ -44,7 +44,7 @@
 
     ?>
 
-    <div id="ProjectManagementDetailsOfService" class="detailsOfService description">
+    <div id="ProjectManagementDetailsOfService" class="detailsOfService">
 
         <h3>Project Management with PHD Technology</h3>
         

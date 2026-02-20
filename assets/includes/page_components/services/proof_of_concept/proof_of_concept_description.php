@@ -1,4 +1,4 @@
-<div id="ProofOfConceptDescription" class="box--WithPadding item description">
+<div id="ProofOfConceptDescription" class="box--WithPadding item">
 
     <a id="ProofOfConceptAnchor" class="anchor"></a>
 
@@ -15,7 +15,7 @@
 
     ?>       
 
-    <div id="ProofOfConceptSummaryOfService" class="summaryOfService description">
+    <div id="ProofOfConceptSummaryOfService" class="summaryOfService">
 
         <img src="/assets/images/services/proof_of_concept/overview_proof_of_concept.webp" alt="Proof of Concept">
 
@@ -52,7 +52,7 @@
 
     ?>
 
-    <div id="ProofOfConceptDetailsOfService" class="detailsOfService description">
+    <div id="ProofOfConceptDetailsOfService" class="detailsOfService">
 
         <h3>Proof of Concept with PHD Technology</h3>
         
