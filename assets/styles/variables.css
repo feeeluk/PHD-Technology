@@ -102,4 +102,7 @@
   --services-tiles-h3-font-size: 1rem;
   --services-tiles-h3-letter-spacing: 0.03rem;
 
+  /* Item */
+  --item-border: 5px;
+
 }

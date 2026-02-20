@@ -134,9 +134,11 @@
     .item{
         text-align: left;
         background: linear-gradient(to right bottom, #B9B9B9, #D9D9D9);
-        border: none;
         margin-bottom: var(--space-4);
         border: 5px solid white;
+        border-color: var(--colour-secondary);
+        border-style: solid;
+        border-width: var(--item-border);
     }
 
     .item--Heading{
@@ -155,7 +157,7 @@
         text-align: center;
         margin-top: 0;
         margin-bottom: .5rem;
-        color: red;
+        color: blue;
     }
 
     .item--CentreAlignedText{
@@ -246,7 +248,7 @@
 
     .anchor{
         position: relative;
-        top: calc((var(--height-header) + var(--space-4) + 5px ) *-1);
+        top: calc(-1 * (var(--height-header) + var(--space-4) + var(--space-4) + var(--item-border)));
     }
     
 
