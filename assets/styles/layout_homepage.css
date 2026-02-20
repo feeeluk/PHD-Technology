@@ -106,13 +106,6 @@
     /* LARGER DEVICES */
     /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-        /* devices larger than iPhones increase the Elavator Pitch heading size */
-        @media (min-width: 400px){
-            #ElavatorPitch {
-                height: var(--height-elevator-pitch);
-            }
-        }
-
         @media (min-width: 961px){
             
             /* do not show Links section */

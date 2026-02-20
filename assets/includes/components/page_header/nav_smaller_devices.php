@@ -1,17 +1,17 @@
-<details id="disclosure_one">
+<details id="DisclosureOne">
 
     <summary>
 
-        <span id="hamburger"></span>
+        <span id="Hamburger"></span>
 
     </summary>     
     
-    <nav id="navbar_for_mobile">
+    <nav id="NavbarForMobile">
 
         <a href="/"><span class="link">Home</span></a>
         <a href="/pages/about.php"><span class="link">About</span></a>
 
-        <details id="disclosure_two">
+        <details id="DisclosureTwo">
             
             <summary>
                 

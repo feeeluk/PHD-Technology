@@ -30,17 +30,17 @@
     /* ============================================== */
 
         /* do not show the standard navigation menu as standard */
-        #navbar_dropdown {
+        #NavbarDropdown {
             display: none;
         }
         
         /* this keeps the child elements inside the primary disclosure  */
-        #disclosure_one summary {
+        #DisclosureOne summary {
             display:flex;
         }
 
         /*  Hamburger icon (inactive) - controls the display of the initial hamburger icon */
-        #disclosure_one #hamburger {
+        #DisclosureOne #Hamburger {
             position: fixed;
             top: 0;
             right: 0;
@@ -55,13 +55,13 @@
         }
 
         /*  Hamburger icon (active) - controls the display of the second hamburger icon */
-        #disclosure_one[open] #hamburger {
+        #DisclosureOne[open] #Hamburger {
             background-image: url('/assets/images/other/hamburger_icon_small_active.webp');
             background-repeat: no-repeat;
         }
 
         /* format the content of the primary disclosure space */
-        #disclosure_one[open]::details-content {
+        #DisclosureOne[open]::details-content {
             position: fixed;
             top: var(--height-header);
             left: 0;
@@ -72,7 +72,7 @@
         }
 
         /*  format all the items within the primary disclosure (note. this is why the 'nav' was used) */
-        #navbar_for_mobile span.link {
+        #NavbarForMobile span.link {
             display: block;
             color: var(--disclosure-colour-primary);
             background-color: var(--disclosure-colour-bg-primary);
@@ -82,7 +82,7 @@
         }
         
         /* format the secondary disclosure (the actual cell within the primary disclosure)  */
-        #disclosure_two summary {
+        #DisclosureTwo summary {
             color: var(--disclosure-colour-primary);
             background-color: var(--disclosure-colour-bg-primary);
             padding: var(--space-1);
@@ -95,7 +95,7 @@
         }
 
          /* Arrow - inactive */
-        #disclosure_two summary span.arrow {                   
+        #DisclosureTwo summary span.arrow {                   
             border-top-width: var(--disclosure-triangle-size);
             border-top-style: solid;
             border-top-color: transparent;
@@ -113,7 +113,7 @@
         }
 
         /* Arrow - inactive (hover) */
-        #disclosure_two summary:hover {
+        #DisclosureTwo summary:hover {
             color: var(--disclosure-colour-secondary);
             background-color: var(--colour-primary);
 
@@ -125,7 +125,7 @@
         }
 
         /*  Arrow - active */
-        #disclosure_two[open] summary {
+        #DisclosureTwo[open] summary {
             color: var(--disclosure-colour-secondary);
             background-color: var(--colour-primary);
 
@@ -138,18 +138,18 @@
         }
 
         /* format the content of the secondary disclosure space  */
-        #disclosure_two[open]::details-content {
+        #DisclosureTwo[open]::details-content {
             display:flex;
             flex-direction: column;
         }
 
         /*  Indent the items in the secondary disclosure */
-        #navbar_for_mobile span.service {
+        #NavbarForMobile span.service {
             padding-left: var(--space-6);
         }
 
         /* change the items in the secondary disclosure when hovered over  */
-        #navbar_for_mobile span.link:hover {
+        #NavbarForMobile span.link:hover {
             color: #d4d4d4;
             background-color: var(--colour-primary);
         }
@@ -162,7 +162,7 @@
         @media (min-width:961px){ 
             
             /* Hide 'hamburger menu' */
-            #disclosure_one {
+            #DisclosureOne {
                 display: none;
             }
 
@@ -175,7 +175,7 @@
             }
 
             /* Show 'navbar'  */
-            #navbar_dropdown {
+            #NavbarDropdown {
                 position: fixed;
                 top: 0;
                 left: 0;
@@ -190,17 +190,16 @@
             }
                             
             /* Navbar links */
-            #navbar_dropdown a {
+            #NavbarDropdown a {
                 margin-right: var(--navbar-dropdown-parent-margin);
                 font-size: var(--navbar-dropdown-parent-font-size);
                 font-weight: var(--navbar-dropdown-parent-font-weight);
             }
 
             /*   */
-            #navbar_dropdown button {
+            #NavbarDropdown button {
                 display: inline;
                 background-color: transparent;
-                /* padding: var(--space-1); */
                 border: 0;
             }
                             
@@ -214,8 +213,6 @@
                 padding: 0px;
                 width: fit-content;
                 min-width: 250px;
-                /* margin-top: var(--space-1); */
-                /* z-index: var(--z-top); */
             }
 
             /* Links inside the dropdown */
