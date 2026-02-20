@@ -153,30 +153,36 @@
     /* PRICES section */
     /* ============================================== */
 
-        table.prices{
+        .prices{
             width: 70%;
             min-width: 300px;
             max-width: 800px;
             justify-self: center;
             border: solid 1px grey;
             margin-bottom: var(--space-fixed-2);
+            text-align: center;
         }
 
-        table.prices th{
+        .prices .tableLeftAlign{
+            text-align: left;
+            padding-left: var(--space-2);
+        }
+
+        .prices thead{
             background: #666;
             color: #ccc;
         }
 
-        table.prices td:nth-child(1){
+        .prices td:nth-child(1){
             background: #aaa;
         }
 
-        table.prices tr td:nth-child(2){
+        .prices td:nth-child(2){
             background: #888;
             color: #fff;
         }
 
-        table.prices td:nth-child(3){
+        .prices td:nth-child(3){
             background: #777;
             color: #fff;
         }

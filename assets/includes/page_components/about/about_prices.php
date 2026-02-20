@@ -4,66 +4,74 @@
 
     <table id="Prices" class="prices">
 
-        <colgroup class="tableLeft"></colgroup>
-        <colgroup span="2" class="tableRight"></colgroup>
+        <colgroup>
 
-        <tb>
+            <col span="1" class="tableLeft" />
+            <col span="2" class="tableRight" />
+
+        </colgroup>
             
+        <thead>
+
             <tr>
-                <th>Period</th>
+                <th class="tableLeftAlign">Period</th>
                 <th>Ad-hoc</th>
                 <th>Block</th>
             </tr>
 
+        </thead>
+
+        <tbody>
+
             <tr>
-                <td>Initial Consultation</td>
+                <td class="tableLeftAlign">Initial Consultation</td>
                 <td>FREE</td>
                 <td>-</td>
             </tr>
             
             <tr>
-                <td>1 Hour</td>
+                <td class="tableLeftAlign">1 Hour</td>
                 <td>£</td>
                 <td>-</td>
             </tr>
             
             <tr>
-                <td>1/2 Day</td>
+                <td class="tableLeftAlign">1/2 Day</td>
                 <td>£</td>
                 <td>-</td>
             </tr>
             
             <tr>
-                <td>1 Day</td>
+                <td class="tableLeftAlign">1 Day</td>
                 <td>£</td>
                 <td>-</td>
             </tr>
             
             <tr>
-                <td>5 Days</td>
+                <td class="tableLeftAlign">5 Days</td>
                 <td>-</td>
                 <td>£</td>
             </tr>
             
             <tr>
-                <td>10 Days</td>
+                <td class="tableLeftAlign">10 Days</td>
                 <td>-</td>
                 <td>£</td>
             </tr>
 
             <tr>
-                <td>15 Days</td>
+                <td class="tableLeftAlign">15 Days</td>
                 <td>-</td>
                 <td>£</td>
             </tr>
             
             <tr>
-                <td>20 Days</td>
+                <td class="tableLeftAlign">20 Days</td>
                 <td>-</td>
                 <td>£</td>
             </tr>
 
-        </tb>
+        </tbody>
         
     </table>
     
