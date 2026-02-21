@@ -44,6 +44,16 @@
             padding: 0;
         }
 
+        /* when two .summaryOfService classes are next to each other (e.g. 'Software Development') */
+        .summaryOfService + .summaryOfService{
+            margin-top: var(--space-fixed-2);
+        }
+        
+        /* when .summaryOfService comes immediately after detailsOfService (e.g. 'Software Development') */
+        .detailsOfService + .summaryOfService{
+            margin-top: var(--space-fixed-2);
+        }
+
                 /* LARGER DEVICES */
                 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
