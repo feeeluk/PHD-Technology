@@ -163,46 +163,6 @@
         text-align: center;
     }
 
-    /*  this is the layout for Portfolio - I just struggled to give it a suitable name */
-    .item--Flex-SpaceAround{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content:space-around;
-    }
-
-    .item--Image-PaddingBottom{
-        padding-bottom: var(--space-5);
-    }
-
-    /*  this is the layout for Next Steps - again, I just struggled to give it a suitable name */
-    .item--ContactUs{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-
-        & img{
-            width: 100px;
-            height: 100%;
-        }
-            
-    }
-
-            /* LARGER DEVICES */
-            /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-
-            @media (min-width: 640px){
-                .item--ContactUs img{
-                    width: 150px;
-                }
-            }
-
-            @media (min-width: 960px){
-                .item--ContactUs img{
-                    width: 200px;
-                }
-            }
-
     .item:last-child{
         margin-bottom: var(--space-fixed-2);
     }    

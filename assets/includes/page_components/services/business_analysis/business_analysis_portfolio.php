@@ -16,11 +16,11 @@
 
     ?>
 
-    <div class="item--Flex-SpaceAround">
+    <div class="portfolio">
 
-        <img src="/assets/images/other/portfolio.jpg" alt="Default Portfolio" class="item--Image-PaddingBottom">
+        <img src="/assets/images/other/portfolio.jpg" alt="Default Portfolio" class="portfolio--Image-PaddingBottom">
         
-        <img src="/assets/images/other/portfolio.jpg" alt="Default Portfolio" class="item--Image-PaddingBottom">
+        <img src="/assets/images/other/portfolio.jpg" alt="Default Portfolio" class="portfolio--Image-PaddingBottom">
 
     </div>
         

@@ -6,7 +6,7 @@
             {
                 echo "<h1 class='item--Heading'>PORTFOLIO</h1>";
 
-                echo "<p>Examples of work that I have done:</p>";
+                echo "<p class='item--CentreAlignedText'>Examples of work that I have done:</p>";
             }
 
         elseif (str_contains($_SERVER['REQUEST_URI'],'portfolio') == true)
@@ -16,11 +16,11 @@
 
     ?>
 
-    <div class="item--Flex-SpaceAround">
+    <div class="portfolio">
                 
-        <img src="/assets/images/other/portfolio.jpg" alt="Default Portfolio" class="item--Image-PaddingBottom">
+        <img src="/assets/images/other/portfolio.jpg" alt="Default Portfolio" class="portfolio--Image-PaddingBottom">
 
-        <img src="/assets/images/other/portfolio.jpg" alt="Default Portfolio" class="item--Image-PaddingBottom">
+        <img src="/assets/images/other/portfolio.jpg" alt="Default Portfolio" class="portfolio--Image-PaddingBottom">
 
     </div>
         

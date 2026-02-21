@@ -2,18 +2,18 @@
 
     <h1 class="item--Heading">NEXT STEPS</h1>
 
-        <p>
-            The best way to get the ball rolling is to get in touch with us over the phone or send us a message (all details available on our <a href="/pages/contact.php">Contact</a> page). 
-        </p>
+    <p>
+        The best way to get the ball rolling is to get in touch with us over the phone or send us a message (all details available on our <a href="/pages/contact.php">Contact</a> page). 
+    </p>
 
-        <p>
-            From there we can take things in a direction and pace that suits you.
-        </p>
-        
-        <a  class="item--ContactUs" href="/pages/contact.php">
+    <p>
+        From there we can take things in a direction and pace that suits you.
+    </p>
 
-            <img src="/assets/images/other/get_in_touch.webp" alt="Call Us">
+    <a  class="nextSteps" href="/pages/contact.php">
 
-        </a>
+        <img src="/assets/images/other/get_in_touch.webp" alt="Call Us">
+
+    </a>
 
 </div>

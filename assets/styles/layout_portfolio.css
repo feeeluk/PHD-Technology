@@ -1,4 +1,17 @@
 /* === LAYOUT_PORTFOLIO.CSS === */
     
-    /* .portfolio{} */
+    .portfolio{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-around;
+    }
 
+    .portfolio img:nth-child(odd){
+        padding-right: var(--space4);
+    }
+
+    /* used for Portfolio images */
+    .portfolio--Image-PaddingBottom{
+        padding-bottom: var(--space-5 );
+    }

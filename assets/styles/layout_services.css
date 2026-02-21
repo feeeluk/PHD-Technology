@@ -199,4 +199,29 @@
     /* NEXT STEPS section */
     /* ============================================== */
 
-        /* .nextSteps{} */
+        .nextSteps{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            & img{
+                width: 100px;
+                height: 100%;
+            }
+         
+        }
+
+        /* LARGER DEVICES */
+        /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+            @media (min-width: 640px){
+                .nextSteps img{
+                    width: 150px;
+                }
+            }
+
+            @media (min-width: 960px){
+                .nextSteps img{
+                    width: 200px;
+                }
+            }

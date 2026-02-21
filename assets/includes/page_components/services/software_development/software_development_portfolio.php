@@ -16,19 +16,19 @@
 
     ?>
 
-    <div class="item--Flex-SpaceAround">
+    <div class="portfolio">
             
-        <img src="/assets/images/services/software_development/portfolio_points_academy.webp" alt="Ponts Academy" class="item--Image-PaddingBottom">
+        <img src="/assets/images/services/software_development/portfolio_points_academy.webp" alt="Ponts Academy" class="portfolio--Image-PaddingBottom">
         
-        <img src="/assets/images/services/software_development/portfolio_portal.webp" alt="Telesales Portal" class="item--Image-PaddingBottom">
+        <img src="/assets/images/services/software_development/portfolio_portal.webp" alt="Telesales Portal" class="portfolio--Image-PaddingBottom">
     
-        <img src="/assets/images/services/software_development/portfolio_quiz.webp" alt="Quiz" class="item--Image-PaddingBottom">
+        <img src="/assets/images/services/software_development/portfolio_quiz.webp" alt="Quiz" class="portfolio--Image-PaddingBottom">
     
-        <img src="/assets/images/services/software_development/portfolio_snowcompare_shop.webp" alt="Snowcompare Shop" class="item--Image-PaddingBottom">
+        <img src="/assets/images/services/software_development/portfolio_snowcompare_shop.webp" alt="Snowcompare Shop" class="portfolio--Image-PaddingBottom">
     
-        <img src="/assets/images/services/software_development/portfolio_snowcompare.webp" alt="Snowcompare" class="item--Image-PaddingBottom">
+        <img src="/assets/images/services/software_development/portfolio_snowcompare.webp" alt="Snowcompare" class="portfolio--Image-PaddingBottom">
     
-        <img src="/assets/images/services/software_development/portfolio_treedata_v1.webp" alt="Tree Data" class="item--Image-PaddingBottom">
+        <img src="/assets/images/services/software_development/portfolio_treedata_v1.webp" alt="Tree Data" class="portfolio--Image-PaddingBottom">
     
     </div>
         
