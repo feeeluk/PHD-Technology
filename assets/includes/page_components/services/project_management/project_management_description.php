@@ -2,18 +2,7 @@
 
     <a id="ProjectManagementAnchor" class="anchor"></a>
 
-    <?php
-
-        if (str_contains($_SERVER['REQUEST_URI'],'project_management') == true)
-            {
-                echo "<h1 class='item--Heading'>PROJECT MANAGEMENT</h1>";
-            }
-
-            else {
-                echo "<h1 class='item--Heading'>PROJECT MANAGEMENT</h1>";
-            }
-
-    ?>
+    <h1 class='item--Heading'>PROJECT MANAGEMENT</h1>
 
     <div id="ProjectManagementSummaryOfService" class="summaryOfService">
 

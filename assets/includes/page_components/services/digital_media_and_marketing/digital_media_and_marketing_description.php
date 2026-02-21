@@ -2,20 +2,8 @@
 
     <a id="DigitalMediaAndMarketingAnchor" class="anchor"></a>
 
-    <?php
-
-        if (str_contains($_SERVER['REQUEST_URI'],'digital_media_and_marketing') == true)
-            {
-                echo "<h1 class='item--Heading'>DIGITAL MEDIA & MARKETING</h1>";
-                echo "<h3 class='item--SubHeading'>(COMING SOON)</h3>";
-            }
-
-        else {
-            echo "<h1 class='item--Heading'>DIGITAL MEDIA & MARKETING</h1>";
-            echo "<h3 class='item--SubHeading'>(COMING SOON)</h3>";
-        }
-
-    ?>
+    <h1 class='item--Heading'>DIGITAL MEDIA & MARKETING</h1>
+    <h3 class='item--SubHeading'>(COMING SOON)</h3>
 
     <div id="DigitalMediaAndMarketingSummaryOfService" class="summaryOfService">
 

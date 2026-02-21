@@ -2,19 +2,8 @@
 
     <a id="UiUxAnchor" class="anchor"></a>
 
-    <?php
-
-        if (str_contains($_SERVER['REQUEST_URI'],'ui_ux') == true)
-            {
-                echo "<h1 class='item--Heading'>UI/UX</h1>";
-            }
-
-            else {
-                echo "<h1 class='item--Heading'>UI/UX</h1>";
-            }
-
-    ?>
-
+    <h1 class='item--Heading'>UI/UX</h1>
+    
     <div id="UiUxSummaryOfService" class="summaryOfService">
 
         <img src="/assets/images/services/ui_ux/overview_ui_ux.webp" alt="UI/UX">

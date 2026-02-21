@@ -2,18 +2,7 @@
 
     <a id="BusinessAnalysisAnchor" class="anchor"></a>
 
-    <?php
-
-        if (str_contains($_SERVER['REQUEST_URI'],'business_analysis') == true)
-        {
-            echo "<h1 class='item--Heading'>BUSINESS ANALYSIS</h1>";
-        }
-
-        else {
-            echo "<h1 class='item--Heading'>BUSINESS ANALYSIS</h1>";
-        }
-
-    ?>
+    <h1 class='item--Heading'>BUSINESS ANALYSIS</h1>
 
     <div id="BusinessAnalysisSummaryOfService" class="summaryOfService">
 

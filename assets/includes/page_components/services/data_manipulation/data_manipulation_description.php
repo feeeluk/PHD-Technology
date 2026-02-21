@@ -2,18 +2,7 @@
 
     <a id="DataManipulationAnchor" class="anchor"></a>
 
-    <?php
-
-        if (str_contains($_SERVER['REQUEST_URI'],'data_manipulation') == true)
-            {
-                echo "<h1 class='item--Heading'>DATA MANIPULATION</h1>";
-            }
-
-            else {
-                echo "<h1 class='item--Heading'>DATA MANIPULATION</h1>";
-            }
-
-    ?>
+    <h1 class='item--Heading'>DATA MANIPULATION</h1>
 
     <div id="DataManipulationSummaryOfService" class="summaryOfService">            
 

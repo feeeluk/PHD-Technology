@@ -2,20 +2,8 @@
 
     <a id="ArtificialIntelligenceAnchor" class="anchor"></a>
 
-    <?php
-
-        if (str_contains($_SERVER['REQUEST_URI'],'artificial_intelligence') == true)
-            {
-                echo "<h1 class='item--Heading'>ARTIFICIAL INTELLIGENCE</h1>";
-                echo "<h3 class='item--SubHeading'>(COMING SOON)</h3>";
-            }
-
-            else {
-                echo "<h1 class='item--Heading'>ARTIFICIAL INTELLIGENCE</h1>";
-                echo "<h3 class='item--SubHeading'>(COMING SOON)</h3>";
-            }
-
-    ?>
+    <h1 class='item--Heading'>ARTIFICIAL INTELLIGENCE</h1>
+    <h3 class='item--SubHeading'>(COMING SOON)</h3>
         
     <div id="ArtificialIntelligenceSummaryOfService" class="summaryOfService">
             

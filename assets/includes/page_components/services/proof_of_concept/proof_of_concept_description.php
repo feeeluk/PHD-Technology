@@ -2,18 +2,7 @@
 
     <a id="ProofOfConceptAnchor" class="anchor"></a>
 
-    <?php
-
-        if (str_contains($_SERVER['REQUEST_URI'],'proof_of_concept') == true)
-            {
-                echo "<h1 class='item--Heading'>PROOF OF CONCEPT</h1>";
-            }
-
-        else {
-                echo "<h1 class='item--Heading'>PROOF OF CONCEPT</h1>";
-            }
-
-    ?>       
+    <h1 class='item--Heading'>PROOF OF CONCEPT</h1>       
 
     <div id="ProofOfConceptSummaryOfService" class="summaryOfService">
 
