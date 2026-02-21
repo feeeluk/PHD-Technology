@@ -44,16 +44,6 @@
             padding: 0;
         }
 
-        /* when two .summaryOfService classes are next to each other (e.g. 'Software Development') */
-        .summaryOfService + .summaryOfService{
-            margin-top: var(--space-fixed-2);
-        }
-        
-        /* when .summaryOfService comes immediately after detailsOfService (e.g. 'Software Development') */
-        .detailsOfService + .summaryOfService{
-            margin-top: var(--space-fixed-2);
-        }
-
                 /* LARGER DEVICES */
                 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
@@ -73,6 +63,8 @@
                         .summaryOfService img{
                             height: 225px;
                             max-height: 225px;
+                            width: 300px;
+                            max-width: 300px;
                         }
 
                     }
@@ -83,9 +75,22 @@
                         .summaryOfService img{
                             height: 300px;
                             max-height: 300px;
+                            width: 450px;
+                            max-width: 450px;
                         }
 
                     }
+
+        /* when two .summaryOfService classes are next to each other (e.g. 'Software Development') */
+        .summaryOfService + .summaryOfService{
+            margin-top: var(--space-fixed-2);
+        }
+        
+        /* when .summaryOfService comes immediately after detailsOfService (e.g. 'Software Development') */
+        .detailsOfService + .summaryOfService{
+            margin-top: var(--space-fixed-2);
+        }
+
                             
         /* button parent tag */
         .clickForDetails{        
