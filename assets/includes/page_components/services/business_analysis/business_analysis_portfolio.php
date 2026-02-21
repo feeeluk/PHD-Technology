@@ -18,9 +18,9 @@
 
     <div class="portfolio">
 
-        <img src="/assets/images/other/portfolio.jpg" alt="Default Portfolio" class="portfolio--Image-PaddingBottom">
+        <img src="/assets/images/other/portfolio.jpg" alt="Default Portfolio">
         
-        <img src="/assets/images/other/portfolio.jpg" alt="Default Portfolio" class="portfolio--Image-PaddingBottom">
+        <img src="/assets/images/other/portfolio.jpg" alt="Default Portfolio">
 
     </div>
         
