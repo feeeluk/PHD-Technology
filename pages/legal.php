@@ -17,43 +17,42 @@
     // HTML 1 (Homepage version)
     // ****************************************************************************************************************************************
     include($path."assets/includes/components/page/html_1.php");
-    
 
         // PAGE CONTENTS HERE
      
-        ?>
+?>
         
-            <div>
+<div>
 
-                <h1>Legal</h1>
-            
-                <p>
-                    PDH Technology is a trading name used by Philip Henning as a sole trader, trading as PDH Technology.
-                    <br>
-                    Philip Henning trading as PDH Technology.
-                </p>
+    <h1>Legal</h1>
 
-                <h3>VAT</h3>
+    <p>
+        PDH Technology is a trading name used by Philip Henning as a sole trader, trading as PDH Technology.
+        <br>
+        Philip Henning trading as PDH Technology.
+    </p>
 
-                    <p>
-                        No VAT is payable.
-                    </p>
+    <h3>VAT</h3>
 
-                <h3>Insurance</h3>
+        <p>
+            No VAT is payable.
+        </p>
 
-                    <p>
-                        We do not have any insurance as yet.
-                    </p>
+    <h3>Insurance</h3>
 
-                <h3>Payment Terms</h3>
+        <p>
+            We do not have any insurance as yet.
+        </p>
 
-                    <p>
-                        To be worked out.
-                    </p>
+    <h3>Payment Terms</h3>
 
-            </div>
+        <p>
+            To be worked out.
+        </p>
 
-        <?php
+</div>
+
+<?php
         
     // HTML 2
     // ****************************************************************************************************************************************

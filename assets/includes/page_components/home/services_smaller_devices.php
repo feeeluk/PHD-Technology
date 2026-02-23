@@ -11,55 +11,55 @@
 <div id="ServicesSmallerDevices">
 
     <a href="#BusinessAnalysisAnchor">
-        <span>
+        <span class="button--MenuForSmallerDevices">
             Business Analysis 
         </span>
     </a>
     
     <a href="#SoftwareDevelopmentAnchor">
-        <span>
+        <span class="button--MenuForSmallerDevices">
             Software Development
         </span>
     </a>
     
     <a href="#ProjectManagementAnchor">
-        <span>
+        <span class="button--MenuForSmallerDevices">
             Project Management
         </span>
     </a>
     
     <a href="#DataManipulationAnchor">
-        <span>
+        <span class="button--MenuForSmallerDevices">
             Data Manipulation
         </span>
     </a>
     
     <a href="#SkillsDevelopmentAndTrainingAnchor">
-        <span>
+        <span class="button--MenuForSmallerDevices">
             Skills Development & Training
         </span>
     </a>
     
     <a href="#ProofOfConceptAnchor">            
-        <span>
+        <span class="button--MenuForSmallerDevices">
             Proof of Concept
         </span>
     </a>
 
     <a href="#ArtificialIntelligenceAnchor">
-        <span>
+        <span class="button--MenuForSmallerDevices">
             Artificial Intelligence
         </span>
     </a>
 
     <a href="#DigitalMediaAndMarketingAnchor">
-        <span>
+        <span class="button--MenuForSmallerDevices">
             Digital Media & Marketing
         </span>
     </a>
 
     <a href="#UiUxAnchor">
-        <span>
+        <span class="button--MenuForSmallerDevices">
             UI/UX
         </span>
     </a>

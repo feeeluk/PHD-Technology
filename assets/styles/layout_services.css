@@ -90,13 +90,10 @@
         .detailsOfService + .summaryOfService{
             margin-top: var(--space-fixed-2);
         }
-
                             
         /* button parent tag */
         .clickForDetails{        
-            padding: 0;
-            border: none;
-            background: none;
+            width: 100%;
         }
 
         /* The button is nested inside an A tag */
@@ -121,7 +118,7 @@
                     }
         
         /* The button itself */
-        .buttonClickForDetails {
+        .button--ClickForDetails {
             display: block;
             background: rgb(50, 140, 130);
             padding: 0.5rem 1rem;
@@ -145,11 +142,10 @@
     /* ============================================== */
 
         .benefits{
-            display: block;
-            margin-bottom: 2rem;
-            text-align: left;
-            padding: 1rem;
+            background: var(--colour-accent);
             border-radius: 10px;
+            display: block; /* for when used with span elements */
+            margin-bottom: 2rem;
         }
 
         .benefits:last-child{

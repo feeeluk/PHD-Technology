@@ -22,25 +22,21 @@
         
 ?>
 
-        <article class="case_studies">
-                
-            <h1 class="margin_top title">CASE STUDIES</h1>
-                
-            <section class="description">
+    <div class="caseStudies">
+            
+        <h1 class="">CASE STUDIES</h1>
 
-                <div>
-                    
-                    <p>
-                        Here are some examples of my work, organised by service type:
-                    </p>
-                    
-                </div>
+        <div>
+            
+            <p>
+                Here are some examples of my work, organised by service type:
+            </p>
+            
+        </div>
 
-            </section>
+    </div>
 
-        </article>
-
-<?php
+    <?php
 
         // SERVICE LINKS
         // include($path."assets/includes/page_components/services/services_links.php");
@@ -73,4 +69,4 @@
     // ****************************************************************************************************************************************
         include($path."assets/includes/components/footer.php");
 
-?>
+    ?>
