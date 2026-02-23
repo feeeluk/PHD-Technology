@@ -1,6 +1,6 @@
-<div id="SkillsDevelopmentAndTrainingDescription" class="box--WithPadding item">
+<a id="SkillsDevelopmentAndTrainingAnchor" class="anchor"></a>
 
-    <a id="SkillsDevelopmentAndTrainingAnchor" class="anchor"></a>
+<div id="SkillsDevelopmentAndTrainingDescription" class="box--WithPadding item">
 
     <h1 class='item--Heading'>SKILLS DEVELOPMENT & TRAINING</h1>
 

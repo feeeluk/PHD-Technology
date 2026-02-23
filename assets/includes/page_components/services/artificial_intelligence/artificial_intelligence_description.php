@@ -1,6 +1,6 @@
-<div id="ArtificialIntelligenceDescription" class="box--WithPadding item">
+<a id="ArtificialIntelligenceAnchor" class="anchor"></a>
 
-    <a id="ArtificialIntelligenceAnchor" class="anchor"></a>
+<div id="ArtificialIntelligenceDescription" class="box--WithPadding item">
 
     <h1 class='item--Heading'>ARTIFICIAL INTELLIGENCE</h1>
     <h3 class='item--SubHeading'>(COMING SOON)</h3>

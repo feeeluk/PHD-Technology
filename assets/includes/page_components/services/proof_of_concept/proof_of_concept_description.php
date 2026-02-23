@@ -1,6 +1,6 @@
-<div id="ProofOfConceptDescription" class="box--WithPadding item">
+<a id="ProofOfConceptAnchor" class="anchor"></a>
 
-    <a id="ProofOfConceptAnchor" class="anchor"></a>
+<div id="ProofOfConceptDescription" class="box--WithPadding item">
 
     <h1 class='item--Heading'>PROOF OF CONCEPT</h1>       
 

@@ -1,6 +1,6 @@
-<div id="SoftwareDevelopmentDescription" class="box--WithPadding item">
+<a id="SoftwareDevelopmentAnchor" class="anchor"></a>
 
-    <a id="SoftwareDevelopmentAnchor" class="anchor"></a>
+<div id="SoftwareDevelopmentDescription" class="box--WithPadding item">
 
     <?php
 

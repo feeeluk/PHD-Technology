@@ -1,6 +1,6 @@
-<div id="ProjectManagementDescription" class="box--WithPadding item">
+<a id="ProjectManagementAnchor" class="anchor"></a>
 
-    <a id="ProjectManagementAnchor" class="anchor"></a>
+<div id="ProjectManagementDescription" class="box--WithPadding item">
 
     <h1 class='item--Heading'>PROJECT MANAGEMENT</h1>
 

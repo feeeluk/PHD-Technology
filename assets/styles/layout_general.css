@@ -199,8 +199,7 @@
 /* ============================================== */
 
     .anchor{
-        position: relative;
-        top: calc(-1 * (var(--height-header) + var(--space-4) + var(--space-4) + var(--item-border)));
+        margin-bottom: var(--space-4);
     }
     
 

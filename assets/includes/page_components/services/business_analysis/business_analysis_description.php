@@ -1,6 +1,6 @@
-<div id="BusinessAnalysisDescription" class="box--WithPadding item">
+<a id="BusinessAnalysisAnchor" class="anchor"></a>
 
-    <a id="BusinessAnalysisAnchor" class="anchor"></a>
+<div id="BusinessAnalysisDescription" class="box--WithPadding item">
 
     <h1 class='item--Heading'>BUSINESS ANALYSIS</h1>
 

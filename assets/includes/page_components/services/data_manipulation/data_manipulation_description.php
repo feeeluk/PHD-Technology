@@ -1,6 +1,6 @@
-<div id="DataManipulationDescription" class="box--WithPadding item">
+<a id="DataManipulationAnchor" class="anchor"></a>
 
-    <a id="DataManipulationAnchor" class="anchor"></a>
+<div id="DataManipulationDescription" class="box--WithPadding item">
 
     <h1 class='item--Heading'>DATA MANIPULATION</h1>
 

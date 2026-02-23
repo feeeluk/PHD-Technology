@@ -1,6 +1,6 @@
-<div id="DigitalMediaAndMarketingDescription" class="box--WithPadding item">
+<a id="DigitalMediaAndMarketingAnchor" class="anchor"></a>
 
-    <a id="DigitalMediaAndMarketingAnchor" class="anchor"></a>
+<div id="DigitalMediaAndMarketingDescription" class="box--WithPadding item">
 
     <h1 class='item--Heading'>DIGITAL MEDIA & MARKETING</h1>
     <h3 class='item--SubHeading'>(COMING SOON)</h3>

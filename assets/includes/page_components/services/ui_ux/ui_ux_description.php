@@ -1,6 +1,6 @@
-<div id="UiUxDescription" class="box--WithPadding item">
+<a id="UiUxAnchor" class="anchor"></a>
 
-    <a id="UiUxAnchor" class="anchor"></a>
+<div id="UiUxDescription" class="box--WithPadding item">
 
     <h1 class='item--Heading'>UI/UX</h1>
     
