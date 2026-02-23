@@ -199,9 +199,7 @@
 /* ============================================== */
 
     .anchor{
-        position: relative;
-        top: calc((var(--height-header) + 16px) * -1);
-
+        margin-bottom: var(--space-4);
     }
     
 
