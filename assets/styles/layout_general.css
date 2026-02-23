@@ -54,13 +54,6 @@
         line-height: var(--line-height);
     }
 
-
-    span {
-        width: 100%;
-        padding: 1rem;
-        background: var(--colour-accent)
-    }
-
     a, a:visited, a:active {
         color: var(--colour-primary);
         text-decoration: none;
@@ -206,7 +199,9 @@
 /* ============================================== */
 
     .anchor{
-        margin-bottom: var(--space-4);
+        position: relative;
+        top: calc((var(--height-header) + 16px) * -1);
+
     }
     
 

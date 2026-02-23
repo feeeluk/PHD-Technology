@@ -19,7 +19,7 @@
 
         <img src="/assets/images/services/software_development/overview_dot_net_development.webp" alt=".NET devlopment">
 
-        <h2 class="item--SubHeading">.NET Development</h2>
+        <h3>.NET Development</h3>
 
         <p>
             .NET development is the process of building software applications using Microsoft’s .NET framework. It’s a popular platform for creating a wide range of apps—from web and mobile to desktop, cloud, gaming, and IoT solutions.
@@ -55,7 +55,7 @@
 
         <img src="/assets/images/services/software_development/overview_web_development.webp" alt="Web development">
         
-        <h2 class="item--SubHeading">Web Development</h2>
+        <h3>Web Development</h3>
         
         <p>
             Web development is the process of creating and maintaining websites or web applications that run on the internet (or an intranet). It involves everything from designing how a site looks to making sure it functions smoothly behind the scenes.

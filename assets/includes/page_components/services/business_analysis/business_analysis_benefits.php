@@ -2,7 +2,7 @@
 
     <h1 class="item--Heading">WHAT ARE THE BENEFITS?</h1>
         
-    <span class="benefits">
+    <span class="box--WithPadding benefits">
 
 
         <h4>Clarity in decision-making</h4>
@@ -15,7 +15,7 @@
 
     </span>
 
-    <span class="benefits">
+    <span class="box--WithPadding benefits">
 
         <h4>Improving efficiency and saving money</h4>
 
@@ -27,7 +27,7 @@
 
     </span>
 
-    <span class="benefits">
+    <span class="box--WithPadding benefits">
 
         <h4>Reducing risk</h4>
 
@@ -39,7 +39,7 @@
 
     </span>
 
-    <span class="benefits">
+    <span class="box--WithPadding benefits">
 
         <h4>Boosting customer satisfaction</h4>
 
@@ -51,7 +51,7 @@
 
     </span>
 
-    <span class="benefits">
+    <span class="box--WithPadding benefits">
 
         <h4>Supporting growth and innovation</h4>
 
