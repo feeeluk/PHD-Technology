@@ -2,7 +2,7 @@
 
     echo "<a href='".$link."'>";
 
-        echo "<span class='button--ClickForDetails'>";
+        echo "<span class='buttonClickForDetails'>";
 
             echo "More Details";
 

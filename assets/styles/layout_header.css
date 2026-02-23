@@ -72,7 +72,7 @@
         }
 
         /*  format all the items within the primary disclosure (note. this is why the 'nav' was used) */
-        #NavbarForMobile span.smallDeviceMenuLink {
+        #NavbarForMobile span.link {
             display: block;
             color: var(--disclosure-colour-primary);
             background-color: var(--disclosure-colour-bg-primary);
@@ -144,12 +144,12 @@
         }
 
         /*  Indent the items in the secondary disclosure */
-        #NavbarForMobile span.indentLink {
+        #NavbarForMobile span.service {
             padding-left: var(--space-6);
         }
 
         /* change the items in the secondary disclosure when hovered over  */
-        #NavbarForMobile span.smallDeviceMenuLink:hover {
+        #NavbarForMobile span.link:hover {
             color: #d4d4d4;
             background-color: var(--colour-primary);
         }

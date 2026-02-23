@@ -1,9 +1,9 @@
 <a href="#top">
     
-    <span id="LinkToTop">
+    <div id="LinkToTop">
     
             ↑
             
-    </span>
+    </div>
 
 </a>

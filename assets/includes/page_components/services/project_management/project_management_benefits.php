@@ -2,7 +2,7 @@
         
     <h1 class="item--Heading">WHAT ARE THE BENEFITS?</h1>
         
-    <div class="box--WithPadding benefits">
+    <span class="benefits">
 
         <h4>?</h4>
 
@@ -14,7 +14,7 @@
 
     </span>
                 
-    <div class="box--WithPadding benefits">
+    <span class="benefits">
 
         <h4>?</h4>
 
@@ -26,7 +26,7 @@
 
     </span>
                 
-    <div class="box--WithPadding benefits">
+    <span class="benefits">
 
         <h4>?</h4>
 
