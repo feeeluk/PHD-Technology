@@ -116,11 +116,13 @@
     .box{
         width: 100%;
         padding: 0;
+        overflow: hidden;
     }
 
     .box--WithPadding{
         width: 100%;
         padding: var(--space-4);
+        overflow: hidden;
     }
 
     /* items are for styling */
@@ -151,6 +153,23 @@
         margin-bottom: .5rem;
         color: blue;
     }
+
+    .item--SubSectionHeading{
+        text-align: center;
+        margin-top: 0.5rem;
+        margin-bottom: .5rem;
+        color: red;
+    }
+
+    /* LARGER DEVICES */
+    /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+        @media (min-width: 640px){
+            .item--SubSectionHeading{
+                text-align: left;
+            }
+        }
+
 
     .item--CentreAlignedText{
         text-align: center;
