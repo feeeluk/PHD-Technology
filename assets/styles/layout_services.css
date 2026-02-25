@@ -42,6 +42,7 @@
             width: 100%;
             float: left;
             padding: 0;
+            margin-bottom: var(--space-2);
         }
 
                 /* LARGER DEVICES */
@@ -130,12 +131,6 @@
         /* The second section of the 'Description' gives more information about the service */
         .detailsOfService{
             padding: 0; /* Removes the unnecessary duplication of padding */
-
-            & h3{
-
-                margin-top: var(--space-2);
-
-            }
         }
 
     /* BENEFITS section */
@@ -150,6 +145,33 @@
 
         .benefits:last-child{
             margin-bottom: 0;
+        }
+
+        .benefits--Heading{
+            margin-bottom: var(--space-2);
+            text-decoration: underline;
+            text-underline-offset: 4px;
+            text-decoration-thickness: 2px;
+        }
+
+        .benefits--Text{
+            color: #bbb;
+        }
+
+        .benefits--ForExample{
+            margin-bottom: var(--space-2);
+            margin-left: var(--space-2);
+        }
+
+        .benefits--ExampleQuestion{
+            margin-left: var(--space-2);
+            margin-bottom: var(--space-1);
+        }
+
+        .benefits--ExampleText{
+            color: #bbb;
+            margin-left: var(--space-4);
+            padding-bottom: var(--space-5);
         }
 
     /* PRICES section */

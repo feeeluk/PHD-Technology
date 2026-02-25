@@ -1,40 +1,58 @@
-<div id="ProjectManagementBenefits" class="box--WithPadding item benefits">
+<div id="ProjectManagementBenefits" class="box--WithPadding item">
         
-    <h1 class="item--Heading">WHAT ARE THE BENEFITS?</h1>
+    <h1 class="item--Title">WHAT ARE THE BENEFITS?</h1>
         
-    <div class="box--WithPadding benefits">
+    <span class="box--WithPadding benefits">
 
-        <h4>?</h4>
+        <h3 class="benefits--Heading">Title</h3>
 
-        <P>
-            ?
+        <P class="benefits--Text">
+            Text.
         </P>
         
-        <h5>?</h5>
+        <h4 class="benefits--ForExample">Example:</h4>
+
+        <h4 class="benefits--ExampleQuestion">- example?</h4>
+
+        <p class="benefits--ExampleText">
+            Answer.
+        </p>
 
     </span>
-                
-    <div class="box--WithPadding benefits">
 
-        <h4>?</h4>
+    <span class="box--WithPadding benefits">
 
-        <P>
-            ?
+        <h3 class="benefits--Heading">Title</h3>
+
+        <P class="benefits--Text">
+            Text.
         </P>
         
-        <h5>?</h5>
+        <h4 class="benefits--ForExample">Example:</h4>
+
+        <h4 class="benefits--ExampleQuestion">- example?</h4>
+
+        <p class="benefits--ExampleText">
+            Answer.
+        </p>
 
     </span>
-                
-    <div class="box--WithPadding benefits">
 
-        <h4>?</h4>
+    <span class="box--WithPadding benefits">
 
-        <P>
-            ?
+        <h3 class="benefits--Heading">Title</h3>
+
+        <P class="benefits--Text">
+            Text.
         </P>
         
-        <h5>?</h5>
+        <h4 class="benefits--ForExample">Example:</h4>
+
+        <h4 class="benefits--ExampleQuestion">- example?</h4>
+
+        <p class="benefits--ExampleText">
+            Answer.
+        </p>
 
     </span>
 

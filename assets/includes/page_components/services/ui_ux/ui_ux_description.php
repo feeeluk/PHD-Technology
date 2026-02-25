@@ -2,7 +2,7 @@
 
 <div id="UiUxDescription" class="box--WithPadding item">
 
-    <h1 class='item--Heading'>UI/UX</h1>
+    <h1 class='item--Title'>UI/UX</h1>
     
     <div id="UiUxSummaryOfService" class="summaryOfService">
 
@@ -39,7 +39,15 @@
     
     <div id="UiUxDetailsOfService" class="detailsOfService">
 
-        <h3>UI/UX with PHD Technology</h3>
+        <details>
+
+            <summary>More Information</summary>
+
+            <p>This is more information</p>
+            
+        </details>
+    
+        <h3 class="item--Heading">UI/UX with PHD Technology</h3>
         
         <p>
             Whether you simply need advice, or if you would like us to undertake Business Analysis for you, we are here to help.

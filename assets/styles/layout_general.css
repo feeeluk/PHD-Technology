@@ -61,7 +61,6 @@
 
     h1, h2, h3, h4, h5, h6 {
         color: var(--colour-secondary);
-        margin-bottom: 0.5rem;
     }
 
     p {
@@ -136,40 +135,45 @@
         border-width: var(--item-border);
     }
 
-    .item--Heading{
+    .item--Title{
         text-align: center;
         margin-top: 1rem;
         margin-bottom: 1rem;
+        color: var(--colour-primary);
     }
 
     /* remove the bottom margin from h1 headers that immediately preceed h3 */
-    .item--Heading:has(+ h3){
+    .item--Title:has(+ h3){
         margin-bottom: calc(var(--space-2) * -1);       
     }
 
-    .item--SubHeading{
+    .item--SubTitle{
         text-align: center;
         margin-top: 0;
         margin-bottom: .5rem;
-        color: blue;
     }
 
-    .item--SubSectionHeading{
+    .item--SubSectionTitle{
         text-align: center;
-        margin-top: 0.5rem;
         margin-bottom: .5rem;
-        color: red;
+        color: var(--colour-accent);
+        line-height: 20px;
     }
 
     /* LARGER DEVICES */
     /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-        @media (min-width: 640px){
-            .item--SubSectionHeading{
+        @media (min-width: 400px){
+            .item--SubSectionTitle{
                 text-align: left;
             }
         }
 
+    .item--Heading{
+        text-align: left;
+        margin-top: var(--space-5);
+        margin-bottom: 0;
+    }
 
     .item--CentreAlignedText{
         text-align: center;

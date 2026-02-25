@@ -2,8 +2,8 @@
 
 <div id="DigitalMediaAndMarketingDescription" class="box--WithPadding item">
 
-    <h1 class='item--Heading'>DIGITAL MEDIA & MARKETING</h1>
-    <h3 class='item--SubHeading'>(COMING SOON)</h3>
+    <h1 class='item--Title'>DIGITAL MEDIA & MARKETING</h1>
+    <h3 class='item--SubTitle'>(COMING SOON)</h3>
 
     <div id="DigitalMediaAndMarketingSummaryOfService" class="summaryOfService">
 
@@ -40,7 +40,15 @@
 
     <div id="DigitalMediaAndMarketingDetailsOfService" class="detailsOfService">
 
-        <h3>Digital Media and Marketing with PHD Technology</h3>
+        <details>
+
+            <summary>More Information</summary>
+
+            <p>This is more information</p>
+            
+        </details>
+    
+        <h3 class="item--Heading">Digital Media and Marketing with PHD Technology</h3>
         
         <p>
             TEST. This paragraph should only be visible in the specific service page, not on the homepage.

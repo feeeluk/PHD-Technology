@@ -4,14 +4,14 @@
 
         if (str_contains($_SERVER['REQUEST_URI'],'proof_of_concept') == true)
             {
-                echo "<h1 class='item--Heading'>PORTFOLIO</h1>";
+                echo "<h1 class='item--Title'>PORTFOLIO</h1>";
 
                 echo "<p class='item--CentreAlignedText'>Examples of work that I have done:</p>";
             }
 
         elseif (str_contains($_SERVER['REQUEST_URI'],'portfolio') == true)
             {             
-                echo "<h2 class='item--Heading'>PROOF OF CONCEPT</h2>";    
+                echo "<h2 class='item--Title'>PROOF OF CONCEPT</h2>";    
             }
 
     ?>

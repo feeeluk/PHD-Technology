@@ -2,7 +2,7 @@
 
 <div id="SkillsDevelopmentAndTrainingDescription" class="box--WithPadding item">
 
-    <h1 class='item--Heading'>SKILLS DEVELOPMENT & TRAINING</h1>
+    <h1 class='item--Title'>SKILLS DEVELOPMENT & TRAINING</h1>
 
     <div id="SkillsDevelopmentAndTrainingSummaryOfService" class="summaryOfService">
 
@@ -35,7 +35,15 @@
 
     <div id="SkillsDevelopmentAndTrainingDetailsOfService" class="detailsOfService">
 
-        <h3>Skills Development and Training with PHD Technology</h3>
+        <details>
+
+            <summary>More Information</summary>
+
+            <p>This is more information</p>
+            
+        </details>
+    
+        <h class="item--Heading">Skills Development and Training with PHD Technology</h3>
 
         <p>
             TEST. This paragraph should only be visible in the specific service page, not on the homepage.

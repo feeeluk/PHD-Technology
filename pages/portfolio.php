@@ -21,7 +21,7 @@
 
         // PAGE CONTENTS HERE
      
-            echo "<div class='serviceItem portfolioPage'>";
+            echo "<div>";
                     
                 echo "<h2>";
                     echo "Here are some examples organised by type of service:";

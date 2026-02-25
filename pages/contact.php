@@ -24,7 +24,7 @@
 
             <div id="Contact" class="box--WithPadding item">
 
-                <h3 class="item--Heading">Contact us using the form below, or call us on 01482 653509</h3>
+                <h3 class="item--Title">Contact us using the form below, or call us on 01482 653509</h3>
                 
                 <form id="ContactForm" action="">
                     

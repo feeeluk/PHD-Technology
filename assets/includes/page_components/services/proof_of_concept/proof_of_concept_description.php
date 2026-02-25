@@ -2,7 +2,7 @@
 
 <div id="ProofOfConceptDescription" class="box--WithPadding item">
 
-    <h1 class='item--Heading'>PROOF OF CONCEPT</h1>       
+    <h1 class='item--Title'>PROOF OF CONCEPT</h1>       
 
     <div id="ProofOfConceptSummaryOfService" class="summaryOfService">
 
@@ -43,7 +43,15 @@
 
     <div id="ProofOfConceptDetailsOfService" class="detailsOfService">
 
-        <h3>Proof of Concept with PHD Technology</h3>
+        <details>
+
+            <summary>More Information</summary>
+
+            <p>This is more information</p>
+            
+        </details>
+    
+        <h3 class="item--Heading">Proof of Concept with PHD Technology</h3>
         
         <p>
             TEST. This paragraph should only be visible in the specific service page, not on the homepage.

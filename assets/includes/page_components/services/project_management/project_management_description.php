@@ -2,7 +2,7 @@
 
 <div id="ProjectManagementDescription" class="box--WithPadding item">
 
-    <h1 class='item--Heading'>PROJECT MANAGEMENT</h1>
+    <h1 class='item--Title'>PROJECT MANAGEMENT</h1>
 
     <div id="ProjectManagementSummaryOfService" class="summaryOfService">
 
@@ -35,7 +35,15 @@
 
     <div id="ProjectManagementDetailsOfService" class="detailsOfService">
 
-        <h3>Project Management with PHD Technology</h3>
+        <details>
+
+            <summary>More Information</summary>
+
+            <p>This is more information</p>
+            
+        </details>
+    
+        <h3 class="item--Heading">Project Management with PHD Technology</h3>
         
         <p>
             TEST. This paragraph should only be visible in the specific service page, not on the homepage.

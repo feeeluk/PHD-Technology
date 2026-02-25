@@ -6,11 +6,11 @@
 
         if (str_contains($_SERVER['REQUEST_URI'],'software_development') == true)
             {
-                echo "<h1 class='item--Heading'>SOFTWARE DEVELOPMENT</h1>";
+                echo "<h1 class='item--Title'>SOFTWARE DEVELOPMENT</h1>";
             }
 
             else {
-                echo "<h1 class='item--Heading'>SOFTWARE DEVELOPMENT</h1>";
+                echo "<h1 class='item--Title'>SOFTWARE DEVELOPMENT</h1>";
             }
 
     ?>
@@ -19,7 +19,7 @@
 
         <img src="/assets/images/services/software_development/overview_dot_net_development.webp" alt=".NET devlopment">
 
-        <h2 class="item--SubSectionHeading">.NET</h2>
+        <h2 class="item--SubSectionTitle">.NET</h2>
 
         <p>
             .NET development is the process of building software applications using Microsoft’s .NET framework. It’s a popular platform for creating a wide range of apps—from web and mobile to desktop, cloud, gaming, and IoT solutions.
@@ -36,14 +36,21 @@
 
         <div id="DotNetDevelopmentDetailsOfService" class="detailsOfService">
 
-            <h3>.NET development with PHD Technology</h3>
+        <details>
+
+            <summary>More Information</summary>
+
+            <p>This is more information</p>
+            
+        </details>
+    
+        <h3 class="item--Heading">.NET development with PHD Technology</h3>
 
             <p>
                 TEST. This paragraph should only be visible in the specific service page, not on the homepage.
             </p>
 
         </div>
-
     
     <?php
 
@@ -55,7 +62,7 @@
 
         <img src="/assets/images/services/software_development/overview_web_development.webp" alt="Web development">
         
-        <h2 class="item--SubSectionHeading">Web</h2>
+        <h2 class="item--SubSectionTitle">Web</h2>
         
         <p>
             Web development is the process of creating and maintaining websites or web applications that run on the internet (or an intranet). It involves everything from designing how a site looks to making sure it functions smoothly behind the scenes.
@@ -83,8 +90,16 @@
     ?>
 
     <div id="WebDevelopmentDetailsOfService" class="detailsOfService">
+        
+        <details>
 
-        <h3>Web development with PHD Technology</h3>
+            <summary>More Information</summary>
+
+            <p>This is more information</p>
+            
+        </details>
+    
+        <h3 class="item--Heading">Web development with PHD Technology</h3>
         
         <p>
             TEST. This paragraph should only be visible in the specific service page, not on the homepage.

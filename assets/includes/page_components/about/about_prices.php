@@ -1,6 +1,6 @@
 <div id="AboutPrices" class="box--WithPadding item">
 
-    <h1 class="item--Heading">PRICES</h1>
+    <h1 class="item--Title">PRICES</h1>
 
     <table id="Prices" class="prices">
 

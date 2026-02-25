@@ -1,6 +1,6 @@
 <div id="AboutNextSteps" class="box--WithPadding item">
 
-    <h1 class="item--Heading">NEXT STEPS</h1>
+    <h1 class="item--Title">NEXT STEPS</h1>
 
     <p>
         The best way to get the ball rolling is to get in touch with us over the phone or send us a message (all details available on our <a href="/pages/contact.php">Contact</a> page). 

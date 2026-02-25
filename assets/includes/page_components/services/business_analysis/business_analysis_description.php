@@ -2,7 +2,7 @@
 
 <div id="BusinessAnalysisDescription" class="box--WithPadding item">
 
-    <h1 class='item--Heading'>BUSINESS ANALYSIS</h1>
+    <h1 class='item--Title'>BUSINESS ANALYSIS</h1>
 
     <div id="BusinessAnalysisSummaryOfService" class="summaryOfService">
 
@@ -43,33 +43,43 @@
 
     <div id="BusinessAnalysisDetailsOfService" class="detailsOfService">
 
-        <h3>Business Analysis: A Strategic Investment in Better Decisions and Better Outcomes</h3>
+        <details>
+
+            <summary>More Information</summary>
+                
+            <h3 class="item--Heading">Business Analysis: A Strategic Investment in Better Decisions and Better Outcomes</h3>
+            
+            <p>
+                At its core, business analysis provides a structured approach to understanding how a business works today, identifying where inefficiencies or risks exist, and defining practical, evidence‑based improvements that lead to measurable gains.
+            </p>
+            
+            <p>
+                Rather than relying on assumptions or intuition, business analysis grounds decisions in data, stakeholder insight, and clear business needs. This ensures that every change—whether large or small—directly supports organisational goals and delivers tangible benefits.Whether you simply need help and advice, or if you would like to hire us as as Business Analysts, we are here to help.
+            </p>
+
+            <p>
+                With many years of commercial Business Analysis experience, across a variety of sectors, we are able to:
+            </p>
+
+            <ul>
+                <li>Facilitate workshops</li>
+                <li>Produce and/or manage your Product Roadmap</li>
+                <li>Elicit stakeholder and end-user requirements</li>
+                <li>Produce User Stories</li>
+                <li>Manage a Product Backlog</li>
+                <li>Follow agile principles - we have lots of experience with SCRUM</li>
+            </ul>
+
+        </details>
         
-        <p>
-            At its core, business analysis provides a structured approach to understanding how a business works today, identifying where inefficiencies or risks exist, and defining practical, evidence‑based improvements that lead to measurable gains.
-        </p>
+        <h3 class="item--Heading">Business Analysis with PDH Technology</h3>
         
-        <p>
-            Rather than relying on assumptions or intuition, business analysis grounds decisions in data, stakeholder insight, and clear business needs. This ensures that every change—whether large or small—directly supports organisational goals and delivers tangible benefits.Whether you simply need help and advice, or if you would like to hire us as as Business Analysts, we are here to help.
-        </p>
-
-        <p>
-            With many years of commercial Business Analysis experience, across a variety of sectors, we are able to:
-        </p>
-
-        <ul>
-            <li>Facilitate workshops</li>
-            <li>Produce and/or manage your Product Roadmap</li>
-            <li>Elicit stakeholder and end-user requirements</li>
-            <li>Produce User Stories</li>
-            <li>Manage a Product Backlog</li>
-            <li>Follow agile principles - we have lots of experience with SCRUM</li>
-        </ul>
-
     </div>
 
     <?php
-            }
+
+        }
+        
     ?>
 
 </div>

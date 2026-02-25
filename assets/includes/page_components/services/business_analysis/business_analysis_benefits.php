@@ -1,65 +1,94 @@
 <div id="BusinessAnalysisBenefits" class="box--WithPadding item">
 
-    <h1 class="item--Heading">WHAT ARE THE BENEFITS?</h1>
+    <h1 class="item--Title">WHAT ARE THE BENEFITS?</h1>
         
     <span class="box--WithPadding benefits">
 
+        <h3 class="benefits--Heading">Clarity in decision-making</h3>
 
-        <h4>Clarity in decision-making</h4>
-
-        <P>
+        <P class="benefits--Text">
             Business Analysts help you make sense of complexity. They collect and analyze data, gather input from team members or customers, and present insights that lead to informed decisions.
         </P>
         
-        <h5>Example: Should you invest in a new marketing tool or expand your team? A Business Analyst can weigh the pros and cons using real data.</h5>
+        <h4 class="benefits--ForExample">Example:</h4>
+
+        <h4 class="benefits--ExampleQuestion">- Should you invest in a new marketing tool or expand your team?</h4>
+
+        <p class="benefits--ExampleText">
+            A Business Analyst can weigh the pros and cons using real data.
+        </p>
 
     </span>
 
     <span class="box--WithPadding benefits">
 
-        <h4>Improving efficiency and saving money</h4>
+        <h3 class="benefits--Heading">Improving efficiency and saving money</h3>
 
-        <P>
+        <P class="benefits--Text">
             Business Analysts spot inefficiencies in processes — things like wasted time, money, or effort — and recommend ways to streamline them.
         </P>
 
-        <h5>Example: Are customers waiting too long for support? A Business Analyst might suggest automation or workflow improvements.</h5>
+        <h4 class="benefits--ForExample">Example:</h4>
+
+        <h4 class="benefits--ExampleQuestion">- Are customers waiting too long for support?</h4>
+
+        <p class="benefits--ExampleText">
+            A Business Analyst might suggest automation or workflow improvements.
+        </p>
 
     </span>
 
     <span class="box--WithPadding benefits">
 
-        <h4>Reducing risk</h4>
+        <h3 class="benefits--Heading">Reducing risk</h3>
 
-        <P>
+        <P class="benefits--Text">
             Business Analysts help identify potential problems before they happen, or become costly.
         </P>
 
-        <h5>Example: Launching a new product without understanding the target audience could easily fail. A Business Analyst researches the customer needs to reduce that risk.</h5>
+        <h4 class="benefits--ForExample">Example:</h4>
+
+        <h4 class="benefits--ExampleQuestion">- Launching a new product without understanding the target audience could easily fail. </h4>
+
+        <p class="benefits--ExampleText">
+            A Business Analyst researches the customer needs to reduce that risk.
+        </p>
 
     </span>
 
     <span class="box--WithPadding benefits">
 
-        <h4>Boosting customer satisfaction</h4>
+        <h3 class="benefits--Heading">Boosting customer satisfaction</h3>
 
-        <P>
+        <P class="benefits--Text">
             Through user research, feedback, and data analysis, Business Analysts help businesses discover what customers truly want.
         </P>
 
-        <h5>Example: Why are people abandoning their shopping trolleys near the checkout? A Business Analyst might discover issues with the checkout process that means it takes too long for some customers, and suggest system or process changes that result in reduced checkout times.</h5>
+        <h4 class="benefits--ForExample">Example:</h4>
+
+        <h4 class="benefits--ExampleQuestion">- Why are people abandoning their shopping trolleys near the checkout? </h4>
+
+        <p class="benefits--ExampleText">
+            A Business Analyst might discover issues with the checkout process that means it takes too long for some customers, and suggest system or process changes that result in reduced checkout times.
+        </p>
 
     </span>
 
     <span class="box--WithPadding benefits">
 
-        <h4>Supporting growth and innovation</h4>
+        <h3 class="benefits--Heading">Supporting growth and innovation</h3>
 
-        <P>
+        <P class="benefits--Text">
             Business analysis isn't just about fixing problems — it's also about spotting opportunities.
         </P>
 
-        <h5>Example: If you're thinking of expanding into a new market, business analysis helps determine if it is viable, and how to do it effectively.</h5>
+        <h4 class="benefits--ForExample">Example:</h4>
+
+        <h4 class="benefits--ExampleQuestion">- Thinking of expanding into a new market?</h4>
+
+        <p class="benefits--ExampleText">
+            A business analysis helps determine if it is viable, and how to do it effectively.
+        </p>
 
     </span>
     

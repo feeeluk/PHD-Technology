@@ -2,7 +2,7 @@
 
 <div id="DataManipulationDescription" class="box--WithPadding item">
 
-    <h1 class='item--Heading'>DATA MANIPULATION</h1>
+    <h1 class='item--Title'>DATA MANIPULATION</h1>
 
     <div id="DataManipulationSummaryOfService" class="summaryOfService">            
 
@@ -39,7 +39,15 @@
 
     <div id="DataManipulationDetailsOfService" class="detailsOfService">
 
-        <h3>Data Manipulation with PHD Technology</h3>
+        <details>
+
+            <summary>More Information</summary>
+
+            <p>This is more information</p>
+            
+        </details>
+    
+        <h3 class="item--Heading">Data Manipulation with PHD Technology</h3>
         
         <p>
             TEST. This paragraph should only be visible in the specific service page, not on the homepage.
