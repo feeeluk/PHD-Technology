@@ -9,7 +9,7 @@
             top: 0;
             left: 0;
             height: var(--height-header);
-            background: var(--colour-bg-secondary);
+            background: var(--colour-background-3);
             padding: 0;
             width: 100%;
             display: flex;
@@ -115,7 +115,7 @@
         /* Arrow - inactive (hover) */
         #DisclosureTwo summary:hover {
             color: var(--disclosure-colour-secondary);
-            background-color: var(--colour-primary);
+            background-color: var(--colour-1);
 
             & span.arrow {
                 border-left-width: var(--disclosure-triangle-size);
@@ -127,7 +127,7 @@
         /*  Arrow - active */
         #DisclosureTwo[open] summary {
             color: var(--disclosure-colour-secondary);
-            background-color: var(--colour-primary);
+            background-color: var(--colour-1);
 
             & span.arrow {
                 transform: rotate(90deg);
@@ -151,7 +151,7 @@
         /* change the items in the secondary disclosure when hovered over  */
         #NavbarForMobile span.smallDeviceMenuLink:hover {
             color: #d4d4d4;
-            background-color: var(--colour-primary);
+            background-color: var(--colour-1);
         }
 
 
@@ -180,7 +180,7 @@
                 top: 0;
                 left: 0;
                 height: var(--height-header);
-                background: var(--colour-bg-secondary);
+                background: var(--colour-background-3);
                 width: 100%;
                 display: flex;
                 flex-direction: row;
@@ -225,7 +225,7 @@
 
             /* Change color of dropdown links on hover */
             .dropContent a:hover {
-                background-color: var(--colour-primary);
+                background-color: var(--colour-1);
                 color: var(--navbar-dropdown-child-font-colour-hover);
             }
 

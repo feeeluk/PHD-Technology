@@ -47,20 +47,20 @@
 /* ============================================== */
    
     body { 
-        background: var(--colour-bg-primary); 
-        color: var(--colour-text); 
+        background: var(--colour-background-1); 
+        color: var(--colour-text-1); 
         font-family: var(--font-family); 
         font-size: var(--font-base); 
         line-height: var(--line-height);
     }
 
     a, a:visited, a:active {
-        color: var(--colour-primary);
+        color: var(--colour-1);
         text-decoration: none;
     }
 
     h1, h2, h3, h4, h5, h6 {
-        color: var(--colour-secondary);
+        color: var(--colour-2);
     }
 
     p {
@@ -86,7 +86,7 @@
     /* group all sections of content (multiple boxes) */
     #SubContainer{
         position:static;
-        background: linear-gradient(to right, rgba(var(--colour-bg-secondary-transparent), 0.05), var(--colour-heading), rgba(var(--colour-bg-secondary-transparent), 0.05));
+        background: linear-gradient(to right, rgba(var(--colour-background-3-transparent), 0.05), var(--colour-heading-1), rgba(var(--colour-background-3-transparent), 0.05));
         padding: var(--space-4) 5%;
         display: flex;
         flex-direction: column;
@@ -127,19 +127,18 @@
     /* items are for styling */
     .item{
         text-align: left;
-        background: linear-gradient(to right bottom, #B9B9B9, #D9D9D9);
+        background: var(--item-background);
         margin-bottom: var(--space-4);
-        border: 5px solid white;
-        border-color: var(--colour-secondary);
-        border-style: solid;
-        border-width: var(--item-border);
+        border-color: var(--item-border-colour);
+        border-style: var(--item-border-style);
+        border-width: var(--item-border-width);
     }
 
     .item--Title{
         text-align: center;
         margin-top: 1rem;
         margin-bottom: 1rem;
-        color: var(--colour-primary);
+        color: var(--colour-1);
     }
 
     /* remove the bottom margin from h1 headers that immediately preceed h3 */
@@ -154,25 +153,17 @@
     }
 
     .item--SubSectionTitle{
-        text-align: center;
+        text-align: left;
         margin-bottom: .5rem;
-        color: var(--colour-accent);
+        color: var(--colour-title-subsection-1);
         line-height: 20px;
     }
-
-    /* LARGER DEVICES */
-    /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-
-        @media (min-width: 400px){
-            .item--SubSectionTitle{
-                text-align: left;
-            }
-        }
 
     .item--Heading{
         text-align: left;
         margin-top: var(--space-5);
         margin-bottom: 0;
+        color: var(--colour-heading-1);
     }
 
     .item--CentreAlignedText{
@@ -191,15 +182,14 @@
         padding: 0;
         height: 4rem;
         width: 4rem;
-        color: var(--colour-secondary);
-        background: rgba(var(--colour-primary-transparent), .9);
+        color: var(--colour-2);
+        background: rgba(var(--colour-1-transparent), .9);
         border-radius: 50%;
         justify-content: center;
         align-items: center;
         text-align: unset;
         border: solid white 1px;
     }
-
 
 /* Footer */
 /* ============================================== */
@@ -213,7 +203,7 @@
         position: static;
         height: var(--height-footer);
         width: 100%;
-        background: var(--colour-bg-secondary);
+        background: var(--colour-background-3);
         padding: var(--space-4);
         font-size: var(--fs-xs);
     }
@@ -224,20 +214,13 @@
     .anchor{
         position: relative;
         top: calc((var(--height-header) + 16px) * -1);
-
     }
-    
 
 /* Spacing */
 /* ============================================== */
 
-
-
 /* Flex helpers */
 /* ============================================== */
 
-
-
 /* Responsive helpers */
 /* ============================================== */
-

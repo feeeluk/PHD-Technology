@@ -137,7 +137,7 @@
     /* ============================================== */
 
         .benefits{
-            background: var(--colour-accent);
+            background: var(--colour-1);
             border-radius: 10px;
             display: block; /* for when used with span elements */
             margin-bottom: 2rem;
@@ -155,21 +155,23 @@
         }
 
         .benefits--Text{
-            color: #bbb;
+            color: #ddd;
         }
 
-        .benefits--ForExample{
+        .benefits--Example{
             margin-bottom: var(--space-2);
             margin-left: var(--space-2);
         }
 
         .benefits--ExampleQuestion{
-            margin-left: var(--space-2);
+            margin-left: var(--space-4);
             margin-bottom: var(--space-1);
+            color: var(--colour-text-2);
+            font-weight: bold;
         }
 
-        .benefits--ExampleText{
-            color: #bbb;
+        .benefits--ExampleAnswer{
+            color: var(--colour-text-3);
             margin-left: var(--space-4);
             padding-bottom: var(--space-5);
         }

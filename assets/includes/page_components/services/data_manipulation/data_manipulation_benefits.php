@@ -6,52 +6,70 @@
 
         <h3 class="benefits--Heading">Title</h3>
 
-        <P class="benefits--Text">
+        <p class="benefits--Text">
             Text.
-        </P>
+        </p>
         
-        <h4 class="benefits--ForExample">Example:</h4>
+        <h4 class="benefits--Example">Example:</h4>
 
-        <h4 class="benefits--ExampleQuestion">- example?</h4>
+        <p class="benefits--ExampleQuestion">
 
-        <p class="benefits--ExampleText">
-            Answer.
+            Question: ?
+        
+        </p>
+
+        <p class="benefits--ExampleAnswer">
+
+            Answer: ?
+
         </p>
 
     </span>
 
-    <span class="box--WithPadding benefits">
+        <span class="box--WithPadding benefits">
 
         <h3 class="benefits--Heading">Title</h3>
 
-        <P class="benefits--Text">
+        <p class="benefits--Text">
             Text.
-        </P>
+        </p>
         
-        <h4 class="benefits--ForExample">Example:</h4>
+        <h4 class="benefits--Example">Example:</h4>
 
-        <h4 class="benefits--ExampleQuestion">- example?</h4>
+        <p class="benefits--ExampleQuestion">
 
-        <p class="benefits--ExampleText">
-            Answer.
+            Question: ?
+        
+        </p>
+
+        <p class="benefits--ExampleAnswer">
+
+            Answer: ?
+            
         </p>
 
     </span>
 
-    <span class="box--WithPadding benefits">
+        <span class="box--WithPadding benefits">
 
         <h3 class="benefits--Heading">Title</h3>
 
-        <P class="benefits--Text">
+        <p class="benefits--Text">
             Text.
-        </P>
+        </p>
         
-        <h4 class="benefits--ForExample">Example:</h4>
+        <h4 class="benefits--Example">Example:</h4>
 
-        <h4 class="benefits--ExampleQuestion">- example?</h4>
+        <p class="benefits--ExampleQuestion">
 
-        <p class="benefits--ExampleText">
-            Answer.
+            Question: ?
+        
+        </p>
+
+        <p class="benefits--ExampleAnswer">
+
+            Answer: ?
+            
         </p>
 
     </span>

@@ -43,7 +43,7 @@
             
         </details>
     
-        <h class="item--Heading">Skills Development and Training with PHD Technology</h3>
+        <h3 class="item--Heading">Skills Development and Training with PHD Technology</h3>
 
         <p>
             TEST. This paragraph should only be visible in the specific service page, not on the homepage.
