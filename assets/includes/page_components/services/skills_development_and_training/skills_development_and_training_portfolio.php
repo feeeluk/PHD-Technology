@@ -1,4 +1,4 @@
-<div id="SkillsDevelopmentAndTrainingPortfolio" class="box--WithPadding item">
+ /<div id="SkillsDevelopmentAndTrainingPortfolio" class="box--WithPadding item">
 
     <?php
 
@@ -18,9 +18,9 @@
 
     <div class="portfolio">
                 
-        <img src="/assets/images/other/portfolio.jpg" alt="Default Portfolio">
+        <img src="/assets/images/other/portfolio.jpg" alt="Default Portfolio" />
 
-        <img src="/assets/images/other/portfolio.jpg" alt="Default Portfolio">
+        <img src="/assets/images/other/portfolio.jpg" alt="Default Portfolio" />
 
     </div>
         

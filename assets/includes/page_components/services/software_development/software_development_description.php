@@ -60,7 +60,7 @@
 
     <div id="WebDevelopmentSummaryOfService" class="summaryOfService">
 
-        <img src="/assets/images/services/software_development/overview_web_development.webp" alt="Web development">
+        <img src="/assets/images/services/software_development/overview_web_development.webp" alt="Web development" />
         
         <h2 class="item--SubSectionTitle">Web</h2>
         

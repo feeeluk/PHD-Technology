@@ -1,34 +1,34 @@
 <head>
 
+    <!-- Metadata -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PDH Technology: A business that helps other businesses to make better use of their data, tools, ideas, and technology.">
+    <meta name="keywords" content="PDH Technology, Technology, Ideas, Business Analysis, Product Owner, Software Development, Web Development, .Net Development, Project Management, Digital Migrations, Data Maniupulation, Data Management, Artificial Intelligence, Skills Development, Training, Digital Media, Marketing, UI, UX, UI/UX, Proof Of Concept ">
+    <meta name="author" content="Philip Henning">
 
-        <link rel="icon" type="image/x-icon" href="/assets/images/favicon/favicon.ico">
-    
-        <!-- resets CSS -->
-        <link rel="stylesheet" href="/assets/styles/reset.css?v=10"> 
 
-        <!-- sets the look and feel -->
-        <link rel="stylesheet" href="/assets/styles/variables.css?v=10">
-    
-        <!-- the core layouts and design -->
-        <link rel="stylesheet" href="/assets/styles/layout_general.css?v=10"> 
-        <link rel="stylesheet" href="/assets/styles/layout_header.css?v=10">
-        <link rel="stylesheet" href="/assets/styles/layout_homepage.css?v=10">
-        <link rel="stylesheet" href="/assets/styles/layout_about.css?v=10">
-        <link rel="stylesheet" href="/assets/styles/layout_services.css?v=10">
-        <link rel="stylesheet" href="/assets/styles/layout_portfolio.css?v=10">
-        <link rel="stylesheet" href="/assets/styles/layout_contact.css?v=10">
-    
-        <!-- components -->
-        <link rel="stylesheet" href="/assets/styles/components.css?v=10">   
-    
-        <!-- helper classes -->
-        <link rel="stylesheet" href="/assets/styles/utilities.css?v=10">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon/favicon.ico">
 
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/styles/reset.css?v=10"> 
+    <link rel="stylesheet" href="/assets/styles/variables.css?v=10">
+    <link rel="stylesheet" href="/assets/styles/layout_general.css?v=10"> 
+    <link rel="stylesheet" href="/assets/styles/layout_header.css?v=10">
+    <link rel="stylesheet" href="/assets/styles/layout_homepage.css?v=10">
+    <link rel="stylesheet" href="/assets/styles/layout_about.css?v=10">
+    <link rel="stylesheet" href="/assets/styles/layout_services.css?v=10">
+    <link rel="stylesheet" href="/assets/styles/layout_portfolio.css?v=10">
+    <link rel="stylesheet" href="/assets/styles/layout_contact.css?v=10">
+    <link rel="stylesheet" href="/assets/styles/components.css?v=10">   
+    <link rel="stylesheet" href="/assets/styles/utilities.css?v=10">
+
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
+    <!-- Javascript -->
     <script defer src="/assets/scripts/script.js"></script>
 
     <title>

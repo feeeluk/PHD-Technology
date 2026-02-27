@@ -6,7 +6,7 @@
 
     <div id="ProjectManagementSummaryOfService" class="summaryOfService">
 
-        <img src="/assets/images/services/project_management/overview_project_management.webp" alt="Project management">
+        <img src="/assets/images/services/project_management/overview_project_management.webp" alt="Project management" />
 
         <p>
             Project management is the discipline of planning, organizing, and overseeing work to achieve specific goals within a defined timeframe, budget, and scope. It involves applying knowledge, skills, tools, and techniques to ensure a project is completed successfully.

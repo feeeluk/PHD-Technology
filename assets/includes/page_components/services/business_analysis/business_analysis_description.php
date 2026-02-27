@@ -6,7 +6,7 @@
 
     <div id="BusinessAnalysisSummaryOfService" class="summaryOfService">
 
-        <img src="/assets/images/services/business_analysis/overview_business_analysis.webp" alt="business analysis">
+        <img src="/assets/images/services/business_analysis/overview_business_analysis.webp" alt="business analysis" />
         
         <p>
             Business analysis is one of the most effective ways an organisation can improve how it operates, makes decisions, and delivers value.

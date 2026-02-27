@@ -7,7 +7,7 @@
         
     <div id="ArtificialIntelligenceSummaryOfService" class="summaryOfService">
             
-        <img src="/assets/images/services/artificial_intelligence/overview_artificial_intelligence.webp" alt="Artificial Intelligence">
+        <img src="/assets/images/services/artificial_intelligence/overview_artificial_intelligence.webp" alt="Artificial Intelligence" />
     
         <p>
             Relating specifically to AI in the workplace.

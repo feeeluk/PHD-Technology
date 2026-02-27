@@ -6,7 +6,7 @@
     
     <div id="UiUxSummaryOfService" class="summaryOfService">
 
-        <img src="/assets/images/services/ui_ux/overview_ui_ux.webp" alt="UI/UX">
+        <img src="/assets/images/services/ui_ux/overview_ui_ux.webp" alt="UI/UX" />
             
         <p>
             UI/UX is the discipline of identifying needs and determining the best solutions to meet those needs.

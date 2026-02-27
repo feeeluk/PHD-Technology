@@ -12,7 +12,7 @@
 
     <a  class="nextSteps" href="/pages/contact.php">
 
-        <img src="/assets/images/other/get_in_touch.webp" alt="Call Us">
+        <img src="/assets/images/other/get_in_touch.webp" alt="Call Us" />
 
     </a>
 

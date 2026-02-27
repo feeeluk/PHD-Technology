@@ -7,7 +7,7 @@
 
     <div id="DigitalMediaAndMarketingSummaryOfService" class="summaryOfService">
 
-        <img src="/assets/images/services/digital_media_and_marketing/overview_digital_media_and_marketing.webp" alt="Digital media & marketing">
+        <img src="/assets/images/services/digital_media_and_marketing/overview_digital_media_and_marketing.webp" alt="Digital media & marketing" />
 
         <p>
             Digital Media = Online content (videos, images, articles, ads, etc.).

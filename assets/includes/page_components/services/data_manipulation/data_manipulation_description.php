@@ -6,7 +6,7 @@
 
     <div id="DataManipulationSummaryOfService" class="summaryOfService">            
 
-        <img src="/assets/images/services/data_manipulation/overview_data_manipulation.webp" alt="data manipulation">         
+        <img src="/assets/images/services/data_manipulation/overview_data_manipulation.webp" alt="data manipulation" />         
     
         <p>
             Data manipulation is the process of adjusting, organizing, or transforming data to make it more meaningful, accurate, or useful. It’s often done to prepare data for analysis, reporting, or decision-making.

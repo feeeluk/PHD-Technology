@@ -42,7 +42,7 @@
             width: 100%;
             float: left;
             padding: 0;
-            margin-bottom: var(--space-2);
+            margin: var(--space-1) var(--space-4) var(--space-2) 0 ;
         }
 
                 /* LARGER DEVICES */
@@ -53,7 +53,6 @@
                         /* make image bigger */
                         .summaryOfService img{
                             width: fit-content;
-                            padding: 0 1rem 0 0;
                         }
 
                     }
