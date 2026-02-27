@@ -33,7 +33,7 @@
         /* Each service has an image associated with it. */
         .text--FloatLeft{
             object-fit:contain;
-            height: 150px;
+            /* height: 150px; */
             width: 100%;
             float: left;
             padding: 0;
@@ -47,7 +47,8 @@
 
                         /* make image bigger */
                         .text--FloatLeft{
-                            width: fit-content;
+                            height: auto;
+                            width: 200px;
                         }
 
                     }
