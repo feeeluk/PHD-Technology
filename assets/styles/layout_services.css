@@ -16,7 +16,7 @@
                     
                     /* make the summary section as large as the image */
                     .text:first-of-type{
-                        min-height: 225px;
+                        min-height: 190px;
                     }
 
                 }
@@ -25,16 +25,15 @@
                         
                     /* make the summary section as large as the image */
                     .text:first-of-type{
-                         min-height: 300px;
+                         min-height: 220px;
                     }
 
                 }
             
         /* Each service has an image associated with it. */
         .text--FloatLeft{
-            object-fit: cover;
+            object-fit:contain;
             height: 150px;
-            max-height: 150px;
             width: 100%;
             float: left;
             padding: 0;
@@ -57,10 +56,8 @@
 
                         /* make image bigger */
                         .text--FloatLeft{
-                            height: 225px;
-                            max-height: 225px;
-                            width: 300px;
-                            max-width: 300px;
+                            height: auto;
+                            width: 275px;
                         }
 
                     }
@@ -69,10 +66,8 @@
 
                         /* make image bigger */
                         .text--FloatLeft{
-                            height: 300px;
-                            max-height: 300px;
-                            width: 450px;
-                            max-width: 450px;
+                            height: auto;
+                            width: 325px;
                         }
 
                     }

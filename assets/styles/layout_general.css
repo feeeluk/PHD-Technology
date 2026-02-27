@@ -71,6 +71,10 @@
         margin-bottom: 0;
     }
 
+    ol, ul{
+        list-style-position: inside;
+    }
+
 /* Containers */
 /* ============================================== */
 

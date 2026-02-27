@@ -1,15 +1,9 @@
 <div id="AboutDescription" class="box--WithPadding item text">
 
     <h1 class="item--Title">ABOUT US</h1>
-    
-    <figure>
 
-        <img src="/assets/images/other/person_placeholder.png" alt="Photograph of Phil Henning" class="text--FloatLeft" />
+    <img src="/assets/images/other/person_placeholder.png" alt="Photograph of Phil Henning" class="text--FloatLeft" />
 
-        <figcaption>Phil Henning (Technologist / Owner)</figcaption>
-
-    </figure>
-    
     <p>
         Hi! I'm Phil. I have over 15 years of experience working with different technologies in various business, across a variety industries.
         
