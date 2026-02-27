@@ -4,9 +4,9 @@
 
     <h1 class='item--Title'>BUSINESS ANALYSIS</h1>
 
-    <div id="BusinessAnalysisSummaryOfService" class="summaryOfService">
+    <div id="BusinessAnalysisSummaryOfService" class="text">
 
-        <img src="/assets/images/services/business_analysis/overview_business_analysis.webp" alt="business analysis" />
+        <img src="/assets/images/services/business_analysis/overview_business_analysis.webp" alt="business analysis" class="text--FloatLeft" />
         
         <p>
             Business analysis is one of the most effective ways an organisation can improve how it operates, makes decisions, and delivers value.
@@ -41,7 +41,7 @@
 
     ?>
 
-    <div id="BusinessAnalysisDetailsOfService" class="detailsOfService">
+    <div id="BusinessAnalysisDetailsOfService" class="text">
 
         <details>
 

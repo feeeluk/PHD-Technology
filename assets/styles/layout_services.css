@@ -3,13 +3,10 @@
     /* DESCRIPTION section */
     /* ============================================== */ 
     
-        /* The first DIV of the 'Description'. This is the only part shown on the Homepage */
-        .summaryOfService{
-            padding: 0;
-            border: none;
-            margin-bottom: 1rem;
+        /* The first part of the 'Description'. This is the only part shown on the Homepage */
+        .text{
+            margin-bottom: var(--space-4);
             min-height: 150px;
-            border: none;
         }
 
                 /* LARGER DEVICES */
@@ -17,8 +14,8 @@
 
                 @media (min-width: 640px){
                     
-                    /* make summaryOfService bigger */
-                    .summaryOfService{
+                    /* make the summary section as large as the image */
+                    .text:first-of-type{
                         min-height: 225px;
                     }
 
@@ -26,16 +23,15 @@
 
                 @media (min-width: 960px){
                         
-                    /* make summaryOfService bigger */
-                    .summaryOfService{
+                    /* make the summary section as large as the image */
+                    .text:first-of-type{
                          min-height: 300px;
                     }
 
                 }
-
-                
+            
         /* Each service has an image associated with it. */
-        .summaryOfService img{
+        .text--FloatLeft{
             object-fit: cover;
             height: 150px;
             max-height: 150px;
@@ -51,7 +47,7 @@
                     @media (min-width: 400px){
 
                         /* make image bigger */
-                        .summaryOfService img{
+                        .text--FloatLeft{
                             width: fit-content;
                         }
 
@@ -60,7 +56,7 @@
                     @media (min-width: 640px){
 
                         /* make image bigger */
-                        .summaryOfService img{
+                        .text--FloatLeft{
                             height: 225px;
                             max-height: 225px;
                             width: 300px;
@@ -72,7 +68,7 @@
                     @media (min-width: 960px){
 
                         /* make image bigger */
-                        .summaryOfService img{
+                        .text--FloatLeft{
                             height: 300px;
                             max-height: 300px;
                             width: 450px;
@@ -81,15 +77,15 @@
 
                     }
 
-        /* when two .summaryOfService classes are next to each other (e.g. 'Software Development') */
-        .summaryOfService + .summaryOfService{
+        /* when two .text classes are next to each other (e.g. 'Software Development') */
+        /* .text + .text{
             margin-top: var(--space-fixed-2);
-        }
+        } */
         
-        /* when .summaryOfService comes immediately after detailsOfService (e.g. 'Software Development') */
-        .detailsOfService + .summaryOfService{
+        /* when text comes immediately after #DetailsOfService (e.g. 'Software Development') */
+        /* #DetailsOfService + .text{
             margin-top: var(--space-fixed-2);
-        }
+        } */
                             
         /* button parent tag */
         .clickForDetails{        
@@ -125,11 +121,6 @@
             border: 1px solid black;
             color: white;
             width: fit-content;
-        }
-
-        /* The second section of the 'Description' gives more information about the service */
-        .detailsOfService{
-            padding: 0; /* Removes the unnecessary duplication of padding */
         }
 
     /* BENEFITS section */

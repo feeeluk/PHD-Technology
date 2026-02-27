@@ -1,10 +1,10 @@
-<div id="AboutDescription" class="box--WithPadding item">
+<div id="AboutDescription" class="box--WithPadding item text">
 
     <h1 class="item--Title">ABOUT US</h1>
     
     <figure>
 
-        <img src="/assets/images/other/person_placeholder.png" alt="Photograph of Phil Henning" />
+        <img src="/assets/images/other/person_placeholder.png" alt="Photograph of Phil Henning" class="text--FloatLeft" />
 
         <figcaption>Phil Henning (Technologist / Owner)</figcaption>
 

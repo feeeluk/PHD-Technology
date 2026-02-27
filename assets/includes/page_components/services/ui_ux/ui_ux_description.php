@@ -4,9 +4,9 @@
 
     <h1 class='item--Title'>UI/UX</h1>
     
-    <div id="UiUxSummaryOfService" class="summaryOfService">
+    <div id="UiUxSummaryOfService" class="text">
 
-        <img src="/assets/images/services/ui_ux/overview_ui_ux.webp" alt="UI/UX" />
+        <img src="/assets/images/services/ui_ux/overview_ui_ux.webp" alt="UI/UX" class="text--FloatLeft" />
             
         <p>
             UI/UX is the discipline of identifying needs and determining the best solutions to meet those needs.
@@ -37,7 +37,7 @@
 
     ?>
     
-    <div id="UiUxDetailsOfService" class="detailsOfService">
+    <div id="UiUxDetailsOfService" class="text">
 
         <details>
 

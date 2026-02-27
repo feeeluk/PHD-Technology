@@ -5,9 +5,9 @@
     <h1 class='item--Title'>DIGITAL MEDIA & MARKETING</h1>
     <h3 class='item--SubTitle'>(COMING SOON)</h3>
 
-    <div id="DigitalMediaAndMarketingSummaryOfService" class="summaryOfService">
+    <div id="DigitalMediaAndMarketingSummaryOfService" class="text">
 
-        <img src="/assets/images/services/digital_media_and_marketing/overview_digital_media_and_marketing.webp" alt="Digital media & marketing" />
+        <img src="/assets/images/services/digital_media_and_marketing/overview_digital_media_and_marketing.webp" alt="Digital media & marketing" class="text--FloatLeft" />
 
         <p>
             Digital Media = Online content (videos, images, articles, ads, etc.).
@@ -38,7 +38,7 @@
 
     ?>
 
-    <div id="DigitalMediaAndMarketingDetailsOfService" class="detailsOfService">
+    <div id="DigitalMediaAndMarketingDetailsOfService" class="text">
 
         <details>
 

@@ -4,9 +4,9 @@
 
     <h1 class='item--Title'>SKILLS DEVELOPMENT & TRAINING</h1>
 
-    <div id="SkillsDevelopmentAndTrainingSummaryOfService" class="summaryOfService">
+    <div id="SkillsDevelopmentAndTrainingSummaryOfService" class="text">
 
-        <img src="/assets/images/services/skills_development_and_training/overview_skills_development_and_training.webp" alt="Skills development & training" />
+        <img src="/assets/images/services/skills_development_and_training/overview_skills_development_and_training.webp" alt="Skills development & training" class="text--FloatLeft" />
 
         <p>
             Skills development and training is the process of helping individuals improve their abilities, knowledge, and competencies so they can perform better in their current roles or prepare for future opportunities.
@@ -33,7 +33,7 @@
 
     ?>
 
-    <div id="SkillsDevelopmentAndTrainingDetailsOfService" class="detailsOfService">
+    <div id="SkillsDevelopmentAndTrainingDetailsOfService" class="text">
 
         <details>
 

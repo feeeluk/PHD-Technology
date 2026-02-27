@@ -4,9 +4,9 @@
 
     <h1 class='item--Title'>DATA MANIPULATION</h1>
 
-    <div id="DataManipulationSummaryOfService" class="summaryOfService">            
+    <div id="DataManipulationSummaryOfService" class="text">            
 
-        <img src="/assets/images/services/data_manipulation/overview_data_manipulation.webp" alt="data manipulation" />         
+        <img src="/assets/images/services/data_manipulation/overview_data_manipulation.webp" alt="data manipulation" class="text--FloatLeft" />         
     
         <p>
             Data manipulation is the process of adjusting, organizing, or transforming data to make it more meaningful, accurate, or useful. It’s often done to prepare data for analysis, reporting, or decision-making.
@@ -37,7 +37,7 @@
 
     ?>
 
-    <div id="DataManipulationDetailsOfService" class="detailsOfService">
+    <div id="DataManipulationDetailsOfService" class="text">
 
         <details>
 

@@ -15,9 +15,9 @@
 
     ?>
 
-    <div id="DotNetDevelopmentSummaryOfService" class="summaryOfService">
+    <div id="DotNetDevelopmentSummaryOfService" class="text">
 
-        <img src="/assets/images/services/software_development/overview_dot_net_development.webp" alt=".NET devlopment">
+        <img src="/assets/images/services/software_development/overview_dot_net_development.webp" alt=".NET devlopment" class="text--FloatLeft" />
 
         <h2 class="item--SubSectionTitle">.NET</h2>
 
@@ -34,7 +34,7 @@
 
     ?>
 
-        <div id="DotNetDevelopmentDetailsOfService" class="detailsOfService">
+        <div id="DotNetDevelopmentDetailsOfService" class="text">
 
         <details>
 
@@ -58,9 +58,9 @@
     
     ?>
 
-    <div id="WebDevelopmentSummaryOfService" class="summaryOfService">
+    <div id="WebDevelopmentSummaryOfService" class="text">
 
-        <img src="/assets/images/services/software_development/overview_web_development.webp" alt="Web development" />
+        <img src="/assets/images/services/software_development/overview_web_development.webp" alt="Web development" class="text--FloatLeft" />
         
         <h2 class="item--SubSectionTitle">Web</h2>
         
@@ -89,7 +89,7 @@
 
     ?>
 
-    <div id="WebDevelopmentDetailsOfService" class="detailsOfService">
+    <div id="WebDevelopmentDetailsOfService" class="text">
         
         <details>
 

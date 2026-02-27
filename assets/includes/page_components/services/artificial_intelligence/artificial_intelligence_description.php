@@ -5,9 +5,9 @@
     <h1 class='item--Title'>ARTIFICIAL INTELLIGENCE</h1>
     <h3 class='item--SubTitle'>(COMING SOON)</h3>
         
-    <div id="ArtificialIntelligenceSummaryOfService" class="summaryOfService">
+    <div id="ArtificialIntelligenceSummaryOfService" class="text">
             
-        <img src="/assets/images/services/artificial_intelligence/overview_artificial_intelligence.webp" alt="Artificial Intelligence" />
+        <img src="/assets/images/services/artificial_intelligence/overview_artificial_intelligence.webp" alt="Artificial Intelligence" class="text--FloatLeft" />
     
         <p>
             Relating specifically to AI in the workplace.
@@ -42,7 +42,7 @@
 
     ?>
 
-    <div id="ArtificialIntelligenceDetailsOfService" class="detailsOfService">
+    <div id="ArtificialIntelligenceDetailsOfService" class="text">
 
         <details>
 
