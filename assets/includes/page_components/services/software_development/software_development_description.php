@@ -2,28 +2,51 @@
 
 <div id="SoftwareDevelopmentDescription" class="box--WithPadding item">
 
-    <?php
+    <h1 class='item--Title'>SOFTWARE DEVELOPMENT</h1>
 
-        if (str_contains($_SERVER['REQUEST_URI'],'software_development') == true)
-            {
-                echo "<h1 class='item--Title'>SOFTWARE DEVELOPMENT</h1>";
-            }
-
-            else {
-                echo "<h1 class='item--Title'>SOFTWARE DEVELOPMENT</h1>";
-            }
-
-    ?>
-
-    <div id="DotNetDevelopmentSummaryOfService" class="text">
+    <div id="DotNetDevelopmentSummaryOfService" class="text summaryOfService">
 
         <img src="/assets/images/services/software_development/overview_dot_net_development.webp" alt=".NET devlopment" class="text--FloatLeft" />
 
         <h2 class="item--SubSectionTitle">.NET</h2>
 
+        <?php
+
+            if (str_contains($_SERVER['REQUEST_URI'],'software_development') == true)
+            {
+
+                    echo "<details class='details'>";
+                        
+                        echo "<summary class='summary'>Summary</summary>";
+
+                }
+
+        ?>
+        
         <p>
             .NET development is the process of building software applications using Microsoft’s .NET framework. It’s a popular platform for creating a wide range of apps—from web and mobile to desktop, cloud, gaming, and IoT solutions.
         </p>
+
+        <?php
+
+            if (str_contains($_SERVER['REQUEST_URI'],'software_development') == true)
+            {
+
+        ?>
+
+                </details>
+
+                <details class="details">
+
+                    <summary class="summary">More Information</summary>
+
+                </details>
+
+        <?php
+        
+                }
+
+        ?>
 
     </div>
 
@@ -34,23 +57,15 @@
 
     ?>
 
-        <div id="DotNetDevelopmentDetailsOfService" class="text">
-
-        <details>
-
-            <summary>More Information</summary>
-
-            <p>This is more information</p>
-            
-        </details>
+    <div id="DotNetDevelopmentDetailsOfService" class="text detailsOfService">
     
         <h3 class="item--Heading">.NET development with PHD Technology</h3>
 
-            <p>
-                TEST. This paragraph should only be visible in the specific service page, not on the homepage.
-            </p>
+        <p>
+            TEST. This paragraph should only be visible in the specific service page, not on the homepage.
+        </p>
 
-        </div>
+    </div>
     
     <?php
 
@@ -58,15 +73,49 @@
     
     ?>
 
-    <div id="WebDevelopmentSummaryOfService" class="text">
+    <div id="WebDevelopmentSummaryOfService" class="text summaryOfService">
 
         <img src="/assets/images/services/software_development/overview_web_development.webp" alt="Web development" class="text--FloatLeft" />
         
         <h2 class="item--SubSectionTitle">Web</h2>
         
+        <?php
+
+            if (str_contains($_SERVER['REQUEST_URI'],'software_development') == true)
+                {
+
+                    echo "<details class='details'>";
+                        
+                        echo "<summary class='summary'>Summary</summary>";
+
+                }
+
+        ?>
+        
         <p>
             Web development is the process of creating and maintaining websites or web applications that run on the internet (or an intranet). It involves everything from designing how a site looks to making sure it functions smoothly behind the scenes.
         </p>
+
+        <?php
+
+            if (str_contains($_SERVER['REQUEST_URI'],'software_development') == true)
+                {
+
+        ?>
+
+                </details>
+
+                <details class="details">
+
+                    <summary class="summary">More Information</summary>
+
+                </details>
+
+        <?php
+        
+                }
+
+        ?>
 
     </div>
     
@@ -89,15 +138,7 @@
 
     ?>
 
-    <div id="WebDevelopmentDetailsOfService" class="text">
-        
-        <details>
-
-            <summary>More Information</summary>
-
-            <p>This is more information</p>
-            
-        </details>
+    <div id="WebDevelopmentDetailsOfService" class="text detailsOfService">
     
         <h3 class="item--Heading">Web development with PHD Technology</h3>
         

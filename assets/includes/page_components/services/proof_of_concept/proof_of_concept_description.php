@@ -8,6 +8,19 @@
 
         <img src="/assets/images/services/proof_of_concept/overview_proof_of_concept.webp" alt="Proof of Concept" class="text--FloatLeft" />
 
+        <?php
+
+            if (str_contains($_SERVER['REQUEST_URI'],'proof_of_concept') == true)
+                {
+
+                    echo "<details class='details' open>";
+                        
+                        echo "<summary class='summary'>Summary</summary>";
+
+                }
+
+        ?>
+
         <p>
             A 'Proof of Concept' (PoC) is a demonstration - often in the form of a small, pilot project or prototype - that tests whether a business idea, product, service, or solution is feasible, practical, and viable before investing more time and resources into full-scale development or deployment.
         </p>
@@ -19,6 +32,27 @@
         <p>
             As each PoC is highly unique, please get in touch with us to discuss your needs.
         </p>
+
+        <?php
+
+            if (str_contains($_SERVER['REQUEST_URI'],'proof_of_concept') == true)
+                {
+
+        ?>
+
+                </details>
+
+                <details class="details">
+
+                    <summary class="summary">More Information</summary>
+
+                </details>
+
+        <?php
+        
+                }
+
+        ?>
             
     </div>
 
@@ -43,14 +77,6 @@
 
     <div id="ProofOfConceptDetailsOfService" class="text">
 
-        <details>
-
-            <summary>More Information</summary>
-
-            <p>This is more information</p>
-            
-        </details>
-    
         <h3 class="item--Heading">Proof of Concept with PHD Technology</h3>
         
         <p>

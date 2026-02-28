@@ -2,11 +2,11 @@
 
     <h1 class="item--Title">ABOUT US</h1>
 
-    <img src="/assets/images/other/person_placeholder.png" alt="Photograph of Phil Henning" class="text--FloatLeft" />
+    <img src="/assets/images/other/person_placeholder.png" alt="Photograph of Phil Henning" class="text--AboutImage" />
     
-    <details>
+    <details class="details" open>
 
-        <summary>PDH Technology</summary>
+        <summary class="summary">PDH Technology</summary>
 
         <p>
             PDH Technology has one simple mission: to help businesses make better use of their data, tools, ideas, and technology.
@@ -38,65 +38,134 @@
     </details>
     
 
-    <details>
+    <details class="details">
 
-        <summary>How I Work</summary>
+        <summary class="summary">How I Work</summary>
 
-        <p>My background is heavily influenced by agile thinking, especially Scrum. Not in the buzzwordy, corporate sense — but in the practical, human sense. I like short feedback loops, honest conversations, and solutions that grow with you rather than being dropped on you fully formed and impossible to maintain.
+        <p>
+            My background is heavily influenced by agile thinking, especially Scrum. Not in the buzzwordy, corporate sense — but in the practical, human sense.
+        </p>
+            
+        <p>
+            I like short feedback loops, honest conversations, and solutions that grow with you rather than being dropped on you fully formed and impossible to maintain.
+        </p>
 
-I don’t believe in disappearing for six months and returning with something that doesn’t match what you asked for. I’d rather work alongside you, iterating, adjusting, and making sure every step makes sense. Whether we’re building a piece of software, improving a process, or exploring a new idea, the goal is always the same: make things clearer, simpler, and more effective.</p>
-
-    </details>
-
-    <details>
-
-        <summary>What PDH Technology Offers</summary>
-
-        <p>Over the years, I’ve developed a broad toolkit that lets me support businesses in lots of different ways. PDH Technology offers nine core services:
-
-Business Analysis — Understanding problems, defining requirements, mapping processes, and helping teams make better decisions with clarity and confidence.
-
-Software Development — Building practical, maintainable solutions using modern tools and clean, scalable code.
-
-Skills Development & Training — Helping teams grow their capabilities, whether that’s technical skills, digital literacy, or understanding new tools.
-
-Artificial Intelligence — Exploring AI opportunities, building prototypes, and helping businesses understand how AI can support their goals.
-
-UI & UX — Designing interfaces and experiences that feel intuitive, human, and aligned with how people actually work.
-
-Digital Migrations — Moving systems, data, or processes from old platforms to new ones without the stress and chaos that usually comes with it.
-
-Data Manipulation — Cleaning, transforming, and organising data so it becomes a useful asset rather than a headache.
-
-Proof of Concepts — Testing ideas quickly and cheaply to see what’s worth investing in.
-
-Digital Media & Marketing — Helping businesses present themselves clearly online, from content to visuals to strategy.
-
-These services might look varied on the surface, but they all connect to the same core idea: helping businesses use technology in a way that actually works for them.</p>
+        <p>
+            I don’t believe in disappearing for six months and returning with something that doesn’t match what you asked for. I’d rather work alongside you, iterating, adjusting, and making sure every step makes sense.
+        </p>
+            
+        <p>
+            Whether we’re building a piece of software, improving a process, or exploring a new idea, the goal is always the same: make things clearer, simpler, and more effective.
+        </p>
 
     </details>
 
-    <details>
+    <details class="details">
 
-        <summary>Why PDH Technology Exists</summary>
+        <summary class="summary">What PDH Technology Offers</summary>
 
-        <p>I started PDH Technology because I kept seeing the same pattern: businesses investing in tools they didn’t fully understand, processes that didn’t fit their needs, or solutions that were far more complicated than they needed to be. Technology should make life easier, not harder.
+        <p>
+            Over the years, I’ve developed a broad toolkit that lets me support businesses in lots of different ways. PDH Technology offers nine core services:
+            </p>
 
-My approach is grounded in three beliefs:
+        <p>
+            <b>Business Analysis</b>
+            — Understanding problems, defining requirements, mapping processes, and helping teams make better decisions with clarity and confidence.
+        </p>
 
-Evolution over revolution — Big, dramatic changes often fail. Small, thoughtful improvements succeed.
+        <p>
+            <b>Digital Migrations</b>
+            — Moving systems, data, or processes from old platforms to new ones without the stress and chaos that usually comes with it.
+        </p>
 
-Relationships over contracts — Trust and communication matter more than paperwork.
+        <p>
+            <b>Software Development</b>
+            — Building practical, maintainable solutions using modern tools and clean, scalable code.
+        </p>
 
-Curiosity over tradition — Asking “why?” leads to better outcomes than doing things “because that’s how we’ve always done it.”
+        <p>
+            <b>Skills Development & Training</b>
+            — Helping teams grow their capabilities, whether that’s technical skills, digital literacy, or understanding new tools.
+        </p>
+        
+        <p>
+            <b>UI & UX</b>
+            — Designing interfaces and experiences that feel intuitive, human, and aligned with how people actually work.
+        </p>
+        
+        
+        <p>
+            <b>Data Manipulation</b>
+            — Cleaning, transforming, and organising data so it becomes a useful asset rather than a headache.
+        </p>
 
-These aren’t slogans. They’re how I actually work. They’re why clients come back, and why projects feel collaborative rather than transactional.</p>
+        <p>
+            <b>Proof of Concepts</b>
+            — Testing ideas quickly and cheaply to see what’s worth investing in.
+        </p>
+
+        <p>
+            <b>Artificial Intelligence (coming soon)</b>
+            — Exploring AI opportunities, building prototypes, and helping businesses understand how AI can support their goals.
+        </p>
+        
+        <p>
+            <b>Digital Media & Marketing (coming soon)</b>
+            — Helping businesses present themselves clearly online, from content to visuals to strategy.
+        </p>
+
+        <p>
+            These services might look varied on the surface, but they all connect to the same core idea: helping businesses use technology in a way that actually works for them.
+        </p>
 
     </details>
 
-    <details>
+    <details class="details">
 
-        <summary>A Bit About Me</summary>
+        <summary class="summary">Why PDH Technology Exists</summary>
+
+        <p>
+            I started PDH Technology because I kept seeing the same pattern: businesses investing in tools they didn’t fully understand (or need), processes that didn’t fit their purpose, or solutions that were far more complicated than they needed to be.
+        </p>
+
+        <p>
+            Technology should make life easier, not harder.
+        </p>
+
+        <p>
+            Therefore my approach is different, focusing on three key principles:
+        </p>
+
+        <p>
+            <b>Evolution over revolution</b>
+            <br>
+            Big, dramatic changes often fail. Small, thoughtful improvements 
+            succeed.
+        </p>
+
+        <p>
+            <b>Relationships over contracts</b>
+            <br>
+            Trust and communication matter more than paperwork.
+        </p>
+
+        <p>
+            <b>Curiosity over tradition</b>
+            <br>
+            Asking “why?” leads to better outcomes than doing things “because 
+            that’s how we’ve always done it”.
+        </p>
+
+        <p>
+            These aren’t slogans. They’re how I actually work. They’re why clients come back, and why 
+            projects feel collaborative rather than transactional.
+        </p>
+
+    </details>
+
+    <details class="details">
+
+        <summary class="summary">A Bit About Me</summary>
 
         <p>I’ve always been someone who likes to understand how things work — systems, processes, people, technology. Over the last 15 years, I’ve worked in environments ranging from small teams to large organisations, and I’ve learned that the most valuable skill isn’t coding or analysis or design. It’s the ability to listen, ask the right questions, and translate complexity into something people can act on.
 
@@ -104,9 +173,9 @@ I enjoy building things, improving things, and helping people feel more confiden
 
     </details>
 
-    <details>
+    <details class="details">
 
-        <summary>What You Can Expect</summary>
+        <summary class="summary">What You Can Expect</summary>
 
         <p>If you work with me, you can expect:
 

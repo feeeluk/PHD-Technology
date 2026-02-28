@@ -27,7 +27,7 @@
         <h3 class="benefits--Heading">Low risk</h3>
 
         <p class="benefits--Text">
-            Unlike hiring a contractor or salaried staff, our services do not come with any lengthy commitments or financial penalty clauses. Also, as our services do not intefere with the day-to-day operation of your business, there are no withdrawal issues. 
+            Unlike hiring a contractor or salaried staff, our services do not come with any lengthy commitments or financial penalty clauses. Also, as our services do not intefere with the day-to-day operation of your business, there are no nagging or lingering ties. 
         </p>
 
     </span>

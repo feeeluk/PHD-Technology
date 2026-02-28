@@ -6,7 +6,7 @@
         /* The first part of the 'Description'. This is the only part shown on the Homepage */
         .text{
             margin-bottom: var(--space-4);
-            min-height: 150px;
+            min-height: 120px;
         }
 
                 /* LARGER DEVICES */
@@ -14,18 +14,36 @@
 
                 @media (min-width: 640px){
                     
-                    /* make the summary section as large as the image */
+                    /* set the height of the first .text section to be as tall as the image */
                     .text:first-of-type{
-                        min-height: 190px;
+                        min-height: 170px;
+                    }
+
+                    
+                    /* remove height from all subsquent .text sections  */
+                    .text{
+                        min-height: 0;
+                    }
+                    
+                    /* set .summaryOfService class to the same minimum as .text */
+                    .summaryOfService{
+                        min-height: 170px;
                     }
 
                 }
 
                 @media (min-width: 960px){
                         
-                    /* make the summary section as large as the image */
                     .text:first-of-type{
-                         min-height: 220px;
+                         min-height: 190px;
+                    }
+
+                    .text{
+                        min-height: 0;
+                    }
+
+                    .summaryOfService{
+                        min-height: 190px;
                     }
 
                 }
@@ -33,7 +51,6 @@
         /* Each service has an image associated with it. */
         .text--FloatLeft{
             object-fit:contain;
-            /* height: 150px; */
             width: 100%;
             float: left;
             padding: 0;
@@ -73,15 +90,32 @@
 
                     }
 
-        /* when two .text classes are next to each other (e.g. 'Software Development') */
-        /* .text + .text{
-            margin-top: var(--space-fixed-2);
-        } */
+        /* about image does not act the same as service images */
+        .text--AboutImage{
+            object-fit:contain;
+            width: 300px;
+            margin: 0 auto var(--space-4) auto;
+        }
+
+                /* LARGER DEVICES */
+                /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+                    @media (min-width: 1280px){
+
+                        /* make image bigger */
+                        .text--AboutImage{
+                            float: right;
+                            height: auto;
+                            width: 325px;
+                            margin: 0 0 var(--space-2) var(--space-4);
+                        }
+
+                    }
         
-        /* when text comes immediately after #DetailsOfService (e.g. 'Software Development') */
-        /* #DetailsOfService + .text{
+        /* when .summaryOfService comes immediately after .detailsOfService (e.g. 'Software Development') */
+        .detailsOfService + .summaryOfService{
             margin-top: var(--space-fixed-2);
-        } */
+        }
                             
         /* button parent tag */
         .clickForDetails{        

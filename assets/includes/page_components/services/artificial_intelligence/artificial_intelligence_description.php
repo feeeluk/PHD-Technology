@@ -8,6 +8,19 @@
     <div id="ArtificialIntelligenceSummaryOfService" class="text">
             
         <img src="/assets/images/services/artificial_intelligence/overview_artificial_intelligence.webp" alt="Artificial Intelligence" class="text--FloatLeft" />
+
+        <?php
+
+                if (str_contains($_SERVER['REQUEST_URI'],'artificial_intelligence') == true)
+                    {
+
+                        echo "<details class='details' open>";
+                            
+                            echo "<summary class='summary'>Summary</summary>";
+
+                    }
+
+        ?>
     
         <p>
             Relating specifically to AI in the workplace.
@@ -20,6 +33,27 @@
         <p>
             We can help YOU leverage AI technology to work faster, smarter, and more accurately! 
         </p>
+
+        <?php
+
+            if (str_contains($_SERVER['REQUEST_URI'],'artificial_intelligence') == true)
+            {
+
+        ?>
+
+                </details>
+
+                <details class="details">
+
+                    <summary class="summary">More Information</summary>
+
+                </details>
+
+        <?php
+        
+            }
+
+        ?>
 
     </div>
 
@@ -43,14 +77,6 @@
     ?>
 
     <div id="ArtificialIntelligenceDetailsOfService" class="text">
-
-        <details>
-
-            <summary>More Information</summary>
-
-            <p>This is more information</p>
-            
-        </details>
     
         <h3 class="item--Heading">AI with PDH Technology</h3>
     
