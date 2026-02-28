@@ -6,7 +6,7 @@
         /* The first part of the 'Description'. This is the only part shown on the Homepage */
         .text{
             margin-bottom: var(--space-4);
-            min-height: 120px;
+            min-height: 140px;
         }
 
                 /* LARGER DEVICES */
@@ -16,7 +16,7 @@
                     
                     /* set the height of the first .text section to be as tall as the image */
                     .text:first-of-type{
-                        min-height: 170px;
+                        min-height: 180px;
                     }
 
                     
@@ -27,7 +27,7 @@
                     
                     /* set .summaryOfService class to the same minimum as .text */
                     .summaryOfService{
-                        min-height: 170px;
+                        min-height: 180px;
                     }
 
                 }
@@ -35,7 +35,7 @@
                 @media (min-width: 960px){
                         
                     .text:first-of-type{
-                         min-height: 190px;
+                         min-height: 220px;
                     }
 
                     .text{
@@ -43,7 +43,7 @@
                     }
 
                     .summaryOfService{
-                        min-height: 190px;
+                        min-height: 220px;
                     }
 
                 }
