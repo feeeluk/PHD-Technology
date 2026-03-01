@@ -1,6 +1,6 @@
 <div id="ElevatorPitch">
 
-    <h3>
+    <h3 class="elavatorPitchTitle">
         
         Helping businesses to make better use of their data, tools, ideas, and technology
 

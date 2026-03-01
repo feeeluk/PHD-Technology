@@ -37,10 +37,10 @@
         text-align: center;
         padding: 1rem;
         border: none;
+    }
 
-        & h3{
-            margin-bottom: 0;
-        }
+    .elavatorPitchTitle{
+        margin-bottom: 0;
     }
 
     /* split into two divs; a description, and the services offered */

@@ -61,7 +61,7 @@
         }
 
         /* format the content of the primary disclosure space */
-        #DisclosureOne[open]::details-content {
+        #DisclosureOne[open] {
             position: fixed;
             top: var(--height-header);
             left: 0;
@@ -116,29 +116,31 @@
         #DisclosureTwo summary:hover {
             color: var(--disclosure-colour-secondary);
             background-color: var(--colour-1);
+        }
 
-            & span.arrow {
-                border-left-width: var(--disclosure-triangle-size);
-                border-left-style: solid;
-                border-left-color: var(--disclosure-triangle-colour-hover);;
-            }
+        /* Arrow - inactive (hover) */
+        #DisclosureTwo summary:hover .arrow {
+            border-left-width: var(--disclosure-triangle-size);
+            border-left-style: solid;
+            border-left-color: var(--disclosure-triangle-colour-hover);;
         }
 
         /*  Arrow - active */
         #DisclosureTwo[open] summary {
             color: var(--disclosure-colour-secondary);
             background-color: var(--colour-1);
+        }
 
-            & span.arrow {
-                transform: rotate(90deg);
-                border-left-width: var(--disclosure-triangle-size);
-                border-left-style: solid;
-                border-left-color: var(--disclosure-triangle-colour-open);
-            }
+        /*  Arrow - active */
+        #DisclosureTwo[open] summary .arrow {
+            transform: rotate(90deg);
+            border-left-width: var(--disclosure-triangle-size);
+            border-left-style: solid;
+            border-left-color: var(--disclosure-triangle-colour-open);
         }
 
         /* format the content of the secondary disclosure space  */
-        #DisclosureTwo[open]::details-content {
+        #DisclosureTwo[open] {
             display:flex;
             flex-direction: column;
         }
