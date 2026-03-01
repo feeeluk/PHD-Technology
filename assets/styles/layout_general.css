@@ -238,6 +238,22 @@
         background: var(--colour-background-3);
         padding: var(--space-4);
         font-size: var(--fs-xs);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .footer--Left, .footer--Right{
+        min-width: 50%;
+    }
+
+    .footer--Left{
+        text-align: left;
+    }
+
+    .footer--Right{
+        text-align: right;
     }
 
     .footer--Logo{
