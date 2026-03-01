@@ -8,43 +8,17 @@
 
         <img src="/assets/images/services/project_management/overview_project_management.webp" alt="Project management" class="text--FloatLeft" />
 
-        <?php
-
-            if (str_contains($_SERVER['REQUEST_URI'],'project_management') == true)
-                {
-
-                    echo "<details class='details' open>";
-                        
-                        echo "<summary class='summary'>Summary</summary>";
-
-                }
-
-        ?>
-
         <p>
             Project management is the discipline of planning, organizing, and overseeing work to achieve specific goals within a defined timeframe, budget, and scope. It involves applying knowledge, skills, tools, and techniques to ensure a project is completed successfully.
         </p>
 
-        <?php
+        </details>
 
-            if (str_contains($_SERVER['REQUEST_URI'],'project_management') == true)
-                {
+        <details class="details">
 
-        ?>
+            <summary class="summary">More Information</summary>
 
-                </details>
-
-                <details class="details">
-
-                    <summary class="summary">More Information</summary>
-
-                </details>
-
-        <?php
-        
-                }
-
-        ?>
+        </details>
 
     </div>
 

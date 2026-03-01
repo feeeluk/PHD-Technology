@@ -8,19 +8,6 @@
 
         <img src="/assets/images/services/data_manipulation/overview_data_manipulation.webp" alt="data manipulation" class="text--FloatLeft" />         
     
-        <?php
-
-            if (str_contains($_SERVER['REQUEST_URI'],'data_manipulation') == true)
-                {
-
-                    echo "<details class='details' open>";
-                        
-                        echo "<summary class='summary'>Summary</summary>";
-
-                }
-
-        ?>
-        
         <p>
             Data manipulation is the process of adjusting, organizing, or transforming data to make it more meaningful, accurate, or useful. It’s often done to prepare data for analysis, reporting, or decision-making.
         </p>
@@ -29,26 +16,13 @@
             In simple terms, it’s about taking raw data and changing it into a cleaner, more usable form.
         </p>
 
-        <?php
+        </details>
 
-            if (str_contains($_SERVER['REQUEST_URI'],'data_manipulation') == true)
-                {
+        <details class="details">
 
-        ?>
+            <summary class="summary">More Information</summary>
 
-                </details>
-
-                <details class="details">
-
-                    <summary class="summary">More Information</summary>
-
-                </details>
-
-        <?php
-        
-                }
-
-        ?>
+        </details>
 
     </div>
             

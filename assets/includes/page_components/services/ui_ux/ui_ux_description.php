@@ -7,19 +7,6 @@
     <div id="UiUxSummaryOfService" class="text">
 
         <img src="/assets/images/services/ui_ux/overview_ui_ux.webp" alt="UI/UX" class="text--FloatLeft" />
-            
-        <?php
-
-            if (str_contains($_SERVER['REQUEST_URI'],'ui_ux') == true)
-                {
-
-                    echo "<details class='details' open>";
-                        
-                        echo "<summary class='summary'>Summary</summary>";
-
-                }
-
-        ?>
         
         <p>
             UI/UX is the discipline of identifying needs and determining the best solutions to meet those needs.
@@ -29,26 +16,13 @@
             Essentially, it hels organisations understand what they should change, why they should change it, and how to implement that change effectively.
         </p>
 
-        <?php
+        </details>
 
-            if (str_contains($_SERVER['REQUEST_URI'],'ui_ux') == true)
-                {
+        <details class="details">
 
-        ?>
+            <summary class="summary">More Information</summary>
 
-                </details>
-
-                <details class="details">
-
-                    <summary class="summary">More Information</summary>
-
-                </details>
-
-        <?php
-        
-                }
-
-        ?>
+        </details>
         
     </div>
 

@@ -16,7 +16,7 @@
                     
                     /* set the height of the first .text section to be as tall as the image */
                     .text:first-of-type{
-                        min-height: 180px;
+                        min-height: 190px;
                     }
 
                     
@@ -27,7 +27,7 @@
                     
                     /* set .summaryOfService class to the same minimum as .text */
                     .summaryOfService{
-                        min-height: 180px;
+                        min-height: 190px;
                     }
 
                 }

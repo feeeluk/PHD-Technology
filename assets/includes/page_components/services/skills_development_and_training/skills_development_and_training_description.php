@@ -7,44 +7,18 @@
     <div id="SkillsDevelopmentAndTrainingSummaryOfService" class="text">
 
         <img src="/assets/images/services/skills_development_and_training/overview_skills_development_and_training.webp" alt="Skills development & training" class="text--FloatLeft" />
-
-        <?php
-
-            if (str_contains($_SERVER['REQUEST_URI'],'skills_development_and_training') == true)
-                {
-
-                    echo "<details class='details' open>";
-                        
-                        echo "<summary class='summary'>Summary</summary>";
-
-                }
-
-        ?>
         
         <p>
             Skills development and training is the process of helping individuals improve their abilities, knowledge, and competencies so they can perform better in their current roles or prepare for future opportunities.
         </p>
 
-        <?php
+        </details>
 
-            if (str_contains($_SERVER['REQUEST_URI'],'skills_development_and_training') == true)
-                {
+        <details class="details">
 
-        ?>
+            <summary class="summary">More Information</summary>
 
-                </details>
-
-                <details class="details">
-
-                    <summary class="summary">More Information</summary>
-
-                </details>
-
-        <?php
-        
-                }
-
-        ?>
+        </details>
 
     </div>
 

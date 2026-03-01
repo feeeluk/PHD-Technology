@@ -10,43 +10,17 @@
 
         <h2 class="item--SubSectionTitle">.NET</h2>
 
-        <?php
-
-            if (str_contains($_SERVER['REQUEST_URI'],'software_development') == true)
-            {
-
-                    echo "<details class='details'>";
-                        
-                        echo "<summary class='summary'>Summary</summary>";
-
-                }
-
-        ?>
-        
         <p>
             .NET development is the process of building software applications using Microsoft’s .NET framework. It’s a popular platform for creating a wide range of apps—from web and mobile to desktop, cloud, gaming, and IoT solutions.
         </p>
 
-        <?php
+        </details>
 
-            if (str_contains($_SERVER['REQUEST_URI'],'software_development') == true)
-            {
+        <details class="details">
 
-        ?>
+            <summary class="summary">More Information</summary>
 
-                </details>
-
-                <details class="details">
-
-                    <summary class="summary">More Information</summary>
-
-                </details>
-
-        <?php
-        
-                }
-
-        ?>
+        </details>
 
     </div>
 
@@ -79,43 +53,17 @@
         
         <h2 class="item--SubSectionTitle">Web</h2>
         
-        <?php
-
-            if (str_contains($_SERVER['REQUEST_URI'],'software_development') == true)
-                {
-
-                    echo "<details class='details'>";
-                        
-                        echo "<summary class='summary'>Summary</summary>";
-
-                }
-
-        ?>
-        
         <p>
             Web development is the process of creating and maintaining websites or web applications that run on the internet (or an intranet). It involves everything from designing how a site looks to making sure it functions smoothly behind the scenes.
         </p>
 
-        <?php
+        </details>
 
-            if (str_contains($_SERVER['REQUEST_URI'],'software_development') == true)
-                {
+        <details class="details">
 
-        ?>
+            <summary class="summary">More Information</summary>
 
-                </details>
-
-                <details class="details">
-
-                    <summary class="summary">More Information</summary>
-
-                </details>
-
-        <?php
-        
-                }
-
-        ?>
+        </details>
 
     </div>
     

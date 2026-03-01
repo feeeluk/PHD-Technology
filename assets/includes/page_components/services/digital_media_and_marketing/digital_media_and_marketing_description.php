@@ -9,19 +9,6 @@
 
         <img src="/assets/images/services/digital_media_and_marketing/overview_digital_media_and_marketing.webp" alt="Digital media & marketing" class="text--FloatLeft" />
 
-        <?php
-
-            if (str_contains($_SERVER['REQUEST_URI'],'digital_media_and_marketing') == true)
-                {
-
-                    echo "<details class='details' open>";
-                        
-                        echo "<summary class='summary'>Summary</summary>";
-
-                }
-
-        ?>
-
         <p>
             Digital Media = Online content (videos, images, articles, ads, etc.).
         </p>
@@ -30,26 +17,13 @@
             Digital Marketing = Using that content to reach and engage customers through digital platforms.
         </p>
 
-        <?php
+        </details>
 
-            if (str_contains($_SERVER['REQUEST_URI'],'digital_media_and_marketing') == true)
-                {
+        <details class="details">
 
-        ?>
+            <summary class="summary">More Information</summary>
 
-                </details>
-
-                <details class="details">
-
-                    <summary class="summary">More Information</summary>
-
-                </details>
-
-        <?php
-        
-                }
-
-        ?>
+        </details>
 
     </div>  
 
