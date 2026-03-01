@@ -6,8 +6,8 @@
 
         <colgroup>
 
-            <col span="1" class="tableLeft" />
-            <col span="2" class="tableRight" />
+            <col span="1" class="tableLeft">
+            <col span="2" class="tableRight">
 
         </colgroup>
             

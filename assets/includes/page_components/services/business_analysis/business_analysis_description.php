@@ -6,7 +6,7 @@
 
     <div id="BusinessAnalysisSummaryOfService" class="text">
 
-        <img src="/assets/images/services/business_analysis/overview_business_analysis.webp" alt="business analysis" class="text--FloatLeft" />
+        <img src="/assets/images/services/business_analysis/overview_business_analysis.webp" alt="business analysis" class="text--FloatLeft">
         
         <p>
             Business analysis is one of the most effective ways an organisation can improve how it operates, makes decisions, and delivers value.
@@ -47,7 +47,7 @@
 
             <summary class="summary">More Information</summary>
             
-            <h3 class="item--Heading">Business Analysis: A Strategic Investment in Better Decisions and Better Outcomes</h3>
+            <h2 class="item--Heading">Business Analysis: A Strategic Investment in Better Decisions and Better Outcomes</h2>
             
             <p>
                 At its core, business analysis provides a structured approach to understanding how a business works today, identifying where inefficiencies or risks exist, and defining practical, evidence‑based improvements that lead to measurable gains.
@@ -72,7 +72,7 @@
 
         </details>
 
-        <h3 class="item--Heading">Business Analysis with PDH Technology</h3>
+        <h2 class="item--Heading">Business Analysis with PDH Technology</h2>
         
     </div>
 

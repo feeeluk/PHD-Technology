@@ -6,7 +6,7 @@
 
     <div id="ProofOfConceptSummaryOfService" class="text">
 
-        <img src="/assets/images/services/proof_of_concept/overview_proof_of_concept.webp" alt="Proof of Concept" class="text--FloatLeft" />
+        <img src="/assets/images/services/proof_of_concept/overview_proof_of_concept.webp" alt="Proof of Concept" class="text--FloatLeft">
 
         <p>
             A 'Proof of Concept' (PoC) is a demonstration - often in the form of a small, pilot project or prototype - that tests whether a business idea, product, service, or solution is feasible, practical, and viable before investing more time and resources into full-scale development or deployment.
@@ -49,7 +49,7 @@
 
         </details>
 
-        <h3 class="item--Heading">Proof of Concept with PHD Technology</h3>
+        <h2 class="item--Heading">Proof of Concept with PHD Technology</h2>
         
         <p>
             TEST. This paragraph should only be visible in the specific service page, not on the homepage.

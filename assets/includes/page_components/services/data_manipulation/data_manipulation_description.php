@@ -6,7 +6,7 @@
 
     <div id="DataManipulationSummaryOfService" class="text">            
 
-        <img src="/assets/images/services/data_manipulation/overview_data_manipulation.webp" alt="data manipulation" class="text--FloatLeft" />         
+        <img src="/assets/images/services/data_manipulation/overview_data_manipulation.webp" alt="data manipulation" class="text--FloatLeft">         
     
         <p>
             Data manipulation is the process of adjusting, organizing, or transforming data to make it more meaningful, accurate, or useful. It’s often done to prepare data for analysis, reporting, or decision-making.
@@ -15,8 +15,6 @@
         <p>
             In simple terms, it’s about taking raw data and changing it into a cleaner, more usable form.
         </p>
-
-        </details>
 
     </div>
             
@@ -47,7 +45,7 @@
 
         </details>
     
-        <h3 class="item--Heading">Data Manipulation with PHD Technology</h3>
+        <h2 class="item--Heading">Data Manipulation with PHD Technology</h2>
         
         <p>
             TEST. This paragraph should only be visible in the specific service page, not on the homepage.

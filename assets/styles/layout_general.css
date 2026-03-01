@@ -145,8 +145,8 @@
         color: var(--colour-1);
     }
 
-    /* remove the bottom margin from h1 headers that immediately preceed h3 */
-    .item--Title:has(+ h3){
+    /* remove the bottom margin from titles that immediately preceed sub titles */
+    .item--Title:has(+ .item--SubTitle){
         margin-bottom: calc(var(--space-2) * -1);       
     }
 

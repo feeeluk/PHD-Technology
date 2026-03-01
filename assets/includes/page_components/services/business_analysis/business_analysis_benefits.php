@@ -2,9 +2,9 @@
 
     <h1 class="item--Title">WHAT ARE THE BENEFITS?</h1>
         
-    <span class="box--WithPadding benefits">
+    <div class="box--WithPadding benefits">
 
-        <h3 class="benefits--Heading">Clarity in decision-making</h3>
+        <h2 class="benefits--Heading">Clarity in decision-making</h2>
 
         <P class="benefits--Text">
 
@@ -12,7 +12,7 @@
 
         </P>
         
-        <h4 class="benefits--Example">Example:</h4>
+        <h3 class="benefits--Example">Example:</h3>
 
         <p class="benefits--ExampleQuestion">
             
@@ -26,11 +26,11 @@
             
         </p>
 
-    </span>
+    </div>
 
-    <span class="box--WithPadding benefits">
+    <div class="box--WithPadding benefits">
 
-        <h3 class="benefits--Heading">Improving efficiency and saving money</h3>
+        <h2 class="benefits--Heading">Improving efficiency and saving money</h2>
 
         <P class="benefits--Text">
 
@@ -38,7 +38,7 @@
 
         </P>
 
-        <h4 class="benefits--Example">Example:</h4>
+        <h3 class="benefits--Example">Example:</h3>
 
         <p class="benefits--ExampleQuestion">
             
@@ -52,11 +52,11 @@
 
         </p>
 
-    </span>
+    </div>
 
-    <span class="box--WithPadding benefits">
+    <div class="box--WithPadding benefits">
 
-        <h3 class="benefits--Heading">Reducing risk</h3>
+        <h2 class="benefits--Heading">Reducing risk</h2>
 
         <P class="benefits--Text">
 
@@ -64,7 +64,7 @@
 
         </P>
 
-        <h4 class="benefits--Example">Example:</h4>
+        <h3 class="benefits--Example">Example:</h3>
 
         <p class="benefits--ExampleQuestion">
             
@@ -78,11 +78,11 @@
 
         </p>
 
-    </span>
+    </div>
 
-    <span class="box--WithPadding benefits">
+    <div class="box--WithPadding benefits">
 
-        <h3 class="benefits--Heading">Boosting customer satisfaction</h3>
+        <h2 class="benefits--Heading">Boosting customer satisfaction</h2>
 
         <P class="benefits--Text">
 
@@ -90,13 +90,13 @@
 
         </P>
 
-        <h4 class="benefits--Example">Example:</h4>
+        <h3 class="benefits--Example">Example:</h3>
 
         <p class="benefits--ExampleQuestion">
             
             Question: Why are people abandoning their shopping trolleys near the checkout?
         
-        </h4>
+        </p>
 
         <p class="benefits--ExampleAnswer">
 
@@ -104,11 +104,11 @@
 
         </p>
 
-    </span>
+    </div>
 
-    <span class="box--WithPadding benefits">
+    <div class="box--WithPadding benefits">
 
-        <h3 class="benefits--Heading">Supporting growth and innovation</h3>
+        <h2 class="benefits--Heading">Supporting growth and innovation</h2>
 
         <P class="benefits--Text">
 
@@ -116,7 +116,7 @@
 
         </P>
 
-        <h4 class="benefits--Example">Example:</h4>
+        <h3 class="benefits--Example">Example:</h3>
 
         <p class="benefits--ExampleQuestion">
 
@@ -130,6 +130,6 @@
 
         </p>
 
-    </span>
+    </div>
     
 </div>

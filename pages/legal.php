@@ -22,9 +22,9 @@
      
 ?>
         
-<div>
+<div class="box--WithPadding item text">
 
-    <h1>Legal</h1>
+    <h1 class="item--Title">Legal</h1>
 
     <p>
         PDH Technology is a trading name used by Philip Henning as a sole trader, trading as PDH Technology.
@@ -32,19 +32,19 @@
         Philip Henning trading as PDH Technology.
     </p>
 
-    <h3>VAT</h3>
+    <h2>VAT</h2>
 
         <p>
             No VAT is payable.
         </p>
 
-    <h3>Insurance</h3>
+    <h2>Insurance</h2>
 
         <p>
             We do not have any insurance as yet.
         </p>
 
-    <h3>Payment Terms</h3>
+    <h2>Payment Terms</h2>
 
         <p>
             To be worked out.

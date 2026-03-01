@@ -6,15 +6,13 @@
 
     <div id="DotNetDevelopmentSummaryOfService" class="text summaryOfService">
 
-        <img src="/assets/images/services/software_development/overview_dot_net_development.webp" alt=".NET devlopment" class="text--FloatLeft" />
+        <img src="/assets/images/services/software_development/overview_dot_net_development.webp" alt=".NET devlopment" class="text--FloatLeft">
 
         <h2 class="item--SubSectionTitle">.NET</h2>
 
         <p>
             .NET development is the process of building software applications using Microsoft’s .NET framework. It’s a popular platform for creating a wide range of apps—from web and mobile to desktop, cloud, gaming, and IoT solutions.
         </p>
-
-        </details>
 
         <details class="details">
 
@@ -33,7 +31,7 @@
 
     <div id="DotNetDevelopmentDetailsOfService" class="text detailsOfService">
     
-        <h3 class="item--Heading">.NET development with PHD Technology</h3>
+        <h2 class="item--Heading">.NET development with PHD Technology</h2>
 
         <p>
             TEST. This paragraph should only be visible in the specific service page, not on the homepage.
@@ -49,15 +47,13 @@
 
     <div id="WebDevelopmentSummaryOfService" class="text summaryOfService">
 
-        <img src="/assets/images/services/software_development/overview_web_development.webp" alt="Web development" class="text--FloatLeft" />
+        <img src="/assets/images/services/software_development/overview_web_development.webp" alt="Web development" class="text--FloatLeft">
         
         <h2 class="item--SubSectionTitle">Web</h2>
         
         <p>
             Web development is the process of creating and maintaining websites or web applications that run on the internet (or an intranet). It involves everything from designing how a site looks to making sure it functions smoothly behind the scenes.
         </p>
-
-        </details>
 
         <details class="details">
 
@@ -88,7 +84,7 @@
 
     <div id="WebDevelopmentDetailsOfService" class="text detailsOfService">
     
-        <h3 class="item--Heading">Web development with PHD Technology</h3>
+        <h2 class="item--Heading">Web development with PHD Technology</h2>
         
         <p>
             TEST. This paragraph should only be visible in the specific service page, not on the homepage.

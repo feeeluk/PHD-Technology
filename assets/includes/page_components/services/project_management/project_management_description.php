@@ -6,7 +6,7 @@
 
     <div id="ProjectManagementSummaryOfService" class="text ">
 
-        <img src="/assets/images/services/project_management/overview_project_management.webp" alt="Project management" class="text--FloatLeft" />
+        <img src="/assets/images/services/project_management/overview_project_management.webp" alt="Project management" class="text--FloatLeft">
 
         <p>
             Project management is the discipline of planning, organizing, and overseeing work to achieve specific goals within a defined timeframe, budget, and scope. It involves applying knowledge, skills, tools, and techniques to ensure a project is completed successfully.
@@ -41,7 +41,7 @@
 
         </details>
   
-        <h3 class="item--Heading">Project Management with PHD Technology</h3>
+        <h2 class="item--Heading">Project Management with PHD Technology</h2>
         
         <p>
             TEST. This paragraph should only be visible in the specific service page, not on the homepage.

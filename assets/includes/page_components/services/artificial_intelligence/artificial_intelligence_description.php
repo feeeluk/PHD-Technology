@@ -3,11 +3,11 @@
 <div id="ArtificialIntelligenceDescription" class="box--WithPadding item">
 
     <h1 class='item--Title'>ARTIFICIAL INTELLIGENCE</h1>
-    <h3 class='item--SubTitle'>(COMING SOON)</h3>
+    <h2 class='item--SubTitle'>(COMING SOON)</h2>
         
     <div id="ArtificialIntelligenceSummaryOfService" class="text">
             
-        <img src="/assets/images/services/artificial_intelligence/overview_artificial_intelligence.webp" alt="Artificial Intelligence" class="text--FloatLeft" />
+        <img src="/assets/images/services/artificial_intelligence/overview_artificial_intelligence.webp" alt="Artificial Intelligence" class="text--FloatLeft">
     
         <p>
             Relating specifically to AI in the workplace.
@@ -20,9 +20,6 @@
         <p>
             We can help YOU leverage AI technology to work faster, smarter, and more accurately! 
         </p>
-
-
-        </details>
 
         <details class="details">
 

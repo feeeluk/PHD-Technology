@@ -6,7 +6,7 @@
     
     <div id="UiUxSummaryOfService" class="text">
 
-        <img src="/assets/images/services/ui_ux/overview_ui_ux.webp" alt="UI/UX" class="text--FloatLeft" />
+        <img src="/assets/images/services/ui_ux/overview_ui_ux.webp" alt="UI/UX" class="text--FloatLeft">
         
         <p>
             UI/UX is the discipline of identifying needs and determining the best solutions to meet those needs.
@@ -45,7 +45,7 @@
 
         </details>
     
-        <h3 class="item--Heading">UI/UX with PHD Technology</h3>
+        <h2 class="item--Heading">UI/UX with PHD Technology</h2>
         
         <p>
             Whether you simply need advice, or if you would like us to undertake Business Analysis for you, we are here to help.

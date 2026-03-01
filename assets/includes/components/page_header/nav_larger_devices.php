@@ -1,22 +1,22 @@
  <nav id="NavbarDropdown">
 
-    <button>
+    <div>
         
         <a href="/">
             Home
         </a>
 
-    </button>
+    </div>
 
-    <button>
+    <div>
 
         <a href="/pages/about.php">
             About
         </a>
 
-    </button>
+    </div>
 
-    <button class="dropButton">
+    <div class="dropButton">
         
         <a href="#">
             Services
@@ -34,22 +34,22 @@
             <a href="/pages/services/ui_ux.php">UI/UX</a>
         </div>
 
-    </button>
+    </div>
     
-    <button>
+    <div>
 
         <a href="/pages/portfolio.php">
             Portfolio
         </a>
 
-    </button>
+    </div>
 
-    <button>
+    <div>
 
         <a href="/pages/contact.php">
             Contact
         </a>
 
-    </button>
+    </div>
 
 </nav>

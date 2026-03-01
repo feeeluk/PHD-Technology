@@ -26,15 +26,15 @@
 
                 <h3 class="item--Title">Contact us using the form below, or call us on 01482 653509</h3>
                 
-                <form id="ContactForm" action="">
+                <form id="ContactForm" action="null">
                     
-                    <input type="text" id="" name="" placeholder="Name">
-                    <input type="text" id="" name="" placeholder="Email@Address">
-                    <input type="text" id="" name="" placeholder="Telephone number">
-                    <textarea name="" id="" placeholder="What is the nature of your enquiry?"></textarea>
+                    <input type="text" id="NameInput" name="Name" placeholder="Name">
+                    <input type="text" id="EmailInput" name="Email" placeholder="Email@Address">
+                    <input type="text" id="TelephoneInput" name="Telephone" placeholder="Telephone number">
+                    <textarea id="EnquiryInput" name="Enquiry" placeholder="What is the nature of your enquiry?"></textarea>
                     
-                    <button name="" id="">Clear</button>  
-                    <button name="" id="">Submit</button>  
+                    <button id="ClearButton" name="Clear">Clear</button>  
+                    <button id="SubmitButton" name="Submit">Submit</button>  
                                         
                 </form>
                 

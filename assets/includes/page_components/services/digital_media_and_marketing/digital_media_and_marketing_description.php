@@ -3,11 +3,11 @@
 <div id="DigitalMediaAndMarketingDescription" class="box--WithPadding item">
 
     <h1 class='item--Title'>DIGITAL MEDIA & MARKETING</h1>
-    <h3 class='item--SubTitle'>(COMING SOON)</h3>
+    <h2 class='item--SubTitle'>(COMING SOON)</h2>
 
     <div id="DigitalMediaAndMarketingSummaryOfService" class="text">
 
-        <img src="/assets/images/services/digital_media_and_marketing/overview_digital_media_and_marketing.webp" alt="Digital media & marketing" class="text--FloatLeft" />
+        <img src="/assets/images/services/digital_media_and_marketing/overview_digital_media_and_marketing.webp" alt="Digital media & marketing" class="text--FloatLeft">
 
         <p>
             Digital Media = Online content (videos, images, articles, ads, etc.).
@@ -46,7 +46,7 @@
 
         </details>
     
-        <h3 class="item--Heading">Digital Media and Marketing with PHD Technology</h3>
+        <h2 class="item--Heading">Digital Media and Marketing with PHD Technology</h2>
         
         <p>
             TEST. This paragraph should only be visible in the specific service page, not on the homepage.
