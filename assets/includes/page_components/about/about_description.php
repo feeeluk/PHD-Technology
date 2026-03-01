@@ -1,26 +1,37 @@
 <div id="AboutDescription" class="box--WithPadding item text">
 
-    <h1 class="item--Title">ABOUT US</h1>
+    <h1 class="item--Title">ABOUT</h1>
 
     <img src="/assets/images/other/person_placeholder.png" alt="Photograph of Phil Henning" class="text--AboutImage" />
     
-    <details class="details" open>
+    <!-- About PDH Technology -->
+    <details class="details">
 
-        <summary class="summary">PDH Technology</summary>
+        <summary class="summary">About PDH Technology</summary>
 
         <p>
             PDH Technology has one simple mission: to help businesses make better use of their data, tools, ideas, and technology.
         <p>
-            My name is Phil Henning - I am the owner & 'Lead Technologist' of PDH Technology.
+            Owned and operated by me, Phil D Henning (PDH). I'm the 'Lead Technologist'.
         </p>
-            
+
+    </details>
+
+    <!-- About PDH -->
+    <details class="details">
+
+        <summary class="summary">About PDH</summary>
             
         <p>
-            I’ve spent the last 15+ years working across multiple sectors and roles — from business analysis to software development, from digital transformations to hands‑on training — and over time I realised something important: most organisations don’t struggle because they lack technology. They struggle because they lack clarity and direction.
+            Hi! I'm Phil (<b>P</b>hil <b>D</b> <b>H</b>enning).
+        </p>
+        
+        <p>
+            I’ve spent the last 15+ years working across multiple sectors and roles — from business analysis to software development, from digital transformations to hands‑on training — and over time I realised something important: most organisations don’t struggle because they lack technology. They often struggle with specific aspects of technolgy.
         </p>
 
         <p>
-            That’s where I come in.
+            That’s where we come in.
         </p>
 
         <p>
@@ -37,10 +48,10 @@
 
     </details>
     
-
+    <!-- How We Work -->
     <details class="details">
 
-        <summary class="summary">How I Work</summary>
+        <summary class="summary">How We Work</summary>
 
         <p>
             My background is heavily influenced by agile thinking, especially Scrum. Not in the buzzwordy, corporate sense — but in the practical, human sense.
@@ -60,9 +71,10 @@
 
     </details>
 
+    <!-- Our Services -->
     <details class="details">
 
-        <summary class="summary">What PDH Technology Offers</summary>
+        <summary class="summary">Our Services</summary>
 
         <p>
             Over the years, I’ve developed a broad toolkit that lets me support businesses in lots of different ways. PDH Technology offers nine core services:
@@ -82,28 +94,23 @@
             <b>Software Development</b>
             — Building practical, maintainable solutions using modern tools and clean, scalable code.
         </p>
-
-        <p>
-            <b>Skills Development & Training</b>
-            — Helping teams grow their capabilities, whether that’s technical skills, digital literacy, or understanding new tools.
-        </p>
-        
-        <p>
-            <b>UI & UX</b>
-            — Designing interfaces and experiences that feel intuitive, human, and aligned with how people actually work.
-        </p>
-        
         
         <p>
             <b>Data Manipulation</b>
             — Cleaning, transforming, and organising data so it becomes a useful asset rather than a headache.
+        </p>
+        
+        
+        <p>
+            <b>Skills Development & Training</b>
+            — Helping teams grow their capabilities, whether that’s technical skills, digital literacy, or understanding new tools.
         </p>
 
         <p>
             <b>Proof of Concepts</b>
             — Testing ideas quickly and cheaply to see what’s worth investing in.
         </p>
-
+        
         <p>
             <b>Artificial Intelligence (coming soon)</b>
             — Exploring AI opportunities, building prototypes, and helping businesses understand how AI can support their goals.
@@ -115,14 +122,20 @@
         </p>
 
         <p>
+            <b>UI & UX</b>
+            — Designing interfaces and experiences that feel intuitive, human, and aligned with how people actually work.
+        </p>
+
+        <p>
             These services might look varied on the surface, but they all connect to the same core idea: helping businesses use technology in a way that actually works for them.
         </p>
 
     </details>
 
+    <!-- Why We Exist -->
     <details class="details">
 
-        <summary class="summary">Why PDH Technology Exists</summary>
+        <summary class="summary">Why We Exists</summary>
 
         <p>
             I started PDH Technology because I kept seeing the same pattern: businesses investing in tools they didn’t fully understand (or need), processes that didn’t fit their purpose, or solutions that were far more complicated than they needed to be.
@@ -157,39 +170,54 @@
         </p>
 
         <p>
-            These aren’t slogans. They’re how I actually work. They’re why clients come back, and why 
-            projects feel collaborative rather than transactional.
+            These aren’t slogans. They’re how I actually work.
         </p>
 
     </details>
 
+    <!-- A Bit About Me -->
     <details class="details">
 
         <summary class="summary">A Bit About Me</summary>
 
-        <p>I’ve always been someone who likes to understand how things work — systems, processes, people, technology. Over the last 15 years, I’ve worked in environments ranging from small teams to large organisations, and I’ve learned that the most valuable skill isn’t coding or analysis or design. It’s the ability to listen, ask the right questions, and translate complexity into something people can act on.
+        <p>
+            I’ve always been someone who likes to understand how things work — systems, processes, people, technology.
+        </p>
 
-I enjoy building things, improving things, and helping people feel more confident with the tools they use every day. PDH Technology gives me the freedom to do that in a way that feels authentic, personal, and genuinely helpful.</p>
+        <p>
+            Over the last 15 years, I’ve worked in environments ranging from small teams to large organisations, and I’ve learned that the most valuable skill isn’t coding or analysis or design.
+        </p>
+
+        <p>
+            It’s the ability to listen, ask the right questions, and translate complexity into something people can act on.
+        </p>
+
+        <p>
+            I enjoy building things, improving things, and helping people feel more confident with the tools they use every day.
+        </p>
 
     </details>
 
+    <!-- What You Can Expect -->
     <details class="details">
 
         <summary class="summary">What You Can Expect</summary>
 
-        <p>If you work with me, you can expect:
+        <p>
+            If you work with me, you can expect:
+        </p>
 
-Straightforward communication
+        <ul>
+            <li>Straightforward communication</li>
+            <li>A collaborative, iterative approach</li>
+            <li>Solutions that grow with your business</li>
+            <li>A partner who cares about the outcome as much as you do</li>
+            <li>No jargon, no ego, no unnecessary complexity</li>
+        </ul>
 
-A collaborative, iterative approach
-
-Solutions that grow with your business
-
-A partner who cares about the outcome as much as you do
-
-No jargon, no ego, no unnecessary complexity
-
-PDH Technology isn’t about selling services. It’s about helping you move forward — one clear, meaningful step at a time.</p>
+        <p>
+            PDH Technology isn’t about selling services. It’s about helping you move forward — one clear, meaningful step at a time.
+        </p>
 
     </details>
 
