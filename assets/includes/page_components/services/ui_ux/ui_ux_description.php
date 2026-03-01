@@ -15,14 +15,6 @@
         <p>    
             Essentially, it hels organisations understand what they should change, why they should change it, and how to implement that change effectively.
         </p>
-
-        </details>
-
-        <details class="details">
-
-            <summary class="summary">More Information</summary>
-
-        </details>
         
     </div>
 
@@ -46,6 +38,12 @@
     ?>
     
     <div id="UiUxDetailsOfService" class="text">
+
+        <details class="details">
+
+            <summary class="summary">More Information</summary>
+
+        </details>
     
         <h3 class="item--Heading">UI/UX with PHD Technology</h3>
         

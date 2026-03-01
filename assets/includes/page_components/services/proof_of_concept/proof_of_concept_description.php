@@ -19,14 +19,6 @@
         <p>
             As each PoC is highly unique, please get in touch with us to discuss your needs.
         </p>
-
-        </details>
-
-        <details class="details">
-
-            <summary class="summary">More Information</summary>
-
-        </details>
             
     </div>
 
@@ -50,6 +42,12 @@
     ?>
 
     <div id="ProofOfConceptDetailsOfService" class="text">
+
+        <details class="details">
+
+            <summary class="summary">More Information</summary>
+
+        </details>
 
         <h3 class="item--Heading">Proof of Concept with PHD Technology</h3>
         

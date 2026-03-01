@@ -17,14 +17,6 @@
             Digital Marketing = Using that content to reach and engage customers through digital platforms.
         </p>
 
-        </details>
-
-        <details class="details">
-
-            <summary class="summary">More Information</summary>
-
-        </details>
-
     </div>  
 
     <?php
@@ -47,6 +39,12 @@
     ?>
 
     <div id="DigitalMediaAndMarketingDetailsOfService" class="text">
+        
+        <details class="details">
+
+            <summary class="summary">More Information</summary>
+
+        </details>
     
         <h3 class="item--Heading">Digital Media and Marketing with PHD Technology</h3>
         

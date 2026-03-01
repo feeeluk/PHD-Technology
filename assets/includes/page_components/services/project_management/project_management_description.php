@@ -12,14 +12,6 @@
             Project management is the discipline of planning, organizing, and overseeing work to achieve specific goals within a defined timeframe, budget, and scope. It involves applying knowledge, skills, tools, and techniques to ensure a project is completed successfully.
         </p>
 
-        </details>
-
-        <details class="details">
-
-            <summary class="summary">More Information</summary>
-
-        </details>
-
     </div>
 
     <?php
@@ -42,6 +34,12 @@
     ?>
 
     <div id="ProjectManagementDetailsOfService" class="text">
+        
+        <details class="details">
+
+            <summary class="summary">More Information</summary>
+
+        </details>
   
         <h3 class="item--Heading">Project Management with PHD Technology</h3>
         

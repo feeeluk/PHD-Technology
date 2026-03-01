@@ -20,6 +20,29 @@
             It is not an administrative task, it is a strategic capability. It enables smarter decisions, more efficient operations, reduced costs, and better outcomes. Investing in business analysis is ultimately an investment in clarity, confidence, and long‑term success.
         </p>
 
+    </div>
+
+    <?php
+
+        if (str_contains($_SERVER['REQUEST_URI'],'business_analysis') == false)
+            {
+                $link = "pages/services/business_analysis.php";
+
+                echo "<div class='clickForDetails'>";
+
+                    include($path."assets/includes/components/services/button_click_for_details.php");
+
+                echo "</div>";
+
+            }
+
+        if (str_contains($_SERVER['REQUEST_URI'],'business_analysis') == true)
+            {
+
+    ?>
+
+    <div id="BusinessAnalysisDetailsOfService" class="text">
+
         <details class="details">
 
             <summary class="summary">More Information</summary>
@@ -48,29 +71,6 @@
             </ul>
 
         </details>
-
-    </div>
-
-    <?php
-
-        if (str_contains($_SERVER['REQUEST_URI'],'business_analysis') == false)
-            {
-                $link = "pages/services/business_analysis.php";
-
-                echo "<div class='clickForDetails'>";
-
-                    include($path."assets/includes/components/services/button_click_for_details.php");
-
-                echo "</div>";
-
-            }
-
-        if (str_contains($_SERVER['REQUEST_URI'],'business_analysis') == true)
-            {
-
-    ?>
-
-    <div id="BusinessAnalysisDetailsOfService" class="text">
 
         <h3 class="item--Heading">Business Analysis with PDH Technology</h3>
         

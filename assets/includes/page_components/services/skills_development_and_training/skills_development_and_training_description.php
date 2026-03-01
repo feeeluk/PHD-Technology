@@ -12,14 +12,6 @@
             Skills development and training is the process of helping individuals improve their abilities, knowledge, and competencies so they can perform better in their current roles or prepare for future opportunities.
         </p>
 
-        </details>
-
-        <details class="details">
-
-            <summary class="summary">More Information</summary>
-
-        </details>
-
     </div>
 
     <?php
@@ -42,6 +34,12 @@
     ?>
 
     <div id="SkillsDevelopmentAndTrainingDetailsOfService" class="text">
+
+        <details class="details">
+
+            <summary class="summary">More Information</summary>
+
+        </details>
     
         <h3 class="item--Heading">Skills Development and Training with PHD Technology</h3>
 

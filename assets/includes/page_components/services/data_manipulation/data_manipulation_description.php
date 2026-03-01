@@ -18,12 +18,6 @@
 
         </details>
 
-        <details class="details">
-
-            <summary class="summary">More Information</summary>
-
-        </details>
-
     </div>
             
     <?php
@@ -46,6 +40,12 @@
     ?>
 
     <div id="DataManipulationDetailsOfService" class="text">
+        
+        <details class="details">
+
+            <summary class="summary">More Information</summary>
+
+        </details>
     
         <h3 class="item--Heading">Data Manipulation with PHD Technology</h3>
         
