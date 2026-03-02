@@ -22,9 +22,9 @@
     </div>
 
     <div class="servicesTile">
-        <a href="#DataManipulationAnchor">
-            <img src="/assets/images/services/data_manipulation/link_data_manipulation.webp" alt="data manipulation">
-            <h3>Data Manipulation</h3>
+        <a href="#DataAnchor">
+            <img src="/assets/images/services/data/link_data.webp" alt="data">
+            <h3>Data</h3>
         </a>
     </div>
 

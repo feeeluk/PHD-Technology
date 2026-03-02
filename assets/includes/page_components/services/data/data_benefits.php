@@ -1,4 +1,4 @@
-<div id="DataManipulationBenefits" class="box--WithPadding item">
+<div id="DataBenefits" class="box--WithPadding item">
         
     <h1 class="item--Title">WHAT ARE THE BENEFITS?</h1>
         

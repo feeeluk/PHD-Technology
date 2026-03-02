@@ -13,7 +13,7 @@
         
 
         // set the page title
-        $subTitle = "Data Manipulation";
+        $subTitle = "Data";
 
 
     // HTML 1
@@ -22,7 +22,7 @@
         
 ?>
 
-<div id="DataManipulation" class="box">
+<div id="Data" class="box">
 
     <?php
 
@@ -30,22 +30,22 @@
         // PAGE CONTENTS HERE
 
             // Description
-            include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_description.php");
+            include($path."assets/includes/page_components/services/data/data_description.php");
 
             // Benefits
-            include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_benefits.php");
+            include($path."assets/includes/page_components/services/data/data_benefits.php");
             
             // Prices
-            include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_prices.php");
+            include($path."assets/includes/page_components/services/data/data_prices.php");
 
             // Portfolio
-            include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_portfolio.php");
+            include($path."assets/includes/page_components/services/data/data_portfolio.php");
             
             // Case Studies
-            // include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_case_studies.php");
+            // include($path."assets/includes/page_components/services/data/data_case_studies.php");
 
             // Next Steps
-            include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_next_steps.php");
+            include($path."assets/includes/page_components/services/data/data_next_steps.php");
 
     ?>
 

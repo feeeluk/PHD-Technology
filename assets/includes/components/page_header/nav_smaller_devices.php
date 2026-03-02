@@ -22,7 +22,7 @@
             <a href="/pages/services/business_analysis.php"><span class="smallDeviceMenuLink indentLink">Business Analysis</span></a>
             <a href="/pages/services/project_management.php"><span class="smallDeviceMenuLink indentLink">Project Management</span></a>
             <a href="/pages/services/software_development.php"><span class="smallDeviceMenuLink indentLink">Software Development</span></a>
-            <a href="/pages/services/data_manipulation.php"><span class="smallDeviceMenuLink indentLink">Data Manipulation</span></a>
+            <a href="/pages/services/data.php"><span class="smallDeviceMenuLink indentLink">Data</span></a>
             <a href="/pages/services/skills_development_and_training.php"><span class="smallDeviceMenuLink indentLink">Skills Development & Training</span></a>
             <a href="/pages/services/proof_of_concept.php"><span class="smallDeviceMenuLink indentLink">Proof of Concept</span></a>
             <a href="/pages/services/artificial_intelligence.php"><span class="smallDeviceMenuLink indentLink">Artificial Intelligence</span></a>

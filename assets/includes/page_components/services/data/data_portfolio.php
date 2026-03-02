@@ -1,8 +1,8 @@
-<div id="DataManipulationPortfolio" class="box--WithPadding item">
+<div id="DataPortfolio" class="box--WithPadding item">
 
     <?php
 
-        if (str_contains($_SERVER['REQUEST_URI'],'data_manipulation') == true)
+        if (str_contains($_SERVER['REQUEST_URI'],'data') == true)
             {
                 echo "<h1 class='item--Title'>PORTFOLIO</h1>";
 
@@ -11,7 +11,7 @@
 
         elseif (str_contains($_SERVER['REQUEST_URI'],'portfolio') == true)
             {             
-                echo "<h2 class='item--Title'>DATA MANIPULATION</h2>";    
+                echo "<h2 class='item--Title'>DATA</h2>";    
             }
 
     ?>

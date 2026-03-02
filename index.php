@@ -30,8 +30,8 @@
             // SOFTWARE DEVELOPMENT
             include($path."assets/includes/page_components/services/software_development/software_development_description.php");
             
-            // DATA MANIPULATION
-            include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_description.php");
+            // DATA
+            include($path."assets/includes/page_components/services/data/data_description.php");
             
             // SKILLS DEVELOPMENT & TRAINING
             include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_description.php");
