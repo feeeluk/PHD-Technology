@@ -23,9 +23,9 @@
      
             echo "<div>";
                     
-                echo "<h2>";
-                    echo "Here are some examples organised by type of service:";
-                echo "</h2>";
+                echo "<h3>";
+                    echo "Here are some examples of our work organised by service type:";
+                echo "</h3>";
                 
             echo "</div>";
         

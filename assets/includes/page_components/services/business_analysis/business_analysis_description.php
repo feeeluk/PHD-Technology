@@ -17,7 +17,11 @@
         </p>
 
         <p>
-            It is not an administrative task, it is a strategic capability. It enables smarter decisions, more efficient operations, reduced costs, and better outcomes. Investing in business analysis is ultimately an investment in clarity, confidence, and long‑term success.
+            It is not an administrative task, it is a strategic capability.
+        </p>
+        
+        <p>
+            It enables smarter decisions, more efficient operations, reduced costs, and better outcomes. Investing in business analysis is ultimately an investment in clarity, confidence, and long‑term success.
         </p>
 
     </div>
@@ -54,25 +58,30 @@
             </p>
             
             <p>
-                Rather than relying on assumptions or intuition, business analysis grounds decisions in data, stakeholder insight, and clear business needs. This ensures that every change—whether large or small—directly supports organisational goals and delivers tangible benefits.Whether you simply need help and advice, or if you would like to hire us as as Business Analysts, we are here to help.
+                Rather than relying on assumptions or intuition, business analysis grounds decisions in data, stakeholder insight, and clear business needs. This ensures that every change - whether large or small - directly supports organisational goals and delivers tangible benefits.
             </p>
-
-            <p>
-                With many years of commercial Business Analysis experience, across a variety of sectors, we are able to:
-            </p>
-
-            <ul>
-                <li>Facilitate workshops</li>
-                <li>Produce and/or manage your Product Roadmap</li>
-                <li>Elicit stakeholder and end-user requirements</li>
-                <li>Produce User Stories</li>
-                <li>Manage a Product Backlog</li>
-                <li>Follow agile principles - we have lots of experience with SCRUM</li>
-            </ul>
 
         </details>
 
         <h2 class="item--Heading">Business Analysis with PDH Technology</h2>
+
+        <p>
+            Whether you simply need help, advice, or if you would like to hire us as as Business Analysts, we are here to help!
+        </p>
+
+        <p>
+            With many years of Business Analysis experience across a variety of sectors, we are able to:
+        </p>
+
+        <ul>
+            <li>Produce and/or manage your Product Roadmap</li>
+            <li>Manage your Product Backlog</li>
+            <li>Create User Stories</li>
+            <li>Elicit stakeholder, or end-user requirements</li>
+            <li>Meaningfully participate in Scrum ceremonies</li>
+            <li>Provide agile support e.g. Agile Delivery Manager (ADM) and Scrum Master roles</li>
+            <li>Facilitate workshops</li>
+        </ul>
         
     </div>
 
