@@ -264,6 +264,28 @@
         width: auto;
     }
 
+            /* LARGER DEVICES */
+            /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+            @media (min-width: 640px){
+                .footer--Logo{
+                    height: 25px;
+                    vertical-align:middle;
+                }
+            }
+
+            @media (min-width: 960px){
+                .footer--Logo{
+                    height: 30px;
+                }
+            }
+
+            @media (min-width: 1280px){
+                .footer--Logo{
+                    height: 35px;
+                }
+            }
+
 /* General Classes */
 /* ============================================== */
 
