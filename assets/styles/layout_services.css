@@ -18,7 +18,6 @@
                     .text:first-of-type{
                         min-height: 190px;
                     }
-
                     
                     /* remove height from all subsquent .text sections  */
                     .text{

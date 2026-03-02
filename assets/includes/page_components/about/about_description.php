@@ -5,14 +5,14 @@
     <img src="/assets/images/other/person_placeholder.png" alt="Photograph of Phil Henning" class="text--AboutImage">
     
     <!-- About PDH Technology -->
-    <details class="details">
+    <details class="details" open>
 
         <summary class="summary">About PDH Technology</summary>
 
         <p>
             PDH Technology has one simple mission: to help businesses make better use of their data, tools, ideas, and technology.
         <p>
-            Owned and operated by me, Phil D Henning (PDH). I'm the 'Lead Technologist'.
+            Owned and operated by me, <b>P</b>hil <b>D</b> <b>H</b>enning (PDH). I'm the 'Lead Technologist'.
         </p>
 
     </details>
@@ -23,11 +23,15 @@
         <summary class="summary">About PDH</summary>
             
         <p>
-            Hi! I'm Phil (<b>P</b>hil <b>D</b> <b>H</b>enning).
+            Hi! I'm Phil.
         </p>
         
         <p>
-            I’ve spent the last 15+ years working across multiple sectors and roles — from business analysis to software development, from digital transformations to hands‑on training — and over time I realised something important: most organisations don’t struggle because they lack technology. They often struggle with specific aspects of technolgy.
+            I’ve spent the last 15+ years working across multiple sectors and roles - from business analysis to software development, from digital transformations to hands‑on training.
+        </p>
+
+        <p>
+            Over time I realised something important: most organisations don’t struggle because they lack technology What they tend to struggle with is specific aspects of technology.
         </p>
 
         <p>
@@ -35,11 +39,11 @@
         </p>
 
         <p>
-            PDH Technology isn’t a big agency with layers of account managers and rigid processes. It’s me — Phil — working directly with you, understanding your challenges, and helping you build solutions that actually fit the way your business works.
+            PDH Technology isn’t a big agency with layers of account managers and rigid processes. It’s me - Phil - working directly with you, understanding your challenges, and helping you build solutions that actually fit the way your business works.
         </p>
 
         <p>
-            I’ve always believed that the best results come from collaboration, curiosity, and steady, meaningful progress. I place more value in evolution over revolution, relationships over contracts, and curiosity over "it has always been done like that".
+            I’ve always believed that the best results come from collaboration and steady, meaningful progress. I place more value in evolution over revolution, relationships over contracts, and curiosity over "it has always been done like that".
         </p>
 
         <p>
@@ -54,11 +58,11 @@
         <summary class="summary">How We Work</summary>
 
         <p>
-            My background is heavily influenced by agile thinking, especially Scrum. Not in the buzzwordy, corporate sense — but in the practical, human sense.
+            My background is heavily influenced by agile thinking, especially Scrum. Not in the buzzwordy, corporate sense - but in the practical, human sense.
         </p>
             
         <p>
-            I like short feedback loops, honest conversations, and solutions that grow with you rather than being dropped on you fully formed and impossible to maintain.
+            I like short feedback loops, honest conversations, and solutions that grow with you rather than being dropped on you fully formed.
         </p>
 
         <p>
@@ -87,7 +91,7 @@
 
         <p>
             <b>Digital Migrations</b>
-            — Moving systems, data, or processes from old platforms to new ones without the stress and chaos that usually comes with it.
+            — Moving systems, data, or processes from old platforms to new ones.
         </p>
 
         <p>
@@ -99,7 +103,6 @@
             <b>Data Manipulation</b>
             — Cleaning, transforming, and organising data so it becomes a useful asset rather than a headache.
         </p>
-        
         
         <p>
             <b>Skills Development & Training</b>
@@ -118,7 +121,7 @@
         
         <p>
             <b>Digital Media & Marketing (coming soon)</b>
-            — Helping businesses present themselves clearly online, from content to visuals to strategy.
+            — Helping businesses present themselves clearly online, from content to strategy.
         </p>
 
         <p>
@@ -163,7 +166,7 @@
         </p>
 
         <p>
-            <b>Curiosity over tradition</b>
+            <b>Curiosity over historical ways of working</b>
             <br>
             Asking “why?” leads to better outcomes than doing things “because 
             that’s how we’ve always done it”.
@@ -181,15 +184,15 @@
         <summary class="summary">A Bit About Me</summary>
 
         <p>
-            I’ve always been someone who likes to understand how things work — systems, processes, people, technology.
+            I’ve always been someone who likes to understand how things work - systems, processes, people, technology.
         </p>
 
         <p>
-            Over the last 15 years, I’ve worked in environments ranging from small teams to large organisations, and I’ve learned that the most valuable skill isn’t coding or analysis or design.
+            Over the last 15+ years, I’ve worked in environments ranging from small teams to large organisations, and I’ve learned that the most valuable skill isn’t coding or analysis or design.
         </p>
 
         <p>
-            It’s the ability to listen, ask the right questions, and translate complexity into something people can act on.
+            It’s the ability to listen, ask the right questions, and translate complexity into something people can understand.
         </p>
 
         <p>
@@ -216,7 +219,7 @@
         </ul>
 
         <p>
-            PDH Technology isn’t about selling services. It’s about helping you move forward — one clear, meaningful step at a time.
+            PDH Technology isn’t about selling services. It’s about helping you move forward - one clear, meaningful step at a time.
         </p>
 
     </details>
