@@ -5,7 +5,7 @@
         position: static;
         padding: var(--space-fixed-1) 5%;
         min-height: calc(100vh - var(--height-header));
-        background-image: url('/assets/images/other/about_us_background.webp');
+        background-image: url('/assets/images/other/homepage/homepage_background.webp');
         background-size: cover;
         background-repeat: no-repeat;
         border: none;

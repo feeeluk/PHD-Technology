@@ -2,7 +2,7 @@
 
     <h1 class="item--Title">ABOUT</h1>
 
-    <img src="/assets/images/other/person_placeholder.png" alt="Photograph of Phil Henning" class="text--AboutImage">
+    <img src="/assets/images/other/about/person_placeholder.png" alt="Photograph of Phil Henning" class="text--AboutImage">
     
     <!-- About PDH Technology -->
     <details class="details" open>
