@@ -19,6 +19,10 @@
         <img src="/assets/images/other/x.png" alt="X (formerly Twitter) profile" class="footer--Logo">
         |
         <img src="/assets/images/other/facebook.png" alt="Facebook profile" class="footer--Logo">
+        |
+        <a href="https://github.com/feeeluk">
+            <img src="/assets/images/other/github.jpg" alt="Github profile" class="footer--Logo">
+        </a> 
 
     </p>
 

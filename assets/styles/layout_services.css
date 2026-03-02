@@ -105,7 +105,7 @@
                         .text--AboutImage{
                             float: right;
                             height: auto;
-                            width: 325px;
+                            width: 250px;
                             margin: 0 0 var(--space-2) var(--space-4);
                         }
 

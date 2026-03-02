@@ -261,7 +261,7 @@
         display: inline;
         vertical-align:bottom;
         height: 20px;
-        width: 20px;
+        width: auto;
     }
 
 /* General Classes */
