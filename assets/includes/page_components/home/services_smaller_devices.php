@@ -9,58 +9,67 @@
 ?> 
 
 <div id="ServicesSmallerDevices">
-
+    
+    <!-- Business Analysis -->
     <a href="#BusinessAnalysisAnchor">
         <span class="button--MenuForSmallerDevices">
             Business Analysis 
         </span>
     </a>
     
-    <a href="#SoftwareDevelopmentAnchor">
+    <!-- Data -->
+    <a href="#DataAnchor">
         <span class="button--MenuForSmallerDevices">
-            Software Development
+            Data
         </span>
     </a>
     
-    <a href="#DigitalTransformationAnchor">
-        <span class="button--MenuForSmallerDevices">
-            Digital Transformation
-        </span>
-    </a>
-    
-    <a href="#DataManipulationAnchor">
-        <span class="button--MenuForSmallerDevices">
-            Data Manipulation
-        </span>
-    </a>
-    
-    <a href="#SkillsDevelopmentAndTrainingAnchor">
-        <span class="button--MenuForSmallerDevices">
-            Skills Development & Training
-        </span>
-    </a>
-    
+    <!-- Proof of Concept -->
     <a href="#ProofOfConceptAnchor">            
         <span class="button--MenuForSmallerDevices">
             Proof of Concept
         </span>
     </a>
 
+    <!-- Software Development -->
+    <a href="#SoftwareDevelopmentAnchor">
+        <span class="button--MenuForSmallerDevices">
+            Software Development
+        </span>
+    </a>
+    
+    <!-- Digital Transformation -->
+    <a href="#DigitalTransformationAnchor">
+        <span class="button--MenuForSmallerDevices">
+            Digital Transformation
+        </span>
+    </a> 
+
+    <!-- UI/UX -->
+    <a href="#UiUxAnchor">
+        <span class="button--MenuForSmallerDevices">
+            UI/UX
+        </span>
+    </a>
+        
+    <!-- Skills Development & Training -->
+    <a href="#SkillsDevelopmentAndTrainingAnchor">
+        <span class="button--MenuForSmallerDevices">
+            Skills Development & Training
+        </span>
+    </a>
+
+    <!-- Artificial Intelligence -->
     <a href="#ArtificialIntelligenceAnchor">
         <span class="button--MenuForSmallerDevices">
             Artificial Intelligence
         </span>
     </a>
 
+    <!-- Digital Media & Marketing -->
     <a href="#DigitalMediaAndMarketingAnchor">
         <span class="button--MenuForSmallerDevices">
             Digital Media & Marketing
-        </span>
-    </a>
-
-    <a href="#UiUxAnchor">
-        <span class="button--MenuForSmallerDevices">
-            UI/UX
         </span>
     </a>
 

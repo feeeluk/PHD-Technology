@@ -24,14 +24,14 @@
 
         <div class="dropContent">
             <a href="/pages/services/business_analysis.php">Business Analysis</a>
-            <a href="/pages/services/digital_transformation.php">Digital Transformation</a>
-            <a href="/pages/services/software_development.php">Software Development</a>
             <a href="/pages/services/data.php">Data</a>
-            <a href="/pages/services/skills_development_and_training.php">Skills Development & Training</a>
             <a href="/pages/services/proof_of_concept.php">Proof of Concept</a>
+            <a href="/pages/services/software_development.php">Software Development</a>
+            <a href="/pages/services/digital_transformation.php">Digital Transformation</a>
+            <a href="/pages/services/ui_ux.phps">UI/UX</a>
+            <a href="/pages/services/skills_development_and_training.php">Skills Development & Training</a>
             <a href="/pages/services/artificial_intelligence.php">Artificial Intelligence</a>
             <a href="/pages/services/digital_media_and_marketing.php">Digital Media & Marketing</a>
-            <a href="/pages/services/ui_ux.php">UI/UX</a>
         </div>
 
     </div>
