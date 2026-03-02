@@ -12,15 +12,15 @@
         
         <h3 class="benefits--Example">Example:</h3>
 
-        <p class="benefits--ExampleQuestion">
+        <p class="benefits--ExampleSituation">
 
-            Question: ?
+            Situation: ?
         
         </p>
 
-        <p class="benefits--ExampleAnswer">
+        <p class="benefits--ExampleResolution">
 
-            Answer: ?
+            Resolution: ?
 
         </p>
 
@@ -36,15 +36,15 @@
         
         <h3 class="benefits--Example">Example:</h3>
 
-        <p class="benefits--ExampleQuestion">
+        <p class="benefits--ExampleSituation">
 
-            Question: ?
+            Situation: ?
         
         </p>
 
-        <p class="benefits--ExampleAnswer">
+        <p class="benefits--ExampleResolution">
 
-            Answer: ?
+            Resolution: ?
             
         </p>
 
@@ -60,18 +60,18 @@
         
         <h3 class="benefits--Example">Example:</h3>
 
-        <p class="benefits--ExampleQuestion">
+        <p class="benefits--ExampleSituation">
 
-            Question: ?
+            Situation: ?
         
         </p>
 
-        <p class="benefits--ExampleAnswer">
+        <p class="benefits--ExampleResolution">
 
-            Answer: ?
+            Resolution: ?
             
         </p>
 
     </div>
-    
+
 </div>
