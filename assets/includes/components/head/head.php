@@ -12,17 +12,17 @@
     <link rel="icon" type="image/x-icon" href="/assets/images/favicon/favicon.ico">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/assets/styles/reset.css?v=10"> 
-    <link rel="stylesheet" href="/assets/styles/variables.css?v=10">
-    <link rel="stylesheet" href="/assets/styles/layout_general.css?v=10"> 
-    <link rel="stylesheet" href="/assets/styles/layout_header.css?v=10">
-    <link rel="stylesheet" href="/assets/styles/layout_homepage.css?v=10">
-    <link rel="stylesheet" href="/assets/styles/layout_about.css?v=10">
-    <link rel="stylesheet" href="/assets/styles/layout_services.css?v=10">
-    <link rel="stylesheet" href="/assets/styles/layout_portfolio.css?v=10">
-    <link rel="stylesheet" href="/assets/styles/layout_contact.css?v=10">
-    <link rel="stylesheet" href="/assets/styles/components.css?v=10">   
-    <link rel="stylesheet" href="/assets/styles/utilities.css?v=10">
+    <link rel="stylesheet" href="/assets/styles/reset.css"> 
+    <link rel="stylesheet" href="/assets/styles/variables.css">
+    <link rel="stylesheet" href="/assets/styles/layout_general.css"> 
+    <link rel="stylesheet" href="/assets/styles/layout_header.css">
+    <link rel="stylesheet" href="/assets/styles/layout_homepage.css">
+    <link rel="stylesheet" href="/assets/styles/layout_about.css">
+    <link rel="stylesheet" href="/assets/styles/layout_services.css">
+    <link rel="stylesheet" href="/assets/styles/layout_portfolio.css">
+    <link rel="stylesheet" href="/assets/styles/layout_contact.css">
+    <link rel="stylesheet" href="/assets/styles/components.css">   
+    <link rel="stylesheet" href="/assets/styles/utilities.css">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">

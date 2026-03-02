@@ -180,17 +180,17 @@
 
         .benefits--Example{
             margin-bottom: var(--space-2);
-            margin-left: var(--space-2);
+            /* margin-left: var(--space-2); */
         }
 
-        .benefits--ExampleQuestion{
+        .benefits--ExampleSituation{
             margin-left: var(--space-4);
             margin-bottom: var(--space-1);
             color: var(--colour-text-2);
             font-weight: bold;
         }
 
-        .benefits--ExampleAnswer{
+        .benefits--ExampleResolution{
             color: var(--colour-text-3);
             margin-left: var(--space-4);
             padding-bottom: var(--space-5);

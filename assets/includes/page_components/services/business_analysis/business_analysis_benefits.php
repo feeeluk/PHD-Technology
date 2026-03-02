@@ -14,15 +14,15 @@
         
         <h3 class="benefits--Example">Example:</h3>
 
-        <p class="benefits--ExampleQuestion">
+        <p class="benefits--ExampleSituation">
             
-            Question: Should you invest in a new marketing tool or expand your team?
+            Situation: Should you invest in a new marketing tool or expand your team?
         
         </p>
 
-        <p class="benefits--ExampleAnswer">
+        <p class="benefits--ExampleResolution">
 
-            Answer: A Business Analyst can weigh the pros and cons using real data.
+            Resolution: A Business Analyst can weigh the pros and cons using real data.
             
         </p>
 
@@ -40,15 +40,15 @@
 
         <h3 class="benefits--Example">Example:</h3>
 
-        <p class="benefits--ExampleQuestion">
+        <p class="benefits--ExampleSituation">
             
-            Question: Are customers waiting too long for support?
+            Situation: Are customers waiting too long for support?
         
         </p>
 
-        <p class="benefits--ExampleAnswer">
+        <p class="benefits--ExampleResolution">
 
-            Answer: A Business Analyst might suggest automation or workflow improvements.
+            Resolution: A Business Analyst might suggest automation or workflow improvements.
 
         </p>
 
@@ -66,15 +66,15 @@
 
         <h3 class="benefits--Example">Example:</h3>
 
-        <p class="benefits--ExampleQuestion">
+        <p class="benefits--ExampleSituation">
             
-            Question: Launching a new product without understanding the target audience could easily fail.
+            Situation: Launching a new product without understanding the target audience could easily fail.
         
         </p>
 
-        <p class="benefits--ExampleAnswer">
+        <p class="benefits--ExampleResolution">
 
-            Answer: A Business Analyst researches the customer needs to reduce that risk.
+            Resolution: A Business Analyst researches the customer needs to reduce that risk.
 
         </p>
 
@@ -92,15 +92,15 @@
 
         <h3 class="benefits--Example">Example:</h3>
 
-        <p class="benefits--ExampleQuestion">
+        <p class="benefits--ExampleSituation">
             
-            Question: Why are people abandoning their shopping trolleys near the checkout?
+            Situation: Why are people abandoning their shopping trolleys near the checkout?
         
         </p>
 
-        <p class="benefits--ExampleAnswer">
+        <p class="benefits--ExampleResolution">
 
-            Answer: A Business Analyst might discover issues with the checkout process that means it takes too long for some customers, and suggest system or process changes that result in reduced checkout times.
+            Resolution: A Business Analyst might discover issues with the checkout process that means it takes too long for some customers, and suggest system or process changes that result in reduced checkout times.
 
         </p>
 
@@ -118,15 +118,15 @@
 
         <h3 class="benefits--Example">Example:</h3>
 
-        <p class="benefits--ExampleQuestion">
+        <p class="benefits--ExampleSituation">
 
-            Question: Thinking of expanding into a new market?
+            Situation: Thinking of expanding into a new market?
         
         </p>
 
-        <p class="benefits--ExampleAnswer">
+        <p class="benefits--ExampleResolution">
 
-            Answer: A business analysis helps determine if it is viable, and how to do it effectively.
+            Resolution: A business analysis helps determine if it is viable, and how to do it effectively.
 
         </p>
 
