@@ -13,7 +13,7 @@
         
 
         // set the page title
-        $subTitle = "Project Management";
+        $subTitle = "Digital Transformation";
 
 
     // HTML 1
@@ -22,7 +22,7 @@
 
 ?>
 
-<div id="ProjectManagement" class="box">
+<div id="DigitalTransformation" class="box">
 
     <?php
     
@@ -30,22 +30,22 @@
         // PAGE CONTENTS HERE
 
             // Description
-            include($path."assets/includes/page_components/services/project_management/project_management_description.php");
+            include($path."assets/includes/page_components/services/digital_transformation/digital_transformation_description.php");
 
             // Benefits
-            include($path."assets/includes/page_components/services/project_management/project_management_benefits.php");
+            include($path."assets/includes/page_components/services/digital_transformation/digital_transformation_benefits.php");
 
             // Prices
-            include($path."assets/includes/page_components/services/project_management/project_management_prices.php");
+            include($path."assets/includes/page_components/services/digital_transformation/digital_transformation_prices.php");
 
             // Portfolio
-            include($path."assets/includes/page_components/services/project_management/project_management_portfolio.php");
+            include($path."assets/includes/page_components/services/digital_transformation/digital_transformation_portfolio.php");
             
             // Case Studies
-            // include($path."assets/includes/page_components/services/project_management/project_management_case_studies.php");
+            // include($path."assets/includes/page_components/services/digital_transformation/digital_transformation_case_studies.php");
 
             // Next Steps
-            include($path."assets/includes/page_components/services/project_management/project_management_next_steps.php");
+            include($path."assets/includes/page_components/services/digital_transformation/digital_transformation_next_steps.php");
 
     ?>
 

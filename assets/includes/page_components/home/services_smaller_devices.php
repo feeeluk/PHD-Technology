@@ -22,9 +22,9 @@
         </span>
     </a>
     
-    <a href="#ProjectManagementAnchor">
+    <a href="#DigitalTransformationAnchor">
         <span class="button--MenuForSmallerDevices">
-            Project Management
+            Digital Transformation
         </span>
     </a>
     

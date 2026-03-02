@@ -20,7 +20,7 @@
             </summary>
             
             <a href="/pages/services/business_analysis.php"><span class="smallDeviceMenuLink indentLink">Business Analysis</span></a>
-            <a href="/pages/services/project_management.php"><span class="smallDeviceMenuLink indentLink">Project Management</span></a>
+            <a href="/pages/services/digital_transformation.php"><span class="smallDeviceMenuLink indentLink">Digital Transformation</span></a>
             <a href="/pages/services/software_development.php"><span class="smallDeviceMenuLink indentLink">Software Development</span></a>
             <a href="/pages/services/data.php"><span class="smallDeviceMenuLink indentLink">Data</span></a>
             <a href="/pages/services/skills_development_and_training.php"><span class="smallDeviceMenuLink indentLink">Skills Development & Training</span></a>

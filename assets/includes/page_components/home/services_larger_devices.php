@@ -8,9 +8,9 @@
     </div>
 
     <div class="servicesTile">
-        <a href="#ProjectManagementAnchor">
-            <img src="/assets/images/services/project_management/link_project_management.webp" alt="Project managment">
-            <h3>Project Management</h3>
+        <a href="#DigitalTransformationAnchor">
+            <img src="/assets/images/services/digital_transformation/link_digital_transformation.webp" alt="Digital transformation">
+            <h3>Digital Transformation</h3>
         </a>
     </div>
 

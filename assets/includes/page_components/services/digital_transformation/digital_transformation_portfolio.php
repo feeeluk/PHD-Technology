@@ -1,8 +1,8 @@
- /<div id="ProjectManagementPortfolio" class="box--WithPadding item">
+ /<div id="DigitalTransformationPortfolio" class="box--WithPadding item">
 
     <?php
 
-        if (str_contains($_SERVER['REQUEST_URI'],'project_management') == true)
+        if (str_contains($_SERVER['REQUEST_URI'],'digital_transformation') == true)
             {
                 echo "<h1 class='item--Title'>PORTFOLIO</h1>";
 
@@ -11,7 +11,7 @@
 
         elseif (str_contains($_SERVER['REQUEST_URI'],'portfolio') == true)
             {             
-                echo "<h2 class='item--Title'>PROJECT MANAGEMENT</h2>";    
+                echo "<h2 class='item--Title'>DIGITAL TRANSFORMATION</h2>";    
             }
 
     ?>
