@@ -182,7 +182,7 @@
     /* VERY LARGE DEVICES */
     /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-        @media (min-width: 1281px){
+        @media (min-width: 1280px){
             
             /* increase the padding of the Introduction section */
             #IntroductionToBusiness{

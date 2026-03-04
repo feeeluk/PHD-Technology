@@ -6,7 +6,7 @@
 
     <div id="DataSummaryOfService" class="text">            
 
-        <img src="/assets/images/services/data/overview_data.webp" alt="Data" class="text--FloatLeft">         
+        <img src="/assets/images/services/data/data.webp" alt="Data" class="text--FloatLeft">         
     
         <p>
             Data is the process of adjusting, organizing, or transforming data to make it more meaningful, accurate, or useful. It’s often done to prepare data for analysis, reporting, or decision-making.

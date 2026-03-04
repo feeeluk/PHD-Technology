@@ -6,7 +6,7 @@
     
     <div id="UiUxSummaryOfService" class="text">
 
-        <img src="/assets/images/services/ui_ux/overview_ui_ux.webp" alt="UI/UX" class="text--FloatLeft">
+        <img src="/assets/images/services/ui_ux/ui_ux.webp" alt="UI/UX" class="text--FloatLeft">
         
         <p>
             UI/UX is the discipline of identifying needs and determining the best solutions to meet those needs.

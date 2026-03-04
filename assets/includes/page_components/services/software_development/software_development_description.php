@@ -6,7 +6,7 @@
 
     <div id="DotNetDevelopmentSummaryOfService" class="text summaryOfService">
 
-        <img src="/assets/images/services/software_development/overview_dot_net_development.webp" alt=".NET devlopment" class="text--FloatLeft">
+        <img src="/assets/images/services/software_development/dot_net_development.webp" alt=".NET devlopment" class="text--FloatLeft">
 
         <h2 class="item--SubSectionTitle">.NET</h2>
 
@@ -47,7 +47,7 @@
 
     <div id="WebDevelopmentSummaryOfService" class="text summaryOfService">
 
-        <img src="/assets/images/services/software_development/overview_web_development.webp" alt="Web development" class="text--FloatLeft">
+        <img src="/assets/images/services/software_development/web_development.webp" alt="Web development" class="text--FloatLeft">
         
         <h2 class="item--SubSectionTitle">Web</h2>
         
