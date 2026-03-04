@@ -63,12 +63,6 @@
     ?>
 
     <div id="DataDetailsOfService" class="text">
-        
-        <details class="details">
-
-            <summary class="summary">More Information</summary>
-
-        </details>
     
         <h2 class="item--Heading">Data with PHD Technology</h2>
         
