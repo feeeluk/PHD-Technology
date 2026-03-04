@@ -76,6 +76,16 @@
         margin-top: 0;
     }
 
+    ol.nested, ul.nested{
+        list-style-type: none;
+        font-weight: bold;
+    }
+
+    ol.nested ol, ul.nested ul{
+        text-indent: 10px;
+        font-weight: normal;
+    }
+
 /* Containers */
 /* ============================================== */
 

@@ -8,12 +8,37 @@
 
         <img src="/assets/images/services/data/data.webp" alt="Data" class="text--FloatLeft">         
     
+        <!-- <ul class="nested">
+            <li>Data Management
+                <ul>
+                    <li>Data Integration</li>
+                    <li>Data Migration</li>
+                    <li>Analytics & Reporting</li>
+                </ul>
+            </li>
+        </ul> -->
+        
         <p>
-            Data is the process of adjusting, organizing, or transforming data to make it more meaningful, accurate, or useful. It’s often done to prepare data for analysis, reporting, or decision-making.
+            <b>Data Management</b>
+            <br>
+            The overall discipline of organising, storing, governing, and maintaining data so it’s accurate, secure, and usable across the business. 
         </p>
 
         <p>
-            In simple terms, it’s about taking raw data and changing it into a cleaner, more usable form.
+            <b>Data Integration</b>
+            <br>
+            Connecting data from different systems—CRMs, finance tools, spreadsheets, legacy databases—so information flows smoothly and stays consistent.
+        </p>
+
+        <p>
+            <b>Data Migration</b>
+            <br>
+            Moving data from one system to another—often part of digital transformation or system upgrades—while preserving quality and continuity.
+        </p>
+
+        <p>
+            <b>Analytics & Reporting</b>
+            Turning raw data into insights through dashboards, reports, KPIs, and analysis that support decision‑making.
         </p>
 
     </div>
@@ -48,8 +73,13 @@
         <h2 class="item--Heading">Data with PHD Technology</h2>
         
         <p>
-            TEST. This paragraph should only be visible in the specific service page, not on the homepage.
-        </p>
+            Our goal is always the same: to transform isolated data into meaningful understanding.</p>
+        <p>
+            To turn data into information.
+            <br>
+            Information into knowledge.</p>
+        <p> 
+            Deriving meaning from data gives organisations clarity they can act on. We focus on improving the quality, structure, and flow of data so it becomes something teams can trust and use. Clean, connected data supports clearer reporting, sharper insight, and better decisions.</p>
 
     </div>
 

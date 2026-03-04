@@ -10,13 +10,19 @@
         
     </p>
 
-    <p class="footer--Right">
+    <p class="footer--Right">>
         
-        <img src="/assets/images/footer/linkedin.png" alt="LinkedIn profile" class="footer--Logo">
+        <a href="">
+            <img src="/assets/images/footer/linkedin.png" alt="LinkedIn profile" class="footer--Logo">
+        </a>
         
-        <img src="/assets/images/footer/x.png" alt="X (formerly Twitter) profile" class="footer--Logo">
+        <a href="">
+            <img src="/assets/images/footer/x.png" alt="X (formerly Twitter) profile" class="footer--Logo">
+        </a>
         
-        <img src="/assets/images/footer/facebook.png" alt="Facebook profile" class="footer--Logo">
+        <a href="">
+            <img src="/assets/images/footer/facebook.png" alt="Facebook profile" class="footer--Logo">
+        </a>
         
         <a href="https://trello.com/invite/b/692dce0d19aab9be3d84fa4a/ATTIa7da0c88000220adb6717ed94cb880da492D4337/pdh-technology">
             <img src="/assets/images/footer/trello.jpg" alt="Trello profile" class="footer--Logo">
@@ -29,9 +35,7 @@
     </p>
 
     <p>
-
         Philip Henning trading as PDH Technology
-
     </p>
 
 </footer>
