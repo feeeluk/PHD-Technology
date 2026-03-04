@@ -38,7 +38,7 @@
 
                 // INTRODUCTION TO BUSINESS
                 // ****************************************************************************************************************************************
-                include($path."assets/includes/page_components/home/introduction_to_business.php");
+                include($path."assets/includes/page_components/homepage/introduction_to_business.php");
 
             ?>
 
