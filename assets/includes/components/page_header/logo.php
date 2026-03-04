@@ -2,7 +2,7 @@
 
     <a href="/">
 
-        <img src="/assets/images/other/all_pages/logo.webp" alt="logo">
+        <img src="/assets/images/header/logo.webp" alt="logo">
 
     </a>
         

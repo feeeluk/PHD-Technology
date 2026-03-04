@@ -36,13 +36,13 @@
             include($path."assets/includes/page_components/services/business_analysis/business_analysis_portfolio.php");
             
             // PROJECT MANAGEMENT
-            include($path."assets/includes/page_components/services/project_management/project_management_portfolio.php");
+            include($path."assets/includes/page_components/services/digital_transformation/digital_transformation_portfolio.php");
             
             // SOFTWARE DEVELOPMENT
             include($path."assets/includes/page_components/services/software_development/software_development_portfolio.php");
             
             // DATA MANIPULATION
-            include($path."assets/includes/page_components/services/data_manipulation/data_manipulation_portfolio.php");
+            include($path."assets/includes/page_components/services/data/data_portfolio.php");
             
             // SKILLS DEVELOPMENT & TRAINING
             include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_portfolio.php");

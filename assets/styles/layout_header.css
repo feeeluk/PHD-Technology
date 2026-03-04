@@ -49,14 +49,14 @@
             margin: 10px;
             background-color: transparent;
             cursor: pointer;
-            background-image: url('/assets/images/other/all_pages/hamburger_icon_small.webp');
+            background-image: url('/assets/images/header/hamburger_icon_small.webp');
             background-repeat: no-repeat;
             z-index: var(--z-top);
         }
 
         /*  Hamburger icon (active) - controls the display of the second hamburger icon */
         #DisclosureOne[open] #Hamburger {
-            background-image: url('/assets/images/other/all_pages/hamburger_icon_small_active.webp');
+            background-image: url('/assets/images/header/hamburger_icon_small_active.webp');
             background-repeat: no-repeat;
         }
 
