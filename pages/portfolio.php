@@ -30,31 +30,31 @@
             echo "</div>";
         
             // PROOF OF CONCEPTS
-            include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_portfolio.php");
+            include($path."assets/includes/page_sections/services/proof_of_concept/proof_of_concept_portfolio.php");
 
             // BUSINESS ANALYSIS
-            include($path."assets/includes/page_components/services/business_analysis/business_analysis_portfolio.php");
+            include($path."assets/includes/page_sections/services/business_analysis/business_analysis_portfolio.php");
             
             // PROJECT MANAGEMENT
-            include($path."assets/includes/page_components/services/digital_transformation/digital_transformation_portfolio.php");
+            include($path."assets/includes/page_sections/services/digital_transformation/digital_transformation_portfolio.php");
             
             // SOFTWARE DEVELOPMENT
-            include($path."assets/includes/page_components/services/software_development/software_development_portfolio.php");
+            include($path."assets/includes/page_sections/services/software_development/software_development_portfolio.php");
             
             // DATA MANIPULATION
-            include($path."assets/includes/page_components/services/data/data_portfolio.php");
+            include($path."assets/includes/page_sections/services/data/data_portfolio.php");
             
             // SKILLS DEVELOPMENT & TRAINING
-            include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_portfolio.php");
+            include($path."assets/includes/page_sections/services/skills_development_and_training/skills_development_and_training_portfolio.php");
             
             // ARTIFICIAL INTELLIGENCE
-            include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_portfolio.php");
+            include($path."assets/includes/page_sections/services/artificial_intelligence/artificial_intelligence_portfolio.php");
             
             // DIGITAL MEDIA & MARKETING
-            include($path."assets/includes/page_components/services/digital_media_and_marketing/digital_media_and_marketing_portfolio.php");
+            include($path."assets/includes/page_sections/services/digital_media_and_marketing/digital_media_and_marketing_portfolio.php");
 
             // UI/UX
-            include($path."assets/includes/page_components/services/ui_ux/ui_ux_portfolio.php");
+            include($path."assets/includes/page_sections/services/ui_ux/ui_ux_portfolio.php");
 
 
     // HTML 2

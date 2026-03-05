@@ -28,16 +28,16 @@
         <?php
 
             // ABOUT DESCRIPTION
-            include($path."assets/includes/page_components/about/about_description.php");
+            include($path."assets/includes/page_sections/about/about_description.php");
 
             // BENEFITS
-            include($path."assets/includes/page_components/about/about_benefits.php");
+            include($path."assets/includes/page_sections/about/about_benefits.php");
             
             // PRICES
-            include($path."assets/includes/page_components/about/about_prices.php");
+            include($path."assets/includes/page_sections/about/about_prices.php");
 
             // NEXT STEPS
-            include($path."assets/includes/page_components/about/about_next_steps.php");
+            include($path."assets/includes/page_sections/about/about_next_steps.php");
 
         ?>
     

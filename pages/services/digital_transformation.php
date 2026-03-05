@@ -30,22 +30,22 @@
         // PAGE CONTENTS HERE
 
             // Description
-            include($path."assets/includes/page_components/services/digital_transformation/digital_transformation_description.php");
+            include($path."assets/includes/page_sections/services/digital_transformation/digital_transformation_description.php");
 
             // Benefits
-            include($path."assets/includes/page_components/services/digital_transformation/digital_transformation_benefits.php");
+            include($path."assets/includes/page_sections/services/digital_transformation/digital_transformation_benefits.php");
 
             // Prices
-            include($path."assets/includes/page_components/services/digital_transformation/digital_transformation_prices.php");
+            include($path."assets/includes/page_sections/services/digital_transformation/digital_transformation_prices.php");
 
             // Portfolio
-            include($path."assets/includes/page_components/services/digital_transformation/digital_transformation_portfolio.php");
+            include($path."assets/includes/page_sections/services/digital_transformation/digital_transformation_portfolio.php");
             
             // Case Studies
-            // include($path."assets/includes/page_components/services/digital_transformation/digital_transformation_case_studies.php");
+            // include($path."assets/includes/page_sections/services/digital_transformation/digital_transformation_case_studies.php");
 
             // Next Steps
-            include($path."assets/includes/page_components/services/digital_transformation/digital_transformation_next_steps.php");
+            include($path."assets/includes/page_sections/services/digital_transformation/digital_transformation_next_steps.php");
 
     ?>
 

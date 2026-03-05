@@ -29,22 +29,22 @@
         // PAGE CONTENTS HERE
 
             // Description
-            include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_description.php");
+            include($path."assets/includes/page_sections/services/proof_of_concept/proof_of_concept_description.php");
 
             // Benefits
-            include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_benefits.php");
+            include($path."assets/includes/page_sections/services/proof_of_concept/proof_of_concept_benefits.php");
             
             // Prices
-            include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_prices.php");
+            include($path."assets/includes/page_sections/services/proof_of_concept/proof_of_concept_prices.php");
             
             // Portfolio
-            include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_portfolio.php");
+            include($path."assets/includes/page_sections/services/proof_of_concept/proof_of_concept_portfolio.php");
             
             // Case Studies
-            // include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_case_studies.php");
+            // include($path."assets/includes/page_sections/services/proof_of_concept/proof_of_concept_case_studies.php");
             
             // Next Steps
-            include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_next_steps.php");
+            include($path."assets/includes/page_sections/services/proof_of_concept/proof_of_concept_next_steps.php");
 
     ?>
 

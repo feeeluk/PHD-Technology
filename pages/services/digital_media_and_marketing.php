@@ -30,22 +30,22 @@
         // PAGE CONTENTS HERE
 
             // Description
-            include($path."assets/includes/page_components/services/digital_media_and_marketing/digital_media_and_marketing_description.php");
+            include($path."assets/includes/page_sections/services/digital_media_and_marketing/digital_media_and_marketing_description.php");
 
             // Benefits
-            include($path."assets/includes/page_components/services/digital_media_and_marketing/digital_media_and_marketing_benefits.php");
+            include($path."assets/includes/page_sections/services/digital_media_and_marketing/digital_media_and_marketing_benefits.php");
 
             // Prices
-            include($path."assets/includes/page_components/services/digital_media_and_marketing/digital_media_and_marketing_prices.php");
+            include($path."assets/includes/page_sections/services/digital_media_and_marketing/digital_media_and_marketing_prices.php");
 
             // Portfolio
-            include($path."assets/includes/page_components/services/digital_media_and_marketing/digital_media_and_marketing_portfolio.php");
+            include($path."assets/includes/page_sections/services/digital_media_and_marketing/digital_media_and_marketing_portfolio.php");
             
             // Case Studies
-            // include($path."assets/includes/page_components/services/digital_media_and_marketing/digital_media_and_marketing_case_studies.php");
+            // include($path."assets/includes/page_sections/services/digital_media_and_marketing/digital_media_and_marketing_case_studies.php");
             
             // Next Steps
-            include($path."assets/includes/page_components/services/digital_media_and_marketing/digital_media_and_marketing_next_steps.php");
+            include($path."assets/includes/page_sections/services/digital_media_and_marketing/digital_media_and_marketing_next_steps.php");
 
     ?>
 

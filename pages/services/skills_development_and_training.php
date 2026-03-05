@@ -29,22 +29,22 @@
         // PAGE CONTENTS HERE
 
             // Description
-            include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_description.php");
+            include($path."assets/includes/page_sections/services/skills_development_and_training/skills_development_and_training_description.php");
 
             // Benefits
-            include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_benefits.php");
+            include($path."assets/includes/page_sections/services/skills_development_and_training/skills_development_and_training_benefits.php");
 
             // Prices
-            include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_prices.php");
+            include($path."assets/includes/page_sections/services/skills_development_and_training/skills_development_and_training_prices.php");
 
             // Portfolio
-            include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_portfolio.php");
+            include($path."assets/includes/page_sections/services/skills_development_and_training/skills_development_and_training_portfolio.php");
             
             // Case Studies
-            // include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_case_studies.php"); 
+            // include($path."assets/includes/page_sections/services/skills_development_and_training/skills_development_and_training_case_studies.php"); 
             
             // Next Steps
-            include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_next_steps.php");
+            include($path."assets/includes/page_sections/services/skills_development_and_training/skills_development_and_training_next_steps.php");
 
     ?>
 

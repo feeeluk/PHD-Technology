@@ -22,31 +22,31 @@
         // PAGE CONTENTS HERE
 
             // BUSINESS ANALYSIS
-            include($path."assets/includes/page_components/services/business_analysis/business_analysis_description.php");
+            include($path."assets/includes/page_sections/services/business_analysis/business_analysis_description.php");
             
             // DATA
-            include($path."assets/includes/page_components/services/data/data_description.php");
+            include($path."assets/includes/page_sections/services/data/data_description.php");
             
             // PROOF OF CONCEPT
-            include($path."assets/includes/page_components/services/proof_of_concept/proof_of_concept_description.php");
+            include($path."assets/includes/page_sections/services/proof_of_concept/proof_of_concept_description.php");
             
             // SOFTWARE DEVELOPMENT
-            include($path."assets/includes/page_components/services/software_development/software_development_description.php");
+            include($path."assets/includes/page_sections/services/software_development/software_development_description.php");
             
             // DIGITAL TRANSFORMATIONS
-            include($path."assets/includes/page_components/services/digital_transformation/digital_transformation_description.php");
+            include($path."assets/includes/page_sections/services/digital_transformation/digital_transformation_description.php");
 
             // UI/UX
-            include($path."assets/includes/page_components/services/ui_ux/ui_ux_description.php");
+            include($path."assets/includes/page_sections/services/ui_ux/ui_ux_description.php");
             
             // SKILLS DEVELOPMENT & TRAINING
-            include($path."assets/includes/page_components/services/skills_development_and_training/skills_development_and_training_description.php");
+            include($path."assets/includes/page_sections/services/skills_development_and_training/skills_development_and_training_description.php");
 
             // ARTIFICIAL INTELLIGENCE
-            include($path."assets/includes/page_components/services/artificial_intelligence/artificial_intelligence_description.php");
+            include($path."assets/includes/page_sections/services/artificial_intelligence/artificial_intelligence_description.php");
 
             // DIGITAL MEDIA & MARKETING
-            include($path."assets/includes/page_components/services/digital_media_and_marketing/digital_media_and_marketing_description.php");
+            include($path."assets/includes/page_sections/services/digital_media_and_marketing/digital_media_and_marketing_description.php");
 
 
     // HTML 2
