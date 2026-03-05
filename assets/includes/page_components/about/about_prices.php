@@ -1,8 +1,8 @@
-<div id="AboutPrices" class="box--WithPadding item">
+<div id="AboutPrices" class="box--WithPadding item prices">
 
     <h1 class="item--Title">PRICES</h1>
 
-    <table id="Prices" class="prices">
+    <table id="Prices" class="pricesTable">
 
         <colgroup>
 

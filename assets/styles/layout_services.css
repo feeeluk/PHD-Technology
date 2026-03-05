@@ -199,34 +199,40 @@
     /* ============================================== */
 
         .prices{
+            display: flex;
+            flex-direction: column;
+            justify-content: top;
+            align-items: center;
+        }
+    
+        .pricesTable{
             width: 70%;
             min-width: 300px;
             max-width: 800px;
-            justify-self: center;
             margin-bottom: var(--space-fixed-2);
             text-align: center;
         }
 
-        .prices .tableLeftAlign{
+        .pricesTable .tableLeftAlign{
             text-align: left;
             padding-left: var(--space-2);
         }
 
-        .prices thead{
+        .pricesTable thead{
             background: #666;
             color: #ccc;
         }
 
-        .prices td:nth-child(1){
+        .pricesTable td:nth-child(1){
             background: #aaa;
         }
 
-        .prices td:nth-child(2){
+        .pricesTable td:nth-child(2){
             background: #888;
             color: #fff;
         }
 
-        .prices td:nth-child(3){
+        .pricesTable td:nth-child(3){
             background: #777;
             color: #fff;
         }
