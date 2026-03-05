@@ -12,7 +12,7 @@
                 /* LARGER DEVICES */
                 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-                @media (min-width: 640px){
+                @media (min-width: 639px){
                     
                     /* set the height of the first .text section to be as tall as the image */
                     .text:first-of-type{
@@ -31,7 +31,7 @@
 
                 }
 
-                @media (min-width: 960px){
+                @media (min-width: 959px){
                         
                     .text:first-of-type{
                          min-height: 220px;
@@ -59,7 +59,7 @@
                 /* LARGER DEVICES */
                 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-                    @media (min-width: 400px){
+                    @media (min-width: 399px){
 
                         /* make image bigger */
                         .text--FloatLeft{
@@ -69,7 +69,7 @@
 
                     }
 
-                    @media (min-width: 640px){
+                    @media (min-width: 639px){
 
                         /* make image bigger */
                         .text--FloatLeft{
@@ -79,7 +79,7 @@
 
                     }
 
-                    @media (min-width: 960px){
+                    @media (min-width: 959px){
 
                         /* make image bigger */
                         .text--FloatLeft{
@@ -99,7 +99,7 @@
                 /* LARGER DEVICES */
                 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-                    @media (min-width: 1280px){
+                    @media (min-width: 1279px){
 
                         /* make image bigger */
                         .text--AboutImage{
@@ -133,7 +133,7 @@
                 /* LARGER DEVICES */
                 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-                    @media (min-width: 640px){
+                    @media (min-width: 639px){
 
                         /* move the position of the button */
                         .clickForDetails a{
@@ -257,13 +257,13 @@
         /* LARGER DEVICES */
         /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-            @media (min-width: 640px){
+            @media (min-width: 639px){
                 .nextSteps img{
                     width: 150px;
                 }
             }
 
-            @media (min-width: 960px){
+            @media (min-width: 959px){
                 .nextSteps img{
                     width: 200px;
                 }

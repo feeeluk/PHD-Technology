@@ -10,7 +10,7 @@
         
     </p>
 
-    <p class="footer--Right">>
+    <p class="footer--Right">
         
         <a href="">
             <img src="/assets/images/footer/linkedin.png" alt="LinkedIn profile" class="footer--Logo">

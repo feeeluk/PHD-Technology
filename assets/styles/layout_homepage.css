@@ -14,13 +14,13 @@
             /* LARGER DEVICES */
             /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-            @media (min-width: 640px){
+            @media (min-width: 639px){
                 #IntroductionToBusiness{
                     padding: var(--space-fixed-1) 7.5%;
                 }
             }
 
-            @media (min-width: 960px){
+            @media (min-width: 959px){
                 #IntroductionToBusiness{
                     padding: var(--space-fixed-1) 10%;
                 }
@@ -94,7 +94,7 @@
     /* MOBILE & SMALLER DEVICES */
     /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-        @media (max-width: 960px){
+        @media (max-width: 959px){
             
             /* do not show Services Tiles */
             #ServicesLargerDevices{
@@ -106,7 +106,7 @@
     /* LARGER DEVICES */
     /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-        @media (min-width: 961px){
+        @media (min-width: 959px){
             
             /* do not show Links section */
             #ServicesSmallerDevices{
@@ -182,7 +182,7 @@
     /* VERY LARGE DEVICES */
     /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-        @media (min-width: 1280px){
+        @media (min-width: 1279px){
             
             /* increase the padding of the Introduction section */
             #IntroductionToBusiness{

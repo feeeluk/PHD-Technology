@@ -82,11 +82,11 @@
   --shadow-xl: 0 8px 16px rgba(0,0,0,0.5);
 
   /* Breakpoints (mobile-first) */
-  --bp-xs: 320px;
-  --bp-sm: 461px;
-  --bp-md: 641px;
-  --bp-lg: 961px;
-  --bp-xl: 1281px;
+  --bp-xs: 399px;
+  --bp-sm: 459px;
+  --bp-md: 639px;
+  --bp-lg: 989px;
+  --bp-xl: 1279px;
 
   /* Z-index scale */
   --z-bottom:1;

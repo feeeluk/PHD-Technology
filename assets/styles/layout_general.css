@@ -15,16 +15,6 @@
                 .boxOne--rounded{}
                 .boxOne--big{}
                 .boxOne--small{}
-
-        Layout CSS is broken down into 6 different files
-        - general
-        - header
-        - homepage
-        - services
-        - about
-        - contact
-
-        It is done this way so that each part of the site can have it's own specific styling, whilst also maintaining a sitewide consistent look and feel.
         
         More info on specific parts
             - Navigation
@@ -36,9 +26,9 @@
                 body
                     - #Header
                     - #PageContainer - has no margin or padding.
-                        > ?homepage specific content?
                         > SubContainer
                         > Footer
+
                 General content is located inside the sub container.            
 
     */
@@ -114,13 +104,13 @@
             /* LARGER DEVICES */
             /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-            @media (min-width: 640px){
+            @media (min-width: 639px){
                 #SubContainer{
                     padding: var(--space-4) 10% 0 10%;
                 }
             }
 
-            @media (min-width: 960px){
+            @media (min-width: 959px){
                 #SubContainer{
                     padding: var(--space-4) 20% 0 20%;
                 }
@@ -277,20 +267,20 @@
             /* LARGER DEVICES */
             /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-            @media (min-width: 640px){
+            @media (min-width: 639px){
                 .footer--Logo{
                     height: 25px;
                     vertical-align:middle;
                 }
             }
 
-            @media (min-width: 960px){
+            @media (min-width: 959px){
                 .footer--Logo{
                     height: 30px;
                 }
             }
 
-            @media (min-width: 1280px){
+            @media (min-width: 1279px){
                 .footer--Logo{
                     height: 35px;
                 }
