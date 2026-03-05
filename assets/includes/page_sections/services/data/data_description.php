@@ -6,17 +6,11 @@
 
     <div id="DataSummaryOfService" class="text">            
 
-        <img src="/assets/images/services/data/data.webp" alt="Data" class="text--FloatLeft">         
-    
-        <!-- <ul class="nested">
-            <li>Data Management
-                <ul>
-                    <li>Data Integration</li>
-                    <li>Data Migration</li>
-                    <li>Analytics & Reporting</li>
-                </ul>
-            </li>
-        </ul> -->
+        <img src="/assets/images/services/data/data.webp" alt="Data" class="text--FloatLeft">
+
+        <p>
+            There are many different aspects when it comes to data:
+        </p>
         
         <p>
             <b>Data Management</b>
@@ -67,11 +61,13 @@
         <h2 class="item--Heading">Data with PHD Technology</h2>
         
         <p>
-            Our goal is always the same: to transform isolated data into meaningful understanding.</p>
-        <p>
-            To turn data into information.
-            <br>
-            Information into knowledge.</p>
+            Our goal is always the same:</p>
+        
+        <ul>
+            <li>To turn data into meaningful information.</li>
+            <li>To turn information into actionable knowledge.</li>
+        </ul>
+        
         <p> 
             Deriving meaning from data gives organisations clarity they can act on. We focus on improving the quality, structure, and flow of data so it becomes something teams can trust and use. Clean, connected data supports clearer reporting, sharper insight, and better decisions.</p>
 
