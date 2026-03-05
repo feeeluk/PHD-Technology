@@ -24,7 +24,7 @@
             
             // PAGE HEADER & NAVIGATION
             // ****************************************************************************************************************************************
-            include($path."assets/includes/components/page_header/page_header.php");
+            include($path."assets/includes/components/header/header.php");
 
         ?>
 
@@ -34,7 +34,7 @@
 
                 // LINK TO TOP OF THE PAGE
                 // ****************************************************************************************************************************************
-                include($path."assets/includes/components/page_header/link_to_top_of_the_page.php");
+                include($path."assets/includes/components/header/link_to_top_of_the_page.php");
 
                 // INTRODUCTION TO BUSINESS
                 // ****************************************************************************************************************************************

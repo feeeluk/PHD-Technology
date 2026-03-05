@@ -24,7 +24,7 @@
             
             // PAGE HEADER & NAVIGATION
             // ****************************************************************************************************************************************
-            include($path."assets/includes/components/page_header/page_header.php");
+            include($path."assets/includes/components/header/header.php");
 
         ?>
 
