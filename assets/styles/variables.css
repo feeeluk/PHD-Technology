@@ -2,21 +2,6 @@
 
 :root {
   /* Colours */
-  /* OLD STYLE */
-  --colour-primary: pink;
-  --colour-primary-transparent: orange;
-  --colour-secondary: blue;
-  --colour-accent: green;
-  --colour-heading: red;
-  --colour-text: purple;
-  --colour-bg-primary: linear-gradient(to right, red, #555 25%, blue);
-  --colour-bg-secondary: rgb(40, 24, 40);
-  --colour-bg-secondary-transparent: 40, 24, 40;
-
-  /* --colour-bg-accent:rgb(255, 255, 255); */
-  --colour-bg-accent-transparent: 255, 255, 255;
-
-  /* NEW SYLE */
   --colour-1: rgb(50, 140, 130); /* main colour (logo, icons, buttons, links) */
   --colour-1-transparent: 50, 140, 130;
   --colour-2: #ffffff; 
@@ -101,16 +86,18 @@
   --height-footer: 100px;
 
   /* Disclosure */
-  --disclosure-colour-primary: #333333;
+  --disclosure-colour-primary: #222222;
   --disclosure-colour-secondary: white;
-  --disclosure-colour-bg-primary: #cccccc;
-  --disclosure-colour-bg-secondary: rgb(50, 140, 130);
+  --disclosure-colour-bg-1: linear-gradient(to right, rgb(50, 140, 130), rgb(172, 236, 221));
+  --disclosure-colour-bg-2: rgb(172, 236, 221);
+  --disclosure-colour-bg-3: rgb(50, 140, 130);
   --disclosure-border: 1px solid #555555;
   --disclosure-triangle-size: 5px;
   --disclosure-triangle-colour: #555555;
   --disclosure-triangle-colour-hover: white;
   --disclosure-triangle-colour-open: white;
   --disclosure-triangle-margin: 10px;
+  --disclosure-size: 45px;
   
 /* Navbar menu */
   --navbar-dropdown-parent-margin: 0.75rem;

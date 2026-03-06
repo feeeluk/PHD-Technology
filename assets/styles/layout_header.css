@@ -26,142 +26,167 @@
                     justify-self: center;}
         }
 
-    /* Navigation (smaller devices) */
-    /* ============================================== */
-
-        /* do not show the standard navigation menu as standard */
+        /* Do not show the navigation menu as standard. */
         #NavbarDropdown {
             display: none;
         }
-        
-        /* this keeps the child elements inside the primary disclosure  */
-        #DisclosureOne summary {
-            display:flex;
-        }
 
-        /*  Hamburger icon (inactive) - controls the display of the initial hamburger icon */
-        #DisclosureOne #Hamburger {
-            position: fixed;
-            top: 0;
-            right: 0;
-            width: 50px;
-            height: 50px;
-            margin: 10px;
-            background-color: transparent;
-            cursor: pointer;
-            background-image: url('/assets/images/header/hamburger_icon_small.webp');
-            background-repeat: no-repeat;
-            z-index: var(--z-top);
-        }
+        /* SMALLER DEVICE NAVIGATION (DISCLOSURE NAVIGATION) */
+        /* ============================================== */
 
-        /*  Hamburger icon (active) - controls the display of the second hamburger icon */
-        #DisclosureOne[open] #Hamburger {
-            background-image: url('/assets/images/header/hamburger_icon_small_active.webp');
-            background-repeat: no-repeat;
-        }
+            /* Format all the items within both disclosures. */
+            .smallDeviceMenuLink {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                color: var(--disclosure-colour-primary);
+                min-height: var(--disclosure-size);
+                padding-left: var(--space-4);
+                border-bottom: var(--disclosure-border);
+            }
 
-        /* format the content of the primary disclosure space */
-        #DisclosureOne[open] {
-            position: fixed;
-            top: var(--height-header);
-            left: 0;
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            z-index: var(--z-top);
-        }
+            /* Format all the items within both disclosures when hovered over. */
+            .smallDeviceMenuLink:hover {
+                color: #d4d4d4;
+                background: var(--disclosure-colour-bg-3);
+            }
+            
+            /* Indent. */
+            .indentLink {
+                padding-left: var(--space-6);
+            }
 
-        /*  format all the items within the primary disclosure (note. this is why the 'nav' was used) */
-        #NavbarForMobile span.smallDeviceMenuLink {
-            display: block;
-            color: var(--disclosure-colour-primary);
-            background-color: var(--disclosure-colour-bg-primary);
-            border-bottom: var(--disclosure-border);
-            padding: var(--space-1);
-            padding-left: var(--space-4);
-        }
-        
-        /* format the secondary disclosure (the actual cell within the primary disclosure)  */
-        #DisclosureTwo summary {
-            color: var(--disclosure-colour-primary);
-            background-color: var(--disclosure-colour-bg-primary);
-            padding: var(--space-1);
-            padding-left: var(--space-4);
-            border-bottom: var(--disclosure-border);
-            cursor: pointer;
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-        }
+            /* Arrow. */
+            .arrow{                   
+                border-top-width: var(--disclosure-triangle-size);
+                border-top-style: solid;
+                border-top-color: transparent;
+                border-right: none;
+                border-bottom-width: var(--disclosure-triangle-size);
+                border-bottom-style: solid;
+                border-bottom-color: transparent;
+                border-left-width: var(--disclosure-triangle-size);
+                border-left-style: solid;
+                border-left-color: var(--disclosure-triangle-colour);
+                margin-left: var(--disclosure-triangle-margin);
+                background: transparent;
+                width: fit-content;
+                padding: 0;
+            }
 
-         /* Arrow - inactive */
-        #DisclosureTwo summary span.arrow {                   
-            border-top-width: var(--disclosure-triangle-size);
-            border-top-style: solid;
-            border-top-color: transparent;
-            border-right: none;
-            border-bottom-width: var(--disclosure-triangle-size);
-            border-bottom-style: solid;
-            border-bottom-color: transparent;
-            border-left-width: var(--disclosure-triangle-size);
-            border-left-style: solid;
-            border-left-color: var(--disclosure-triangle-colour);
-            margin-left: var(--disclosure-triangle-margin);
-            background: transparent;
-            width: fit-content;
-            padding: 0;
-        }
+            .levelOne{
+                background: var(--disclosure-colour-bg-1);
+            }
 
-        /* Arrow - inactive (hover) */
-        #DisclosureTwo summary:hover {
-            color: var(--disclosure-colour-secondary);
-            background-color: var(--colour-1);
-        }
-
-        /* Arrow - inactive (hover) */
-        #DisclosureTwo summary:hover .arrow {
-            border-left-width: var(--disclosure-triangle-size);
-            border-left-style: solid;
-            border-left-color: var(--disclosure-triangle-colour-hover);;
-        }
-
-        /*  Arrow - active */
-        #DisclosureTwo[open] summary {
-            color: var(--disclosure-colour-secondary);
-            background-color: var(--colour-1);
-        }
-
-        /*  Arrow - active */
-        #DisclosureTwo[open] summary .arrow {
-            transform: rotate(90deg);
-            border-left-width: var(--disclosure-triangle-size);
-            border-left-style: solid;
-            border-left-color: var(--disclosure-triangle-colour-open);
-        }
-
-        /* format the content of the secondary disclosure space  */
-        #DisclosureTwo[open] {
-            display:flex;
-            flex-direction: column;
-        }
-
-        /*  Indent the items in the secondary disclosure */
-        #NavbarForMobile span.indentLink {
-            padding-left: var(--space-6);
-        }
-
-        /* change the items in the secondary disclosure when hovered over  */
-        #NavbarForMobile span.smallDeviceMenuLink:hover {
-            color: #d4d4d4;
-            background-color: var(--colour-1);
-        }
+            .levelTwo{
+                background: var(--disclosure-colour-bg-2);
+            }
 
 
-/* Navigation (larger devices) */
+            /* DISCLOSURE ONE */
+            /* ====================================================== */
+
+
+                /* INACTIVE */
+                /* %%%%%%%%%%%%%%%%%%%%%%% */
+                
+                    /* Summary: Hamburger icon - controls the display of the initial hamburger icon. */
+                    #DisclosureOne #Hamburger {
+                        background-image: url('/assets/images/header/hamburger_icon_small.webp');
+                        background-repeat: no-repeat;
+                        position: fixed;
+                        top: 0;
+                        right: 0;
+                        width: 50px;
+                        height: 50px;
+                        margin: 10px;
+                        background-color: transparent;
+                        cursor: pointer;
+                        z-index: var(--z-top);
+                    }
+
+
+            /* ACTIVE */
+            /* %%%%%%%%%%%%%%%%%%%%%%% */
+
+            
+                /* Summary: Hamburger icon - controls the display of the hamburger icon when the disclosure is active. */
+                #DisclosureOne[open] #Hamburger {
+                    background-image: url('/assets/images/header/hamburger_icon_small_active.webp');
+                    background-repeat: no-repeat;
+                }
+                
+                /* Summary: stops the arrow showing in the summary. */
+                #DisclosureOne[open] summary::marker,
+                #DisclosureOne[open] summary::-webkit-details-marker  {
+                    display:none;
+                }
+
+                /* Summary: stops the arrow showing in the summary. */
+                #DisclosureOne[open] summary {
+                    list-style: none;
+                }
+
+                /* Format the content of the primary disclosure space. */
+                #DisclosureOne[open] {
+                    position: fixed;
+                    top: var(--height-header);
+                    left: 0;
+                    width: 100%;
+                    z-index: var(--z-top);
+                }
+
+            
+        /* DISCLOSURE TWO */
+        /* ====================================================== */
+
+
+            /* INACTIVE */
+            /* %%%%%%%%%%%%%%%%%%%%%%% */
+            
+                /* Summary. */
+                #DisclosureTwo summary {
+                    cursor: pointer;
+                }
+
+                /* Summary (hover). */
+                #DisclosureTwo summary:hover {
+                    color: var(--disclosure-colour-secondary);
+                    background-color: var(--colour-1);
+                }
+                
+                /* Summary (hover) arrow. */
+                #DisclosureTwo summary:hover .arrow {
+                    border-left-width: var(--disclosure-triangle-size);
+                    border-left-style: solid;
+                    border-left-color: var(--disclosure-triangle-colour-hover);
+                }
+
+
+            /* ACTIVE */
+            /* %%%%%%%%%%%%%%%%%%%%%%% */
+
+
+                /* Summary. */
+                #DisclosureTwo[open] summary {
+                    color: var(--disclosure-colour-secondary);
+                    background-color: var(--colour-1);
+                }
+
+                /* Summary arrow. */
+                #DisclosureTwo[open] summary .arrow {
+                    transform: rotate(90deg);
+                    border-left-width: var(--disclosure-triangle-size);
+                    border-left-style: solid;
+                    border-left-color: var(--disclosure-triangle-colour-open);
+                }
+
+
+/* LARGER DEVICE NAVIGATION (DROP DOWN) */
 /* ============================================== */
 
         /* hide the 'hamburger menu' for larger devices and desktops and move the logo to make room for standard navigation*/
-        @media (min-width:961px){ 
+        @media (min-width:959px){ 
             
             /* Hide 'hamburger menu' */
             #DisclosureOne {
