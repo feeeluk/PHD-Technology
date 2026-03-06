@@ -31,7 +31,7 @@
             display: none;
         }
 
-        /* SMALLER DEVICE NAVIGATION (DISCLOSURE NAVIGATION) */
+        /* SMALLER DEVICE NAVIGATION (DISCLOSURE MENU) */
         /* ============================================== */
 
             /* Format all the items within both disclosures. */
@@ -73,10 +73,12 @@
                 padding: 0;
             }
 
+            /* Background colour for the first level of options */
             .levelOne{
                 background: var(--disclosure-colour-bg-1);
             }
 
+            /* Background colour for the first level of options */
             .levelTwo{
                 background: var(--disclosure-colour-bg-2);
             }
@@ -135,21 +137,24 @@
                         z-index: var(--z-top);
                     }
 
+                    /* Set the text color */
                     #DisclosureOne[open] .smallDeviceMenuLink{
                         color: var(--disclosure-colour-primary);
                     }
 
+                    /* Set the text color when hovered over */
                     #DisclosureOne[open] .smallDeviceMenuLink:hover{
                         color: var(--disclosure-colour-secondary);
                     }
 
-                    /* FOR DEVICES THAT DO NOT HAVE HOVER */
-                    @media (hover: none) and (pointer: coarse){
+                        /* FOR DEVICES THAT DO NOT HAVE HOVER */
+                        @media (hover: none) and (pointer: coarse){
 
-                        #DisclosureOne[open] .smallDeviceMenuLink{
-                            color: var(--disclosure-colour-secondary);
+                            /* Set the text color */
+                            #DisclosureOne[open] .smallDeviceMenuLink{
+                                color: var(--disclosure-colour-secondary);
+                            }
                         }
-                    }
 
             
         /* DISCLOSURE TWO */
@@ -203,6 +208,7 @@
                     background-color: var(--colour-1);
                 }
 
+                /* Set the text color */
                 #DisclosureTwo[open] summary.smallDeviceMenuLink{
                     color: var(--disclosure-colour-secondary);
                 }
@@ -215,12 +221,15 @@
                     border-left-color: var(--disclosure-triangle-colour-open);
                 }
 
-                /* FOR DEVICES THAT DO NOT HAVE HOVER */
-                @media (hover: none) and (pointer: coarse){
-                    #DisclosureTwo[open] .smallDeviceMenuLink{
-                            color: var(--disclosure-colour-primary);
-                        }
-                }
+                    /* FOR DEVICES THAT DO NOT HAVE HOVER */
+                    @media (hover: none) and (pointer: coarse){
+                        
+                        /* Set the text color */
+                        #DisclosureTwo[open] .smallDeviceMenuLink{
+                                color: var(--disclosure-colour-primary);
+                            }
+                            
+                    }
 
 /* LARGER DEVICE NAVIGATION (DROP DOWN) */
 /* ============================================== */
