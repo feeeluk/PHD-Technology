@@ -39,7 +39,6 @@
                 display: flex;
                 flex-direction: row;
                 align-items: center;
-                color: var(--disclosure-colour-primary);
                 min-height: var(--disclosure-size);
                 padding-left: var(--space-4);
                 border-bottom: var(--disclosure-border);
@@ -106,35 +105,51 @@
                     }
 
 
-            /* ACTIVE */
-            /* %%%%%%%%%%%%%%%%%%%%%%% */
+                /* ACTIVE */
+                /* %%%%%%%%%%%%%%%%%%%%%%% */
 
-            
-                /* Summary: Hamburger icon - controls the display of the hamburger icon when the disclosure is active. */
-                #DisclosureOne[open] #Hamburger {
-                    background-image: url('/assets/images/header/hamburger_icon_small_active.webp');
-                    background-repeat: no-repeat;
-                }
                 
-                /* Summary: stops the arrow showing in the summary. */
-                #DisclosureOne[open] summary::marker,
-                #DisclosureOne[open] summary::-webkit-details-marker  {
-                    display:none;
-                }
+                    /* Summary: Hamburger icon - controls the display of the hamburger icon when the disclosure is active. */
+                    #DisclosureOne[open] #Hamburger {
+                        background-image: url('/assets/images/header/hamburger_icon_small_active.webp');
+                        background-repeat: no-repeat;
+                    }
+                    
+                    /* Summary: stops the arrow showing in the summary. */
+                    #DisclosureOne[open] summary::marker,
+                    #DisclosureOne[open] summary::-webkit-details-marker  {
+                        display:none;
+                    }
 
-                /* Summary: stops the arrow showing in the summary. */
-                #DisclosureOne[open] summary {
-                    list-style: none;
-                }
+                    /* Summary: stops the arrow showing in the summary. */
+                    #DisclosureOne[open] summary {
+                        list-style: none;
+                    }
 
-                /* Format the content of the primary disclosure space. */
-                #DisclosureOne[open] {
-                    position: fixed;
-                    top: var(--height-header);
-                    left: 0;
-                    width: 100%;
-                    z-index: var(--z-top);
-                }
+                    /* Format the content of the primary disclosure space. */
+                    #DisclosureOne[open] {
+                        position: fixed;
+                        top: var(--height-header);
+                        left: 0;
+                        width: 100%;
+                        z-index: var(--z-top);
+                    }
+
+                    #DisclosureOne[open] .smallDeviceMenuLink{
+                        color: var(--disclosure-colour-primary);
+                    }
+
+                    #DisclosureOne[open] .smallDeviceMenuLink:hover{
+                        color: var(--disclosure-colour-secondary);
+                    }
+
+                    /* FOR DEVICES THAT DO NOT HAVE HOVER */
+                    @media (hover: none) and (pointer: coarse){
+
+                        #DisclosureOne[open] .smallDeviceMenuLink{
+                            color: var(--disclosure-colour-secondary);
+                        }
+                    }
 
             
         /* DISCLOSURE TWO */
@@ -152,7 +167,7 @@
                 /* Summary (hover). */
                 #DisclosureTwo summary:hover {
                     color: var(--disclosure-colour-secondary);
-                    background-color: var(--colour-1);
+                    background: var(--colour-1);
                 }
                 
                 /* Summary (hover) arrow. */
@@ -162,6 +177,22 @@
                     border-left-color: var(--disclosure-triangle-colour-hover);
                 }
 
+                /* FOR DEVICES THAT DO NOT HAVE HOVER */
+                @media (hover: none) and (pointer: coarse){
+                    
+                    /* Summary. */
+                    #DisclosureTwo summary {
+                        color: var(--disclosure-colour-secondary);
+                    }
+
+                    /* Summary arrow. */
+                    #DisclosureTwo summary .arrow {
+                        border-left-width: var(--disclosure-triangle-size);
+                        border-left-style: solid;
+                        border-left-color: var(--disclosure-triangle-colour-hover);
+                    }
+                }
+
 
             /* ACTIVE */
             /* %%%%%%%%%%%%%%%%%%%%%%% */
@@ -169,8 +200,11 @@
 
                 /* Summary. */
                 #DisclosureTwo[open] summary {
-                    color: var(--disclosure-colour-secondary);
                     background-color: var(--colour-1);
+                }
+
+                #DisclosureTwo[open] summary.smallDeviceMenuLink{
+                    color: var(--disclosure-colour-secondary);
                 }
 
                 /* Summary arrow. */
@@ -181,6 +215,12 @@
                     border-left-color: var(--disclosure-triangle-colour-open);
                 }
 
+                /* FOR DEVICES THAT DO NOT HAVE HOVER */
+                @media (hover: none) and (pointer: coarse){
+                    #DisclosureTwo[open] .smallDeviceMenuLink{
+                            color: var(--disclosure-colour-primary);
+                        }
+                }
 
 /* LARGER DEVICE NAVIGATION (DROP DOWN) */
 /* ============================================== */
