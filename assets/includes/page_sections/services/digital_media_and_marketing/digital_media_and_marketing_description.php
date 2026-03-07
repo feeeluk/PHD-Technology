@@ -1,9 +1,15 @@
-<a id="DigitalMediaAndMarketingAnchor" class="anchor"></a>
+<a id="DigitalMediaAndMarketingAnchor" class="anchor">
+</a>
 
 <div id="DigitalMediaAndMarketingDescription" class="box--WithPadding item">
 
-    <h1 class='item--Title'>DIGITAL MEDIA & MARKETING</h1>
-    <h2 class='item--SubTitle'>(COMING SOON)</h2>
+    <h1 class='item--Title'>
+        DIGITAL MEDIA & MARKETING
+    </h1>
+
+    <h2 class='item--SubTitle'>
+        (COMING SOON)
+    </h2>
 
     <div id="DigitalMediaAndMarketingSummaryOfService" class="text">
 
@@ -21,17 +27,17 @@
 
     <?php
 
-        if (str_contains($_SERVER['REQUEST_URI'],'digital_media_and_marketing') == false)
-            {
-                $link = "pages/services/digital_media_and_marketing.php";
+        // if (str_contains($_SERVER['REQUEST_URI'],'digital_media_and_marketing') == false)
+        //     {
+        //         $link = "pages/services/digital_media_and_marketing.php";
 
-                echo "<div class='clickForDetails'>";
+        //         echo "<div class='clickForDetails'>";
                 
-                    include($path."assets/includes/components/services/button_click_for_details.php");
+        //             include($path."assets/includes/components/services/button_click_for_details.php");
 
-                echo "</div>";
+        //         echo "</div>";
 
-            }
+        //     }
 
         if (str_contains($_SERVER['REQUEST_URI'],'digital_media_and_marketing') == true)
             {
@@ -46,7 +52,9 @@
 
         </details>
     
-        <h2 class="item--Heading">Digital Media and Marketing with PHD Technology</h2>
+        <h2 class="item--Heading">
+            Digital Media and Marketing with PHD Technology
+        </h2>
         
         <p>
             TEST. This paragraph should only be visible in the specific service page, not on the homepage.
