@@ -1,15 +1,18 @@
-<a id="SkillsDevelopmentAndTrainingAnchor" class="anchor"></a>
+<a id="SkillsDevelopmentAndTrainingAnchor" class="anchor">
+</a>
 
 <div id="SkillsDevelopmentAndTrainingDescription" class="box--WithPadding item">
 
-    <h1 class='item--Title'>SKILLS DEVELOPMENT & TRAINING</h1>
+    <h1 class='item--Title'>
+        SKILLS DEVELOPMENT & TRAINING
+    </h1>
 
     <div id="SkillsDevelopmentAndTrainingSummaryOfService" class="text">
 
         <img src="/assets/images/services/skills_development_and_training/skills_development_and_training.webp" alt="Skills development & training" class="text--FloatLeft">
         
         <p>
-            Skills development and training is the process of helping individuals improve their abilities, knowledge, and competencies so they can perform better in their current roles or prepare for future opportunities.
+            Skills development and training is the process of helping individuals improve their abilities, knowledge, and competencies so they can perform better in their current roles.
         </p>
 
     </div>
@@ -41,7 +44,9 @@
 
         </details>
     
-        <h2 class="item--Heading">Skills Development and Training with PHD Technology</h2>
+        <h2 class="item--Heading">
+            Skills Development and Training with PHD Technology
+        </h2>
 
         <p>
             TEST. This paragraph should only be visible in the specific service page, not on the homepage.

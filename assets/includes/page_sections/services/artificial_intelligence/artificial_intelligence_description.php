@@ -27,27 +27,21 @@
             We can help YOU leverage AI technology to work faster, smarter, and more accurately! 
         </p>
 
-        <details class="details">
-
-            <summary class="summary">More Information</summary>
-
-        </details>
-
     </div>
 
     <?php
 
-        if (str_contains($_SERVER['REQUEST_URI'],'artificial_intelligence') == false)
-            {
-                $link = "pages/services/artificial_intelligence.php";
+        // if (str_contains($_SERVER['REQUEST_URI'],'artificial_intelligence') == false)
+        //     {
+        //         $link = "pages/services/artificial_intelligence.php";
                 
-                echo "<div class='clickForDetails'>";
+        //         echo "<div class='clickForDetails'>";
 
-                    include($path."assets/includes/components/services/button_click_for_details.php");
+        //             include($path."assets/includes/components/services/button_click_for_details.php");
 
-                echo "</div>";
+        //         echo "</div>";
 
-            }
+        //     }
 
         if (str_contains($_SERVER['REQUEST_URI'],'artificial_intelligence') == true)
             {

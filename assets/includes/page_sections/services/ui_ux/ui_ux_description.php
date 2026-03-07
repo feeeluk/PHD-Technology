@@ -1,19 +1,18 @@
-<a id="UiUxAnchor" class="anchor"></a>
+<a id="UiUxAnchor" class="anchor">
+</a>
 
 <div id="UiUxDescription" class="box--WithPadding item">
 
-    <h1 class='item--Title'>UI/UX</h1>
+    <h1 class='item--Title'>
+        UI/UX
+    </h1>
     
     <div id="UiUxSummaryOfService" class="text">
 
         <img src="/assets/images/services/ui_ux/ui_ux.webp" alt="UI/UX" class="text--FloatLeft">
         
         <p>
-            UI/UX is the discipline of identifying needs and determining the best solutions to meet those needs.
-        </p>
-        
-        <p>    
-            Essentially, it hels organisations understand what they should change, why they should change it, and how to implement that change effectively.
+            Test.
         </p>
         
     </div>
@@ -45,7 +44,9 @@
 
         </details>
     
-        <h2 class="item--Heading">UI/UX with PHD Technology</h2>
+        <h2 class="item--Heading">
+            UI/UX with PHD Technology
+        </h2>
         
         <p>
             Whether you simply need advice, or if you would like us to undertake Business Analysis for you, we are here to help.
