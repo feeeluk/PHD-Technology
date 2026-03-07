@@ -66,7 +66,7 @@
 
     <div class="box--WithPadding benefits">
 
-        <h2 class="benefits--Heading">Adds value to your business</h2>
+        <h2 class="benefits--Heading">Add value to your business</h2>
 
         <p class="benefits--Text">
             Add value without incurring any of the overheads or commitments.
