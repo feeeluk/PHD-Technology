@@ -13,7 +13,7 @@
         </p>
 
         <p>
-            This is the most comprehensive service that we provide, and will likely combine elements from other services. 
+            This is the most comprehensive service that we provide, combining elements from other services. 
         </p>
 
         <p>
@@ -43,17 +43,13 @@
 
     <div id="ProofOfConceptDetailsOfService" class="text">
 
-        <details class="details">
-
-            <summary class="summary">More Information</summary>
-
-        </details>
-
         <h2 class="item--Heading">Proof of Concept with PHD Technology</h2>
         
         <p>
-            TEST. This paragraph should only be visible in the specific service page, not on the homepage.
-        </p>
+            A Proof of Concept with PHD Technology turns your ideas into evidence. We design and build prototypes that validate feasibility, uncover risks, and demonstrate real‑world values of your ideas.</p>
+            
+        <p>
+            Our approach blends analysis, design, and development to give you clarity, confidence, and a practical foundation for your next step.</p>
 
     </div>
 
