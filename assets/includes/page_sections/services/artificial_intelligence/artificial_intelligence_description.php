@@ -1,9 +1,15 @@
-<a id="ArtificialIntelligenceAnchor" class="anchor"></a>
+<a id="ArtificialIntelligenceAnchor" class="anchor">
+</a>
 
 <div id="ArtificialIntelligenceDescription" class="box--WithPadding item">
 
-    <h1 class='item--Title'>ARTIFICIAL INTELLIGENCE</h1>
-    <h2 class='item--SubTitle'>(COMING SOON)</h2>
+    <h1 class='item--Title'>
+        ARTIFICIAL INTELLIGENCE
+    </h1>
+
+    <h2 class='item--SubTitle'>
+        (COMING SOON)
+    </h2>
         
     <div id="ArtificialIntelligenceSummaryOfService" class="text">
             
@@ -50,7 +56,9 @@
 
     <div id="ArtificialIntelligenceDetailsOfService" class="text">
     
-        <h3 class="item--Heading">AI with PDH Technology</h3>
+        <h3 class="item--Heading">
+            AI with PDH Technology
+        </h3>
     
         <p>
             TEST. This paragraph should only be visible in the specific service page, not on the homepage.

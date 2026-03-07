@@ -149,11 +149,6 @@
         color: var(--colour-1);
     }
 
-    /* remove the bottom margin from titles that immediately preceed sub titles */
-    .item--Title:has(+ .item--SubTitle){
-        margin-bottom: calc(var(--space-2) * -1);       
-    }
-
     .item--SubTitle{
         text-align: center;
         margin-top: 0;
@@ -166,6 +161,17 @@
         color: var(--colour-title-subsection-1);
     }
 
+    .item--SubSectionSubTitle{
+        text-align: left;
+        margin-bottom: .5rem;
+        color: var(--colour-2);
+    }
+
+    /* Remove the bottom margin from titles or sub-section titles that immediately preceed sub-titles or sub-section sub-titles. */
+    .item--Title:has(+ .item--SubTitle), .item--SubSectionTitle:has(+ .item--SubSectionSubTitle){
+        margin-bottom: calc(var(--space-2) * -1);       
+    }
+    
     .item--Heading{
         text-align: left;
         margin-top: var(--space-4);
