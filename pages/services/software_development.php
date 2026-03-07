@@ -32,7 +32,7 @@
             include($path."assets/includes/page_sections/services/software_development/software_development_description.php");
 
             // Benefits
-            include($path."assets/includes/page_sections/services/software_development/software_development_benefits.php");
+            // include($path."assets/includes/page_sections/services/software_development/software_development_benefits.php");
 
             // Prices
             include($path."assets/includes/page_sections/services/software_development/software_development_prices.php");
