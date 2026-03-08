@@ -37,19 +37,17 @@
     ?>
 
     <div id="SkillsDevelopmentAndTrainingDetailsOfService" class="text">
-
-        <details class="details">
-
-            <summary class="summary">More Information</summary>
-
-        </details>
     
         <h2 class="item--Heading">
             Skills Development and Training with PHD Technology
         </h2>
 
         <p>
-            TEST. This paragraph should only be visible in the specific service page, not on the homepage.
+            We focus on practical, vocational learning tailored to your team’s real‑world needs.
+        </p>
+        
+        <p>
+            We don’t offer formal certification — instead, we teach people how to confidently use the tools, data, and systems that matter to your organisation. Whether you’re adopting new software, upskilling individuals / teams, or building internal capability, we help your staff gain the skills to work smarter and more independently.
         </p>
 
     </div>
