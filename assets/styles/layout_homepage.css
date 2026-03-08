@@ -5,7 +5,7 @@
         position: static;
         padding: var(--space-fixed-1) 5%;
         min-height: calc(100vh - var(--height-header));
-        background-image: url('/assets/images/other/homepage/homepage_background.webp');
+        background-image: url('/assets/images/homepage/homepage_background.webp');
         background-size: cover;
         background-repeat: no-repeat;
         border: none;
@@ -52,7 +52,7 @@
 
     /* the first section within the parent Overview, gives a basic description of the business */
     #DescriptionOfBusiness{
-        background: rgba(var(--colour-bg-accent-transparent), .3);
+        background: rgba(var(--colour-background-3-transparent), 0.35);
         padding: var(--space-4);
 
     }
@@ -114,19 +114,16 @@
             }
 
             /* add right margin to the Description section */
+            /* the first div within the 'Overview' section takes up 35% of the available width */
             #DescriptionOfBusiness{
                 margin-right: var(--space-4);
-                background: rgba(var(--colour-bg-accent-transparent), .6);
+                background: rgba(var(--colour-background-3-transparent), .6);
+                width: 40%;
             }
 
             /* change the Overview section to horizontal rather than vertical */
             #OverviewOfBusiness{
                 flex-direction: row;
-            }
-
-            /* the first div within the 'Overview' section takes up 35% of the available width */
-            #DescriptionOfBusiness{
-                width: 40%;
             }
 
             /* the second div within the 'Overview' section takes up 65% of the available width */
@@ -165,7 +162,6 @@
 
                             /* control the format of the h3 tag within the 'Services Tiles' appear */
                             .servicesTile h3{
-                                height: var(--services-tiles-h3-height);  
                                 width: 100%;
                                 padding-left: var(--space-1);
                                 font-family: var(--services-tiles-h3-font-family);

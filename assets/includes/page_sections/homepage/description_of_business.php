@@ -1,4 +1,4 @@
-<div id="DescriptionOfBusiness" class="detailsOfService">
+<div id="DescriptionOfBusiness" class="">
 
     <p>
         Not every business has the time, headcount, or know-how to take on technology projects themselves.
