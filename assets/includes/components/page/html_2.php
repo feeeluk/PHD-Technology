@@ -1,6 +1,6 @@
 </div>
 
-            <div id="Footer">
+            <footer id="Footer">
 
                 <?php
 
@@ -10,7 +10,7 @@
 
                 ?>
             
-            </div>
+</footer>
 
         </div>
 

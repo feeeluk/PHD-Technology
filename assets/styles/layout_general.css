@@ -229,11 +229,6 @@
 /* Footer */
 /* ============================================== */
 
-    #Footer{
-        padding: 0;
-        border: none;
-    }
-
     footer{
         position: static;
         height: var(--height-footer);
