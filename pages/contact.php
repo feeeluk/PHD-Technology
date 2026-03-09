@@ -1,6 +1,6 @@
 <?php
     
-    // SET PAGE VARIABLES & CONSTANTS
+    // SET PAGE DETAILS, VARIABLES, & CONSTANTS
     // ****************************************************************************************************************************************
         
         // set the site root folder in relation to this page
@@ -12,6 +12,10 @@
         
         // set the page title
         $subTitle = "Contact";
+
+        // Set page META tags.
+        $metaDescription = "Contact";
+        $metaKeywords ="Contact, Contact Form, Contact Us, Email, Telephone";
 
     // HTML 1
     // ****************************************************************************************************************************************

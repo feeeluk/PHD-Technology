@@ -1,6 +1,6 @@
 <?php
     
-    // SET PAGE VARIABLES & CONSTANTS
+    // SET PAGE DETAILS, VARIABLES, & CONSTANTS
     // ****************************************************************************************************************************************
         
         // set the site root folder in relation to this page
@@ -13,6 +13,9 @@
         // set the page title
         $subTitle = "Portfolio";
 
+        // Set page META tags.
+        $metaDescription = "Portfolio";
+        $metaKeywords ="Portfolio, Showcase, Case Studies, Projects, Past Projects, Examples, Business Analysis, Product Owner, Software Development, Web Development, .Net Development, Project Management, Digital Migrations, Data Maniupulation, Data Management, Artificial Intelligence, Skills Development, Training, Digital Media & Marketing, UI, UX, UI/UX, Proof Of Concept";
 
     // HTML 1
     // ****************************************************************************************************************************************

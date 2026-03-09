@@ -1,20 +1,21 @@
 <?php
     
-    // SET PAGE VARIABLES & CONSTANTS
+    // SET PAGE DETAILS, VARIABLES, & CONSTANTS
     // ****************************************************************************************************************************************
         
-
         // set the site root folder in relation to this page
         $path = "../../";
 
             //    ./ = page is located in the root directory
             //    ../ = page is located one folder up
-            //    ../../ = page is located two folders up, etc       
-        
+            //    ../../ = page is located two folders up, etc             
 
         // set the page title
         $subTitle = "UI/UX";
 
+        // Set page META tags.
+        $metaDescription = "UI/UX";
+        $metaKeywords ="UI/UX, User Interface, User Experience";
 
     // HTML 1
     // ****************************************************************************************************************************************

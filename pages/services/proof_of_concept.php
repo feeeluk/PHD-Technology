@@ -1,9 +1,8 @@
 <?php
     
-    // SET PAGE VARIABLES & CONSTANTS
+    // SET PAGE DETAILS, VARIABLES, & CONSTANTS
     // ****************************************************************************************************************************************
         
-
         // set the site root folder in relation to this page
         $path = "../../";
 
@@ -11,10 +10,12 @@
             //    ../ = page is located one folder up
             //    ../../ = page is located two folders up, etc       
         
-
         // set the page title
         $subTitle = "Proof of Concept";
 
+        // Set page META tags.
+        $metaDescription = "Proof of Concept";
+        $metaKeywords ="Proof of Concept";
 
     // HTML 1
     // ****************************************************************************************************************************************

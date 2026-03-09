@@ -1,6 +1,6 @@
 <?php
     
-    // SET PAGE VARIABLES & CONSTANTS
+    // SET PAGE DETAILS, VARIABLES, & CONSTANTS
     // ****************************************************************************************************************************************
         
         // set the site root folder in relation to this page
@@ -13,6 +13,9 @@
         // set the page title
         $subTitle = "Legal";
 
+        // Set page META tags.
+        $metaDescription = "Legal";
+        $metaKeywords ="Legal Information";
 
     // HTML 1 (Homepage version)
     // ****************************************************************************************************************************************

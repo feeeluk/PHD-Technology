@@ -1,8 +1,7 @@
 <?php
     
-    // SET PAGE VARIABLES & CONSTANTS
+    // SET PAGE DETAILS, VARIABLES, & CONSTANTS
     // ****************************************************************************************************************************************
-        
 
         // set the site root folder in relation to this page
         $path = "../../";
@@ -10,11 +9,13 @@
             //    ./ = page is located in the root directory
             //    ../ = page is located one folder up
             //    ../../ = page is located two folders up, etc       
-        
 
         // set the page title
         $subTitle = "Business Analysis";
-
+        
+        // Set page META tags.
+        $metaDescription = "Business Analysis";
+        $metaKeywords ="Business Analysis, Product Owner, SCRUM, Agile, SCRUM Master";
 
     // HTML 1
     // ****************************************************************************************************************************************

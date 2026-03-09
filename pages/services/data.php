@@ -1,8 +1,7 @@
 <?php
     
-    // SET PAGE VARIABLES & CONSTANTS
+    // SET PAGE DETAILS, VARIABLES, & CONSTANTS
     // ****************************************************************************************************************************************
-        
 
         // set the site root folder in relation to this page
         $path = "../../";
@@ -10,11 +9,13 @@
             //    ./ = page is located in the root directory
             //    ../ = page is located one folder up
             //    ../../ = page is located two folders up, etc       
-        
 
         // set the page title
         $subTitle = "Data";
-
+        
+        // Set page META tags.
+        $metaDescription = "Data";
+        $metaKeywords ="Data, Data Management, Data Integration, Data Migration, Analytics & Reporting";
 
     // HTML 1
     // ****************************************************************************************************************************************

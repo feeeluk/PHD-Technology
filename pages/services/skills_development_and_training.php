@@ -1,8 +1,7 @@
 <?php
     
-    // SET PAGE VARIABLES & CONSTANTS
-    // ****************************************************************************************************************************************
-        
+    // SET PAGE DETAILS, VARIABLES, & CONSTANTS
+    // ****************************************************************************************************************************************      
 
         // set the site root folder in relation to this page
         $path = "../../";
@@ -11,10 +10,12 @@
             //    ../ = page is located one folder up
             //    ../../ = page is located two folders up, etc       
         
-
         // set the page title
         $subTitle = "Skills Development & Training";
 
+        // Set page META tags.
+        $metaDescription = "Skills Development & Training";
+        $metaKeywords ="Skills Development & Training, Vocational, Vocational Training, Skills, Skills Development, Training, Learning";
 
     // HTML 1
     // ****************************************************************************************************************************************

@@ -1,9 +1,8 @@
 <?php
     
-    // SET PAGE VARIABLES & CONSTANTS
+    // SET PAGE DETAILS, VARIABLES, & CONSTANTS
     // ****************************************************************************************************************************************
         
-
         // set the site root folder in relation to this page
         $path = "../../";
 
@@ -11,10 +10,12 @@
             //    ../ = page is located one folder up
             //    ../../ = page is located two folders up, etc       
         
-
         // set the page title
         $subTitle = "Software Development";
 
+        // Set page META tags.
+        $metaDescription = "Software Development";
+        $metaKeywords ="Software Development, Web, Web Development, .Net, .Net Development, Software, HTML, CSS, PHP, MySQL, Hosting Help, Domain Registration Help, JavaScript, Next.js, React, C#";
 
     // HTML 1
     // ****************************************************************************************************************************************

@@ -2,11 +2,20 @@
 
     <!-- Metadata -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="PDH Technology: A business that helps other businesses to make better use of their data, tools, ideas, and technology.">
-    <meta name="keywords" content="PDH Technology, Technology, Ideas, Business Analysis, Product Owner, Software Development, Web Development, .Net Development, Project Management, Digital Migrations, Data Maniupulation, Data Management, Artificial Intelligence, Skills Development, Training, Digital Media, Marketing, UI, UX, UI/UX, Proof Of Concept ">
-    <meta name="author" content="Philip Henning">
 
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <meta name="author"
+        content="Philip Henning">
+
+    <meta name="description"
+        content="PDH Technology: A business that helps other businesses to make better use of their data, tools, ideas, and technology. 
+        <?php echo $metaDescription; ?>">
+        
+    <meta name="keywords"
+        content="PDH Technology, Technology, Ideas, Help, Consulting, Advice, Business Services, 
+        <?php echo $metaKeywords; ?>">
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/assets/images/favicon/favicon.ico">
@@ -29,12 +38,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
     <!-- Javascript -->
-    <script defer src="/assets/scripts/script.js"></script>
+    <script defer src="/assets/scripts/script.js">
+    </script>
 
     <title>
-
         <?php echo $subTitle; ?> | <?php echo $siteTitle; ?>
-        
     </title>
     
 </head>
