@@ -34,8 +34,7 @@
         /* SMALLER DEVICE NAVIGATION (DISCLOSURE MENU) */
         /* ============================================== */
 
-            /* Format all the items within both disclosures. */
-            .smallDeviceMenuLink {
+            .smallDeviceMenuItem {
                 display: flex;
                 flex-direction: row;
                 align-items: center;
@@ -44,18 +43,6 @@
                 border-bottom: var(--disclosure-border);
             }
 
-            /* Format all the items within both disclosures when hovered over. */
-            .smallDeviceMenuLink:hover {
-                color: #d4d4d4;
-                background: var(--disclosure-colour-background-3);
-            }
-            
-            /* Indent. */
-            .indentLink {
-                padding-left: var(--space-6);
-            }
-
-            /* Arrow. */
             .arrow{                   
                 border-top-width: var(--disclosure-triangle-size);
                 border-top-style: solid;
@@ -73,28 +60,19 @@
                 padding: 0;
             }
 
-            /* Background colour for the first level of options */
             .levelOne{
                 background: var(--disclosure-colour-background-1);
             }
 
-            /* Background colour for the first level of options */
             .levelTwo{
                 background: var(--disclosure-colour-background-2);
+                padding-left: var(--space-6);
             }
 
-                /* DEVICES THAT HAVE HOVER */
-                /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-
-
-            /* DISCLOSURE ONE */
+            /* DISCLOSURE ONE (CLOSED) */
             /* ====================================================== */
-
-
-                /* INACTIVE */
-                /* %%%%%%%%%%%%%%%%%%%%%%% */
                 
-                    /* Summary: Hamburger icon - controls the display of the initial hamburger icon. */
+                    /* Hamburger - format the display of the initial hamburger icon (located in the summary). */
                     #DisclosureOne #Hamburger {
                         background-image: url('/assets/images/header/hamburger_icon_small.webp');
                         background-repeat: no-repeat;
@@ -109,18 +87,10 @@
                         z-index: var(--z-top);
                     }
 
+            /* DISCLOSURE ONE (OPEN) */
+            /* ====================================================== */
 
-                /* ACTIVE */
-                /* %%%%%%%%%%%%%%%%%%%%%%% */
-
-                
-                    /* Summary: Hamburger icon - controls the display of the hamburger icon when the disclosure is active. */
-                    #DisclosureOne[open] #Hamburger {
-                        background-image: url('/assets/images/header/hamburger_icon_small_active.webp');
-                        background-repeat: no-repeat;
-                    }
-                    
-                    /* Format the content of the primary disclosure space. */
+                    /* Format the area of the first disclosure. */
                     #DisclosureOne[open] {
                         position: fixed;
                         top: var(--height-header);
@@ -128,98 +98,83 @@
                         width: 100%;
                         z-index: var(--z-top);
                     }
+                    
+                    /* Format the individual contents of the disclosure. */
+                    #DisclosureOne[open] .smallDeviceMenuItem{
+                        color: var(--disclosure-colour-2);
+                    }
 
-                    /* Summary: stops the arrow showing in the summary. */
+                    /* Hamburger - format the display of the hamburger icon (located in the summary) when the disclosure is open. */
+                    #DisclosureOne[open] #Hamburger {
+                        background-image: url('/assets/images/header/hamburger_icon_small_active.webp');
+                        background-repeat: no-repeat;
+                    }
+                    
+                    /* Stops the arrow from showing in the first disclosure summary. */
                     #DisclosureOne[open] summary::marker,
                     #DisclosureOne[open] summary::-webkit-details-marker  {
                         display:none;
                     }
 
-                    /* Summary: stops the arrow showing in the summary. */
+                    /* Stops the arrow from showing in the first disclosure summary. */
                     #DisclosureOne[open] summary {
                         list-style: none;
                     }
+                    
+                    /* DEVICES THAT HAVE THE ABILITY TO HOVER (e.g. desktops) */
+                    /* ################################################################ */
+                    
+                        @media (hover: hover) and (pointer: fine) {
 
-
-                    /* Set the text color */
-                    #DisclosureOne[open] .smallDeviceMenuLink{
-                        color: var(--disclosure-colour-1);
-                    }
-
-                    /* Set the text color when hovered over */
-                    #DisclosureOne[open] .smallDeviceMenuLink:hover{
-                        color: var(--disclosure-colour-2);
-                    }
-
-                        /* FOR DEVICES THAT DO NOT HAVE HOVER */
-                        @media (hover: none) and (pointer: coarse){
-
-                            /* Set the text color */
-                            #DisclosureOne[open] .smallDeviceMenuLink{
+                            /* Format the individual contents of the disclosure. */
+                            #DisclosureOne[open] .smallDeviceMenuItem{
+                                color: var(--disclosure-colour-1);
+                            }
+                            
+                            /* Set the text color when hovered over. */
+                            #DisclosureOne[open] .smallDeviceMenuItem:hover{
                                 color: var(--disclosure-colour-2);
                             }
-                        }
 
+                        }                   
             
-        /* DISCLOSURE TWO */
+        /* DISCLOSURE TWO (CLOSED) */
         /* ====================================================== */
 
+                /* DEVICES THAT HAVE THE ABILITY TO HOVER (e.g. desktops) */
+                /* ################################################################ */
 
-            /* INACTIVE */
-            /* %%%%%%%%%%%%%%%%%%%%%%% */
-            
-                /* Summary. */
-                #DisclosureTwo summary {
-                    cursor: pointer;
+                @media (hover: hover) and (pointer: fine) {
+
+                    /* Set the formatting for the <summary> smallDeviceMenuItem class. */
+                    #DisclosureTwo summary.smallDeviceMenuItem {
+                        cursor: pointer;                  
+                    }
+                    
+                    /* Set the formatting for the 'arrow' class when hovered over <summary>. */
+                    #DisclosureTwo summary:hover .arrow {
+                        border-left-width: var(--disclosure-triangle-size);
+                        border-left-style: solid;
+                        border-left-color: var(--disclosure-triangle-colour-2);
+                    }
+
                 }
 
-                
+        /* DISCLOSURE TWO (OPEN) */
+        /* ====================================================== */
 
-                /* Summary (hover). */
-                #DisclosureTwo summary:hover {
+                /* Set the formatting for the <detail> smallDeviceMenuItem class. */
+                #DisclosureTwo[open] .smallDeviceMenuItem{
+                    color: var(--disclosure-colour-1);
+                }
+
+                /* Set the formatting for the <summary> smallDeviceMenuItem class. */
+                #DisclosureTwo[open] summary.smallDeviceMenuItem{
                     color: var(--disclosure-colour-2);
                     background: var(--disclosure-colour-background-3);
                 }
-                
-                /* Summary (hover) arrow. */
-                #DisclosureTwo summary:hover .arrow {
-                    border-left-width: var(--disclosure-triangle-size);
-                    border-left-style: solid;
-                    border-left-color: var(--disclosure-triangle-colour-hover);
-                }
 
-                /* FOR DEVICES THAT DO NOT HAVE HOVER */
-                @media (hover: none) and (pointer: coarse){
-                    
-                    /* Summary. */
-                    #DisclosureTwo summary {
-                        color: var(--disclosure-colour-2);
-                    }
-
-                    /* Summary. */
-                #DisclosureTwo summary.smallDeviceMenuLink {
-                    background: var(--disclosure-colour-background-1);
-                }
-
-                    /* Summary arrow. */
-                    #DisclosureTwo summary .arrow {
-                        border-left-width: var(--disclosure-triangle-size);
-                        border-left-style: solid;
-                        border-left-color: var(--disclosure-triangle-colour-hover);
-                    }
-                }
-
-
-            /* ACTIVE */
-            /* %%%%%%%%%%%%%%%%%%%%%%% */
-
-
-                /* Set the text color */
-                #DisclosureTwo[open] summary.smallDeviceMenuLink{
-                    color: var(--disclosure-colour-2);
-                }
-
-                /* Summary arrow. */
+                /* Set the formatting for the <summary> 'arrow' class. */
                 #DisclosureTwo[open] summary .arrow {
                     transform: rotate(90deg);
                     border-left-width: var(--disclosure-triangle-size);
@@ -227,18 +182,24 @@
                     border-left-color: var(--disclosure-triangle-colour-open);
                 }
 
-                    /* FOR DEVICES THAT DO NOT HAVE HOVER */
-                    @media (hover: none) and (pointer: coarse){
-                        
-                        /* Set the text color */
-                        #DisclosureTwo[open] .smallDeviceMenuLink{
-                                color: var(--disclosure-colour-1);
-                            }
+                /* DEVICES THAT HAVE THE ABILITY TO HOVER (e.g. desktops) */
+                /* ################################################################ */
 
-                        /* Summary. */
-                        #DisclosureTwo[open] summary.smallDeviceMenuLink {
+                    @media (hover: hover) and (pointer: fine) {
+
+                        /* Set the formatting for the <summary> smallDeviceMenuItem class when hovered over. */
+                        #DisclosureTwo[open] summary.smallDeviceMenuItem:hover{
+                            color: var(--disclosure-colour-2);
+                            font-weight: normal;
                             background: var(--disclosure-colour-background-3);
-                        }  
+                        }
+
+                        /* Set the formatting for the <detail> smallDeviceMenuItem when hovered over. */
+                        #DisclosureTwo[open] .smallDeviceMenuItem:hover{
+                            color: var(--disclosure-colour-1);
+                            font-weight: bold;
+                        }
+
                     }
 
 /* LARGER DEVICE NAVIGATION (DROP DOWN) */

@@ -87,15 +87,14 @@
 
   /* Disclosure */
   --disclosure-colour-1: #222222;
-  --disclosure-colour-2: white;
+  --disclosure-colour-2: #d4d4d4;
   --disclosure-colour-background-1: linear-gradient(to right, rgb(50, 140, 130), rgb(172, 236, 221));
   --disclosure-colour-background-2: rgb(172, 236, 221);
   --disclosure-colour-background-3: rgb(50, 140, 130);
   --disclosure-border: 1px solid #555555;
   --disclosure-triangle-size: 5px;
-  --disclosure-triangle-colour: #555555;
-  --disclosure-triangle-colour-hover: white;
-  --disclosure-triangle-colour-open: white;
+  --disclosure-triangle-colour-1: #555555;
+  --disclosure-triangle-colour-2: white;
   --disclosure-triangle-margin: 10px;
   --disclosure-size: 45px;
   
