@@ -1,5 +1,8 @@
 /* === LAYOUT_PORTFOLIO.CSS === */
     
+    /* ID = Portfolio, see layout_homepage for .elevatorPitch{} */
+
+    /* Class */
     .portfolio{
         display: flex;
         flex-direction: row;

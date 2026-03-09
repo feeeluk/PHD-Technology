@@ -27,9 +27,10 @@
             }
 
     /* states the primary purpose of the business */     
-    #ElevatorPitch {
+    .elevatorPitch {
         background: rgba(var(--colour-background-2-transparent), 0.8);
         height: auto;
+        width: 100%;
         margin-bottom: var(--space-2);
         display: flex;
         justify-content: center;
@@ -37,10 +38,6 @@
         text-align: center;
         padding: 1rem;
         border: none;
-    }
-
-    .elavatorPitchTitle{
-        margin-bottom: 0;
     }
 
     /* split into two divs; a description, and the services offered */

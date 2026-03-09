@@ -24,7 +24,7 @@
 
         // PAGE CONTENTS HERE
      
-            echo "<div>";
+            echo "<div id='Portfolio' class='elevatorPitch'>";
                     
                 echo "<h3>";
                     echo "Here are some examples of our work organised by service type:";

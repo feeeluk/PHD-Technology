@@ -1,4 +1,4 @@
- /<div id="ProofOfConceptPorftfolio" class="box--WithPadding item">
+ <div id="ProofOfConceptPorftfolio" class="box--WithPadding item">
 
     <?php
 
