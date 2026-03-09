@@ -19,41 +19,44 @@
             border: none;
         }
 
+        #LogoContainer a{
+            display: contents;
+        }
+
         .logo{
-            justify-self: center;
+            width: 100px;
         }
             
         /* The logo increases in size for larger devices  */
-        @media (min-width: 399px){
+        @media (min-width: 389px){
                 .logo {
-                    width: 70%;
+                    width: 150px;
                 }
         }
         
-        @media (min-width: 459px){
+       @media (min-width: 459px){
                 .logo {
-                    width: 80%;
+                    width: 200px;
                 }
         }
 
         @media (min-width: 639px){
                 .logo {
-                    width: 100%;
+                    width: 250px;
                 }
         }
 
         @media (min-width: 959px){
                 .logo {
-                    width: 75%;
-                    justify-self: start;
+                    width: 200px;
                 }
         }
 
         @media (min-width: 1279px){
                 .logo {
-                    width: 100%;
+                    width: 250px;
                 }
-        }
+        } */
 
         /* Do not show the navigation menu as standard. */
         #NavbarDropdown {
