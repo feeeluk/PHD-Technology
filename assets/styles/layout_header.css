@@ -30,7 +30,7 @@
         /* The logo increases in size for larger devices  */
         @media (min-width: 389px){
                 .logo {
-                    width: 150px;
+                    width: 175px;
                 }
         }
         
