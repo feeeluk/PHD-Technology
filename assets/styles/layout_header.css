@@ -47,7 +47,7 @@
             /* Format all the items within both disclosures when hovered over. */
             .smallDeviceMenuLink:hover {
                 color: #d4d4d4;
-                background: var(--disclosure-colour-bg-3);
+                background: var(--disclosure-colour-background-3);
             }
             
             /* Indent. */
@@ -75,13 +75,16 @@
 
             /* Background colour for the first level of options */
             .levelOne{
-                background: var(--disclosure-colour-bg-1);
+                background: var(--disclosure-colour-background-1);
             }
 
             /* Background colour for the first level of options */
             .levelTwo{
-                background: var(--disclosure-colour-bg-2);
+                background: var(--disclosure-colour-background-2);
             }
+
+                /* DEVICES THAT HAVE HOVER */
+                /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 
 
             /* DISCLOSURE ONE */
@@ -95,13 +98,13 @@
                     #DisclosureOne #Hamburger {
                         background-image: url('/assets/images/header/hamburger_icon_small.webp');
                         background-repeat: no-repeat;
+                        background-color: transparent;
                         position: fixed;
                         top: 0;
                         right: 0;
                         width: 50px;
                         height: 50px;
                         margin: 10px;
-                        background-color: transparent;
                         cursor: pointer;
                         z-index: var(--z-top);
                     }
@@ -117,6 +120,15 @@
                         background-repeat: no-repeat;
                     }
                     
+                    /* Format the content of the primary disclosure space. */
+                    #DisclosureOne[open] {
+                        position: fixed;
+                        top: var(--height-header);
+                        left: 0;
+                        width: 100%;
+                        z-index: var(--z-top);
+                    }
+
                     /* Summary: stops the arrow showing in the summary. */
                     #DisclosureOne[open] summary::marker,
                     #DisclosureOne[open] summary::-webkit-details-marker  {
@@ -128,23 +140,15 @@
                         list-style: none;
                     }
 
-                    /* Format the content of the primary disclosure space. */
-                    #DisclosureOne[open] {
-                        position: fixed;
-                        top: var(--height-header);
-                        left: 0;
-                        width: 100%;
-                        z-index: var(--z-top);
-                    }
 
                     /* Set the text color */
                     #DisclosureOne[open] .smallDeviceMenuLink{
-                        color: var(--disclosure-colour-primary);
+                        color: var(--disclosure-colour-1);
                     }
 
                     /* Set the text color when hovered over */
                     #DisclosureOne[open] .smallDeviceMenuLink:hover{
-                        color: var(--disclosure-colour-secondary);
+                        color: var(--disclosure-colour-2);
                     }
 
                         /* FOR DEVICES THAT DO NOT HAVE HOVER */
@@ -152,7 +156,7 @@
 
                             /* Set the text color */
                             #DisclosureOne[open] .smallDeviceMenuLink{
-                                color: var(--disclosure-colour-secondary);
+                                color: var(--disclosure-colour-2);
                             }
                         }
 
@@ -169,10 +173,12 @@
                     cursor: pointer;
                 }
 
+                
+
                 /* Summary (hover). */
                 #DisclosureTwo summary:hover {
-                    color: var(--disclosure-colour-secondary);
-                    background: var(--colour-1);
+                    color: var(--disclosure-colour-2);
+                    background: var(--disclosure-colour-background-3);
                 }
                 
                 /* Summary (hover) arrow. */
@@ -187,8 +193,13 @@
                     
                     /* Summary. */
                     #DisclosureTwo summary {
-                        color: var(--disclosure-colour-secondary);
+                        color: var(--disclosure-colour-2);
                     }
+
+                    /* Summary. */
+                #DisclosureTwo summary.smallDeviceMenuLink {
+                    background: var(--disclosure-colour-background-1);
+                }
 
                     /* Summary arrow. */
                     #DisclosureTwo summary .arrow {
@@ -203,14 +214,9 @@
             /* %%%%%%%%%%%%%%%%%%%%%%% */
 
 
-                /* Summary. */
-                #DisclosureTwo[open] summary {
-                    background-color: var(--colour-1);
-                }
-
                 /* Set the text color */
                 #DisclosureTwo[open] summary.smallDeviceMenuLink{
-                    color: var(--disclosure-colour-secondary);
+                    color: var(--disclosure-colour-2);
                 }
 
                 /* Summary arrow. */
@@ -226,9 +232,13 @@
                         
                         /* Set the text color */
                         #DisclosureTwo[open] .smallDeviceMenuLink{
-                                color: var(--disclosure-colour-primary);
+                                color: var(--disclosure-colour-1);
                             }
-                            
+
+                        /* Summary. */
+                        #DisclosureTwo[open] summary.smallDeviceMenuLink {
+                            background: var(--disclosure-colour-background-3);
+                        }  
                     }
 
 /* LARGER DEVICE NAVIGATION (DROP DOWN) */
@@ -283,7 +293,7 @@
             .dropContent {
                 display: none;
                 position: absolute;
-                background: var(--navbar-dropdown-child-bg-colour);
+                background: var(--navbar-dropdown-child-background-colour);
                 box-shadow: var(--shadow-xl);
                 text-align: left;
                 padding: 0px;
