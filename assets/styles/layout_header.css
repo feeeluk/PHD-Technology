@@ -28,7 +28,7 @@
         }
             
         /* The logo increases in size for larger devices  */
-        @media (min-width: 389px){
+        @media (min-width: 399px){
                 .logo {
                     width: 175px;
                 }
@@ -56,11 +56,11 @@
                 .logo {
                     width: 250px;
                 }
-        } */
+        }
 
         /* Do not show the navigation menu as standard. */
         #NavbarDropdown {
-            display: none;
+            display:none;
         }
 
         /* SMALLER DEVICE NAVIGATION (DISCLOSURE MENU) */
@@ -103,7 +103,8 @@
 
             /* DISCLOSURE ONE (CLOSED) */
             /* ====================================================== */
-                
+            
+            
                     /* Hamburger - format the display of the initial hamburger icon (located in the summary). */
                     #DisclosureOne #Hamburger {
                         background-image: url('/assets/images/header/hamburger_icon_small.webp');
@@ -237,7 +238,6 @@
 /* LARGER DEVICE NAVIGATION (DROP DOWN) */
 /* ============================================== */
 
-        /* hide the 'hamburger menu' for larger devices and desktops and move the logo to make room for standard navigation*/
         @media (min-width:959px){ 
             
             /* Hide 'hamburger menu' */

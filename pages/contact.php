@@ -31,8 +31,12 @@
         <div class="elevatorPitch">
 
             <h3 class="item--Title">
-                Contact us using the form below, or call us on 01482 653509
+                Contact us
             </h3>
+            
+            <p>
+                Call us on 01482 653509, or use the form below.
+            </p>
 
         </div>
 
