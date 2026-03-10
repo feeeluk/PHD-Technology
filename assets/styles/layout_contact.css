@@ -1,5 +1,19 @@
 /* === LAYOUT_CONTACT.CSS === */
 
+.introSection{
+    background: var(--colour-background-2);
+    padding: var(--space-2);
+    margin-bottom: var(--space-2);
+}
+
+.introSection .item--Title{
+    color: var(--colour-2);
+}
+
+#ContactFormBox{
+    padding: var(--space-6) 0 var(--space-4) 0;
+}
+
 #ContactForm{
     padding: 0 15%;
     text-align: left;
@@ -18,5 +32,6 @@
 }
 
 #ContactForm button{
-    margin-bottom: var(--space-fixed-1);
+    margin-top: var(--space-2);
+    margin-bottom: var(--space-1);
 }

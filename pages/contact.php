@@ -28,7 +28,7 @@
 
     <div id="Contact" class="box">
 
-        <div class="elevatorPitch">
+        <div class="introSection">
 
             <h3 class="item--Title">
                 Contact us
