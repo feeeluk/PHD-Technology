@@ -42,15 +42,15 @@
 
         <div id="ContactFormBox" class="box--WithPadding item">
         
-            <form id="ContactForm" action="null">
+            <form id="ContactForm" action="<?php echo $path.'assets/includes/components/about/send.php'; ?>" method="post">
                 
-                <input type="text" id="NameInput" name="Name" placeholder="Name">
-                <input type="text" id="EmailInput" name="Email" placeholder="Email@Address">
-                <input type="text" id="TelephoneInput" name="Telephone" placeholder="Telephone number">
-                <textarea id="EnquiryInput" name="Enquiry" placeholder="What is the nature of your enquiry?"></textarea>
+                <input type="text" id="NameInput" name="name" placeholder="Name">
+                <input type="email" id="EmailInput" name="email" placeholder="Email@Address">
+                <input type="text" id="TelephoneInput" name="telephone" placeholder="Telephone number">
+                <textarea id="MessageTextarea" name="message" placeholder="What is the nature of your enquiry?"></textarea>
                 
-                <button type="reset" id="ClearButton" name="Clear">Clear</button>  
-                <button id="SubmitButton" name="Submit">Submit</button>  
+                <button type="reset" id="ClearButton" name="clear">Clear</button>  
+                <button id="SubmitButton" name="submit">Submit</button>  
                                     
             </form>
     
