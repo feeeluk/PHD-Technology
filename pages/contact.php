@@ -44,18 +44,71 @@
 
         </div>
 
+        <?php
+
+            if (isset($_GET['status']) && $_GET['status'] === 'error') {
+
+                echo "<div class='box--WithPadding item'>";
+                echo    "<p class='success'>";
+                echo        "There was an error — your message has not been sent. Please try again";
+                echo    "</p>";
+                echo "</div>";
+
+            }
+
+        ?>
+
+        <?php
+
+            if (isset($_GET['status']) && $_GET['status'] === 'success') {
+                
+            echo "<div class='box--WithPadding item'>";
+            echo    "<p class='success'>";
+            echo        "Thank you — your message has been sent.";
+            echo    "</p>";
+            echo "</div>";
+
+            }
+
+            if (!isset($_GET['status']) || $_GET['status'] === 'error') {
+        
+        ?>
+
+
         <div id="ContactFormBox" class="box--WithPadding item">
 
             <h3>
                 Enquiry Form
             </h3>
         
-            <form id="ContactForm" action="<?php echo $path.'assets/includes/components/about/send.php'; ?>" method="post">
+            <form id="ContactForm" action="<?php echo $path.'assets/includes/components/contact
+            /send.php'; ?>" method="post">
                 
                 <input type="text" id="NameInput" name="name" placeholder="Name">
+                    
+                    <!-- <?php
+                        
+                        if (isset($_GET['status']) && $_GET['status'] === 'error') {
+                            
+                            echo $name;
+                            
+                        }
+
+                        else {
+
+                            echo "Name";
+
+                            }
+                    ?>
+                    
+                "> -->
+
                 <input type="email" id="EmailInput" name="email" placeholder="Email@Address">
+
                 <input type="text" id="TelephoneInput" name="telephone" placeholder="Telephone number">
-                <textarea id="MessageTextarea" name="message" placeholder="What is the nature of your enquiry?"></textarea>
+
+                <textarea id="MessageTextarea" name="message" placeholder="What is the nature of your enquiry?">
+                </textarea>
                 
                 <button type="reset" id="ClearButton" name="clear">Clear</button>  
                 <button id="SubmitButton" name="submit">Submit</button>  
@@ -63,6 +116,12 @@
             </form>
     
         </div>
+
+        <?php
+
+            }
+
+        ?>
 
     </div>
 
