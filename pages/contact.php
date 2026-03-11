@@ -35,12 +35,20 @@
             </h3>
             
             <p>
-                Call us on 01482 653509, or use the form below.
+                Phone: 01482 653509 
+            </p>
+
+            <p>
+                Email: philiphenning@outlook.com
             </p>
 
         </div>
 
         <div id="ContactFormBox" class="box--WithPadding item">
+
+            <h3>
+                Enquiry Form
+            </h3>
         
             <form id="ContactForm" action="<?php echo $path.'assets/includes/components/about/send.php'; ?>" method="post">
                 
