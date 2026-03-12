@@ -26,6 +26,16 @@
      
 ?>
 
+<?php
+
+    $errors = [];
+
+    if (isset($_GET['errors'])) {
+        $errors = json_decode($_GET['errors'], true);
+    }
+
+?>
+
     <div id="Contact" class="box">
 
         <div class="introSection">
@@ -56,24 +66,19 @@
 
             }
 
-        ?>
-
-        <?php
-
             if (isset($_GET['status']) && $_GET['status'] === 'success') {
                 
-            echo "<div class='box--WithPadding item'>";
-            echo    "<p class='success'>";
-            echo        "Thank you — your message has been sent.";
-            echo    "</p>";
-            echo "</div>";
+                echo "<div class='box--WithPadding item'>";
+                echo    "<p class='success'>";
+                echo        "Thank you — your message has been sent.";
+                echo    "</p>";
+                echo "</div>";
 
             }
 
-            if (!isset($_GET['status']) || $_GET['status'] === 'error') {
+            if (!isset($_GET['status']) || $_GET['status'] === 'validation_error') {
         
         ?>
-
 
         <div id="ContactFormBox" class="box--WithPadding item">
 
@@ -84,31 +89,13 @@
             <form id="ContactForm" action="<?php echo $path.'assets/includes/components/contact
             /send.php'; ?>" method="post">
                 
-                <input type="text" id="NameInput" name="name" placeholder="Name">
-                    
-                    <!-- <?php
-                        
-                        if (isset($_GET['status']) && $_GET['status'] === 'error') {
-                            
-                            echo $name;
-                            
-                        }
+                <input type="text" id="NameInput" name="name" placeholder="<?php echo $errors['name'] ?? 'Your name'; ?>">
 
-                        else {
+                <input type="email" id="EmailInput" name="email" placeholder="<?php echo $errors['email'] ?? 'Your email address'; ?>">
 
-                            echo "Name";
+                <input type="text" id="TelephoneInput" name="telephone" placeholder="<?php echo $errors['telephone'] ?? 'Your telephone'; ?>">
 
-                            }
-                    ?>
-                    
-                "> -->
-
-                <input type="email" id="EmailInput" name="email" placeholder="Email@Address">
-
-                <input type="text" id="TelephoneInput" name="telephone" placeholder="Telephone number">
-
-                <textarea id="MessageTextarea" name="message" placeholder="What is the nature of your enquiry?">
-                </textarea>
+                <textarea id="MessageTextarea" name="message" placeholder="<?php echo $errors['message'] ?? 'Your message'; ?>"></textarea>
                 
                 <button type="reset" id="ClearButton" name="clear">Clear</button>  
                 <button id="SubmitButton" name="submit">Submit</button>  
