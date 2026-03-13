@@ -29,11 +29,10 @@
 
     // Telephone validation
     if ($telephone === '') {
-        $errors['telephone'] = "Please enter your telephone number.";
-    } elseif (strlen($telephone) < 6) {
-        $errors['telephone'] = "Please enter a valid telephone number.";
+        $errors['telephone'] = "** Please enter your telephone number **";
+    } elseif (!preg_match('/^[0-9 +()-]{11,13}$/', $telephone)) {
+        $errors['telephone'] = "** Please enter a valid telephone number **";
     }
-
 
     // Message validation
     if ($message === '') {
@@ -42,10 +41,24 @@
         $errors['message'] = "** Your message must be at least 10 characters **";
     }
 
-    // If there are validation errors, redirect back with them
-    if (!empty($errors)) {
+    // If there are validation errors, redirect back with the relevant errors and the relevant completed fields
+    if (
+        isset($errors['name']) ||
+        isset($errors['email']) ||
+        isset($errors['telephone']) ||
+        isset($errors['message'])
+    ){
+        $data = [
+            'name'      => $name,
+            'email'     => $email,
+            'telephone' => $telephone,
+            'message'   => $message
+        ];
+
         $errorString = urlencode(json_encode($errors));
-        header("Location: /pages/contact.php?status=validation_error&errors={$errorString}");
+        $dataString  = urlencode(json_encode($data));
+
+        header("Location: /pages/contact.php?status=validation_error&errors={$errorString}&data={$dataString}");
         exit;
     }
 
@@ -82,9 +95,20 @@
     if ($sent) {
         header("Location: /pages/contact.php?status=success");
     } else {
-        header("Location: /pages/contact.php?status=error");
-    }
+        // Build data array to repopulate the form
+    $data = [
+        'name'      => $name,
+        'email'     => $email,
+        'telephone' => $telephone,
+        'message'   => $message
+    ];
 
-    exit;
+    $errorString = urlencode(json_encode($errors));
+    $dataString  = urlencode(json_encode($data));
+
+    header("Location: /pages/contact.php?status=error&errors={$errorString}&data={$dataString}");
+}
+
+exit;
 
 ?>

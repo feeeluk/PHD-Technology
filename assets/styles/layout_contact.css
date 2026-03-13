@@ -28,7 +28,6 @@
 }
 
 #ContactForm{
-    
     text-align: left;
 }
 
@@ -47,4 +46,9 @@
 #ContactForm button{
     margin-top: var(--space-2);
     margin-bottom: var(--space-1);
+}
+
+.error::placeholder{
+    color: red;
+    opacity: 1;
 }
