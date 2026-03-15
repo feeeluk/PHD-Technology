@@ -201,7 +201,7 @@
         .prices{
             display: flex;
             flex-direction: column;
-            justify-content: top;
+            justify-content:start;
             align-items: center;
         }
     
