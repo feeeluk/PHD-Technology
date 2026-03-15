@@ -79,10 +79,14 @@
 
                 echo "<div class='box--WithPadding item error'>";
                 echo    "<h3 class=''>";
-                echo        "There was an error!";
+                echo        "Error!";
                 echo    "</h3>";
                 echo    "<p class=''>";
-                echo        "Your message has not been sent. Please try again.";
+                echo        "Your message has not been sent. Please try again.<br>";
+                            if ($attempt > 0)
+                            {
+                                echo " (attempt #".$attempt.")";
+                            }
                 echo    "</p>";
                 echo "</div>";
 
@@ -92,10 +96,14 @@
 
                 echo "<div class='box--WithPadding item error'>";
                 echo    "<h3 class=''>";
-                echo        "There is something wrong with the form!";
+                echo        "Validation Error!";
                 echo    "</h3>";
                 echo    "<p class=''>";
-                echo        "Your message has not been sent. Please correct the form and try again.";
+                echo        "Your message has not been sent. Please correct the form and try again.<br>";
+                            if ($attempt > 0)
+                            {
+                                echo " (attempt #".$attempt.")";
+                            }
                 echo    "</p>";
                 echo "</div>";
             }
@@ -109,26 +117,6 @@
                 <h3>
                     Enquiry Form
                 </h3>
-
-                <?php
-
-                    if ($attempt > 0):
-
-                ?>
-
-                    <div class="submit-attempt">
-
-                        <p>
-                            Submit attempts: <?= $attempt; ?>
-                        </p>
-
-                    </div>
-
-                <?php
-
-                    endif;
-                    
-                ?>
 
                 <form id="ContactForm" action="<?php echo $path.'assets/includes/components/contact/send.php'; ?>" method="post">
                     
