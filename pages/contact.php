@@ -39,6 +39,9 @@
             $data = json_decode($_GET['data'], true);
         }
 
+        // Submit attempt counter
+        $attempt = isset($_GET['attempt']) ? (int)$_GET['attempt'] : 0;
+
 ?>
 
     <div id="Contact" class="box">
@@ -97,11 +100,18 @@
             <div id="ContactFormBox" class="box--WithPadding item">
 
                 <h3>
-                    Enquiry Form
+                    Enquiry Formmmmmmmmmmmmmmmmmm
                 </h3>
-            
-                <form id="ContactForm" action="<?php echo $path.'assets/includes/components/contact
-                /send.php'; ?>" method="post">
+
+                <?php if ($attempt > 0): ?>
+    <div class="submit-attempt">
+        <p>You pressed submit <?php echo $attempt; ?> time<?php echo $attempt > 1 ? 's' : ''; ?>.</p>
+    </div>
+<?php endif; ?>
+
+                <form id="ContactForm" action="<?php echo $path.'assets/includes/components/contact/send.php'; ?>" method="post">
+                    
+                    <input type="hidden" name="attempt" value="<?php echo $attempt ?? 0; ?>">
                     
                     <input
                         type="text"

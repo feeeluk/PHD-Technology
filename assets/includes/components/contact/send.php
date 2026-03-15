@@ -1,5 +1,8 @@
 <?php
 
+    $attempt = isset($_POST['attempt']) ? (int)$_POST['attempt'] : 0;
+    $attempt++;
+
     // -------------------------
     // Collect raw form data
     // -------------------------
@@ -58,7 +61,7 @@
         $errorString = urlencode(json_encode($errors));
         $dataString  = urlencode(json_encode($data));
 
-        header("Location: /pages/contact.php?status=validation_error&errors={$errorString}&data={$dataString}");
+        header("Location: /pages/contact.php?status=validation_error&errors={$errorString}&data={$dataString}&attempt={$attempt}");
         exit;
     }
 
@@ -81,13 +84,15 @@
     $body .= "Telephone: $telephone\n\n";
     $body .= "Message:\n$message\n";
 
-    $headers = "From: philiphenning@outlook.com\r\n";
+    $headers = "From: hello@pdhtechnology.com\r\n";
     $headers .= "Reply-To: $email\r\n";
 
     // -------------------------
     // Send email
     // -------------------------
-    $sent = mail($to, $subject, $body, $headers);
+    $sent = mail($to, $subject, $body, $headers, "-fhello@pdhtechnology.com");
+    var_dump(error_get_last());
+exit;
 
     // -------------------------
     // Redirect based on result
@@ -106,7 +111,7 @@
     $errorString = urlencode(json_encode($errors));
     $dataString  = urlencode(json_encode($data));
 
-    header("Location: /pages/contact.php?status=error&errors={$errorString}&data={$dataString}");
+    header("Location: /pages/contact.php?status=error&errors={$errorString}&data={$dataString}&attempt={$attempt}");
 }
 
 exit;
