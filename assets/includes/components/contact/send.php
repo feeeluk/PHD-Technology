@@ -1,5 +1,10 @@
 <?php
-
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+    
+    // -------------------------
+    // Set variables for submit counter
+    // -------------------------
     $attempt = isset($_POST['attempt']) ? (int)$_POST['attempt'] : 0;
     $attempt++;
 
@@ -76,7 +81,7 @@
     // -------------------------
     // Build email
     // -------------------------
-    $to = "test@example.com";
+    $to = "hello@pdhtechnology.com";
     $subject = "Contact Form Submission";
 
     $body = "Name: $name\n";
@@ -88,32 +93,71 @@
     $headers .= "Reply-To: $email\r\n";
 
     // -------------------------
-    // Send email
+    // Send email via SMTP (PHPMailer) cont..
     // -------------------------
-    $sent = mail($to, $subject, $body, $headers, "-fhello@pdhtechnology.com");
-    var_dump(error_get_last());
-exit;
+    require $_SERVER['DOCUMENT_ROOT'] . '/phpmailer/src/Exception.php';
+    require $_SERVER['DOCUMENT_ROOT'] . '/phpmailer/src/PHPMailer.php';
+    require $_SERVER['DOCUMENT_ROOT'] . '/phpmailer/src/SMTP.php';
 
-    // -------------------------
-    // Redirect based on result
-    // -------------------------
-    if ($sent) {
+    $mail = new PHPMailer(true);
+
+    try {
+
+        $isLocal = ($_SERVER['SERVER_NAME'] === '127.0.0.1');
+
+        if ($isLocal) {
+            // Local SMTP (Mailpit)
+            $mail->isSMTP();
+            $mail->Host       = '127.0.0.1';
+            $mail->Port       = 1025;
+            $mail->SMTPAuth   = false;
+            $mail->SMTPSecure = false;
+
+        } else {
+            // Live SMTP (IONOS)
+            $mail->isSMTP();
+            $mail->Host       = 'smtp.ionos.co.uk';
+            $mail->SMTPAuth   = true;
+            $mail->Username   = 'hello@pdhtechnology.com';
+            $mail->Password   = 'ionCcyh68@c3145327os';
+            $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+            $mail->Port       = 587;
+        }
+
+        // Sender & recipient
+        $mail->setFrom('hello@pdhtechnology.com', 'PDH Technology');
+        $mail->addAddress('hello@pdhtechnology.com');
+        $mail->addReplyTo($email, $name);
+
+        // Content
+        $mail->Subject = 'Contact Form Submission';
+        $mail->Body    =
+            "Name: $name\n" .
+            "Email: $email\n" .
+            "Telephone: $telephone\n\n" .
+            "Message:\n$message\n";
+
+        $mail->send();
+
+        // Success redirect
         header("Location: /pages/contact.php?status=success");
-    } else {
+        exit;
+
+    } catch (Exception $e) {
+
         // Build data array to repopulate the form
-    $data = [
-        'name'      => $name,
-        'email'     => $email,
-        'telephone' => $telephone,
-        'message'   => $message
-    ];
+        $data = [
+            'name'      => $name,
+            'email'     => $email,
+            'telephone' => $telephone,
+            'message'   => $message
+        ];
 
-    $errorString = urlencode(json_encode($errors));
-    $dataString  = urlencode(json_encode($data));
+        $errorString = urlencode(json_encode(['mail' => $mail->ErrorInfo]));
+        $dataString  = urlencode(json_encode($data));
 
-    header("Location: /pages/contact.php?status=error&errors={$errorString}&data={$dataString}&attempt={$attempt}");
-}
-
-exit;
+        header("Location: /pages/contact.php?status=error&errors={$errorString}&data={$dataString}&attempt={$attempt}");
+        exit;
+    }
 
 ?>

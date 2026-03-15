@@ -48,16 +48,16 @@
 
         <div class="introSection">
 
-            <h3 class="item--Title">
+            <h2 class="item--Title">
                 Contact us
-            </h3>
+            </h2>
             
             <p>
                 Phone: 01482 653509 
             </p>
 
             <p>
-                Email: philiphenning@outlook.com
+                Email: hello@pdhtechnology.com
             </p>
 
         </div>
@@ -66,9 +66,12 @@
 
             if (isset($_GET['status']) && $_GET['status'] === 'success') {
                 
-                echo "<div class='box--WithPadding item'>";
-                echo    "<p class='success'>";
-                echo        "Thank you — your message has been sent.";
+                echo "<div class='box--WithPadding item success'>";
+                echo    "<h3 class=''>";
+                echo        "Success!";
+                echo    "</h3>";
+                echo    "<p class=''>";
+                echo        "Your message has been successfully sent. Please expect to hear from us soon.";
                 echo    "</p>";
                 echo "</div>";
 
@@ -76,9 +79,12 @@
 
             if (isset($_GET['status']) && $_GET['status'] === 'error') {
 
-                echo "<div class='box--WithPadding item'>";
-                echo    "<p class='success'>";
-                echo        "There was an error — your message has not been sent. Please try again";
+                echo "<div class='box--WithPadding item error'>";
+                echo    "<h3 class=''>";
+                echo        "There was an error!";
+                echo    "</h3>";
+                echo    "<p class=''>";
+                echo        "Your message has not been sent. Please try again.";
                 echo    "</p>";
                 echo "</div>";
 
@@ -86,9 +92,12 @@
 
             if (isset($_GET['status']) && $_GET['status'] === 'validation_error') {
 
-                echo "<div class='box--WithPadding item'>";
-                echo    "<p class='success'>";
-                echo        "There was something wrong with the form — please check it, amend it, and try again. Thank you.";
+                echo "<div class='box--WithPadding item error'>";
+                echo    "<h3 class=''>";
+                echo        "There is something wrong with the form!";
+                echo    "</h3>";
+                echo    "<p class=''>";
+                echo        "Your message has not been sent. Please correct the form and try again.";
                 echo    "</p>";
                 echo "</div>";
             }
@@ -100,14 +109,28 @@
             <div id="ContactFormBox" class="box--WithPadding item">
 
                 <h3>
-                    Enquiry Formmmmmmmmmmmmmmmmmm
+                    Enquiry Form
                 </h3>
 
-                <?php if ($attempt > 0): ?>
-    <div class="submit-attempt">
-        <p>You pressed submit <?php echo $attempt; ?> time<?php echo $attempt > 1 ? 's' : ''; ?>.</p>
-    </div>
-<?php endif; ?>
+                <?php
+
+                    if ($attempt > 0):
+
+                ?>
+
+                    <div class="submit-attempt">
+
+                        <p>
+                            Submit attempts: <?= $attempt; ?>
+                        </p>
+
+                    </div>
+
+                <?php
+
+                    endif;
+                    
+                ?>
 
                 <form id="ContactForm" action="<?php echo $path.'assets/includes/components/contact/send.php'; ?>" method="post">
                     
@@ -119,7 +142,7 @@
                         name="name"
                         value="<?php echo isset($errors['name']) ? '' : ($data['name'] ?? ''); ?>"
                         placeholder="<?php echo $errors['name'] ?? 'Your name'; ?>"
-                        class="<?php echo isset($errors['name']) ? 'error' : ''; ?>"
+                        class="<?php echo isset($errors['name']) ? 'validationError' : ''; ?>"
                         >
 
                     <input
@@ -128,7 +151,7 @@
                         name="email"
                         value="<?php echo isset($errors['email']) ? '' : ($data['email'] ?? ''); ?>"
                         placeholder="<?php echo $errors['email'] ?? 'Your email address'; ?>"
-                        class="<?php echo isset($errors['email']) ? 'error' : ''; ?>"
+                        class="<?php echo isset($errors['email']) ? 'validationError' : ''; ?>"
                         >
 
                     <input
@@ -137,14 +160,14 @@
                         name="telephone"
                         value="<?php echo isset($errors['telephone']) ? '' : ($data['telephone'] ?? ''); ?>"
                         placeholder="<?php echo $errors['telephone'] ?? 'Your telephone'; ?>"
-                        class="<?php echo isset($errors['telephone']) ? 'error' : ''; ?>"
+                        class="<?php echo isset($errors['telephone']) ? 'validationError' : ''; ?>"
                         >
 
                     <textarea
                         id="MessageTextarea"
                         name="message"
                         placeholder="<?php echo $errors['message'] ?? 'Your message'; ?>"
-                        class="<?php echo isset($errors['message']) ? 'error' : ''; ?>"><?php echo isset($errors['message']) ? '' : ($data['message'] ?? ''); ?></textarea>
+                        class="<?php echo isset($errors['message']) ? 'validationError' : ''; ?>"><?php echo isset($errors['message']) ? '' : ($data['message'] ?? ''); ?></textarea>
                     
                     <button type="reset" id="ClearButton" name="clear">
                         Clear

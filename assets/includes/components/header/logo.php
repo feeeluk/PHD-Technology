@@ -1,7 +1,22 @@
 <div id="LogoContainer">
 
     <a href="/">
-        <img src="/assets/images/header/logo.webp" alt="logo" class="logo">
+
+        <?php
+
+            $isLocal = in_array($_SERVER['SERVER_NAME'], ['localhost', '127.0.0.1']);
+
+
+            if ($isLocal) {
+                $logo = "/assets/images/header/logo_test_environment.webp"; 
+            } else {
+                $logo = "/assets/images/header/logo.webp";
+            }
+
+        ?>
+
+        <img src="<?= $logo ?>" alt="logo" class="logo">
+
     </a>
         
 </div>
