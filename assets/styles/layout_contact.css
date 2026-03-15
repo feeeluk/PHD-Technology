@@ -12,10 +12,13 @@
 .introSection .item--Title{
     color: var(--colour-2);
     align-self: center;
+    padding: 0;
+    margin-bottom: var(--space-2);
 }
 
 .introSection p{
     color: var(--colour-2);
+    text-align: left;
 }
 
 #ContactFormBox{
@@ -52,15 +55,17 @@
     background: green;
     color: white;
     text-align: center;
+    border-width: 0;
+    margin-bottom: var(--space-2);
 }
-
 
 .error{
     background: red;
     color: white;
     text-align: center;
+    border-width: 0;
+    margin-bottom: var(--space-2);
 }
-
 
 .validationError::placeholder{
     color: red;

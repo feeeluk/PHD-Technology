@@ -48,15 +48,13 @@
 
         <div class="introSection">
 
-            <h2 class="item--Title">
+            <h1 class="item--Title">
                 Contact us
-            </h2>
+            </h1>
             
             <p>
                 Phone: 01482 653509 
-            </p>
-
-            <p>
+                <br>
                 Email: hello@pdhtechnology.com
             </p>
 
