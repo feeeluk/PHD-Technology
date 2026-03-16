@@ -22,6 +22,7 @@
         if (str_contains($_SERVER['REQUEST_URI'],'skills_development_and_training') == false)
             {
                 $link = "pages/services/skills_development_and_training.php";
+                $aria = "Link to Skills Development and Training services page";
                 
                 echo "<div class='clickForDetails'>";
                 

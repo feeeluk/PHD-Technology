@@ -1,6 +1,6 @@
 <?php
 
-    echo "<a href='".$link."'>";
+    echo "<a href='".$link."' aria-label='.$aria'>";
 
         echo "<span class='button--ClickForDetails'>";
 

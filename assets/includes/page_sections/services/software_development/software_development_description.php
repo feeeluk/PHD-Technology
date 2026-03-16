@@ -44,6 +44,7 @@
         if (str_contains($_SERVER['REQUEST_URI'],'software_development') == false)
         {
             $link = "pages/services/software_development.php";
+            $aria = "Link to Software Development services page";
     
             echo "<div class='clickForDetails'>";        
 

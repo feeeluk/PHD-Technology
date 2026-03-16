@@ -10,7 +10,7 @@
         From there we can take things in a direction and pace that suits you.
     </p>
 
-    <a  class="nextSteps" href="/pages/contact.php">
+    <a  class="nextSteps" href="/pages/contact.php"  aria-label="Contact page">
 
         <img src="/assets/images/services/get_in_touch.webp" alt="Call Us" class="nextSteps--Image">
 

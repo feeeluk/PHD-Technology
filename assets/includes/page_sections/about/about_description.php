@@ -7,11 +7,12 @@
     <!-- About PDH Technology -->
     <details class="details" open>
 
-        <summary class="summary">About PDH Technology</summary>
+        <summary class="summary">
+            About PDH Technology
+        </summary>
 
         <p>
             PDH Technology has one simple mission: to help businesses make better use of their data, tools, ideas, and technology.
-        <p>
             Owned and operated by me, <b>P</b>hil <b>D</b> <b>H</b>enning (PDH). I'm the 'Lead Technologist'.
         </p>
 
@@ -20,7 +21,9 @@
     <!-- About PDH -->
     <details class="details">
 
-        <summary class="summary">About PDH</summary>
+        <summary class="summary">
+            About PDH
+        </summary>
             
         <p>
             Hi! I'm Phil.
@@ -55,7 +58,9 @@
     <!-- How We Work -->
     <details class="details">
 
-        <summary class="summary">How We Work</summary>
+        <summary class="summary">
+            How We Work
+        </summary>
 
         <p>
             My background is heavily influenced by agile thinking, especially Scrum. Not in the buzzwordy, corporate sense - but in the practical, human sense.
@@ -78,11 +83,13 @@
     <!-- Our Services -->
     <details class="details">
 
-        <summary class="summary">Our Services</summary>
+        <summary class="summary">
+            Our Services
+        </summary>
 
         <p>
             Over the years, I’ve developed a broad toolkit that lets me support businesses in lots of different ways. PDH Technology offers nine core services:
-            </p>
+        </p>
 
         <p>
             <b>Business Analysis</b>
@@ -138,7 +145,9 @@
     <!-- Why We Exist -->
     <details class="details">
 
-        <summary class="summary">Why We Exists</summary>
+        <summary class="summary">
+            Why We Exists
+        </summary>
 
         <p>
             I started PDH Technology because I kept seeing the same pattern: businesses investing in tools they didn’t fully understand (or need), processes that didn’t fit their purpose, or solutions that were far more complicated than they needed to be.
@@ -181,7 +190,9 @@
     <!-- A Bit About Me -->
     <details class="details">
 
-        <summary class="summary">A Bit About Me</summary>
+        <summary class="summary">
+            A Bit About Me
+        </summary>
 
         <p>
             I’ve always been someone who likes to understand how things work - systems, processes, people, technology.
@@ -204,7 +215,9 @@
     <!-- What You Can Expect -->
     <details class="details">
 
-        <summary class="summary">What You Can Expect</summary>
+        <summary class="summary">
+            What You Can Expect
+        </summary>
 
         <p>
             If you work with me, you can expect:

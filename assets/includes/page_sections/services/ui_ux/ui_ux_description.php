@@ -22,6 +22,7 @@
         if (str_contains($_SERVER['REQUEST_URI'],'ui_ux') == false)
             {
                 $link = "pages/services/ui_ux.php";
+                $aria = "Link to UI/UX services page";
                 
                 echo "<div class='clickForDetails'>";
                 

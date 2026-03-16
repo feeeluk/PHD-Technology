@@ -28,6 +28,7 @@
         if (str_contains($_SERVER['REQUEST_URI'],'digital_transformation') == false)
             {
                 $link = "pages/services/digital_transformation.php";
+                $aria = "Link to Digital Transformation services page";
                 
                 echo "<div class='clickForDetails'>";
 

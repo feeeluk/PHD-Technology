@@ -27,6 +27,7 @@
         if (str_contains($_SERVER['REQUEST_URI'],'proof_of_concept') == false)
             {
                 $link = "pages/services/proof_of_concept.php";
+                $aria = "Link to Proof of Concenpt services page";
                 
                 echo "<div class='clickForDetails'>";
                 

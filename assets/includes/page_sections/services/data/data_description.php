@@ -42,6 +42,7 @@
         if (str_contains($_SERVER['REQUEST_URI'],'data') == false)
             {
                 $link = "pages/services/data.php";
+                $aria = "Link to Data services page";
                 
                 echo "<div class='clickForDetails'>";
                 

@@ -1,4 +1,4 @@
-</div>
+            </div>
 
             <footer id="Footer">
 
@@ -10,7 +10,7 @@
 
                 ?>
             
-</footer>
+            </footer>
 
         </div>
 

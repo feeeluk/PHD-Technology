@@ -31,6 +31,7 @@
         if (str_contains($_SERVER['REQUEST_URI'],'business_analysis') == false)
             {
                 $link = "pages/services/business_analysis.php";
+                $aria = "Link to Business Analysis services page";
 
                 echo "<div class='clickForDetails'>";
 
