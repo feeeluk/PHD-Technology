@@ -15,7 +15,7 @@
 
         // Set page META tags.
         $metaDescription = "Homepage";
-        $metaKeywords ="Business Analysis, Product Owner, Software Development, Web Development, .Net Development, Project Management, Digital Migrations, Data Maniupulation, Data Management, Artificial Intelligence, Skills Development, Training, Digital Media & Marketing, UI, UX, UI/UX, Proof Of Concept";
+        $metaKeywords ="Business Analysis, Product Owner, Software Development, Web Development, .Net Development, Project Management, Digital Migrations, Data Maniupulation, Data Management, Artificial Intelligence, Skills Development, Training, Digital Media & Marketing, UI, UX, UI/UX, Proof Of Concept, Hull, Willerby, East Yorkshire, Nationwide";
 
     // HTML 1 (Homepage version)
     // ****************************************************************************************************************************************
