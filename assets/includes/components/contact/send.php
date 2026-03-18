@@ -102,26 +102,25 @@ use PHPMailer\PHPMailer\Exception;
     require $root . '/phpmailer/src/SMTP.php';
 
     $mail = new PHPMailer(true);
+    $mail->isSMTP();
 
     try {
 
         if ($is_test) {
             // Local SMTP (Mailpit)
-            $mail->isSMTP();
-            $mail->Host       = '127.0.0.1';
-            $mail->Port       = 1025;
-            $mail->SMTPAuth   = false;
-            $mail->SMTPSecure = false;
+            $mail->Host       = $smtp_host;
+            $mail->Port       = $smtp_port;
+            $mail->SMTPAuth   = $smtp_auth;
+            $mail->SMTPSecure = $smtp_secure;
 
         } else {
             // Live SMTP (IONOS)
-            $mail->isSMTP();
-            $mail->Host       = 'smtp.ionos.co.uk';
-            $mail->SMTPAuth   = true;
-            $mail->Username   = 'hello@pdhtechnology.com';
-            $mail->Password   = 'ionCcyh68@c3145327os';
-            $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-            $mail->Port       = 587;
+            $mail->Host       = $smtp_host;
+            $mail->SMTPAuth   = $smtp_auth;
+            $mail->Username   = $smtp_user;
+            $mail->Password   = $smtp_pass;
+            $mail->SMTPSecure = $smtp_secure;
+            $mail->Port       = $smtp_port;
         }
 
         // Sender & recipient
