@@ -34,6 +34,14 @@
 
     }
 
+    // Environment-specific logo
+    if ($is_live) {
+        $logo_path = "/assets/images/header/logo.webp";
+    } else {
+        $logo_path = "/assets/images/header/logo_test_environment.webp";
+    }
+
+
     // Default metadata (pages can override these)
     $default_title = "PDH Technology";
     $default_description = "Digital and technology services for businesses.";
