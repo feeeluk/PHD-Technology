@@ -1,16 +1,13 @@
 <div id="LogoContainer">
 
-    <a href="/">
+    <a href="/" aria-label="Link to Homepage">
 
         <?php
 
-            $isLocal = in_array($_SERVER['SERVER_NAME'], ['localhost', '127.0.0.1']);
-
-
-            if ($isLocal) {
-                $logo = "/assets/images/header/logo_test_environment.webp"; 
+            if ($is_live) {
+                $logo = "/assets/images/header/logo.webp"; 
             } else {
-                $logo = "/assets/images/header/logo.webp";
+                $logo = "/assets/images/header/logo_test_environment.webp";
             }
 
         ?>

@@ -1,25 +1,17 @@
 <?php
     
-    // SET PAGE DETAILS, VARIABLES, & CONSTANTS
-    // ****************************************************************************************************************************************
+    include($_SERVER['DOCUMENT_ROOT'] . "/assets/config/config.php");      
         
-        // set the site root folder in relation to this page
-        $path = "../";
+    // Set the page title.
+    $subTitle = "Contact";
 
-            //    ./ = page is located in the root directory
-            //    ../ = page is located one folder up
-            //    ../../ = page is located two folders up, etc       
-        
-        // set the page title
-        $subTitle = "Contact";
-
-        // Set page META tags.
-        $metaDescription = "Contact";
-        $metaKeywords ="Contact, Contact Form, Contact Us, Email, Telephone";
+    // Set page meta tags.
+    $metaDescription = "Contact";
+    $metaKeywords ="Contact, Contact Form, Contact Us, Email, Telephone";
 
     // HTML 1
     // ****************************************************************************************************************************************
-    include($path."assets/includes/components/page/html_1.php");
+    include($root."/assets/includes/components/page/html_1.php");
     
 
         // PAGE CONTENTS HERE
@@ -118,7 +110,7 @@
                     Enquiry Form
                 </h3>
 
-                <form id="ContactForm" action="<?php echo $path.'assets/includes/components/contact/send.php'; ?>" method="post">
+                <form id="ContactForm" action="<?= $path.'assets/includes/components/contact/send.php'; ?>" method="post">
                     
                     <input type="hidden" name="attempt" value="<?php echo $attempt ?? 0; ?>">
                     
@@ -179,6 +171,6 @@
         
     // HTML 2
     // ****************************************************************************************************************************************
-    include($path."assets/includes/components/page/html_2.php");
+    include($root."/assets/includes/components/page/html_2.php");
     
 ?>

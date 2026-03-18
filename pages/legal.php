@@ -1,25 +1,17 @@
 <?php
     
-    // SET PAGE DETAILS, VARIABLES, & CONSTANTS
-    // ****************************************************************************************************************************************
+    include($_SERVER['DOCUMENT_ROOT'] . "/assets/config/config.php");      
         
-        // set the site root folder in relation to this page
-        $path = "../";
+    // Set the page title.
+    $subTitle = "Legal";
 
-            //    ./ = page is located in the root directory
-            //    ../ = page is located one folder up
-            //    ../../ = page is located two folders up, etc       
-        
-        // set the page title
-        $subTitle = "Legal";
-
-        // Set page META tags.
-        $metaDescription = "Legal";
-        $metaKeywords ="Legal Information";
+    // Set page meta tags.
+    $metaDescription = "Legal";
+    $metaKeywords ="Legal Information";
 
     // HTML 1 (Homepage version)
     // ****************************************************************************************************************************************
-    include($path."assets/includes/components/page/html_1.php");
+    include($root."/assets/includes/components/page/html_1.php");
 
         // PAGE CONTENTS HERE
      
@@ -59,6 +51,6 @@
         
     // HTML 2
     // ****************************************************************************************************************************************
-    include($path."assets/includes/components/page/html_2.php");
+    include($root."/assets/includes/components/page/html_2.php");
     
 ?>

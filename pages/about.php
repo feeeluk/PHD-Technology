@@ -1,25 +1,17 @@
 <?php
     
-    // SET PAGE DETAILS, VARIABLES, & CONSTANTS
-    // ****************************************************************************************************************************************
+    include($_SERVER['DOCUMENT_ROOT'] . "/assets/config/config.php");      
         
-        // set the site root folder in relation to this page
-        $path = "../";
+    // Set the page title.
+    $subTitle = "About";
 
-            //    ./ = page is located in the root directory
-            //    ../ = page is located one folder up
-            //    ../../ = page is located two folders up, etc       
-        
-        // set the page title
-        $subTitle = "About";
-
-        // Set page META tags.
-        $metaDescription = "About";
-        $metaKeywords ="Business Analysis, Product Owner, Software Development, Web Development, .Net Development, Project Management, Digital Migrations, Data Maniupulation, Data Management, Artificial Intelligence, Skills Development, Training, Digital Media & Marketing, UI, UX, UI/UX, Proof Of Concept";
+    // Set page meta tags.
+    $metaDescription = "About";
+    $metaKeywords ="Business Analysis, Product Owner, Software Development, Web Development, .Net Development, Project Management, Digital Migrations, Data Maniupulation, Data Management, Artificial Intelligence, Skills Development, Training, Digital Media & Marketing, UI, UX, UI/UX, Proof Of Concept";
 
     // HTML 1
     // ****************************************************************************************************************************************
-    include($path."assets/includes/components/page/html_1.php");
+    include($root."/assets/includes/components/page/html_1.php");
     
 
         // PAGE CONTENTS HERE
@@ -31,16 +23,16 @@
         <?php
 
             // ABOUT DESCRIPTION
-            include($path."assets/includes/page_sections/about/about_description.php");
+            include($root."/assets/includes/page_sections/about/about_description.php");
 
             // BENEFITS
-            include($path."assets/includes/page_sections/about/about_benefits.php");
+            include($root."/assets/includes/page_sections/about/about_benefits.php");
             
             // PRICES
-            include($path."assets/includes/page_sections/about/about_prices.php");
+            include($root."/assets/includes/page_sections/about/about_prices.php");
 
             // NEXT STEPS
-            include($path."assets/includes/page_sections/about/about_next_steps.php");
+            include($root."/assets/includes/page_sections/about/about_next_steps.php");
 
         ?>
     
@@ -50,6 +42,6 @@
 
     // HTML 2
     // ****************************************************************************************************************************************
-    include($path."assets/includes/components/page/html_2.php");
+    include($root."/assets/includes/components/page/html_2.php");
         
 ?>

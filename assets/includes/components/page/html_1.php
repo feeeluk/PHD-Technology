@@ -2,7 +2,7 @@
 
     // IMPORT SITE WIDE VARIABLES & CONSTANTS
     // ****************************************************************************************************************************************
-        include($path."assets/includes/components/head/site_details.php"); 
+        include($root."/assets/includes/components/head/site_details.php"); 
         
 ?>
 
@@ -14,7 +14,7 @@
 
         // HEAD
         // ****************************************************************************************************************************************
-        include($path."assets/includes/components/head/head.php");
+        include($root."/assets/includes/components/head/head.php");
         
     ?>
 
@@ -24,7 +24,7 @@
             
             // PAGE HEADER & NAVIGATION
             // ****************************************************************************************************************************************
-            include($path."assets/includes/components/header/header.php");
+            include($root."/assets/includes/components/header/header.php");
 
         ?>
 
@@ -34,7 +34,7 @@
 
                 // LINK TO TOP OF THE PAGE
                 // ****************************************************************************************************************************************
-                include($path."assets/includes/components/header/link_to_top_of_the_page.php");
+                include($root."/assets/includes/components/header/link_to_top_of_the_page.php");
 
             ?>
 

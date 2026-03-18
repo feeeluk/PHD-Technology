@@ -1,25 +1,17 @@
 <?php
     
-    // SET PAGE DETAILS, VARIABLES, & CONSTANTS
-    // ****************************************************************************************************************************************
+    include($_SERVER['DOCUMENT_ROOT'] . "/assets/config/config.php");      
         
-        // set the site root folder in relation to this page
-        $path = "../";
+    // Set the page title.
+    $subTitle = "Portfolio";
 
-            //    ./ = page is located in the root directory
-            //    ../ = page is located one folder up
-            //    ../../ = page is located two folders up, etc       
-        
-        // set the page title
-        $subTitle = "Portfolio";
-
-        // Set page META tags.
-        $metaDescription = "Portfolio";
-        $metaKeywords ="Portfolio, Showcase, Case Studies, Projects, Past Projects, Examples, Business Analysis, Product Owner, Software Development, Web Development, .Net Development, Project Management, Digital Migrations, Data Maniupulation, Data Management, Artificial Intelligence, Skills Development, Training, Digital Media & Marketing, UI, UX, UI/UX, Proof Of Concept";
+    // Set page meta tags.
+    $metaDescription = "Portfolio";
+    $metaKeywords ="Portfolio, Showcase, Case Studies, Projects, Past Projects, Examples, Business Analysis, Product Owner, Software Development, Web Development, .Net Development, Project Management, Digital Migrations, Data Maniupulation, Data Management, Artificial Intelligence, Skills Development, Training, Digital Media & Marketing, UI, UX, UI/UX, Proof Of Concept";
 
     // HTML 1
     // ****************************************************************************************************************************************
-    include($path."assets/includes/components/page/html_1.php");
+    include($root."/assets/includes/components/page/html_1.php");
     
 
         // PAGE CONTENTS HERE
@@ -33,36 +25,36 @@
             echo "</div>";
         
             // BUSINESS ANALYSIS
-            include($path."assets/includes/page_sections/services/business_analysis/business_analysis_portfolio.php");
+            include($root."/assets/includes/page_sections/services/business_analysis/business_analysis_portfolio.php");
 
             // DATA
-            include($path."assets/includes/page_sections/services/data/data_portfolio.php");
+            include($root."/assets/includes/page_sections/services/data/data_portfolio.php");
 
             // PROOF OF CONCEPTS
-            include($path."assets/includes/page_sections/services/proof_of_concept/proof_of_concept_portfolio.php");
+            include($root."/assets/includes/page_sections/services/proof_of_concept/proof_of_concept_portfolio.php");
 
             // SOFTWARE DEVELOPMENT
-            include($path."assets/includes/page_sections/services/software_development/software_development_portfolio.php");
+            include($root."/assets/includes/page_sections/services/software_development/software_development_portfolio.php");
             
             // DIGITAL TRANSFORMATION
-            include($path."assets/includes/page_sections/services/digital_transformation/digital_transformation_portfolio.php");
+            include($root."/assets/includes/page_sections/services/digital_transformation/digital_transformation_portfolio.php");
             
             // UI/UX
-            include($path."assets/includes/page_sections/services/ui_ux/ui_ux_portfolio.php");
+            include($root."/assets/includes/page_sections/services/ui_ux/ui_ux_portfolio.php");
             
             // SKILLS DEVELOPMENT & TRAINING
-            include($path."assets/includes/page_sections/services/skills_development_and_training/skills_development_and_training_portfolio.php");
+            include($root."/assets/includes/page_sections/services/skills_development_and_training/skills_development_and_training_portfolio.php");
             
             // ARTIFICIAL INTELLIGENCE
-            include($path."assets/includes/page_sections/services/artificial_intelligence/artificial_intelligence_portfolio.php");
+            include($root."/assets/includes/page_sections/services/artificial_intelligence/artificial_intelligence_portfolio.php");
             
             // DIGITAL MEDIA & MARKETING
-            include($path."assets/includes/page_sections/services/digital_media_and_marketing/digital_media_and_marketing_portfolio.php");
+            include($root."/assets/includes/page_sections/services/digital_media_and_marketing/digital_media_and_marketing_portfolio.php");
 
 
 
     // HTML 2
     // ****************************************************************************************************************************************
-    include($path."assets/includes/components/page/html_2.php");
+    include($root."/assets/includes/components/page/html_2.php");
     
 ?>

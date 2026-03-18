@@ -1,25 +1,17 @@
 <?php
     
-    // SET PAGE DETAILS, VARIABLES, & CONSTANTS
-    // ****************************************************************************************************************************************
+    include($_SERVER['DOCUMENT_ROOT'] . "/assets/config/config.php");      
 
-        // set the site root folder in relation to this page
-        $path = "../../";
-
-            //    ./ = page is located in the root directory
-            //    ../ = page is located one folder up
-            //    ../../ = page is located two folders up, etc       
-
-        // set the page title
-        $subTitle = "Data";
-        
-        // Set page META tags.
-        $metaDescription = "Data";
-        $metaKeywords ="Data, Data Management, Data Integration, Data Migration, Analytics & Reporting";
+    // Set the page title.
+    $subTitle = "Data";
+    
+    /// Set page meta tags.
+    $metaDescription = "Data";
+    $metaKeywords ="Data, Data Management, Data Integration, Data Migration, Analytics & Reporting";
 
     // HTML 1
     // ****************************************************************************************************************************************
-    include($path."assets/includes/components/page/html_1.php");
+    include($root."/assets/includes/components/page/html_1.php");
         
 ?>
 
@@ -31,22 +23,19 @@
         // PAGE CONTENTS HERE
 
             // Description
-            include($path."assets/includes/page_sections/services/data/data_description.php");
+            include($root."/assets/includes/page_sections/services/data/data_description.php");
 
             // Benefits
-            include($path."assets/includes/page_sections/services/data/data_benefits.php");
+            include($root."/assets/includes/page_sections/services/data/data_benefits.php");
             
             // Prices
-            include($path."assets/includes/page_sections/services/data/data_prices.php");
+            include($root."/assets/includes/page_sections/services/data/data_prices.php");
 
             // Portfolio
-            include($path."assets/includes/page_sections/services/data/data_portfolio.php");
-            
-            // Case Studies
-            // include($path."assets/includes/page_sections/services/data/data_case_studies.php");
+            include($root."/assets/includes/page_sections/services/data/data_portfolio.php");
 
             // Next Steps
-            include($path."assets/includes/page_sections/services/data/data_next_steps.php");
+            include($root."/assets/includes/page_sections/services/data/data_next_steps.php");
 
     ?>
 
@@ -57,6 +46,6 @@
 
     // HTML 2
     // ****************************************************************************************************************************************
-    include($path."assets/includes/components/page/html_2.php");
+    include($root."/assets/includes/components/page/html_2.php");
 
 ?>

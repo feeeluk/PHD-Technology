@@ -1,6 +1,6 @@
 <?php
 
     // PROJECT MANAGEMENT
-    include($path."assets/includes/page_sections/about/about_prices.php");
+    include($root."/assets/includes/page_sections/about/about_prices.php");
 
 ?>

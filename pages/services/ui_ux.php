@@ -1,25 +1,17 @@
 <?php
     
-    // SET PAGE DETAILS, VARIABLES, & CONSTANTS
-    // ****************************************************************************************************************************************
-        
-        // set the site root folder in relation to this page
-        $path = "../../";
+    include($_SERVER['DOCUMENT_ROOT'] . "/assets/config/config.php");             
 
-            //    ./ = page is located in the root directory
-            //    ../ = page is located one folder up
-            //    ../../ = page is located two folders up, etc             
+    // set the page title
+    $subTitle = "UI/UX";
 
-        // set the page title
-        $subTitle = "UI/UX";
-
-        // Set page META tags.
-        $metaDescription = "UI/UX";
-        $metaKeywords ="UI/UX, User Interface, User Experience";
+    // Set page meta tags.
+    $metaDescription = "UI/UX";
+    $metaKeywords ="UI/UX, User Interface, User Experience";
 
     // HTML 1
     // ****************************************************************************************************************************************
-    include($path."assets/includes/components/page/html_1.php");
+    include($root."/assets/includes/components/page/html_1.php");
 
 ?>
 
@@ -30,22 +22,19 @@
         // PAGE CONTENTS HERE
 
             // Description
-            include($path."assets/includes/page_sections/services/ui_ux/ui_ux_description.php");
+            include($root."/assets/includes/page_sections/services/ui_ux/ui_ux_description.php");
 
             // Benefits
-            include($path."assets/includes/page_sections/services/ui_ux/ui_ux_benefits.php");
+            include($root."/assets/includes/page_sections/services/ui_ux/ui_ux_benefits.php");
 
             // Prices
-            include($path."assets/includes/page_sections/services/ui_ux/ui_ux_prices.php");
+            include($root."/assets/includes/page_sections/services/ui_ux/ui_ux_prices.php");
 
             // Portfolio
-            include($path."assets/includes/page_sections/services/ui_ux/ui_ux_portfolio.php");
-            
-            // Case Studies
-            // include($path."assets/includes/page_sections/services/ui_ux/ui_ux_case_studies.php");
+            include($root."/assets/includes/page_sections/services/ui_ux/ui_ux_portfolio.php");
             
             // Next Steps
-            include($path."assets/includes/page_sections/services/ui_ux/ui_ux_next_steps.php");
+            include($root."/assets/includes/page_sections/services/ui_ux/ui_ux_next_steps.php");
 
     ?>
 
@@ -55,6 +44,6 @@
 
     // HTML 2
     // ****************************************************************************************************************************************
-    include($path."assets/includes/components/page/html_2.php");
+    include($root."/assets/includes/components/page/html_2.php");
     
 ?>

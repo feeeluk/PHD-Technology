@@ -1,6 +1,8 @@
 <?php
+include($_SERVER['DOCUMENT_ROOT'] . "/assets/config/config.php");
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
+
     
     // -------------------------
     // Set variables for submit counter
@@ -66,7 +68,7 @@ use PHPMailer\PHPMailer\Exception;
         $errorString = urlencode(json_encode($errors));
         $dataString  = urlencode(json_encode($data));
 
-        header("Location: /pages/contact.php?status=validation_error&errors={$errorString}&data={$dataString}&attempt={$attempt}");
+        header("Location: " . $path ."pages/contact.php?status=validation_error&errors={$errorString}&data={$dataString}&attempt={$attempt}");
         exit;
     }
 
@@ -95,17 +97,15 @@ use PHPMailer\PHPMailer\Exception;
     // -------------------------
     // Send email via SMTP (PHPMailer) cont..
     // -------------------------
-    require $_SERVER['DOCUMENT_ROOT'] . '/phpmailer/src/Exception.php';
-    require $_SERVER['DOCUMENT_ROOT'] . '/phpmailer/src/PHPMailer.php';
-    require $_SERVER['DOCUMENT_ROOT'] . '/phpmailer/src/SMTP.php';
+    require $root . '/phpmailer/src/Exception.php';
+    require $root . '/phpmailer/src/PHPMailer.php';
+    require $root . '/phpmailer/src/SMTP.php';
 
     $mail = new PHPMailer(true);
 
     try {
 
-        $isLocal = ($_SERVER['SERVER_NAME'] === '127.0.0.1');
-
-        if ($isLocal) {
+        if ($is_test) {
             // Local SMTP (Mailpit)
             $mail->isSMTP();
             $mail->Host       = '127.0.0.1';
@@ -140,7 +140,7 @@ use PHPMailer\PHPMailer\Exception;
         $mail->send();
 
         // Success redirect
-        header("Location: /pages/contact.php?status=success");
+        header("Location: " . $path ."pages/contact.php?status=success");
         exit;
 
     } catch (Exception $e) {
@@ -156,7 +156,7 @@ use PHPMailer\PHPMailer\Exception;
         $errorString = urlencode(json_encode(['mail' => $mail->ErrorInfo]));
         $dataString  = urlencode(json_encode($data));
 
-        header("Location: /pages/contact.php?status=error&errors={$errorString}&data={$dataString}&attempt={$attempt}");
+        header("Location: " . $path ."pages/contact.php?status=error&errors={$errorString}&data={$dataString}&attempt={$attempt}");
         exit;
     }
 
