@@ -38,7 +38,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
     <!-- Javascript -->
-    <script defer src="/assets/scripts/script.js">
+    <script defer src="/assets/scripts/javascript/script.js">
     </script>
 
     <title>
