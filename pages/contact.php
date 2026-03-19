@@ -16,7 +16,6 @@
 
         // PAGE CONTENTS HERE
      
-
         // Decode json errors array
         $errors = [];
 

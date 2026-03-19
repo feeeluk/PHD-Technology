@@ -8,7 +8,12 @@
 
     // Detect environment (test vs live)
     $host = $_SERVER['HTTP_HOST'];
-    $is_live = ($host === "www.pdhtechnology.com");
+
+    $is_live = (
+        $host === "pdhtechnology.com" ||
+        $host === "www.pdhtechnology.com"
+    );
+
     $is_test = !$is_live;
 
     // Environment-specific SMTP settings
@@ -19,7 +24,7 @@
         $smtp_user = "hello@pdhtechnology.com";
         $smtp_pass = "ionCcyh68@c3145327os";
         $smtp_port = 587;
-        $smtp_secure = PHPMailer\PHPMailer\PHPMailer::ENCRYPTION_STARTTLS;
+        $smtp_secure = 'tls';   // FIXED: no namespace reference
         $smtp_auth = true;
 
     } else {
