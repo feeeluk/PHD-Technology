@@ -97,9 +97,9 @@ use PHPMailer\PHPMailer\Exception;
     // -------------------------
     // Send email via SMTP (PHPMailer) cont..
     // -------------------------
-    require $root . '/phpmailer/src/Exception.php';
-    require $root . '/phpmailer/src/PHPMailer.php';
-    require $root . '/phpmailer/src/SMTP.php';
+    require $root . '/assets/phpmailer/src/Exception.php';
+    require $root . '/assets/phpmailer/src/PHPMailer.php';
+    require $root . '/assets/phpmailer/src/SMTP.php';
 
     $mail = new PHPMailer(true);
     $mail->isSMTP();
