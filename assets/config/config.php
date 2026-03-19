@@ -52,4 +52,12 @@
     $default_description = "Digital and technology services for businesses.";
     $default_keywords = "Business Analysis, Software Development, Data, Digital Projects";
 
+    // Site email settings	Used across multiple scripts
+    // Base URL	Needed for redirects, metadata, emails
+    // Debug mode	Environment‑dependent
+    // Analytics toggle	Prevents polluting data
+    // Directory paths	Makes includes portable
+    // PHPMailer paths	Centralised dependency
+    // Form settings	Reusable validation rules
+
 ?>
