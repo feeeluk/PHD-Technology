@@ -5,6 +5,8 @@
     |
     <a href="/pages/legal.php"aria-label="Legal page">legal</a>
     |
+    <a href="/assets/public_files/"aria-label="Public files folder">files</a>
+    |
     
 </p>
 

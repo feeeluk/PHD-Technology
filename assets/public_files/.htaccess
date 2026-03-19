@@ -1,0 +1,10 @@
+AuthType Basic
+AuthName "Restricted Area"
+AuthUserFile C:/Users/phili/Documents/Dev/Web/Projects/pdh_technology/assets/public_files/.htpasswd
+Require valid-user
+
+Options +Indexes
+
+<Files ".htpasswd">
+    Require all denied
+</Files>
