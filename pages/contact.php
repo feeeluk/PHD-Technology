@@ -109,7 +109,7 @@
                     Enquiry Form
                 </h3>
 
-                <form id="ContactForm" action="<?= $path.'assets/includes/components/contact/contact_form_submit.php'; ?>" method="post">
+                <form id="ContactForm" action="<?= $path.'assets/scripts/php/contact/contact_form_submit.php'; ?>" method="post">
                     
                     <input type="hidden" name="attempt" value="<?php echo $attempt ?? 0; ?>">
                     
