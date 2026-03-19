@@ -13,11 +13,7 @@
     <a href="" aria-label="Linkedin page">
         <img src="/assets/images/footer/linkedin.png" alt="LinkedIn page" class="footer--Logo">
     </a>
-    
-    <a href="" aria-label="X (formerly Twitter) page">
-        <img src="/assets/images/footer/x.png" alt="X (formerly Twitter) page" class="footer--Logo">
-    </a>
-    
+
     <a href="" aria-label="Facebook page">
         <img src="/assets/images/footer/facebook.png" alt="Facebook page" class="footer--Logo">
     </a>
