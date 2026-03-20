@@ -18,9 +18,6 @@
 <div id="DigitalMediaAndMarketing" class="box">
 
     <?php
-    
-
-        // PAGE CONTENTS HERE
 
             // Description
             include($root."/assets/includes/page_sections/services/digital_media_and_marketing/digital_media_and_marketing_description.php");

@@ -19,8 +19,6 @@
 
     <?php
     
-        // PAGE CONTENTS HERE
-
             // Description
             include($root."/assets/includes/page_sections/services/proof_of_concept/proof_of_concept_description.php");
 

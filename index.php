@@ -12,9 +12,6 @@
     // HTML 1 (Homepage version)
     // ****************************************************************************************************************************************
     include($root ."/assets/includes/components/page/html_1_homepage.php");
-    
-
-        // PAGE CONTENTS HERE
 
             // BUSINESS ANALYSIS
             include($root."/assets/includes/page_sections/services/business_analysis/business_analysis_description.php");

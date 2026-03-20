@@ -19,8 +19,6 @@
 
     <?php    
 
-        // PAGE CONTENTS HERE
-
             // Description
             include($root."/assets/includes/page_sections/services/software_development/software_development_description.php");
 

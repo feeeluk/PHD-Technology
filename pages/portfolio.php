@@ -12,9 +12,6 @@
     // HTML 1
     // ****************************************************************************************************************************************
     include($root."/assets/includes/components/page/html_1.php");
-    
-
-        // PAGE CONTENTS HERE
      
             echo "<div id='Portfolio' class='elevatorPitch'>";
                     

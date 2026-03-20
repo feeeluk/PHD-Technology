@@ -17,9 +17,7 @@
 
 <div id="SkillsDevelopmentAndTraining" class="box">
 
-    <?php    
-
-        // PAGE CONTENTS HERE
+    <?php
 
             // Description
             include($root."/assets/includes/page_sections/services/skills_development_and_training/skills_development_and_training_description.php");

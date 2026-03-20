@@ -19,8 +19,6 @@
 
     <?php        
 
-        // PAGE CONTENTS HERE
-
             // Description
             include($root."/assets/includes/page_sections/services/artificial_intelligence/artificial_intelligence_description.php");
 

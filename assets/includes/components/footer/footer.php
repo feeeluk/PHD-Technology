@@ -3,9 +3,9 @@
     |
     <a href="/pages/contact.php" aria-label="Contact page">contact</a>
     |
-    <a href="/pages/legal.php"aria-label="Legal page">legal</a>
+    <a href="/pages/legal.php" aria-label="Legal page">legal</a>
     |
-    <a href="/assets/public_files/"aria-label="Public files folder">files</a>
+    <a href="/assets/public_files/files.php" aria-label="Public files folder">files</a>
     |
     
 </p>
@@ -16,7 +16,7 @@
         <img src="/assets/images/footer/linkedin.png" alt="LinkedIn page" class="footer--Logo">
     </a>
 
-    <a href="" aria-label="Facebook page">
+    <a href="https://www.facebook.com/profile.php?id=61577531184344" aria-label="Facebook page">
         <img src="/assets/images/footer/facebook.png" alt="Facebook page" class="footer--Logo">
     </a>
     

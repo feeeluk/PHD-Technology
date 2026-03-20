@@ -19,9 +19,6 @@
 
     <?php
 
-
-        // PAGE CONTENTS HERE
-
             // Description
             include($root."/assets/includes/page_sections/services/data/data_description.php");
 

@@ -18,8 +18,6 @@
 <div id="UiUx" class="box">
 
     <?php
-    
-        // PAGE CONTENTS HERE
 
             // Description
             include($root."/assets/includes/page_sections/services/ui_ux/ui_ux_description.php");

@@ -19,8 +19,6 @@
 
     <?php
 
-        // PAGE CONTENTS HERE
-
             // Description
             include($root."/assets/includes/page_sections/services/business_analysis/business_analysis_description.php");
 

@@ -9,11 +9,9 @@
     $metaDescription = "Legal";
     $metaKeywords ="Legal Information";
 
-    // HTML 1 (Homepage version)
+    // HTML 1
     // ****************************************************************************************************************************************
     include($root."/assets/includes/components/page/html_1.php");
-
-        // PAGE CONTENTS HERE
      
 ?>
         
