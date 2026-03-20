@@ -48,9 +48,8 @@
                 }
             
         /* Each service has an image associated with it. */
-        .text--FloatLeft{
+        .img--FloatLeft{
             object-fit:contain;
-            width: 100%;
             float: left;
             padding: 0;
             margin: var(--space-1) var(--space-4) var(--space-2) 0 ;
@@ -62,7 +61,7 @@
                     @media (min-width: 399px){
 
                         /* make image bigger */
-                        .text--FloatLeft{
+                        .img--FloatLeft{
                             height: auto;
                             width: 200px;
                         }
@@ -72,9 +71,9 @@
                     @media (min-width: 639px){
 
                         /* make image bigger */
-                        .text--FloatLeft{
+                        .img--FloatLeft{
                             height: auto;
-                            width: 275px;
+                            width: 300px;
                         }
 
                     }
@@ -82,9 +81,9 @@
                     @media (min-width: 959px){
 
                         /* make image bigger */
-                        .text--FloatLeft{
+                        .img--FloatLeft{
                             height: auto;
-                            width: 325px;
+                            width: 450px;
                         }
 
                     }

@@ -1,6 +1,4 @@
 /* === LAYOUT_PORTFOLIO.CSS === */
-    
-    /* ID = Portfolio, see layout_homepage for .elevatorPitch{} */
 
     /* Class */
     .portfolio{
@@ -11,3 +9,74 @@
         gap: var(--space-4);
         padding-bottom: var(--space-6);
     }
+
+    .text--Portfolio{
+            padding: var(--space-4);
+            margin-bottom: var(--space-4);
+            background: var(--colour-background-3);
+            min-height: 400px;
+        }
+
+    .title--Portfolio{
+        color: var(--colour-heading-1)
+    }
+
+    /* Each service has one or more portfolio image/s associated with it. */
+    .portfolioImage--FloatLeft, .portfolioImage--FloatRight{
+        padding: 0;
+        margin: var(--space-1) var(--space-4) var(--space-2) 0 ;
+        object-fit:contain;
+        float: left;
+    }
+
+    .portfolioImage--FloatRight{
+        float: right;
+        margin: var(--space-1) 0 var(--space-2) var(--space-4) ;
+    }
+
+        /* LARGER DEVICES */
+        /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+            @media (min-width: 399px){
+
+                /* make image bigger */
+                .portfolioImage--FloatLeft, .portfolioImage--FloatRight{
+                    height: auto;
+                    width: 200px;
+                }
+
+                .text--Portfolio{
+                    min-height: 200px;
+                }
+
+            }
+
+            @media (min-width: 639px){
+
+                /* make image bigger */
+                .portfolioImage--FloatLeft, .portfolioImage--FloatRight{
+                    height: auto;
+                    width: 300px;
+                }
+
+                .text--Portfolio{
+                    min-height: 300px;
+                }
+
+            }
+
+            @media (min-width: 959px){
+
+                /* make image bigger */
+                .portfolioImage--FloatLeft, .portfolioImage--FloatRight{
+                    height: auto;
+                    width: 450px;
+                }
+
+                .text--Portfolio{
+                    min-height: 400px;
+                }
+
+            }
+
+    

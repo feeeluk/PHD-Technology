@@ -6,7 +6,7 @@
 
     <div id="DataSummaryOfService" class="text">            
 
-        <img src="/assets/images/services/data/data.webp" alt="Data" class="text--FloatLeft">
+        <img src="/assets/images/services/data/data.webp" alt="Data" class="img--FloatLeft">
 
         <p>
             There are many different aspects when it comes to data:

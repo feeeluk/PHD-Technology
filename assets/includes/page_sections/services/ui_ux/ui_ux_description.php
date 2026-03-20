@@ -9,7 +9,7 @@
     
     <div id="UiUxSummaryOfService" class="text">
 
-        <img src="/assets/images/services/ui_ux/ui_ux.webp" alt="UI/UX" class="text--FloatLeft">
+        <img src="/assets/images/services/ui_ux/ui_ux.webp" alt="UI/UX" class="img--FloatLeft">
         
         <p>
             UI/UX focuses on making digital products easier to use and more enjoyable for the people who rely on them. UI (User Interface) covers the visual layout and controls, while UX (User Experience) looks at how smoothly someone can complete a task. Together, they help ensure websites, apps, and systems feel clear, intuitive, and frustration‑free.

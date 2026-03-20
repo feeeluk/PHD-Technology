@@ -6,7 +6,7 @@
 
     <div id="DigitalTransformationSummaryOfService" class="text ">
 
-        <img src="/assets/images/services/digital_transformation/digital_transformation.webp" alt="Digital transformation" class="text--FloatLeft">
+        <img src="/assets/images/services/digital_transformation/digital_transformation.webp" alt="Digital transformation" class="img--FloatLeft">
 
         <p>
             A digital transformation in this context focuses on a single part of a business rather than the organisation as a whole.

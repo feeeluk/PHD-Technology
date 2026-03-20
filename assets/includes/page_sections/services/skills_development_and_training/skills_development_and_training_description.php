@@ -9,7 +9,7 @@
 
     <div id="SkillsDevelopmentAndTrainingSummaryOfService" class="text">
 
-        <img src="/assets/images/services/skills_development_and_training/skills_development_and_training.webp" alt="Skills development & training" class="text--FloatLeft">
+        <img src="/assets/images/services/skills_development_and_training/skills_development_and_training.webp" alt="Skills development & training" class="img--FloatLeft">
         
         <p>
             Skills development and training is the process of helping individuals improve their abilities, knowledge, and competencies so they can perform better in their current roles.

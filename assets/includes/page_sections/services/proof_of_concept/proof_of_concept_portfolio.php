@@ -18,11 +18,56 @@
 
     <div class="portfolio">
                 
-        <img src="/assets/images/services/proof_of_concept/portfolio_treedata_v1.webp" alt="Tree Data">
+        <div id=""
+             class="text--Portfolio">
+            
+            <h2 class="title--Portfolio">
+                Test
+            </h2>
+        
+            <img src="/assets/images/services/proof_of_concept/portfolio_treedata_v1.webp"
+                 alt="Tree Data"
+                 class="portfolioImage--FloatLeft">
+            
+            <p>
+                It enables smarter decisions, more efficient operations, reduced costs, and better outcomes. Investing in business analysis is ultimately an investment in clarity, confidence, and long‑term success.
+            </p>
 
-        <img src="/assets/images/services/proof_of_concept/portfolio_portal.webp" alt="Telesales Portal">
+        </div>
 
-        <img src="/assets/images/services/proof_of_concept/portfolio_points_academy.webp" alt="Points Academy Portal">
+        <div id=""
+             class="text--Portfolio">
+            
+            <h2 class="title--Portfolio">
+                Test
+            </h2>
+
+            <img src="/assets/images/services/proof_of_concept/portfolio_portal.webp"
+                 alt="Telesales Portal"
+                 class="portfolioImage--FloatRight">
+
+            <p>
+                It enables smarter decisions, more efficient operations, reduced costs, and better outcomes. Investing in business analysis is ultimately an investment in clarity, confidence, and long‑term success.
+            </p>
+
+        </div>
+
+        <div id=""
+             class="text--Portfolio">
+            
+            <h2 class="title--Portfolio">
+                Test
+            </h2>
+
+            <img src="/assets/images/services/proof_of_concept/portfolio_points_academy.webp"
+                 alt="Points Academy Portal"
+                 class="portfolioImage--FloatLeft">
+                
+            <p>
+                It enables smarter decisions, more efficient operations, reduced costs, and better outcomes. Investing in business analysis is ultimately an investment in clarity, confidence, and long‑term success.
+            </p>
+
+        </div>
 
     </div>
         
