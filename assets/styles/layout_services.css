@@ -16,7 +16,7 @@
                     
                     /* set the height of the first .text section to be as tall as the image */
                     .text:first-of-type{
-                        min-height: 190px;
+                        min-height: 200px;
                     }
                     
                     /* remove height from all subsquent .text sections  */
@@ -34,7 +34,7 @@
                 @media (min-width: 959px){
                         
                     .text:first-of-type{
-                         min-height: 220px;
+                         min-height: 300px;
                     }
 
                     .text{

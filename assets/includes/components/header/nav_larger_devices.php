@@ -39,7 +39,7 @@
                 Digital Transformation
             </a>
             
-            <a href="/pages/services/ui_ux.phps" aria-label="Link to UI/UX services page">
+            <a href="/pages/services/ui_ux.php" aria-label="Link to UI/UX services page">
                 UI/UX
             </a>
             

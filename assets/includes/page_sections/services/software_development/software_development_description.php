@@ -60,14 +60,6 @@
     ?>
 
     <div id="SoftwareDevelopmentDetailsOfService" class="text detailsOfService">
-    
-        <!-- <h2 class="item--Heading">
-            Software development with PHD Technology
-        </h2>
-        
-        <p>
-            TEST.
-        </p> -->
 
     </div>
 
