@@ -104,6 +104,16 @@
             /* DISCLOSURE ONE (CLOSED) */
             /* ====================================================== */
             
+                    /* Stop the arrow from showing in the first disclosure summary. */
+                    #DisclosureOne summary::marker,
+                    #DisclosureOne summary::-webkit-details-marker {
+                        display:none;
+                    }
+
+                    /* Stop the arrow from showing in the first disclosure summary. */
+                    #DisclosureOne summary {
+                        list-style: none;
+                    }
             
                     /* Hamburger - format the display of the initial hamburger icon (located in the summary). */
                     #DisclosureOne #Hamburger {
@@ -119,6 +129,7 @@
                         cursor: pointer;
                         z-index: var(--z-top);
                     }
+
 
             /* DISCLOSURE ONE (OPEN) */
             /* ====================================================== */
@@ -144,8 +155,7 @@
                     }
                     
                     /* Stops the arrow from showing in the first disclosure summary. */
-                    #DisclosureOne[open] summary::marker,
-                    #DisclosureOne[open] summary::-webkit-details-marker  {
+                    #DisclosureOne[open] summary::marker, #DisclosureOne[open] summary::-webkit-details-marker  {
                         display:none;
                     }
 
