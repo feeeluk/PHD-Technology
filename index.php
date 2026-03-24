@@ -9,9 +9,8 @@
     $metaDescription = "Homepage";
     $metaKeywords ="Business Analysis, Product Owner, Software Development, Web Development, .Net Development, Project Management, Digital Migrations, Data Maniupulation, Data Management, Artificial Intelligence, Skills Development, Training, Digital Media & Marketing, UI, UX, UI/UX, Proof Of Concept, Hull, Willerby, East Yorkshire, Nationwide";
 
-    // HTML 1 (Homepage version)
     // ****************************************************************************************************************************************
-    include($root ."/assets/includes/layout/page/html_1_homepage.php");
+    include($root ."/assets/includes/layout/page_open_homepage.php");
 
             // BUSINESS ANALYSIS
             include($root."/assets/includes/sections/services/business_analysis/business_analysis_description.php");
@@ -40,9 +39,7 @@
             // DIGITAL MEDIA & MARKETING
             include($root."/assets/includes/sections/services/digital_media_and_marketing/digital_media_and_marketing_description.php");
 
-
-    // HTML 2
     // ****************************************************************************************************************************************
-    include($root."/assets/includes/layout/page/html_2.php");
+    include($root."/assets/includes/layout/page_close.php");
     
 ?>

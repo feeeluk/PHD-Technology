@@ -9,9 +9,8 @@
     $metaDescription = "Contact";
     $metaKeywords ="Contact, Contact Form, Contact Us, Email, Telephone";
 
-    // HTML 1
     // ****************************************************************************************************************************************
-    include($root."/assets/includes/layout/page/html_1.php");
+    include($root."/assets/includes/layout/page_open.php");
      
         // Decode json errors array
         $errors = [];
@@ -165,8 +164,7 @@
 
 <?php
         
-    // HTML 2
     // ****************************************************************************************************************************************
-    include($root."/assets/includes/layout/page/html_2.php");
+    include($root."/assets/includes/layout/page_close.php");
     
 ?>

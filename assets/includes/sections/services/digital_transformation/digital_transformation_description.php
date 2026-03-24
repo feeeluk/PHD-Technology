@@ -32,7 +32,7 @@
                 
                 echo "<div class='clickForDetails'>";
 
-                    include($root."/assets/includes/layout/services/button_click_for_details.php");
+                    include($root."/assets/includes/layout/button_click_for_details.php");
 
                 echo "</div>";
 

@@ -2,7 +2,7 @@
 
     // IMPORT SITE WIDE VARIABLES & CONSTANTS
     // ****************************************************************************************************************************************
-        include($root."/assets/includes/layout/head/site_details.php"); 
+        include($root."/assets/config/site_details.php"); 
         
 ?>
 
@@ -14,7 +14,7 @@
 
         // HEAD
         // ****************************************************************************************************************************************
-        include($root."/assets/includes/layout/head/head.php");
+        include($root."/assets/includes/layout/head.php");
         
     ?>
 
@@ -24,7 +24,7 @@
             
             // PAGE HEADER & NAVIGATION
             // ****************************************************************************************************************************************
-            include($root."/assets/includes/layout/header/header.php");
+            include($root."/assets/includes/layout/header.php");
 
         ?>
 
@@ -34,11 +34,7 @@
 
                 // LINK TO TOP OF THE PAGE
                 // ****************************************************************************************************************************************
-                include($root."/assets/includes/layout/header/link_to_top_of_the_page.php");
-
-                // INTRODUCTION TO BUSINESS
-                // ****************************************************************************************************************************************
-                include($root."/assets/includes/sections/homepage/introduction_to_business.php");
+                include($root."/assets/includes/layout/link_to_top_of_the_page.php");
 
             ?>
 

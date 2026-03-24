@@ -9,9 +9,8 @@
     $metaDescription = "Data";
     $metaKeywords ="Data, Data Management, Data Integration, Data Migration, Analytics & Reporting";
 
-    // HTML 1
     // ****************************************************************************************************************************************
-    include($root."/assets/includes/layout/page/html_1.php");
+    include($root."/assets/includes/layout/page_open.php");
         
 ?>
 
@@ -41,8 +40,7 @@
 <?php
 
 
-    // HTML 2
     // ****************************************************************************************************************************************
-    include($root."/assets/includes/layout/page/html_2.php");
+    include($root."/assets/includes/layout/page_close.php");
 
 ?>

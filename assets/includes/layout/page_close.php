@@ -6,7 +6,7 @@
 
                     // FOOTER
                     // ****************************************************************************************************************************************
-                    include($root."/assets/includes/layout/footer/footer.php");
+                    include($root."/assets/includes/layout/footer.php");
 
                 ?>
             

@@ -9,9 +9,8 @@
     $metaDescription = "About";
     $metaKeywords ="Business Analysis, Product Owner, Software Development, Web Development, .Net Development, Project Management, Digital Migrations, Data Maniupulation, Data Management, Artificial Intelligence, Skills Development, Training, Digital Media & Marketing, UI, UX, UI/UX, Proof Of Concept";
 
-    // HTML 1
     // ****************************************************************************************************************************************
-    include($root."/assets/includes/layout/page/html_1.php");
+    include($root."/assets/includes/layout/page_open.php");
 
 ?>
 
@@ -37,8 +36,7 @@
 
 <?php
 
-    // HTML 2
     // ****************************************************************************************************************************************
-    include($root."/assets/includes/layout/page/html_2.php");
+    include($root."/assets/includes/layout/page_close.php");
         
 ?>

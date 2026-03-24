@@ -9,9 +9,8 @@
     $metaDescription = "Portfolio";
     $metaKeywords ="Portfolio, Showcase, Case Studies, Projects, Past Projects, Examples, Business Analysis, Product Owner, Software Development, Web Development, .Net Development, Project Management, Digital Migrations, Data Maniupulation, Data Management, Artificial Intelligence, Skills Development, Training, Digital Media & Marketing, UI, UX, UI/UX, Proof Of Concept";
 
-    // HTML 1
     // ****************************************************************************************************************************************
-    include($root."/assets/includes/layout/page/html_1.php");
+    include($root."/assets/includes/layout/page_open.php");
      
             echo "<div id='Portfolio' class='elevatorPitch'>";
                     
@@ -52,8 +51,7 @@
             // DIGITAL MEDIA & MARKETING
             //include($root."/assets/includes/sections/services/digital_media_and_marketing/digital_media_and_marketing_portfolio.php");
 
-    // HTML 2
     // ****************************************************************************************************************************************
-    include($root."/assets/includes/layout/page/html_2.php");
+    include($root."/assets/includes/layout/page_close.php");
     
 ?>

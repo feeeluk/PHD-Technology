@@ -4,15 +4,15 @@
         
         // Logo
         // ****************************************************************************************************************************************
-        include($root."/assets/includes/layout/header/logo.php");
+        include($root."/assets/includes/layout/header_logo.php");
    
         // NAV - Smaller devices
         // ****************************************************************************************************************************************
-        include($root."/assets/includes/layout/header/nav_smaller_devices.php");
+        include($root."/assets/includes/layout/header_navigation_smaller_devices.php");
         
         // NAV - Larger devices
         // ****************************************************************************************************************************************
-        include($root."/assets/includes/layout/header/nav_larger_devices.php");
+        include($root."/assets/includes/layout/header_navigation_larger_devices.php");
 
     ?>
 
