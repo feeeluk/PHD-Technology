@@ -11,7 +11,7 @@
 
     // HTML 1
     // ****************************************************************************************************************************************
-    include($root."/assets/includes/components/page/html_1.php");
+    include($root."/assets/includes/layout/page/html_1.php");
 
 ?>
 
@@ -20,16 +20,16 @@
         <?php
 
             // ABOUT DESCRIPTION
-            include($root."/assets/includes/page_sections/about/about_description.php");
+            include($root."/assets/includes/sections/about/about_description.php");
 
             // BENEFITS
-            include($root."/assets/includes/page_sections/about/about_benefits.php");
+            include($root."/assets/includes/sections/about/about_benefits.php");
             
             // PRICES
-            include($root."/assets/includes/page_sections/about/about_prices.php");
+            include($root."/assets/includes/sections/about/about_prices.php");
 
             // NEXT STEPS
-            include($root."/assets/includes/page_sections/about/about_next_steps.php");
+            include($root."/assets/includes/sections/about/about_next_steps.php");
 
         ?>
     
@@ -39,6 +39,6 @@
 
     // HTML 2
     // ****************************************************************************************************************************************
-    include($root."/assets/includes/components/page/html_2.php");
+    include($root."/assets/includes/layout/page/html_2.php");
         
 ?>

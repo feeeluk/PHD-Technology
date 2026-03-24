@@ -11,38 +11,38 @@
 
     // HTML 1 (Homepage version)
     // ****************************************************************************************************************************************
-    include($root ."/assets/includes/components/page/html_1_homepage.php");
+    include($root ."/assets/includes/layout/page/html_1_homepage.php");
 
             // BUSINESS ANALYSIS
-            include($root."/assets/includes/page_sections/services/business_analysis/business_analysis_description.php");
+            include($root."/assets/includes/sections/services/business_analysis/business_analysis_description.php");
             
             // DATA
-            include($root."/assets/includes/page_sections/services/data/data_description.php");
+            include($root."/assets/includes/sections/services/data/data_description.php");
             
             // PROOF OF CONCEPT
-            include($root."/assets/includes/page_sections/services/proof_of_concept/proof_of_concept_description.php");
+            include($root."/assets/includes/sections/services/proof_of_concept/proof_of_concept_description.php");
             
             // SOFTWARE DEVELOPMENT
-            include($root."/assets/includes/page_sections/services/software_development/software_development_description.php");
+            include($root."/assets/includes/sections/services/software_development/software_development_description.php");
             
             // DIGITAL TRANSFORMATIONS
-            include($root."/assets/includes/page_sections/services/digital_transformation/digital_transformation_description.php");
+            include($root."/assets/includes/sections/services/digital_transformation/digital_transformation_description.php");
 
             // UI/UX
-            include($root."/assets/includes/page_sections/services/ui_ux/ui_ux_description.php");
+            include($root."/assets/includes/sections/services/ui_ux/ui_ux_description.php");
             
             // SKILLS DEVELOPMENT & TRAINING
-            include($root."/assets/includes/page_sections/services/skills_development_and_training/skills_development_and_training_description.php");
+            include($root."/assets/includes/sections/services/skills_development_and_training/skills_development_and_training_description.php");
 
             // ARTIFICIAL INTELLIGENCE
-            include($root."/assets/includes/page_sections/services/artificial_intelligence/artificial_intelligence_description.php");
+            include($root."/assets/includes/sections/services/artificial_intelligence/artificial_intelligence_description.php");
 
             // DIGITAL MEDIA & MARKETING
-            include($root."/assets/includes/page_sections/services/digital_media_and_marketing/digital_media_and_marketing_description.php");
+            include($root."/assets/includes/sections/services/digital_media_and_marketing/digital_media_and_marketing_description.php");
 
 
     // HTML 2
     // ****************************************************************************************************************************************
-    include($root."/assets/includes/components/page/html_2.php");
+    include($root."/assets/includes/layout/page/html_2.php");
     
 ?>

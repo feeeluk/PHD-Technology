@@ -11,7 +11,7 @@
 
     // HTML 1
     // ****************************************************************************************************************************************
-    include($root."/assets/includes/components/page/html_1.php");
+    include($root."/assets/includes/layout/page/html_1.php");
 
 ?>
 
@@ -20,19 +20,19 @@
     <?php    
 
             // Description
-            include($root."/assets/includes/page_sections/services/software_development/software_development_description.php");
+            include($root."/assets/includes/sections/services/software_development/software_development_description.php");
 
             // Benefits
-            // include($root."/assets/includes/page_sections/services/software_development/software_development_benefits.php");
+            // include($root."/assets/includes/sections/services/software_development/software_development_benefits.php");
 
             // Prices
-            include($root."/assets/includes/page_sections/services/software_development/software_development_prices.php");
+            include($root."/assets/includes/sections/services/software_development/software_development_prices.php");
             
             // Portfolio
-            include($root."/assets/includes/page_sections/services/software_development/software_development_portfolio.php"); 
+            include($root."/assets/includes/sections/services/software_development/software_development_portfolio.php"); 
             
             // Next Steps
-            include($root."/assets/includes/page_sections/services/software_development/software_development_next_steps.php");
+            include($root."/assets/includes/sections/services/software_development/software_development_next_steps.php");
 
     ?>
 
@@ -42,6 +42,6 @@
 
     // HTML 2
     // ****************************************************************************************************************************************
-    include($root."/assets/includes/components/page/html_2.php");
+    include($root."/assets/includes/layout/page/html_2.php");
     
 ?>

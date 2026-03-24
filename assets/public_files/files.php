@@ -11,7 +11,7 @@
 
     // HTML 1
     // ****************************************************************************************************************************************
-    include($root."/assets/includes/components/page/html_1.php");
+    include($root."/assets/includes/layout/page/html_1.php");
      
 ?>
         
@@ -136,6 +136,6 @@
         
     // HTML 2
     // ****************************************************************************************************************************************
-    include($root."/assets/includes/components/page/html_2.php");
+    include($root."/assets/includes/layout/page/html_2.php");
     
 ?>
