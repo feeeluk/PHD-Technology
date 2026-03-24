@@ -2,14 +2,9 @@
 
             <footer id="Footer">
 
-                <?php
+                    <!-- // FOOTER -->
+                    <?php include($root."/assets/includes/layout/footer.php"); ?>
 
-                    // FOOTER
-                    // ****************************************************************************************************************************************
-                    include($root."/assets/includes/layout/footer.php");
-
-                ?>
-            
             </footer>
 
         </div>

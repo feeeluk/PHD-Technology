@@ -1,45 +1,24 @@
-<?php
-
-    // IMPORT SITE WIDE VARIABLES & CONSTANTS
-    // ****************************************************************************************************************************************
-        include($root."/assets/includes/layout/site_details.php"); 
-        
-?>
+<!-- // IMPORT SITE WIDE VARIABLES & CONSTANTS -->
+<?php include($root."/assets/includes/layout/site_details.php");  ?>
 
 <!DOCTYPE html>
 
     <html lang="en">
 
-    <?php
-
-        // HEAD
-        // ****************************************************************************************************************************************
-        include($root."/assets/includes/layout/head.php");
-        
-    ?>
+        <!-- // HEAD -->
+        <?php include($root."/assets/includes/layout/head.php"); ?>
 
     <body>
+      
+        <!-- // PAGE HEADER & NAVIGATION -->
+        <?php include($root."/assets/includes/layout/header.php"); ?>
 
-        <?php
-            
-            // PAGE HEADER & NAVIGATION
-            // ****************************************************************************************************************************************
-            include($root."/assets/includes/layout/header.php");
+            <div id="PageContainer">
 
-        ?>
+                <!-- // LINK TO TOP OF THE PAGE -->
+                <?php include($root."/assets/includes/layout/link_to_top_of_the_page.php"); ?>
 
-        <div id="PageContainer">
-
-            <?php
-
-                // LINK TO TOP OF THE PAGE
-                // ****************************************************************************************************************************************
-                include($root."/assets/includes/layout/link_to_top_of_the_page.php");
-
-                // INTRODUCTION TO BUSINESS
-                // ****************************************************************************************************************************************
-                include($root."/assets/includes/sections/homepage/introduction_to_business.php");
-
-            ?>
+                <!-- // INTRODUCTION TO BUSINESS -->
+                <?php include($root."/assets/includes/sections/homepage/introduction_to_business.php"); ?>
 
             <div id="SubContainer">

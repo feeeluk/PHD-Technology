@@ -12,7 +12,6 @@
 
 <?php include($root."/assets/includes/layout/page_open.php"); ?>
 
-
     <div id="About" class="box">
 
         <?php
