@@ -1,22 +1,20 @@
 <?php
     
+    // CONFIG
     include($_SERVER['DOCUMENT_ROOT'] . "/assets/config/config.php");       
 
-    // Set the page title.
+    // PAGE META
     $subTitle = "Business Analysis";
-    
-    // Set page meta tags.
     $metaDescription = "Business Analysis";
     $metaKeywords ="Business Analysis, Product Owner, SCRUM, Agile, SCRUM Master";
 
-    // ****************************************************************************************************************************************
-    include($root."/assets/includes/layout/page_open.php");
-
 ?>
 
-<div id="BusinessAnalysis" class="box">
+<?php include($root."/assets/includes/layout/page_open.php"); ?>
 
-    <?php
+    <div id="BusinessAnalysis" class="box">
+
+        <?php
 
             // Description
             include($root."/assets/includes/sections/services/business_analysis/business_analysis_description.php");
@@ -33,13 +31,8 @@
             // Next Steps
             include($root."/assets/includes/sections/services/business_analysis/business_analysis_next_steps.php");
 
-    ?>
+        ?>
 
-</div>
+    </div>
     
-<?php
-
-    // ****************************************************************************************************************************************
-    include($root."/assets/includes/layout/page_close.php");
-    
-?>
+<?php include($root."/assets/includes/layout/page_close.php"); ?>

@@ -1,16 +1,18 @@
 <?php
     
+    //CONFIG
     include($_SERVER['DOCUMENT_ROOT'] . "/assets/config/config.php");      
         
-    // Set the page title.
+    // PAGE META
     $subTitle = "Contact";
-
-    // Set page meta tags.
     $metaDescription = "Contact";
     $metaKeywords ="Contact, Contact Form, Contact Us, Email, Telephone";
 
-    // ****************************************************************************************************************************************
-    include($root."/assets/includes/layout/page_open.php");
+?>
+
+<?php include($root."/assets/includes/layout/page_open.php"); ?>
+
+    <?php
      
         // Decode json errors array
         $errors = [];
@@ -29,7 +31,7 @@
         // Submit attempt counter
         $attempt = isset($_GET['attempt']) ? (int)$_GET['attempt'] : 0;
 
-?>
+    ?>
 
     <div id="Contact" class="box">
 
@@ -162,9 +164,4 @@
 
     </div>
 
-<?php
-        
-    // ****************************************************************************************************************************************
-    include($root."/assets/includes/layout/page_close.php");
-    
-?>
+<?php include($root."/assets/includes/layout/page_close.php"); ?>

@@ -1,22 +1,20 @@
 <?php
     
+    // CONFIG
     include($_SERVER['DOCUMENT_ROOT'] . "/assets/config/config.php");             
 
-    // set the page title
+    // PAGE META
     $subTitle = "UI/UX";
-
-    // Set page meta tags.
     $metaDescription = "UI/UX";
     $metaKeywords ="UI/UX, User Interface, User Experience";
 
-    // ****************************************************************************************************************************************
-    include($root."/assets/includes/layout/page_open.php");
-
 ?>
 
-<div id="UiUx" class="box">
+<?php include($root."/assets/includes/layout/page_open.php"); ?>
 
-    <?php
+    <div id="UiUx" class="box">
+
+        <?php
 
             // Description
             include($root."/assets/includes/sections/services/ui_ux/ui_ux_description.php");
@@ -33,13 +31,8 @@
             // Next Steps
             include($root."/assets/includes/sections/services/ui_ux/ui_ux_next_steps.php");
 
-    ?>
+        ?>
 
-</div>
+    </div>
     
-<?php          
-
-    // ****************************************************************************************************************************************
-    include($root."/assets/includes/layout/page_close.php");
-    
-?>
+<?php include($root."/assets/includes/layout/page_close.php"); ?>

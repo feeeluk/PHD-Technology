@@ -1,22 +1,20 @@
 <?php
     
+    // CONFIG
     include($_SERVER['DOCUMENT_ROOT'] . "/assets/config/config.php");      
 
-    // Set the page title.
+    // PAGE META
     $subTitle = "Data";
-    
-    /// Set page meta tags.
     $metaDescription = "Data";
     $metaKeywords ="Data, Data Management, Data Integration, Data Migration, Analytics & Reporting";
 
-    // ****************************************************************************************************************************************
-    include($root."/assets/includes/layout/page_open.php");
-        
 ?>
 
-<div id="Data" class="box">
+<?php include($root."/assets/includes/layout/page_open.php"); ?>
 
-    <?php
+    <div id="Data" class="box">
+
+        <?php
 
             // Description
             include($root."/assets/includes/sections/services/data/data_description.php");
@@ -33,14 +31,8 @@
             // Next Steps
             include($root."/assets/includes/sections/services/data/data_next_steps.php");
 
-    ?>
+        ?>
 
-</div>
+    </div>
     
-<?php
-
-
-    // ****************************************************************************************************************************************
-    include($root."/assets/includes/layout/page_close.php");
-
-?>
+<?php include($root."/assets/includes/layout/page_close.php"); ?>

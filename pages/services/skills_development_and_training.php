@@ -1,22 +1,20 @@
 <?php
     
+    // CONFIG
     include($_SERVER['DOCUMENT_ROOT'] . "/assets/config/config.php");      
         
-    // Set the page title.
+    // PAGE META
     $subTitle = "Skills Development & Training";
-
-    // Set page meta tags.
     $metaDescription = "Skills Development & Training";
     $metaKeywords ="Skills Development & Training, Vocational, Vocational Training, Skills, Skills Development, Training, Learning";
 
-    // ****************************************************************************************************************************************
-    include($root."/assets/includes/layout/page_open.php");
-
 ?>
 
-<div id="SkillsDevelopmentAndTraining" class="box">
+<?php include($root."/assets/includes/layout/page_open.php"); ?>
 
-    <?php
+    <div id="SkillsDevelopmentAndTraining" class="box">
+
+        <?php
 
             // Description
             include($root."/assets/includes/sections/services/skills_development_and_training/skills_development_and_training_description.php");
@@ -33,13 +31,8 @@
             // Next Steps
             include($root."/assets/includes/sections/services/skills_development_and_training/skills_development_and_training_next_steps.php");
 
-    ?>
+        ?>
 
-</div>
+    </div>
     
-<?php            
-            
-    // ****************************************************************************************************************************************
-    include($root."/assets/includes/layout/html_2.php");
-    
-?>
+<?php include($root."/assets/includes/layout/page_close.php"); ?>

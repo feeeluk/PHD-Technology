@@ -1,18 +1,16 @@
 <?php
     
+    // CONFIG
     include($_SERVER['DOCUMENT_ROOT'] . "/assets/config/config.php");  
         
-    // Set the page title.
+    // PAGE META
     $subTitle = "Artificial Intelligence";
-
-    // Set page meta tags.
     $metaDescription = "Artificial Intelligence";
     $metaKeywords ="Artificial Intelligence";
 
-    // ****************************************************************************************************************************************
-    include($root."/assets/includes/layout/page_open.php");
-
 ?>
+
+<?php include($root."/assets/includes/layout/page_open.php"); ?>
 
 <div id="ArtificialIntelligence" class="box">
 
@@ -37,9 +35,4 @@
 
 </div>
     
-<?php
-
-    // ****************************************************************************************************************************************
-    include($root."/assets/includes/layout/page_close.php");
-    
-?>
+<?php include($root."/assets/includes/layout/page_close.php"); ?>

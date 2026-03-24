@@ -1,23 +1,21 @@
 <?php
     
+    // CONFIG
     include($_SERVER['DOCUMENT_ROOT'] . "/assets/config/config.php");     
         
-    // Set the page title.
+    // PAGE META
     $subTitle = "Proof of Concept";
-
-    // Set page meta tags.
     $metaDescription = "Proof of Concept";
     $metaKeywords ="Proof of Concept";
 
-    // ****************************************************************************************************************************************
-    include($root."/assets/includes/layout/page_open.php");
-
 ?>
 
-<div id="ProofOfConcept" class="box">
+<?php include($root."/assets/includes/layout/page_open.php"); ?>
 
-    <?php
-    
+    <div id="ProofOfConcept" class="box">
+
+        <?php
+
             // Description
             include($root."/assets/includes/sections/services/proof_of_concept/proof_of_concept_description.php");
 
@@ -33,13 +31,8 @@
             // Next Steps
             include($root."/assets/includes/sections/services/proof_of_concept/proof_of_concept_next_steps.php");
 
-    ?>
+        ?>
 
-</div>
+    </div>
     
-<?php
-
-    // ****************************************************************************************************************************************
-    include($root."/assets/includes/layout/page_close.php");
-    
-?>
+<?php include($root."/assets/includes/layout/page_close.php"); ?>

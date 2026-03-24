@@ -1,22 +1,20 @@
 <?php
     
+    // CONFIG
     include($_SERVER['DOCUMENT_ROOT'] . "/assets/config/config.php");     
         
-    // Set the page title.
+    // PAGE META
     $subTitle = "Digital Media & Marketing";
-
-    // Set page meta tags.
     $metaDescription = "Digital Media & Marketing";
     $metaKeywords ="Digital Media & Marketing";
 
-    // ****************************************************************************************************************************************
-    include($root."/assets/includes/layout/page_open.php");
-
 ?>
 
-<div id="DigitalMediaAndMarketing" class="box">
+<?php include($root."/assets/includes/layout/page_open.php"); ?>
 
-    <?php
+    <div id="DigitalMediaAndMarketing" class="box">
+
+        <?php
 
             // Description
             include($root."/assets/includes/sections/services/digital_media_and_marketing/digital_media_and_marketing_description.php");
@@ -33,13 +31,8 @@
             // Next Steps
             include($root."/assets/includes/sections/services/digital_media_and_marketing/digital_media_and_marketing_next_steps.php");
 
-    ?>
+        ?>
 
-</div>
+    </div>
     
-<?php            
-
-    // ****************************************************************************************************************************************
-    include($root."/assets/includes/layout/page_close.php");
-    
-?>
+<?php include($root."/assets/includes/layout/page_close.php"); ?>
