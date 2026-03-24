@@ -1,14 +1,8 @@
 /* === LAYOUT_PORTFOLIO.CSS === */
 
     /* Class */
-    .portfolio{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content:space-around;
-        gap: var(--space-4);
-        padding-bottom: var(--space-6);
-    }
+    /* .portfolio{
+    } */
 
     .text--Portfolio{
             padding: var(--space-4);
@@ -17,7 +11,7 @@
             min-height: 400px;
         }
 
-    .title--Portfolio{
+    .portfolio--Title{
         color: var(--colour-heading-1)
     }
 

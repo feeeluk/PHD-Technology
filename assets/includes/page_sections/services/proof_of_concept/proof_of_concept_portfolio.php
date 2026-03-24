@@ -4,9 +4,13 @@
 
         if (str_contains($_SERVER['REQUEST_URI'],'proof_of_concept') == true)
             {
-                echo "<h1 class='item--Title'>PORTFOLIO</h1>";
+                echo "<h1 class='item--Title'>";
+                echo    "PORTFOLIO";
+                echo "</h1>";
 
-                echo "<p class='item--CentreAlignedText'>Examples of work that I have done:</p>";
+                echo "<h2 class='item--CentreAlignedText'>";
+                echo    "Examples of work that I have done:";
+                echo "</h2>";
             }
 
         elseif (str_contains($_SERVER['REQUEST_URI'],'portfolio') == true)
@@ -18,11 +22,11 @@
 
     <div class="portfolio">
                 
-        <div id=""
+        <div id="PortfolioProofOfConceptTreeData"
              class="text--Portfolio">
             
-            <h2 class="title--Portfolio">
-                Test
+            <h2 class="portfolio--Title">
+                Tree Data
             </h2>
         
             <img src="/assets/images/services/proof_of_concept/portfolio_treedata_v1.webp"
@@ -30,39 +34,39 @@
                  class="portfolioImage--FloatLeft">
             
             <p>
-                It enables smarter decisions, more efficient operations, reduced costs, and better outcomes. Investing in business analysis is ultimately an investment in clarity, confidence, and long‑term success.
+                The idea behind this PoC was to test if there was a viable market within my customer's client base for a product that would provide additional, explicit information. 
             </p>
 
         </div>
 
-        <div id=""
+        <div id="PortfolioProofOfConceptPointsAcademy"
              class="text--Portfolio">
             
-            <h2 class="title--Portfolio">
-                Test
+            <h2 class="portfolio--Title">
+                Points Academy
             </h2>
 
-            <img src="/assets/images/services/proof_of_concept/portfolio_portal.webp"
-                 alt="Telesales Portal"
+            <img src="/assets/images/services/proof_of_concept/portfolio_points_academy.webp"
+                 alt="Points Academy Portal"
                  class="portfolioImage--FloatRight">
-
+                
             <p>
                 It enables smarter decisions, more efficient operations, reduced costs, and better outcomes. Investing in business analysis is ultimately an investment in clarity, confidence, and long‑term success.
             </p>
 
         </div>
 
-        <div id=""
+        <div id="PortfolioProofOfConceptCommercialSalesPortal"
              class="text--Portfolio">
             
-            <h2 class="title--Portfolio">
-                Test
+            <h2 class="portfolio--Title">
+                Commercial Sales Portal
             </h2>
 
-            <img src="/assets/images/services/proof_of_concept/portfolio_points_academy.webp"
-                 alt="Points Academy Portal"
+            <img src="/assets/images/services/proof_of_concept/portfolio_portal.webp"
+                 alt="Telesales Portal"
                  class="portfolioImage--FloatLeft">
-                
+
             <p>
                 It enables smarter decisions, more efficient operations, reduced costs, and better outcomes. Investing in business analysis is ultimately an investment in clarity, confidence, and long‑term success.
             </p>

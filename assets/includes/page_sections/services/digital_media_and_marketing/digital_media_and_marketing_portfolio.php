@@ -19,7 +19,7 @@
     <div id=""
          class="text--Portfolio">
         
-        <h2 class="title--Portfolio">
+        <h2 class="portfolio--Title">
             Test
         </h2>
 
@@ -56,7 +56,7 @@
 
     <div id="" class="text--Portfolio">
         
-        <h2 class="title--Portfolio">
+        <h2 class="portfolio--Title">
             Test
         </h2>
 

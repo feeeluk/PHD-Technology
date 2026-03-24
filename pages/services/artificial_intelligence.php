@@ -29,7 +29,7 @@
             include($root."/assets/includes/page_sections/services/artificial_intelligence/artificial_intelligence_prices.php");
             
             // Portfolio
-            include($root."/assets/includes/page_sections/services/artificial_intelligence/artificial_intelligence_portfolio.php");
+            //include($root."/assets/includes/page_sections/services/artificial_intelligence/artificial_intelligence_portfolio.php");
             
             // Next Steps
             include($root."/assets/includes/page_sections/services/artificial_intelligence/artificial_intelligence_next_steps.php");

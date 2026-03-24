@@ -29,7 +29,7 @@
             include($root."/assets/includes/page_sections/services/skills_development_and_training/skills_development_and_training_prices.php");
 
             // Portfolio
-            include($root."/assets/includes/page_sections/services/skills_development_and_training/skills_development_and_training_portfolio.php");
+            //include($root."/assets/includes/page_sections/services/skills_development_and_training/skills_development_and_training_portfolio.php");
             
             // Next Steps
             include($root."/assets/includes/page_sections/services/skills_development_and_training/skills_development_and_training_next_steps.php");

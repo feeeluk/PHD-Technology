@@ -29,7 +29,7 @@
             include($root."/assets/includes/page_sections/services/data/data_prices.php");
 
             // Portfolio
-            include($root."/assets/includes/page_sections/services/data/data_portfolio.php");
+            //include($root."/assets/includes/page_sections/services/data/data_portfolio.php");
 
             // Next Steps
             include($root."/assets/includes/page_sections/services/data/data_next_steps.php");

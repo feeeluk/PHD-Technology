@@ -29,7 +29,7 @@
             include($root."/assets/includes/page_sections/services/ui_ux/ui_ux_prices.php");
 
             // Portfolio
-            include($root."/assets/includes/page_sections/services/ui_ux/ui_ux_portfolio.php");
+            //include($root."/assets/includes/page_sections/services/ui_ux/ui_ux_portfolio.php");
             
             // Next Steps
             include($root."/assets/includes/page_sections/services/ui_ux/ui_ux_next_steps.php");

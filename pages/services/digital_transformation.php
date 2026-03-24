@@ -29,7 +29,7 @@
             include($root."/assets/includes/page_sections/services/digital_transformation/digital_transformation_prices.php");
 
             // Portfolio
-            include($root."/assets/includes/page_sections/services/digital_transformation/digital_transformation_portfolio.php");
+            //include($root."/assets/includes/page_sections/services/digital_transformation/digital_transformation_portfolio.php");
 
             // Next Steps
             include($root."/assets/includes/page_sections/services/digital_transformation/digital_transformation_next_steps.php");

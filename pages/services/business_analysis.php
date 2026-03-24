@@ -29,7 +29,7 @@
             include($root."/assets/includes/page_sections/services/business_analysis/business_analysis_prices.php");
 
             // Portfolio
-            include($root."/assets/includes/page_sections/services/business_analysis/business_analysis_portfolio.php");
+            //include($root."/assets/includes/page_sections/services/business_analysis/business_analysis_portfolio.php");
             
             // Next Steps
             include($root."/assets/includes/page_sections/services/business_analysis/business_analysis_next_steps.php");
