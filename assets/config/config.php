@@ -26,6 +26,8 @@
         $smtp_port = 587;
         $smtp_secure = 'tls';   // FIXED: no namespace reference
         $smtp_auth = true;
+        $site = "pdhtechnology.com";
+        $siteTitle = "PDH Technology";
 
     } else {
 
@@ -36,6 +38,8 @@
         $smtp_port = 1025;
         $smtp_secure = false;   // no encryption for Mailpit
         $smtp_auth = false;     // Mailpit doesn't require auth
+        $site = "TEST";
+        $siteTitle = "TEST ENVIRONMENT";
 
     }
 

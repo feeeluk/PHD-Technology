@@ -42,7 +42,7 @@
     </script>
 
     <title>
-        <?php echo $subTitle; ?> | <?php echo $siteTitle; ?>
+        <?= $subTitle; ?> | <?= $siteTitle; ?>
     </title>
     
 </head>

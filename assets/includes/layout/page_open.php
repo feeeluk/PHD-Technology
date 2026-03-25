@@ -1,6 +1,3 @@
-<!-- // IMPORT SITE WIDE VARIABLES & CONSTANTS -->
-<?php include($root."/assets/config/site_details.php"); ?>
-
 <!DOCTYPE html>
 
     <html lang="en">
