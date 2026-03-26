@@ -28,6 +28,12 @@
         $smtp_auth = true;
         $site = "pdhtechnology.com";
         $siteTitle = "PDH Technology";
+        $commercial_sales_portal = "https://commercialsalesportal.pdhtechnology.com";
+        $points_academy = "https://pointsacademy.pdhtechnology.com";
+        $snow_compare = "https://snowcompare.pdhtechnology.com";
+        $snow_compare_shop = "https://snowcompareshop.pdhtechnology.com";
+        $tree_data = "https://treedata.pdhtechnology.com";
+        
 
     } else {
 
@@ -40,6 +46,11 @@
         $smtp_auth = false;     // Mailpit doesn't require auth
         $site = "TEST";
         $siteTitle = "TEST ENVIRONMENT";
+        $commercial_sales_portal = "http://commercialsalesportal.test";
+        $points_academy = "http://pointsacademy.test";
+        $snow_compare = "http://snowcompare.test";
+        $snow_compare_shop = "http://snowcompareshop.test";
+        $tree_data = "http://treedata.test";
 
     }
 

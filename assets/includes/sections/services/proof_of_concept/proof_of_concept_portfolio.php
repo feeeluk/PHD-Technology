@@ -29,9 +29,13 @@
                 Tree Data
             </h2>
         
-            <img src="/assets/images/services/proof_of_concept/portfolio_treedata_v1.webp"
-                 alt="Tree Data"
-                 class="portfolioImage--FloatLeft">
+            <a href="<?=  $tree_data ?>" aria-label="link to Tree Data project" target=”_blank”>
+                
+                <img src="/assets/images/services/proof_of_concept/portfolio_treedata_v1.webp"
+                     alt="Tree Data"
+                     class="portfolioImage--FloatLeft">
+                     
+            </a>
             
             <p>
                 The idea behind this PoC was to test if there was a viable market within my customer's client base for a product that would provide additional, explicit information. 
@@ -46,9 +50,13 @@
                 Points Academy
             </h2>
 
-            <img src="/assets/images/services/proof_of_concept/portfolio_points_academy.webp"
-                 alt="Points Academy Portal"
-                 class="portfolioImage--FloatRight">
+            <a href="<?=  $points_academy ?>" aria-label="link to Points Academy project" target=”_blank”>
+               
+                <img src="/assets/images/services/proof_of_concept/portfolio_points_academy.webp"
+                     alt="Points Academy"
+                     class="portfolioImage--FloatRight">
+
+            </a>
                 
             <p>
                 It enables smarter decisions, more efficient operations, reduced costs, and better outcomes. Investing in business analysis is ultimately an investment in clarity, confidence, and long‑term success.
@@ -63,9 +71,13 @@
                 Commercial Sales Portal
             </h2>
 
-            <img src="/assets/images/services/proof_of_concept/portfolio_portal.webp"
-                 alt="Telesales Portal"
-                 class="portfolioImage--FloatLeft">
+            <a href="<?=  $commercial_sales_portal ?>" aria-label="link to Commercial Sales Portal project" target=”_blank”>
+                
+                <img src="/assets/images/services/proof_of_concept/portfolio_portal.webp"
+                     alt="Commercial Sales Portal"
+                     class="portfolioImage--FloatLeft">
+            
+            </a>
 
             <p>
                 It enables smarter decisions, more efficient operations, reduced costs, and better outcomes. Investing in business analysis is ultimately an investment in clarity, confidence, and long‑term success.
