@@ -17,12 +17,8 @@
     echo "<div id='Portfolio' class='elevatorPitch'>";
             
         echo "<h1>";
-            echo "Poftfolio";
+            echo "Portfolio";
         echo "</h1>";
-    
-        echo "<h2>";
-            echo "Here are some examples of our work:";
-        echo "</h2>";
         
     echo "</div>";
 

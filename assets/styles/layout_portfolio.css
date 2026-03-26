@@ -5,27 +5,27 @@
     } */
 
     .text--Portfolio{
-            padding: var(--space-4);
-            margin-bottom: var(--space-4);
-            background: var(--colour-background-3);
-            min-height: 400px;
-        }
+        padding: var(--space-6);
+        margin-bottom: var(--space-4);
+        background: #DDD;
+        border-radius: 10px;
+    }
 
-    .portfolio--Title{
+    .portfolio--MarginBottom{
+        margin-bottom: 1.5rem;
+        padding: 0;
+    }
+
+    .portfolio--SubSection-Title{
         color: var(--colour-heading-1)
     }
 
     /* Each service has one or more portfolio image/s associated with it. */
-    .portfolioImage--FloatLeft, .portfolioImage--FloatRight{
+    .portfolioImage--FloatLeft{
         padding: 0;
         margin: var(--space-1) var(--space-4) var(--space-2) 0 ;
         object-fit:contain;
         float: left;
-    }
-
-    .portfolioImage--FloatRight{
-        float: right;
-        margin: var(--space-1) 0 var(--space-2) var(--space-4) ;
     }
 
         /* LARGER DEVICES */
@@ -34,8 +34,7 @@
             @media (min-width: 399px){
 
                 /* make image bigger */
-                .portfolioImage--FloatLeft, .portfolioImage--FloatRight{
-                    height: auto;
+                .portfolioImage--FloatLeft{
                     width: 200px;
                 }
 
@@ -48,9 +47,8 @@
             @media (min-width: 639px){
 
                 /* make image bigger */
-                .portfolioImage--FloatLeft, .portfolioImage--FloatRight{
-                    height: auto;
-                    width: 300px;
+                .portfolioImage--FloatLeft{
+                    width: 250px;
                 }
 
                 .text--Portfolio{
@@ -62,15 +60,12 @@
             @media (min-width: 959px){
 
                 /* make image bigger */
-                .portfolioImage--FloatLeft, .portfolioImage--FloatRight{
-                    height: auto;
+                .portfolioImage--FloatLeft{
                     width: 450px;
                 }
 
                 .text--Portfolio{
-                    min-height: 400px;
+                    min-height: 350px;
                 }
 
             }
-
-    
