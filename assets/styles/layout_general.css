@@ -295,6 +295,10 @@
         clear: both;
     }
 
+    .inside{
+        list-style-position: inside;
+    }
+
 /* Spacing */
 /* ============================================== */
 

@@ -44,8 +44,13 @@
             </p>
             
             <p>
-                The POC aimed to validate two things: whether the concept was technically achievable, and whether customers would value — and pay for — enhanced, tree‑specific digital access.
+                The POC aimed to validate two things:
             </p>
+
+            <ul class="inside">
+                <li>whether the concept was technically achievable</li>
+                <li>whether customers would value — and pay for — enhanced data</li>
+            </ul> 
 
             <div class="clear">
 
@@ -102,7 +107,7 @@
             </h2>
                 
             <p>
-                We developed a web application for a medical devices company that manually calculated customer loyalty points every six months. The POC demonstrated that automated imports, rule‑based calculations, and a customer portal could replace a month of temporary labour, reduce costs, increase update frequency, and deliver a far better customer experience.
+                We developed a web application for a medical devices company that manually calculated customer loyalty points every six months. The POC demonstrated that automated imports, rule‑based calculations, and a customer portal could dramatically reduce costs, improve data quality, increase update frequency, and deliver a far better customer experience.
             </p>
 
             <div class="clear">
