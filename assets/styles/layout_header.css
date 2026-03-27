@@ -248,6 +248,8 @@
 /* LARGER DEVICE NAVIGATION (DROP DOWN) */
 /* ============================================== */
 
+
+
         @media (min-width:959px){ 
             
             /* Hide 'hamburger menu' */
@@ -285,6 +287,10 @@
                 font-weight: var(--navbar-dropdown-parent-font-weight);
             }
                             
+            .dropButton{
+                cursor:pointer;
+            }
+            
             /* Dropdown content (hidden by default) */
             .dropContent {
                 display: none;

@@ -45,7 +45,7 @@
         $smtp_secure = false;   // no encryption for Mailpit
         $smtp_auth = false;     // Mailpit doesn't require auth
         $site = "TEST";
-        $siteTitle = "TEST ENVIRONMENT";
+        $siteTitle = "PDH Technology"; //"TEST ENVIRONMENT";
         $commercial_sales_portal = "http://commercialsalesportal.test";
         $points_academy = "http://pointsacademy.test";
         $snow_compare = "http://snowcompare.test";
