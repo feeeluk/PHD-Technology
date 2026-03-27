@@ -158,7 +158,7 @@
     .item--SubSectionTitle{
         text-align: left;
         margin-bottom: .5rem;
-        color: var(--colour-title-subsection-1);
+        color: var(--colour-subtitle-1);
     }
 
     .item--SubSectionSubTitle{
@@ -289,6 +289,10 @@
     .anchor{
         position: relative;
         top: calc((var(--height-header) + 16px) * -1);
+    }
+
+    .clear{
+        clear: both;
     }
 
 /* Spacing */

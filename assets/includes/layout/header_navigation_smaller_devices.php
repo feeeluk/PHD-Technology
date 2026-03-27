@@ -52,7 +52,7 @@
 
             <a href="/pages/services/proof_of_concept.php" aria-label="Link to Proof of Concept services page">
                 <span class="smallDeviceMenuItem levelTwo">
-                    Proof of Concept
+                    Proof-of-Concept
                 </span>
             </a>
 

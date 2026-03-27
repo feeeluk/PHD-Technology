@@ -11,9 +11,20 @@
         border-radius: 10px;
     }
 
-    .portfolio--MarginBottom{
+    .portfolio--Section-Title-NoBottomMargin{
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .portfolio--Section-Title-MoreBottomMargin{
+        margin-bottom: var(--space-6);
+        padding: 0;
+    }
+
+    .portfolio--Section-SubTitle{
         margin-bottom: 1.5rem;
         padding: 0;
+        color: var(--colour-heading-1);
     }
 
     .portfolio--SubSection-Title{
@@ -69,3 +80,7 @@
                 }
 
             }
+
+    .portfolio--Summary{
+        margin-bottom: 1rem;
+    }

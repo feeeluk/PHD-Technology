@@ -27,7 +27,7 @@
             </a>
 
             <a href="/pages/services/proof_of_concept.php" aria-label="Link to Proof of Concept services page">
-                Proof of Concept
+                Proof-of-Concept
             </a>
             
             <a href="/pages/services/software_development.php" aria-label="Link to Software Development services page">

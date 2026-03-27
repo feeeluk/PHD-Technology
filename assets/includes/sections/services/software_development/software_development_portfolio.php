@@ -4,18 +4,18 @@
 
         if (str_contains($_SERVER['REQUEST_URI'],'software_development') == true)
             {
-                echo "<h1 class='item--Title'>";
+                echo "<h1 class='item--Title portfolio--Section-Title-NoBottomMargin'>";
                 echo    "PORTFOLIO";
                 echo "</h1>";
 
-                echo "<h2 class='item--CentreAlignedText portfolio--MarginBottom'>";
+                echo "<h2 class='item--CentreAlignedText portfolio--Section-SubTitle'>";
                 echo    "Here are some examples of our work:";
                 echo "</h2>";
             }
 
         elseif (str_contains($_SERVER['REQUEST_URI'],'portfolio') == true)
             {             
-                echo "<h2 class='item--Title'>";
+                echo "<h2 class='item--Title portfolio--Section-Title-MoreBottomMargin'>";
                 echo    "SOFTWARE DEVELOPMENT";
                 echo "</h2>";    
             }
@@ -43,6 +43,20 @@
                 It enables smarter decisions, more efficient operations, reduced costs, and better outcomes. Investing in business analysis is ultimately an investment in clarity, confidence, and long‑term success.
             </p>
 
+            <div class="clear">
+
+                <details>
+
+                    <summary class="portfolio--Summary">Test</summary>
+
+                    <p>
+                        Test
+                    </p>
+
+                </details>
+
+            </div>
+
         </div>
         
         <div id=""
@@ -63,6 +77,20 @@
             <p>
                 It enables smarter decisions, more efficient operations, reduced costs, and better outcomes. Investing in business analysis is ultimately an investment in clarity, confidence, and long‑term success.
             </p>
+            
+            <div class="clear">
+
+                <details>
+
+                    <summary class="portfolio--Summary">Test</summary>
+
+                    <p>
+                        Test
+                    </p>
+
+                </details>
+
+            </div>
 
         </div>
     
@@ -84,6 +112,20 @@
             <p>
                 It enables smarter decisions, more efficient operations, reduced costs, and better outcomes. Investing in business analysis is ultimately an investment in clarity, confidence, and long‑term success.
             </p>
+            
+            <div class="clear">
+
+                <details>
+
+                    <summary class="portfolio--Summary">Test</summary>
+
+                    <p>
+                        Test
+                    </p>
+
+                </details>
+
+            </div>
 
         </div>
     
@@ -105,6 +147,20 @@
             <p>
                 It enables smarter decisions, more efficient operations, reduced costs, and better outcomes. Investing in business analysis is ultimately an investment in clarity, confidence, and long‑term success.
             </p>
+            
+            <div class="clear">
+
+                <details>
+
+                    <summary class="portfolio--Summary">Test</summary>
+
+                    <p>
+                        Test
+                    </p>
+
+                </details>
+
+            </div>
 
         </div>
     
@@ -126,6 +182,20 @@
             <p>
                 It enables smarter decisions, more efficient operations, reduced costs, and better outcomes. Investing in business analysis is ultimately an investment in clarity, confidence, and long‑term success.
             </p>
+            
+            <div class="clear">
+
+                <details>
+
+                    <summary class="portfolio--Summary">Test</summary>
+
+                    <p>
+                        Test
+                    </p>
+
+                </details>
+
+            </div>
 
         </div>
     
@@ -147,6 +217,20 @@
             <p>
                 It enables smarter decisions, more efficient operations, reduced costs, and better outcomes. Investing in business analysis is ultimately an investment in clarity, confidence, and long‑term success.
             </p>
+            
+            <div class="clear">
+
+                <details>
+
+                    <summary class="portfolio--Summary">Test</summary>
+
+                    <p>
+                        Test
+                    </p>
+
+                </details>
+
+            </div>
 
         </div>
     

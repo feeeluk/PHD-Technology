@@ -1,37 +1,44 @@
 /* === VARIABLES.CSS === */
 
 :root {
+
   /* Colours */
   --colour-1: rgb(50, 140, 130); /* main colour (logo, icons, buttons, links) */
   --colour-1-transparent: 50, 140, 130;
-  --colour-2: #ffffff; 
-  --colour-3: #777777;
-  --colour-title-1: var(--colour-1); /* page titles are the same as the primary colour*/
+  --colour-2: #ffffff;
+
+  --colour-title-1: var(--colour-1);
   --colour-title-2: ;
-  --colour-title-subtitle-1: ;
-  --colour-title-subtitle-2: ;
-  --colour-title-subsection-1: #222222;
-  --colour-title-subsection-2: ;
+  --colour-title-3: ;
+
+  --colour-subtitle-1: #222222;
+  --colour-subtitle-2: ;
+  --colour-subtitle-3: ;
+
   --colour-heading-1: #444444;
   --colour-heading-2: ;
   --colour-heading-3: ;
+
   --colour-text-1: #333333;
   --colour-text-2: #444444;
   --colour-text-3: #dddddd;
-  --colour-background-1: linear-gradient(to right, #777, #555 25%, #999); /* main background of body */
-  --colour-background-2: var(--colour-1); /* e.g. button background */
-  --colour-background-2-transparent: var(--colour-1-transparent); /* e.g. Elevator Pitch */
-  --colour-background-3: rgb(240, 240, 240); /* e.g. logo background */
+  --colour-text-4: #ffffff;
+  --colour-text-5: #777777;
+
+  --colour-background-1: linear-gradient(to right, #777, #555 25%, #999);
+  --colour-background-2: var(--colour-1);
+  --colour-background-2-transparent: var(--colour-1-transparent);
+  --colour-background-3: rgb(240, 240, 240);
   --colour-background-3-transparent: 240, 240, 240;  
-  --colour-background-4: rgb(255, 255, 255);  /**/
-  --colour-background-4-transparent: 255, 255, 255;  /**/
+  --colour-background-4: rgb(255, 255, 255);
+  --colour-background-4-transparent: 255, 255, 255;  
 
   /* Typography */
   --font-base: 16px;
   --font-family: "Inter", Arial, sans-serif;
   --line-height: 1.5;
 
-  /* Font sizes (mobile-first) */
+  /* Font sizes */
   --fs-xs: 0.75rem; /* h6 & regular text */
   --fs-sm: 0.875rem; /* h5 */
   --fs-md: 1rem; /* h4 */
@@ -66,7 +73,7 @@
   --shadow-lg: 0 4px 12px rgba(0,0,0,0.15);
   --shadow-xl: 0 8px 16px rgba(0,0,0,0.5);
 
-  /* Breakpoints (mobile-first) */
+  /* Breakpoints */
   --bp-xs: 399px;
   --bp-sm: 459px;
   --bp-md: 639px;
