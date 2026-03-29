@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
 
     <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
+          content="width=device-width, initial-scale=1.0">
 
     <meta name="author"
-        content="Philip Henning">
+          content="Philip Henning">
 
     <meta name="description"
-        content="PDH Technology: A business that helps other businesses to make better use of their data, tools, ideas, and technology. 
-        <?php echo $metaDescription; ?>">
+          content="PDH Technology: We help other businesses make better use of their data, tools, ideas, and technology. 
+          <?php echo $metaDescription; ?>">
         
     <meta name="keywords"
-        content="PDH Technology, Technology, Ideas, Help, Consulting, Advice, Business Services, 
-        <?php echo $metaKeywords; ?>">
+          content="PDH Technology, Technology, Ideas, Help, Consulting, Advice, Business Services, 
+          <?php echo $metaKeywords; ?>">
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/assets/images/favicon/favicon.ico">
