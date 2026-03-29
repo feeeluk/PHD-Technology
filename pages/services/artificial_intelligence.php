@@ -20,7 +20,7 @@
             include($root."/assets/includes/sections/services/artificial_intelligence/artificial_intelligence_description.php");
 
             // Benefits
-            include($root."/assets/includes/sections/services/artificial_intelligence/artificial_intelligence_benefits.php");
+            //include($root."/assets/includes/sections/services/artificial_intelligence/artificial_intelligence_benefits.php");
             
             // Prices
             include($root."/assets/includes/sections/services/artificial_intelligence/artificial_intelligence_prices.php");
