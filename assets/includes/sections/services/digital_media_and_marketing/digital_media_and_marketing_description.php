@@ -46,7 +46,7 @@
 
     <div id="DigitalMediaAndMarketingDetailsOfService" class="text">
         
-        <details class="details">
+        <!-- <details class="details">
 
             <summary class="summary">More Information</summary>
 
@@ -58,7 +58,7 @@
         
         <p>
             TEST. This paragraph should only be visible in the specific service page, not on the homepage.
-        </p>
+        </p> -->
 
     </div>
 

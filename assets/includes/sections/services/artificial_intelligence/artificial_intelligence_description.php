@@ -50,13 +50,13 @@
 
     <div id="ArtificialIntelligenceDetailsOfService" class="text">
     
-        <h3 class="item--Heading">
+        <!-- <h3 class="item--Heading">
             AI with PDH Technology
         </h3>
     
         <p>
             TEST. This paragraph should only be visible in the specific service page, not on the homepage.
-        </p>
+        </p> -->
 
     </div>
 
