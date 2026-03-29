@@ -20,7 +20,7 @@
             include($root."/assets/includes/sections/services/digital_media_and_marketing/digital_media_and_marketing_description.php");
 
             // Benefits
-            include($root."/assets/includes/sections/services/digital_media_and_marketing/digital_media_and_marketing_benefits.php");
+            //include($root."/assets/includes/sections/services/digital_media_and_marketing/digital_media_and_marketing_benefits.php");
 
             // Prices
             include($root."/assets/includes/sections/services/digital_media_and_marketing/digital_media_and_marketing_prices.php");
