@@ -24,6 +24,9 @@
       <meta property="og:url" content="https://pdhtechnology.com">
       <meta property="og:type" content="website">
 
+      <!-- Google -->
+      <meta name="google-site-verification" content="hoP3e9Y6r5Na05c_zf_E_q3Bkt2GDDgMURBSGMOvaKg">
+
       <!-- Favicon -->
       <link rel="icon" type="image/x-icon" href="/assets/images/favicon/favicon.ico">
 
