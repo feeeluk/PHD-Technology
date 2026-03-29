@@ -65,6 +65,43 @@
             </div> -->
 
         </div>
+
+            <div id="SoftwareDevelopmentPortfolio-PhilHenning"
+                 class="text--Portfolio">        
+        
+            <a href="https://philhenning-v2.vercel.app/"
+               aria-label="link to PhilHenning project"
+               target=”_blank”>
+            
+                <img src="/assets/images/services/software_development/portfolio_philhenning.webp"
+                     alt="PhilHenning project"
+                     class="portfolioImage--FloatLeft">
+
+            </a>
+
+            <h2 class="portfolio--SubSection-Title">
+                Phil Henning 
+            </h2>
+
+            <p>
+                Built using Next.js (hosted on Vercel).
+            </p>
+            
+            <!-- <div class="clear">
+
+                <details>
+
+                    <summary class="portfolio--Summary">Test</summary>
+
+                    <p>
+                        Test
+                    </p>
+
+                </details>
+
+            </div> -->
+
+        </div>
     
         <div id="SoftwareDevelopmentPortfolio-SnowCompareShop"
              class="text--Portfolio">
