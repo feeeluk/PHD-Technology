@@ -10,7 +10,7 @@
       content="Philip Henning">
 
       <meta name="description"
-      content="PDH Technology: We help other businesses make better use of their data, tools, ideas, and technology. 
+      content="PDH Technology: We help businesses make better use of their data, tools, ideas, and technology. 
       <?php echo $metaDescription; ?>">
 
       <meta name="keywords"
