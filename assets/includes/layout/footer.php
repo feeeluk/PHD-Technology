@@ -12,7 +12,7 @@
 
 <p class="footer--Right">
     
-    <a href="" aria-label="Linkedin page" target="_blank">
+    <a href="https://www.linkedin.com/company/pdh-technology" aria-label="Linkedin page" target="_blank">
         <img src="/assets/images/footer/linkedin.png" alt="LinkedIn page" class="footer--Logo">
     </a>
 

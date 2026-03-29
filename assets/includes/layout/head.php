@@ -17,7 +17,7 @@
       content="PDH Technology, Technology, Ideas, Help, Consulting, Advice, Business Services, 
       <?php echo $metaKeywords; ?>">
 
-      <!-- Open Graph -->
+      <!-- OpenGraph -->
       <meta property="og:title" content="PDH Technology">
       <meta property="og:description" content="We help other businesses make better use of their data, tools, ideas, and technology.">
       <meta property="og:image" content="https://pdhtechnology.com/assets/images/open_graph/open_graph.webp">
