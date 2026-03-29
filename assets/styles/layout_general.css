@@ -263,6 +263,7 @@
 
     .footer--Logo{
         display: inline;
+        height: 25px;
         width: auto;
         margin-left: 0.25rem;
     }
@@ -278,7 +279,7 @@
 
             @media (min-width: 959px){
                 .footer--Logo{
-                    height: 30px;
+                    height: 35px;
                 }
             }
 
