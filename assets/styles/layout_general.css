@@ -299,6 +299,10 @@
         list-style-position: inside;
     }
 
+    .bold{
+        font-weight: bold;
+    }
+
 /* Spacing */
 /* ============================================== */
 

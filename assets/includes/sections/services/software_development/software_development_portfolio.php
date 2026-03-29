@@ -45,6 +45,10 @@
             <p>
                 Built using Next.js (hosted on Vercel), with a PostGRES database (hosted on Supabase). Authentication via Clerk.
             </p>
+
+            <p>
+                You will need to register for a Clerk account to play.
+            </p>
             
             <!-- <div class="clear">
 
@@ -82,6 +86,12 @@
             <p>
                 Coded in PHP, with a MySQL backend.
             </p>
+
+            <p>
+                <span class="bold">Example login:</span><br>
+                Username: Phil<br>
+                Password: test
+            </p>
             
             <!-- <div class="clear">
 
@@ -118,6 +128,12 @@
 
             <p>
                 Coded in PHP, with a MySQL backend.
+            </p>
+
+            <p>
+                <span class="bold">Example login:</span><br>
+                Username: Phil<br>
+                Password: test
             </p>
             
             <!-- <div class="clear">

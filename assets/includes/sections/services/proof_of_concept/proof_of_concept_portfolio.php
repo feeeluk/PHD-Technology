@@ -50,7 +50,11 @@
             <ul class="inside">
                 <li>whether the concept was technically achievable</li>
                 <li>whether customers would value — and pay for — enhanced data</li>
-            </ul> 
+            </ul>
+
+            <p>
+                <span class="bold">Example login information on the homepage</span>
+            </p>
 
             <div class="clear">
 
@@ -108,6 +112,10 @@
                 
             <p>
                 We developed a web application for a medical devices company that manually calculated customer loyalty points every six months. The POC demonstrated that automated imports, rule‑based calculations, and a customer portal could dramatically reduce costs, improve data quality, increase update frequency, and deliver a far better customer experience.
+            </p>
+
+            <p>
+                <span class="bold">Example login information on the homepage</span>
             </p>
 
             <div class="clear">
