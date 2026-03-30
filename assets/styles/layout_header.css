@@ -24,16 +24,10 @@
         }
 
         .logo{
-            width: 100px;
+            width: 175px;
         }
             
-        /* The logo increases in size for larger devices  */
-        @media (min-width: 399px){
-                .logo {
-                    width: 175px;
-                }
-        }
-        
+        /* The logo increases in size for larger devices  */   
        @media (min-width: 459px){
                 .logo {
                     width: 200px;
