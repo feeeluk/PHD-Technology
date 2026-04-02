@@ -32,7 +32,8 @@
         $points_academy = "https://pointsacademy.pdhtechnology.com";
         $snow_compare = "https://snowcompare.pdhtechnology.com";
         $snow_compare_shop = "https://snowcompareshop.pdhtechnology.com";
-        $tree_data = "https://treedata.pdhtechnology.com";
+        $tree_data_v1 = "https://treedatav1.pdhtechnology.com";
+        $tree_data_v2 = "https://treedatav2.pdhtechnology.com";
         
 
     } else {
@@ -50,7 +51,8 @@
         $points_academy = "http://pointsacademy.test";
         $snow_compare = "http://snowcompare.test";
         $snow_compare_shop = "http://snowcompareshop.test";
-        $tree_data = "http://treedata.test";
+        $tree_data_v1 = "http://treedatav1.test";
+        $tree_data_v2 = "http://treedatav1.test";
 
     }
 
