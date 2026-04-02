@@ -52,7 +52,7 @@
         $snow_compare = "http://snowcompare.test";
         $snow_compare_shop = "http://snowcompareshop.test";
         $tree_data_v1 = "http://treedatav1.test";
-        $tree_data_v2 = "http://treedatav1.test";
+        $tree_data_v2 = "http://treedatav2.test";
 
     }
 
