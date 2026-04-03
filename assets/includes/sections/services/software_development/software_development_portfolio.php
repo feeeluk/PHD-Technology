@@ -80,7 +80,7 @@
             </a>
 
             <h2 class="portfolio--SubSection-Title">
-                Phil Henning V2
+                Philhenning V2
             </h2>
 
             <p>
