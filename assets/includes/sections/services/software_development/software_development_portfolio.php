@@ -28,7 +28,7 @@
         <div id="SoftwareDevelopmentPortfolio-Quiz"
              class="text--Portfolio">        
         
-            <a href="https://philsquiz.vercel.app/"
+            <a href="https://quiz.philiphenning.com/"
                aria-label="link to Quiz project"
                target=”_blank”>
             
@@ -69,7 +69,7 @@
             <div id="SoftwareDevelopmentPortfolio-PhilHenning"
                  class="text--Portfolio">        
         
-            <a href="https://philhenning-v2.vercel.app/"
+            <a href="https://philiphenning.com/"
                aria-label="link to PhilHenning project"
                target=”_blank”>
             
@@ -80,7 +80,7 @@
             </a>
 
             <h2 class="portfolio--SubSection-Title">
-                Phil Henning 
+                Phil Henning V2
             </h2>
 
             <p>
