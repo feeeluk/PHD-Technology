@@ -14,12 +14,15 @@
         $host === "www.pdhtechnology.com"
     );
 
-    $is_test = !$is_live;
+    $is_live_test = (
+        $host === "test.pdhtechnology.com" ||
+        $host === "test.www.pdhtechnology.com"
+    );
 
     // Environment-specific SMTP settings
     if ($is_live) {
 
-        // Live SMTP (IONOS)
+        // Live 
         $smtp_host = "smtp.ionos.co.uk";
         $smtp_user = "hello@pdhtechnology.com";
         $smtp_pass = "ionCcyh68@c3145327os";
@@ -34,18 +37,37 @@
         $snow_compare_shop = "https://snowcompareshop.pdhtechnology.com";
         $tree_data_v1 = "https://treedatav1.pdhtechnology.com";
         $tree_data_v2 = "https://treedatav2.pdhtechnology.com";
-        
+        $logo_path = "/assets/images/header/logo.webp";
 
+    } else if ($is_live_test) {
+
+        // Live TEST
+        $smtp_host = "smtp.ionos.co.uk";
+        $smtp_user = "hello@pdhtechnology.com";
+        $smtp_pass = "ionCcyh68@c3145327os";
+        $smtp_port = 587;
+        $smtp_secure = 'tls';   // FIXED: no namespace reference
+        $smtp_auth = true;
+        $site = "LIVE TEST";
+        $siteTitle = "PDH Technology";
+        $commercial_sales_portal = "https://commercialsalesportal.pdhtechnology.com";
+        $points_academy = "https://pointsacademy.pdhtechnology.com";
+        $snow_compare = "https://snowcompare.pdhtechnology.com";
+        $snow_compare_shop = "https://snowcompareshop.pdhtechnology.com";
+        $tree_data_v1 = "https://treedatav1.pdhtechnology.com";
+        $tree_data_v2 = "https://treedatav2.pdhtechnology.com";
+        $logo_path = "/assets/images/header/logo_live_test_environment.webp";
+        
     } else {
 
-        // Test SMTP (Mailpit or similar)
+        // LOCAL TEST
         $smtp_host = "127.0.0.1"; // matters not if I use "127.0.0.1" or "localhost" as Mailpit listens on both.
         $smtp_user = "";
         $smtp_pass = "";
         $smtp_port = 1025;
         $smtp_secure = false;   // no encryption for Mailpit
         $smtp_auth = false;     // Mailpit doesn't require auth
-        $site = "TEST";
+        $site = "LOCAL TEST";
         $siteTitle = "PDH Technology"; //"TEST ENVIRONMENT";
         $commercial_sales_portal = "http://commercialsalesportal.test";
         $points_academy = "http://pointsacademy.test";
@@ -53,16 +75,9 @@
         $snow_compare_shop = "http://snowcompareshop.test";
         $tree_data_v1 = "http://treedatav1.test";
         $tree_data_v2 = "http://treedatav2.test";
+        $logo_path = "/assets/images/header/logo_local_test_environment.webp";
 
     }
-
-    // Environment-specific logo
-    if ($is_live) {
-        $logo_path = "/assets/images/header/logo.webp";
-    } else {
-        $logo_path = "/assets/images/header/logo_test_environment.webp";
-    }
-
 
     // Default metadata (pages can override these)
     $default_title = "PDH Technology";
