@@ -39,7 +39,7 @@
         $tree_data_v2 = "https://treedatav2.pdhtechnology.com";
         $logo_path = "/assets/images/header/logo.webp";
 
-    } else if ($is_live_test) {
+    } elseif ($is_live_test) {
 
         // Live TEST
         $smtp_host = "smtp.ionos.co.uk";
