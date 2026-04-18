@@ -1,2 +1,6 @@
-ErrorDocument 404 /404.php
+RewriteEngine On
 
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)\.php$ /404.php [L]
+
+ErrorDocument 404 /404.php
