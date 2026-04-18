@@ -1,0 +1,19 @@
+#!/bin/bash
+
+TARGET=$1
+PROJECT_PATH="business/pdh_technology"
+
+if [ "$TARGET" = "test" ]; then
+    REMOTE="/test/$PROJECT_PATH/"
+elif [ "$TARGET" = "live" ]; then
+    REMOTE="/live/$PROJECT_PATH/"
+else
+    echo "Usage: ./deploy [test|live]"
+    exit 1
+fi
+
+lftp -u "su238924" sftp://access-5019998000.webspace-host.com <<EOF
+mirror -R ./ $REMOTE
+bye
+EOF
+
