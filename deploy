@@ -1,30 +1,31 @@
 #!/bin/bash
 
 TARGET=$1
-MODE=$2
-PROJECT_PATH="business/pdh_technology"
 
-if [ "$TARGET" = "test" ]; then
-    REMOTE="/test/$PROJECT_PATH/"
-elif [ "$TARGET" = "live" ]; then
-    REMOTE="/live/$PROJECT_PATH/"
-else
-    echo "Usage: ./deploy [test|live] [full]"
+if [ "$TARGET" != "test" ] && [ "$TARGET" != "live" ]; then
+    echo "Usage: deploy-all [test|live]"
     exit 1
 fi
 
-# Choose incremental or full-sync
-if [ "$MODE" = "full" ]; then
-    MIRROR_CMD="mirror -R --verbose --overwrite --delete ./ $REMOTE"
-else
-    MIRROR_CMD="mirror -R --verbose --overwrite --only-newer ./ $REMOTE"
-fi
+BASE_DIR="$HOME/projects"
+EXCLUDES=("quiz" "philhenningv2" "projects")
 
-echo "Deploying to: $REMOTE"
-echo "Mode: ${MODE:-incremental}"
+echo "Running FULL SYNC deploy-all → $TARGET"
+echo
 
-lftp -u "su238924" sftp://access-5019998000.webspace-host.com <<EOF
-set ssl:verify-certificate no
-$MIRROR_CMD
-bye
-EOF
+for PROJECT in "$BASE_DIR"/*; do
+    NAME=$(basename "$PROJECT")
+
+    # Skip excluded projects
+    if [[ " ${EXCLUDES[@]} " =~ " $NAME " ]]; then
+        echo "Skipping excluded project: $NAME"
+        continue
+    fi
+
+    # Only deploy directories
+    if [ -d "$PROJECT" ]; then
+        echo "Deploying $NAME → $TARGET (full sync)"
+        (cd "$PROJECT" && deploy "$TARGET" full)
+        echo
+    fi
+done
