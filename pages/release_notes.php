@@ -20,8 +20,13 @@
 
         <ul>
             <li>
-                <a href="/assets/release_notes/historical/Red Barron.pdf" target="_blank">
-                    Red Barron (30th March 2026 – 5th April 2026)
+                <a href="/assets/release_notes/historical/private_baldrick.pdf" target="_blank">
+                    Version: 1.00.002 - Released on 19th April 2026
+                </a>
+            </li>
+            <li>
+                <a href="/assets/release_notes/historical/red_barron.pdf" target="_blank">
+                    Version: 1.00.001 - Released on 5th April 2026
                 </a>
             </li>
         </ul>
