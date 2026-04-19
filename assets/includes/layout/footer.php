@@ -29,9 +29,12 @@
             <img src="/assets/images/footer/facebook.png" alt="Facebook page" class="footer--Logo">
         </a>
         
-        <!-- <a href="https://trello.com/invite/b/692dce0d19aab9be3d84fa4a/ATTIa7da0c88000220adb6717ed94cb880da492D4337/pdh-technology" aria-label="Trello page" target="_blank">
-            <img src="/assets/images/footer/trello.jpg" alt="Trello page" class="footer--Logo">
-        </a> -->
+        <?php
+        
+            // <a href="https://trello.com/invite/b/692dce0d19aab9be3d84fa4a/ATTIa7da0c88000220adb6717ed94cb880da492D4337/pdh-technology" aria-label="Trello page" target="_blank">
+            //     <img src="/assets/images/footer/trello.jpg" alt="Trello page" class="footer--Logo">
+            // </a>
+        ?>
         
         <a href="https://github.com/feeeluk" aria-label="Github page" target="_blank">
             <img src="/assets/images/footer/github.webp" alt="Github page" class="footer--Logo">
