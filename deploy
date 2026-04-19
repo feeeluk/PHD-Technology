@@ -1,6 +1,7 @@
 #!/bin/bash
 
 TARGET=$1
+MODE=$2
 PROJECT_PATH="business/pdh_technology"
 
 if [ "$TARGET" = "test" ]; then
@@ -8,12 +9,22 @@ if [ "$TARGET" = "test" ]; then
 elif [ "$TARGET" = "live" ]; then
     REMOTE="/live/$PROJECT_PATH/"
 else
-    echo "Usage: ./deploy [test|live]"
+    echo "Usage: ./deploy [test|live] [full]"
     exit 1
 fi
 
+# Choose incremental or full-sync
+if [ "$MODE" = "full" ]; then
+    MIRROR_CMD="mirror -R --verbose --overwrite --delete ./ $REMOTE"
+else
+    MIRROR_CMD="mirror -R --verbose --overwrite --only-newer ./ $REMOTE"
+fi
+
+echo "Deploying to: $REMOTE"
+echo "Mode: ${MODE:-incremental}"
+
 lftp -u "su238924" sftp://access-5019998000.webspace-host.com <<EOF
-mirror -R ./ $REMOTE
+set ssl:verify-certificate no
+$MIRROR_CMD
 bye
 EOF
-
